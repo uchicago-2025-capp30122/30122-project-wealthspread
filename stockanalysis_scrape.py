@@ -41,9 +41,13 @@ def scrape_sp500_page(url):
 
     Returns:
         A nested dictionary with the following keys:
-            * ticker:         stock symbol (ticker) of the security
-            * name:           the name of the security
-            * webpage:        link to the wikipedia page of the security
+            * ticker:           stock symbol (ticker) of the security
+                * company_name:     the stock's formal name
+                * market_cap:       market cap
+                * stock_price:      current trading value of the stock
+                * pct_change:       change in stock price
+                * revenue:          company's posted revenue
+                * webpage:          url snippet to the stock's detail page
     """
     sp500_dict = {}
     
@@ -53,16 +57,15 @@ def scrape_sp500_page(url):
     rows = root.xpath("//table[@id='main-table']//tr")
 
     for row in rows[1:]:
-        ticker_col = row.xpath("./td[2]/a")
-        ticker = ticker_col[0].text.strip()
+        ticker = row.xpath("./td[2]/a")[0].text.strip()
         
         sp500_dict[ticker] = {
-            "webpage": "https://stockanalysis.com" + ticker_col[0].get('href').strip(),
             "company_name": row.xpath("./td[3]/text()")[0].strip(),
             "market_cap": row.xpath("./td[4]/text()")[0].strip(),
             "stock_price": row.xpath("./td[5]/text()")[0].strip(),
             "pct_change": row.xpath("./td[6]/text()")[0].strip(),
-            "revenue": row.xpath("./td[7]/text()")[0].strip()}
+            "revenue": row.xpath("./td[7]/text()")[0].strip(),
+            "webpage": "https://stockanalysis.com" + row.xpath("./td[2]/a")[0].get('href').strip()}
 
     print(f"Scraped {len(sp500_dict)} tickers")
 
