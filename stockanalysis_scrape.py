@@ -3,7 +3,7 @@ import httpx
 import json
 import lxml.html
 
-ALLOWED_DOMAINS = ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",)
+ALLOWED_DOMAINS = ("https://stockanalysis.com/list/sp-500-stocks/",)
 REQUEST_DELAY = 0.1
 
 
@@ -41,37 +41,35 @@ def scrape_sp500_page(url):
 
     Returns:
         A nested dictionary with the following keys:
-            * symbol:           stock symbol (ticker) of the security
-            * exchange_url:     link to the security's page on the exchange
-            * security:         the name of the security
-            * wiki_page:        link to the wikipedia page of the security
+            * ticker:         stock symbol (ticker) of the security
+            * name:           the name of the security
+            * webpage:        link to the wikipedia page of the security
     """
+    sp500_dict = {}
+    
     resp = make_request(url)
     root = lxml.html.fromstring(resp.text)
 
-    symbol_path = '//table[contains(@class, "wikitable")]//tr/td[1]/a[@class="external text"]'
-    symbols = root.xpath(f"{symbol_path}/text()")
-    symbol_urls = root.xpath(f"{symbol_path}/@href")
+    rows = root.xpath("//table[@id='main-table']//tr")
 
-    security_path = '//table[contains(@class, "wikitable")]//tr/td[2]/a'
-    securities = root.xpath(f"{security_path}/text()")
-    securities_wiki = root.xpath(f"{security_path}/@href")
-
-    sp500_dict = {}
-
-    for symbol, link, security, wiki in zip(symbols, symbol_urls, securities, securities_wiki):
-        sp500_dict[symbol] = {"exchange_url": link, 
-                              "security": security, 
-                              "wiki_page": "https://en.wikipedia.org" + wiki}
+    for row in rows[1:]:
+        ticker_col = row.xpath("./td[2]/a")
+        ticker = ticker_col[0].text.strip()
+        
+        sp500_dict[ticker] = {
+            "webpage": "https://stockanalysis.com" + ticker_col[0].get('href').strip(),
+            "company_name": row.xpath("./td[3]/text()")[0].strip(),
+            "market_cap": row.xpath("./td[4]/text()")[0].strip(),
+            "stock_price": row.xpath("./td[5]/text()")[0].strip(),
+            "pct_change": row.xpath("./td[6]/text()")[0].strip(),
+            "revenue": row.xpath("./td[7]/text()")[0].strip()}
 
     print(f"Scraped {len(sp500_dict)} tickers")
-    #assert len(sp500_dict) == 500, f"Expected 500 tickers, but received {len(sp500_dict)}"
-    #turns out there's > 500 stocks in the S&P500, big fail
 
-    filename = "Wiki_sp500_tickers.json"
+    filename = "SA_sp500_tickers.json"
     with open(filename, "w") as file:
         json.dump(sp500_dict, file, indent=2)
 
     print(f"Saved {len(sp500_dict)} tickers to {filename}")
 
-scrape_sp500_page("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
+scrape_sp500_page("https://stockanalysis.com/list/sp-500-stocks/")

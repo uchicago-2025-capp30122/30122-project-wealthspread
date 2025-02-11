@@ -1,0 +1,4026 @@
+{
+  "AAPL": {
+    "webpage": "https://stockanalysis.com/stocks/aapl/",
+    "company_name": "Apple Inc.",
+    "market_cap": "3,419.77B",
+    "stock_price": "227.65",
+    "pct_change": "0.12%",
+    "revenue": "395.76B"
+  },
+  "NVDA": {
+    "webpage": "https://stockanalysis.com/stocks/nvda/",
+    "company_name": "NVIDIA Corporation",
+    "market_cap": "3,271.13B",
+    "stock_price": "133.57",
+    "pct_change": "2.87%",
+    "revenue": "113.27B"
+  },
+  "MSFT": {
+    "webpage": "https://stockanalysis.com/stocks/msft/",
+    "company_name": "Microsoft Corporation",
+    "market_cap": "3,064.44B",
+    "stock_price": "412.22",
+    "pct_change": "0.60%",
+    "revenue": "261.80B"
+  },
+  "AMZN": {
+    "webpage": "https://stockanalysis.com/stocks/amzn/",
+    "company_name": "Amazon.com, Inc.",
+    "market_cap": "2,470.75B",
+    "stock_price": "233.14",
+    "pct_change": "1.74%",
+    "revenue": "637.96B"
+  },
+  "GOOG": {
+    "webpage": "https://stockanalysis.com/stocks/goog/",
+    "company_name": "Alphabet Inc.",
+    "market_cap": "2,282.58B",
+    "stock_price": "188.20",
+    "pct_change": "0.57%",
+    "revenue": "350.02B"
+  },
+  "GOOGL": {
+    "webpage": "https://stockanalysis.com/stocks/googl/",
+    "company_name": "Alphabet Inc.",
+    "market_cap": "2,273.07B",
+    "stock_price": "186.47",
+    "pct_change": "0.61%",
+    "revenue": "350.02B"
+  },
+  "META": {
+    "webpage": "https://stockanalysis.com/stocks/meta/",
+    "company_name": "Meta Platforms, Inc.",
+    "market_cap": "1,817.65B",
+    "stock_price": "717.40",
+    "pct_change": "0.40%",
+    "revenue": "164.50B"
+  },
+  "TSLA": {
+    "webpage": "https://stockanalysis.com/stocks/tsla/",
+    "company_name": "Tesla, Inc.",
+    "market_cap": "1,128.13B",
+    "stock_price": "350.73",
+    "pct_change": "-3.01%",
+    "revenue": "97.69B"
+  },
+  "AVGO": {
+    "webpage": "https://stockanalysis.com/stocks/avgo/",
+    "company_name": "Broadcom Inc.",
+    "market_cap": "1,101.72B",
+    "stock_price": "235.04",
+    "pct_change": "4.52%",
+    "revenue": "51.57B"
+  },
+  "BRK.B": {
+    "webpage": "https://stockanalysis.com/stocks/brk.b/",
+    "company_name": "Berkshire Hathaway Inc.",
+    "market_cap": "1,014.27B",
+    "stock_price": "470.17",
+    "pct_change": "-0.54%",
+    "revenue": "369.89B"
+  },
+  "WMT": {
+    "webpage": "https://stockanalysis.com/stocks/wmt/",
+    "company_name": "Walmart Inc.",
+    "market_cap": "826.80B",
+    "stock_price": "102.92",
+    "pct_change": "1.75%",
+    "revenue": "673.82B"
+  },
+  "LLY": {
+    "webpage": "https://stockanalysis.com/stocks/lly/",
+    "company_name": "Eli Lilly and Company",
+    "market_cap": "782.37B",
+    "stock_price": "868.88",
+    "pct_change": "-1.07%",
+    "revenue": "45.04B"
+  },
+  "JPM": {
+    "webpage": "https://stockanalysis.com/stocks/jpm/",
+    "company_name": "JPMorgan Chase & Co.",
+    "market_cap": "758.26B",
+    "stock_price": "271.04",
+    "pct_change": "-1.73%",
+    "revenue": "166.88B"
+  },
+  "V": {
+    "webpage": "https://stockanalysis.com/stocks/v/",
+    "company_name": "Visa Inc.",
+    "market_cap": "686.15B",
+    "stock_price": "351.23",
+    "pct_change": "0.92%",
+    "revenue": "36.80B"
+  },
+  "MA": {
+    "webpage": "https://stockanalysis.com/stocks/ma/",
+    "company_name": "Mastercard Incorporated",
+    "market_cap": "516.89B",
+    "stock_price": "565.49",
+    "pct_change": "0.49%",
+    "revenue": "28.17B"
+  },
+  "ORCL": {
+    "webpage": "https://stockanalysis.com/stocks/orcl/",
+    "company_name": "Oracle Corporation",
+    "market_cap": "500.43B",
+    "stock_price": "178.92",
+    "pct_change": "2.56%",
+    "revenue": "54.93B"
+  },
+  "UNH": {
+    "webpage": "https://stockanalysis.com/stocks/unh/",
+    "company_name": "UnitedHealth Group Incorporated",
+    "market_cap": "490.85B",
+    "stock_price": "533.37",
+    "pct_change": "1.20%",
+    "revenue": "400.28B"
+  },
+  "XOM": {
+    "webpage": "https://stockanalysis.com/stocks/xom/",
+    "company_name": "Exxon Mobil Corporation",
+    "market_cap": "483.05B",
+    "stock_price": "110.97",
+    "pct_change": "1.91%",
+    "revenue": "343.39B"
+  },
+  "COST": {
+    "webpage": "https://stockanalysis.com/stocks/cost/",
+    "company_name": "Costco Wholesale Corporation",
+    "market_cap": "471.39B",
+    "stock_price": "1,061.92",
+    "pct_change": "1.73%",
+    "revenue": "258.81B"
+  },
+  "NFLX": {
+    "webpage": "https://stockanalysis.com/stocks/nflx/",
+    "company_name": "Netflix, Inc.",
+    "market_cap": "439.56B",
+    "stock_price": "1,027.44",
+    "pct_change": "1.33%",
+    "revenue": "39.00B"
+  },
+  "HD": {
+    "webpage": "https://stockanalysis.com/stocks/hd/",
+    "company_name": "The Home Depot, Inc.",
+    "market_cap": "411.24B",
+    "stock_price": "413.99",
+    "pct_change": "1.63%",
+    "revenue": "154.60B"
+  },
+  "PG": {
+    "webpage": "https://stockanalysis.com/stocks/pg/",
+    "company_name": "The Procter & Gamble Company",
+    "market_cap": "392.83B",
+    "stock_price": "167.53",
+    "pct_change": "-0.26%",
+    "revenue": "84.35B"
+  },
+  "JNJ": {
+    "webpage": "https://stockanalysis.com/stocks/jnj/",
+    "company_name": "Johnson & Johnson",
+    "market_cap": "371.35B",
+    "stock_price": "154.24",
+    "pct_change": "0.73%",
+    "revenue": "88.82B"
+  },
+  "BAC": {
+    "webpage": "https://stockanalysis.com/stocks/bac/",
+    "company_name": "Bank of America Corporation",
+    "market_cap": "355.20B",
+    "stock_price": "46.67",
+    "pct_change": "-1.54%",
+    "revenue": "96.07B"
+  },
+  "ABBV": {
+    "webpage": "https://stockanalysis.com/stocks/abbv/",
+    "company_name": "AbbVie Inc.",
+    "market_cap": "336.36B",
+    "stock_price": "190.34",
+    "pct_change": "-0.14%",
+    "revenue": "56.33B"
+  },
+  "CRM": {
+    "webpage": "https://stockanalysis.com/stocks/crm/",
+    "company_name": "Salesforce, Inc.",
+    "market_cap": "313.13B",
+    "stock_price": "327.20",
+    "pct_change": "0.42%",
+    "revenue": "37.19B"
+  },
+  "TMUS": {
+    "webpage": "https://stockanalysis.com/stocks/tmus/",
+    "company_name": "T-Mobile US, Inc.",
+    "market_cap": "292.09B",
+    "stock_price": "255.83",
+    "pct_change": "3.89%",
+    "revenue": "81.40B"
+  },
+  "CVX": {
+    "webpage": "https://stockanalysis.com/stocks/cvx/",
+    "company_name": "Chevron Corporation",
+    "market_cap": "279.93B",
+    "stock_price": "155.77",
+    "pct_change": "2.06%",
+    "revenue": "198.20B"
+  },
+  "KO": {
+    "webpage": "https://stockanalysis.com/stocks/ko/",
+    "company_name": "The Coca-Cola Company",
+    "market_cap": "278.07B",
+    "stock_price": "64.55",
+    "pct_change": "1.11%",
+    "revenue": "46.37B"
+  },
+  "PLTR": {
+    "webpage": "https://stockanalysis.com/stocks/pltr/",
+    "company_name": "Palantir Technologies Inc.",
+    "market_cap": "265.75B",
+    "stock_price": "116.66",
+    "pct_change": "5.24%",
+    "revenue": "2.87B"
+  },
+  "WFC": {
+    "webpage": "https://stockanalysis.com/stocks/wfc/",
+    "company_name": "Wells Fargo & Company",
+    "market_cap": "260.16B",
+    "stock_price": "79.10",
+    "pct_change": "-1.95%",
+    "revenue": "77.96B"
+  },
+  "CSCO": {
+    "webpage": "https://stockanalysis.com/stocks/csco/",
+    "company_name": "Cisco Systems, Inc.",
+    "market_cap": "250.16B",
+    "stock_price": "62.81",
+    "pct_change": "0.87%",
+    "revenue": "52.98B"
+  },
+  "ACN": {
+    "webpage": "https://stockanalysis.com/stocks/acn/",
+    "company_name": "Accenture plc",
+    "market_cap": "241.99B",
+    "stock_price": "386.89",
+    "pct_change": "0.24%",
+    "revenue": "66.36B"
+  },
+  "IBM": {
+    "webpage": "https://stockanalysis.com/stocks/ibm/",
+    "company_name": "International Business Machines Corporation",
+    "market_cap": "230.49B",
+    "stock_price": "249.27",
+    "pct_change": "-0.56%",
+    "revenue": "62.75B"
+  },
+  "PM": {
+    "webpage": "https://stockanalysis.com/stocks/pm/",
+    "company_name": "Philip Morris International Inc.",
+    "market_cap": "227.90B",
+    "stock_price": "146.57",
+    "pct_change": "1.50%",
+    "revenue": "37.88B"
+  },
+  "ABT": {
+    "webpage": "https://stockanalysis.com/stocks/abt/",
+    "company_name": "Abbott Laboratories",
+    "market_cap": "227.75B",
+    "stock_price": "131.31",
+    "pct_change": "1.74%",
+    "revenue": "41.95B"
+  },
+  "MCD": {
+    "webpage": "https://stockanalysis.com/stocks/mcd/",
+    "company_name": "McDonald's Corporation",
+    "market_cap": "221.02B",
+    "stock_price": "308.42",
+    "pct_change": "4.80%",
+    "revenue": "25.92B"
+  },
+  "MS": {
+    "webpage": "https://stockanalysis.com/stocks/ms/",
+    "company_name": "Morgan Stanley",
+    "market_cap": "220.66B",
+    "stock_price": "137.31",
+    "pct_change": "-1.91%",
+    "revenue": "61.50B"
+  },
+  "GE": {
+    "webpage": "https://stockanalysis.com/stocks/ge/",
+    "company_name": "General Electric Company",
+    "market_cap": "220.26B",
+    "stock_price": "205.22",
+    "pct_change": "-0.03%",
+    "revenue": "38.70B"
+  },
+  "GS": {
+    "webpage": "https://stockanalysis.com/stocks/gs/",
+    "company_name": "The Goldman Sachs Group, Inc.",
+    "market_cap": "220.01B",
+    "stock_price": "650.53",
+    "pct_change": "-0.82%",
+    "revenue": "52.16B"
+  },
+  "LIN": {
+    "webpage": "https://stockanalysis.com/stocks/lin/",
+    "company_name": "Linde plc",
+    "market_cap": "219.44B",
+    "stock_price": "460.86",
+    "pct_change": "1.28%",
+    "revenue": "33.01B"
+  },
+  "MRK": {
+    "webpage": "https://stockanalysis.com/stocks/mrk/",
+    "company_name": "Merck & Co., Inc.",
+    "market_cap": "218.56B",
+    "stock_price": "86.40",
+    "pct_change": "-1.01%",
+    "revenue": "64.17B"
+  },
+  "AXP": {
+    "webpage": "https://stockanalysis.com/stocks/axp/",
+    "company_name": "American Express Company",
+    "market_cap": "217.97B",
+    "stock_price": "310.26",
+    "pct_change": "-2.06%",
+    "revenue": "60.76B"
+  },
+  "ISRG": {
+    "webpage": "https://stockanalysis.com/stocks/isrg/",
+    "company_name": "Intuitive Surgical, Inc.",
+    "market_cap": "212.46B",
+    "stock_price": "595.70",
+    "pct_change": "2.18%",
+    "revenue": "8.35B"
+  },
+  "TMO": {
+    "webpage": "https://stockanalysis.com/stocks/tmo/",
+    "company_name": "Thermo Fisher Scientific Inc.",
+    "market_cap": "211.47B",
+    "stock_price": "552.86",
+    "pct_change": "-3.26%",
+    "revenue": "42.88B"
+  },
+  "NOW": {
+    "webpage": "https://stockanalysis.com/stocks/now/",
+    "company_name": "ServiceNow, Inc.",
+    "market_cap": "210.49B",
+    "stock_price": "1,021.81",
+    "pct_change": "1.34%",
+    "revenue": "10.98B"
+  },
+  "BX": {
+    "webpage": "https://stockanalysis.com/stocks/bx/",
+    "company_name": "Blackstone Inc.",
+    "market_cap": "205.90B",
+    "stock_price": "168.61",
+    "pct_change": "-0.97%",
+    "revenue": "12.66B"
+  },
+  "PEP": {
+    "webpage": "https://stockanalysis.com/stocks/pep/",
+    "company_name": "PepsiCo, Inc.",
+    "market_cap": "198.05B",
+    "stock_price": "144.35",
+    "pct_change": "-0.16%",
+    "revenue": "91.85B"
+  },
+  "DIS": {
+    "webpage": "https://stockanalysis.com/stocks/dis/",
+    "company_name": "The Walt Disney Company",
+    "market_cap": "197.56B",
+    "stock_price": "109.28",
+    "pct_change": "-1.43%",
+    "revenue": "92.50B"
+  },
+  "ADBE": {
+    "webpage": "https://stockanalysis.com/stocks/adbe/",
+    "company_name": "Adobe Inc.",
+    "market_cap": "196.38B",
+    "stock_price": "451.13",
+    "pct_change": "4.17%",
+    "revenue": "21.51B"
+  },
+  "QCOM": {
+    "webpage": "https://stockanalysis.com/stocks/qcom/",
+    "company_name": "QUALCOMM Incorporated",
+    "market_cap": "189.42B",
+    "stock_price": "171.36",
+    "pct_change": "2.02%",
+    "revenue": "40.70B"
+  },
+  "AMD": {
+    "webpage": "https://stockanalysis.com/stocks/amd/",
+    "company_name": "Advanced Micro Devices, Inc.",
+    "market_cap": "179.03B",
+    "stock_price": "110.48",
+    "pct_change": "2.71%",
+    "revenue": "25.79B"
+  },
+  "T": {
+    "webpage": "https://stockanalysis.com/stocks/t/",
+    "company_name": "AT&T Inc.",
+    "market_cap": "178.40B",
+    "stock_price": "24.86",
+    "pct_change": "1.30%",
+    "revenue": "122.34B"
+  },
+  "CAT": {
+    "webpage": "https://stockanalysis.com/stocks/cat/",
+    "company_name": "Caterpillar Inc.",
+    "market_cap": "175.36B",
+    "stock_price": "363.22",
+    "pct_change": "-0.18%",
+    "revenue": "64.81B"
+  },
+  "RTX": {
+    "webpage": "https://stockanalysis.com/stocks/rtx/",
+    "company_name": "RTX Corporation",
+    "market_cap": "170.84B",
+    "stock_price": "128.25",
+    "pct_change": "0.23%",
+    "revenue": "80.74B"
+  },
+  "VZ": {
+    "webpage": "https://stockanalysis.com/stocks/vz/",
+    "company_name": "Verizon Communications Inc.",
+    "market_cap": "168.17B",
+    "stock_price": "39.95",
+    "pct_change": "0.18%",
+    "revenue": "134.79B"
+  },
+  "UBER": {
+    "webpage": "https://stockanalysis.com/stocks/uber/",
+    "company_name": "Uber Technologies, Inc.",
+    "market_cap": "165.57B",
+    "stock_price": "78.63",
+    "pct_change": "5.40%",
+    "revenue": "43.98B"
+  },
+  "INTU": {
+    "webpage": "https://stockanalysis.com/stocks/intu/",
+    "company_name": "Intuit Inc.",
+    "market_cap": "164.27B",
+    "stock_price": "586.84",
+    "pct_change": "1.38%",
+    "revenue": "16.59B"
+  },
+  "TXN": {
+    "webpage": "https://stockanalysis.com/stocks/txn/",
+    "company_name": "Texas Instruments Incorporated",
+    "market_cap": "164.26B",
+    "stock_price": "180.31",
+    "pct_change": "0.17%",
+    "revenue": "15.64B"
+  },
+  "BKNG": {
+    "webpage": "https://stockanalysis.com/stocks/bkng/",
+    "company_name": "Booking Holdings Inc.",
+    "market_cap": "162.62B",
+    "stock_price": "4,913.48",
+    "pct_change": "0.53%",
+    "revenue": "23.05B"
+  },
+  "SPGI": {
+    "webpage": "https://stockanalysis.com/stocks/spgi/",
+    "company_name": "S&P Global Inc.",
+    "market_cap": "159.73B",
+    "stock_price": "515.30",
+    "pct_change": "-0.74%",
+    "revenue": "13.77B"
+  },
+  "AMGN": {
+    "webpage": "https://stockanalysis.com/stocks/amgn/",
+    "company_name": "Amgen Inc.",
+    "market_cap": "158.46B",
+    "stock_price": "294.79",
+    "pct_change": "0.43%",
+    "revenue": "33.42B"
+  },
+  "BSX": {
+    "webpage": "https://stockanalysis.com/stocks/bsx/",
+    "company_name": "Boston Scientific Corporation",
+    "market_cap": "156.49B",
+    "stock_price": "106.18",
+    "pct_change": "0.88%",
+    "revenue": "16.75B"
+  },
+  "BLK": {
+    "webpage": "https://stockanalysis.com/stocks/blk/",
+    "company_name": "BlackRock, Inc.",
+    "market_cap": "152.64B",
+    "stock_price": "985.55",
+    "pct_change": "-0.65%",
+    "revenue": "20.41B"
+  },
+  "C": {
+    "webpage": "https://stockanalysis.com/stocks/c/",
+    "company_name": "Citigroup Inc.",
+    "market_cap": "151.54B",
+    "stock_price": "80.73",
+    "pct_change": "-1.21%",
+    "revenue": "71.36B"
+  },
+  "ANET": {
+    "webpage": "https://stockanalysis.com/stocks/anet/",
+    "company_name": "Arista Networks Inc",
+    "market_cap": "151.46B",
+    "stock_price": "120.23",
+    "pct_change": "1.49%",
+    "revenue": "6.61B"
+  },
+  "SYK": {
+    "webpage": "https://stockanalysis.com/stocks/syk/",
+    "company_name": "Stryker Corporation",
+    "market_cap": "149.67B",
+    "stock_price": "392.60",
+    "pct_change": "0.31%",
+    "revenue": "22.60B"
+  },
+  "AMAT": {
+    "webpage": "https://stockanalysis.com/stocks/amat/",
+    "company_name": "Applied Materials, Inc.",
+    "market_cap": "149.26B",
+    "stock_price": "183.66",
+    "pct_change": "2.03%",
+    "revenue": "27.18B"
+  },
+  "SCHW": {
+    "webpage": "https://stockanalysis.com/stocks/schw/",
+    "company_name": "The Charles Schwab Corporation",
+    "market_cap": "148.59B",
+    "stock_price": "81.17",
+    "pct_change": "-2.42%",
+    "revenue": "19.61B"
+  },
+  "UNP": {
+    "webpage": "https://stockanalysis.com/stocks/unp/",
+    "company_name": "Union Pacific Corporation",
+    "market_cap": "147.65B",
+    "stock_price": "244.33",
+    "pct_change": "0.93%",
+    "revenue": "24.25B"
+  },
+  "PFE": {
+    "webpage": "https://stockanalysis.com/stocks/pfe/",
+    "company_name": "Pfizer Inc.",
+    "market_cap": "146.63B",
+    "stock_price": "25.88",
+    "pct_change": "0.52%",
+    "revenue": "63.63B"
+  },
+  "DHR": {
+    "webpage": "https://stockanalysis.com/stocks/dhr/",
+    "company_name": "Danaher Corporation",
+    "market_cap": "146.34B",
+    "stock_price": "203.50",
+    "pct_change": "-1.58%",
+    "revenue": "23.88B"
+  },
+  "PGR": {
+    "webpage": "https://stockanalysis.com/stocks/pgr/",
+    "company_name": "The Progressive Corporation",
+    "market_cap": "146.27B",
+    "stock_price": "249.69",
+    "pct_change": "-0.36%",
+    "revenue": "75.34B"
+  },
+  "LOW": {
+    "webpage": "https://stockanalysis.com/stocks/low/",
+    "company_name": "Lowe's Companies, Inc.",
+    "market_cap": "144.80B",
+    "stock_price": "256.44",
+    "pct_change": "1.79%",
+    "revenue": "83.72B"
+  },
+  "NEE": {
+    "webpage": "https://stockanalysis.com/stocks/nee/",
+    "company_name": "NextEra Energy, Inc.",
+    "market_cap": "143.33B",
+    "stock_price": "69.70",
+    "pct_change": "2.09%",
+    "revenue": "24.75B"
+  },
+  "TJX": {
+    "webpage": "https://stockanalysis.com/stocks/tjx/",
+    "company_name": "The TJX Companies, Inc.",
+    "market_cap": "140.49B",
+    "stock_price": "124.97",
+    "pct_change": "0.22%",
+    "revenue": "56.42B"
+  },
+  "HON": {
+    "webpage": "https://stockanalysis.com/stocks/hon/",
+    "company_name": "Honeywell International Inc.",
+    "market_cap": "135.59B",
+    "stock_price": "208.52",
+    "pct_change": "1.46%",
+    "revenue": "38.50B"
+  },
+  "BA": {
+    "webpage": "https://stockanalysis.com/stocks/ba/",
+    "company_name": "The Boeing Company",
+    "market_cap": "135.43B",
+    "stock_price": "180.55",
+    "pct_change": "-0.52%",
+    "revenue": "66.52B"
+  },
+  "KKR": {
+    "webpage": "https://stockanalysis.com/stocks/kkr/",
+    "company_name": "KKR & Co. Inc.",
+    "market_cap": "131.40B",
+    "stock_price": "147.93",
+    "pct_change": "-0.46%",
+    "revenue": "26.57B"
+  },
+  "FI": {
+    "webpage": "https://stockanalysis.com/stocks/fi/",
+    "company_name": "Fiserv, Inc.",
+    "market_cap": "131.22B",
+    "stock_price": "230.65",
+    "pct_change": "0.26%",
+    "revenue": "20.46B"
+  },
+  "CMCSA": {
+    "webpage": "https://stockanalysis.com/stocks/cmcsa/",
+    "company_name": "Comcast Corporation",
+    "market_cap": "130.33B",
+    "stock_price": "34.47",
+    "pct_change": "0.29%",
+    "revenue": "123.73B"
+  },
+  "PANW": {
+    "webpage": "https://stockanalysis.com/stocks/panw/",
+    "company_name": "Palo Alto Networks, Inc.",
+    "market_cap": "128.88B",
+    "stock_price": "196.40",
+    "pct_change": "1.27%",
+    "revenue": "8.29B"
+  },
+  "DE": {
+    "webpage": "https://stockanalysis.com/stocks/de/",
+    "company_name": "Deere & Company",
+    "market_cap": "128.00B",
+    "stock_price": "469.98",
+    "pct_change": "0.94%",
+    "revenue": "51.53B"
+  },
+  "COP": {
+    "webpage": "https://stockanalysis.com/stocks/cop/",
+    "company_name": "ConocoPhillips",
+    "market_cap": "126.92B",
+    "stock_price": "99.48",
+    "pct_change": "1.14%",
+    "revenue": "56.45B"
+  },
+  "SBUX": {
+    "webpage": "https://stockanalysis.com/stocks/sbux/",
+    "company_name": "Starbucks Corporation",
+    "market_cap": "126.60B",
+    "stock_price": "111.45",
+    "pct_change": "-0.67%",
+    "revenue": "36.15B"
+  },
+  "ETN": {
+    "webpage": "https://stockanalysis.com/stocks/etn/",
+    "company_name": "Eaton Corporation plc",
+    "market_cap": "126.42B",
+    "stock_price": "319.88",
+    "pct_change": "2.18%",
+    "revenue": "24.88B"
+  },
+  "ADP": {
+    "webpage": "https://stockanalysis.com/stocks/adp/",
+    "company_name": "Automatic Data Processing, Inc.",
+    "market_cap": "124.88B",
+    "stock_price": "306.93",
+    "pct_change": "0.31%",
+    "revenue": "19.90B"
+  },
+  "VRTX": {
+    "webpage": "https://stockanalysis.com/stocks/vrtx/",
+    "company_name": "Vertex Pharmaceuticals Incorporated",
+    "market_cap": "121.03B",
+    "stock_price": "469.97",
+    "pct_change": "0.14%",
+    "revenue": "11.02B"
+  },
+  "GILD": {
+    "webpage": "https://stockanalysis.com/stocks/gild/",
+    "company_name": "Gilead Sciences, Inc.",
+    "market_cap": "118.99B",
+    "stock_price": "95.48",
+    "pct_change": "-0.58%",
+    "revenue": "28.30B"
+  },
+  "MDT": {
+    "webpage": "https://stockanalysis.com/stocks/mdt/",
+    "company_name": "Medtronic plc",
+    "market_cap": "116.48B",
+    "stock_price": "90.84",
+    "pct_change": "0.92%",
+    "revenue": "33.00B"
+  },
+  "BMY": {
+    "webpage": "https://stockanalysis.com/stocks/bmy/",
+    "company_name": "Bristol-Myers Squibb Company",
+    "market_cap": "112.62B",
+    "stock_price": "55.53",
+    "pct_change": "-2.32%",
+    "revenue": "48.30B"
+  },
+  "PLD": {
+    "webpage": "https://stockanalysis.com/stocks/pld/",
+    "company_name": "Prologis, Inc.",
+    "market_cap": "112.54B",
+    "stock_price": "119.47",
+    "pct_change": "1.81%",
+    "revenue": "8.56B"
+  },
+  "MMC": {
+    "webpage": "https://stockanalysis.com/stocks/mmc/",
+    "company_name": "Marsh & McLennan Companies, Inc.",
+    "market_cap": "112.00B",
+    "stock_price": "228.05",
+    "pct_change": "0.29%",
+    "revenue": "24.46B"
+  },
+  "LRCX": {
+    "webpage": "https://stockanalysis.com/stocks/lrcx/",
+    "company_name": "Lam Research Corporation",
+    "market_cap": "107.48B",
+    "stock_price": "83.73",
+    "pct_change": "1.70%",
+    "revenue": "16.21B"
+  },
+  "MU": {
+    "webpage": "https://stockanalysis.com/stocks/mu/",
+    "company_name": "Micron Technology, Inc.",
+    "market_cap": "106.88B",
+    "stock_price": "95.93",
+    "pct_change": "3.93%",
+    "revenue": "29.09B"
+  },
+  "CB": {
+    "webpage": "https://stockanalysis.com/stocks/cb/",
+    "company_name": "Chubb Limited",
+    "market_cap": "106.82B",
+    "stock_price": "266.58",
+    "pct_change": "-1.33%",
+    "revenue": "56.72B"
+  },
+  "GEV": {
+    "webpage": "https://stockanalysis.com/stocks/gev/",
+    "company_name": "GE Vernova Inc.",
+    "market_cap": "106.22B",
+    "stock_price": "385.00",
+    "pct_change": "1.86%",
+    "revenue": "34.94B"
+  },
+  "CRWD": {
+    "webpage": "https://stockanalysis.com/stocks/crwd/",
+    "company_name": "CrowdStrike Holdings, Inc.",
+    "market_cap": "105.65B",
+    "stock_price": "428.92",
+    "pct_change": "1.74%",
+    "revenue": "3.74B"
+  },
+  "LMT": {
+    "webpage": "https://stockanalysis.com/stocks/lmt/",
+    "company_name": "Lockheed Martin Corporation",
+    "market_cap": "105.50B",
+    "stock_price": "448.22",
+    "pct_change": "0.86%",
+    "revenue": "71.04B"
+  },
+  "NKE": {
+    "webpage": "https://stockanalysis.com/stocks/nke/",
+    "company_name": "NIKE, Inc.",
+    "market_cap": "104.93B",
+    "stock_price": "70.94",
+    "pct_change": "3.29%",
+    "revenue": "48.98B"
+  },
+  "ADI": {
+    "webpage": "https://stockanalysis.com/stocks/adi/",
+    "company_name": "Analog Devices, Inc.",
+    "market_cap": "101.63B",
+    "stock_price": "204.86",
+    "pct_change": "-0.17%",
+    "revenue": "9.43B"
+  },
+  "CEG": {
+    "webpage": "https://stockanalysis.com/stocks/ceg/",
+    "company_name": "Constellation Energy Corporation",
+    "market_cap": "100.68B",
+    "stock_price": "321.83",
+    "pct_change": "3.89%",
+    "revenue": "23.98B"
+  },
+  "KLAC": {
+    "webpage": "https://stockanalysis.com/stocks/klac/",
+    "company_name": "KLA Corporation",
+    "market_cap": "99.86B",
+    "stock_price": "751.46",
+    "pct_change": "0.50%",
+    "revenue": "10.85B"
+  },
+  "UPS": {
+    "webpage": "https://stockanalysis.com/stocks/ups/",
+    "company_name": "United Parcel Service, Inc.",
+    "market_cap": "97.42B",
+    "stock_price": "114.16",
+    "pct_change": "0.93%",
+    "revenue": "91.07B"
+  },
+  "ICE": {
+    "webpage": "https://stockanalysis.com/stocks/ice/",
+    "company_name": "Intercontinental Exchange, Inc.",
+    "market_cap": "96.02B",
+    "stock_price": "167.12",
+    "pct_change": "0.17%",
+    "revenue": "9.28B"
+  },
+  "SO": {
+    "webpage": "https://stockanalysis.com/stocks/so/",
+    "company_name": "The Southern Company",
+    "market_cap": "93.69B",
+    "stock_price": "85.51",
+    "pct_change": "1.10%",
+    "revenue": "26.43B"
+  },
+  "ELV": {
+    "webpage": "https://stockanalysis.com/stocks/elv/",
+    "company_name": "Elevance Health, Inc.",
+    "market_cap": "91.87B",
+    "stock_price": "396.14",
+    "pct_change": "1.21%",
+    "revenue": "176.81B"
+  },
+  "APO": {
+    "webpage": "https://stockanalysis.com/stocks/apo/",
+    "company_name": "Apollo Global Management, Inc.",
+    "market_cap": "91.75B",
+    "stock_price": "162.17",
+    "pct_change": "-0.78%",
+    "revenue": "25.89B"
+  },
+  "MCO": {
+    "webpage": "https://stockanalysis.com/stocks/mco/",
+    "company_name": "Moody's Corporation",
+    "market_cap": "91.38B",
+    "stock_price": "504.23",
+    "pct_change": "0.18%",
+    "revenue": "6.90B"
+  },
+  "MO": {
+    "webpage": "https://stockanalysis.com/stocks/mo/",
+    "company_name": "Altria Group, Inc.",
+    "market_cap": "91.25B",
+    "stock_price": "53.84",
+    "pct_change": "2.24%",
+    "revenue": "20.44B"
+  },
+  "EQIX": {
+    "webpage": "https://stockanalysis.com/stocks/eqix/",
+    "company_name": "Equinix, Inc.",
+    "market_cap": "91.00B",
+    "stock_price": "943.14",
+    "pct_change": "1.06%",
+    "revenue": "8.15B"
+  },
+  "WM": {
+    "webpage": "https://stockanalysis.com/stocks/wm/",
+    "company_name": "Waste Management, Inc.",
+    "market_cap": "90.74B",
+    "stock_price": "226.09",
+    "pct_change": "0.52%",
+    "revenue": "22.06B"
+  },
+  "SHW": {
+    "webpage": "https://stockanalysis.com/stocks/shw/",
+    "company_name": "The Sherwin-Williams Company",
+    "market_cap": "90.15B",
+    "stock_price": "359.16",
+    "pct_change": "-0.39%",
+    "revenue": "23.10B"
+  },
+  "DUK": {
+    "webpage": "https://stockanalysis.com/stocks/duk/",
+    "company_name": "Duke Energy Corporation",
+    "market_cap": "89.30B",
+    "stock_price": "115.60",
+    "pct_change": "0.53%",
+    "revenue": "29.75B"
+  },
+  "WELL": {
+    "webpage": "https://stockanalysis.com/stocks/well/",
+    "company_name": "Welltower Inc.",
+    "market_cap": "89.11B",
+    "stock_price": "143.11",
+    "pct_change": "0.36%",
+    "revenue": "7.56B"
+  },
+  "AMT": {
+    "webpage": "https://stockanalysis.com/stocks/amt/",
+    "company_name": "American Tower Corporation",
+    "market_cap": "88.73B",
+    "stock_price": "189.88",
+    "pct_change": "0.55%",
+    "revenue": "11.17B"
+  },
+  "PH": {
+    "webpage": "https://stockanalysis.com/stocks/ph/",
+    "company_name": "Parker-Hannifin Corporation",
+    "market_cap": "87.65B",
+    "stock_price": "680.66",
+    "pct_change": "-0.48%",
+    "revenue": "19.91B"
+  },
+  "CME": {
+    "webpage": "https://stockanalysis.com/stocks/cme/",
+    "company_name": "CME Group Inc.",
+    "market_cap": "87.14B",
+    "stock_price": "241.81",
+    "pct_change": "-1.23%",
+    "revenue": "6.03B"
+  },
+  "APH": {
+    "webpage": "https://stockanalysis.com/stocks/aph/",
+    "company_name": "Amphenol Corporation",
+    "market_cap": "86.96B",
+    "stock_price": "71.80",
+    "pct_change": "2.87%",
+    "revenue": "15.22B"
+  },
+  "INTC": {
+    "webpage": "https://stockanalysis.com/stocks/intc/",
+    "company_name": "Intel Corporation",
+    "market_cap": "85.60B",
+    "stock_price": "19.77",
+    "pct_change": "3.51%",
+    "revenue": "53.10B"
+  },
+  "MAR": {
+    "webpage": "https://stockanalysis.com/stocks/mar/",
+    "company_name": "Marriott International, Inc.",
+    "market_cap": "84.60B",
+    "stock_price": "304.45",
+    "pct_change": "0.16%",
+    "revenue": "6.57B"
+  },
+  "ABNB": {
+    "webpage": "https://stockanalysis.com/stocks/abnb/",
+    "company_name": "Airbnb, Inc.",
+    "market_cap": "84.49B",
+    "stock_price": "135.24",
+    "pct_change": "0.19%",
+    "revenue": "10.84B"
+  },
+  "FTNT": {
+    "webpage": "https://stockanalysis.com/stocks/ftnt/",
+    "company_name": "Fortinet, Inc.",
+    "market_cap": "83.96B",
+    "stock_price": "109.55",
+    "pct_change": "1.76%",
+    "revenue": "5.96B"
+  },
+  "CDNS": {
+    "webpage": "https://stockanalysis.com/stocks/cdns/",
+    "company_name": "Cadence Design Systems, Inc.",
+    "market_cap": "83.82B",
+    "stock_price": "305.63",
+    "pct_change": "1.99%",
+    "revenue": "4.35B"
+  },
+  "AON": {
+    "webpage": "https://stockanalysis.com/stocks/aon/",
+    "company_name": "Aon plc",
+    "market_cap": "83.39B",
+    "stock_price": "385.60",
+    "pct_change": "-0.24%",
+    "revenue": "15.70B"
+  },
+  "CTAS": {
+    "webpage": "https://stockanalysis.com/stocks/ctas/",
+    "company_name": "Cintas Corporation",
+    "market_cap": "82.31B",
+    "stock_price": "203.97",
+    "pct_change": "0.95%",
+    "revenue": "9.94B"
+  },
+  "SNPS": {
+    "webpage": "https://stockanalysis.com/stocks/snps/",
+    "company_name": "Synopsys, Inc.",
+    "market_cap": "82.13B",
+    "stock_price": "531.33",
+    "pct_change": "1.05%",
+    "revenue": "6.13B"
+  },
+  "CI": {
+    "webpage": "https://stockanalysis.com/stocks/ci/",
+    "company_name": "The Cigna Group",
+    "market_cap": "81.45B",
+    "stock_price": "292.82",
+    "pct_change": "2.13%",
+    "revenue": "247.12B"
+  },
+  "MMM": {
+    "webpage": "https://stockanalysis.com/stocks/mmm/",
+    "company_name": "3M Company",
+    "market_cap": "81.27B",
+    "stock_price": "149.69",
+    "pct_change": "-0.12%",
+    "revenue": "24.58B"
+  },
+  "AJG": {
+    "webpage": "https://stockanalysis.com/stocks/ajg/",
+    "company_name": "Arthur J. Gallagher & Co.",
+    "market_cap": "81.01B",
+    "stock_price": "324.29",
+    "pct_change": "0.61%",
+    "revenue": "10.93B"
+  },
+  "TT": {
+    "webpage": "https://stockanalysis.com/stocks/tt/",
+    "company_name": "Trane Technologies plc",
+    "market_cap": "80.84B",
+    "stock_price": "360.44",
+    "pct_change": "1.21%",
+    "revenue": "19.84B"
+  },
+  "HCA": {
+    "webpage": "https://stockanalysis.com/stocks/hca/",
+    "company_name": "HCA Healthcare, Inc.",
+    "market_cap": "80.61B",
+    "stock_price": "318.26",
+    "pct_change": "-1.18%",
+    "revenue": "70.60B"
+  },
+  "MSI": {
+    "webpage": "https://stockanalysis.com/stocks/msi/",
+    "company_name": "Motorola Solutions, Inc.",
+    "market_cap": "80.51B",
+    "stock_price": "481.76",
+    "pct_change": "0.51%",
+    "revenue": "10.66B"
+  },
+  "DELL": {
+    "webpage": "https://stockanalysis.com/stocks/dell/",
+    "company_name": "Dell Technologies Inc.",
+    "market_cap": "78.36B",
+    "stock_price": "112.31",
+    "pct_change": "5.58%",
+    "revenue": "93.95B"
+  },
+  "CMG": {
+    "webpage": "https://stockanalysis.com/stocks/cmg/",
+    "company_name": "Chipotle Mexican Grill, Inc.",
+    "market_cap": "78.34B",
+    "stock_price": "57.80",
+    "pct_change": "0.93%",
+    "revenue": "11.31B"
+  },
+  "PNC": {
+    "webpage": "https://stockanalysis.com/stocks/pnc/",
+    "company_name": "The PNC Financial Services Group, Inc.",
+    "market_cap": "78.11B",
+    "stock_price": "197.28",
+    "pct_change": "-1.71%",
+    "revenue": "20.77B"
+  },
+  "ZTS": {
+    "webpage": "https://stockanalysis.com/stocks/zts/",
+    "company_name": "Zoetis Inc.",
+    "market_cap": "77.56B",
+    "stock_price": "171.91",
+    "pct_change": "0.28%",
+    "revenue": "9.15B"
+  },
+  "PYPL": {
+    "webpage": "https://stockanalysis.com/stocks/pypl/",
+    "company_name": "PayPal Holdings, Inc.",
+    "market_cap": "77.40B",
+    "stock_price": "78.24",
+    "pct_change": "1.20%",
+    "revenue": "31.80B"
+  },
+  "ITW": {
+    "webpage": "https://stockanalysis.com/stocks/itw/",
+    "company_name": "Illinois Tool Works Inc.",
+    "market_cap": "76.07B",
+    "stock_price": "257.61",
+    "pct_change": "0.80%",
+    "revenue": "15.90B"
+  },
+  "COF": {
+    "webpage": "https://stockanalysis.com/stocks/cof/",
+    "company_name": "Capital One Financial Corporation",
+    "market_cap": "75.78B",
+    "stock_price": "198.79",
+    "pct_change": "-2.18%",
+    "revenue": "27.40B"
+  },
+  "MDLZ": {
+    "webpage": "https://stockanalysis.com/stocks/mdlz/",
+    "company_name": "Mondelez International, Inc.",
+    "market_cap": "75.71B",
+    "stock_price": "58.53",
+    "pct_change": "0.14%",
+    "revenue": "36.44B"
+  },
+  "MCK": {
+    "webpage": "https://stockanalysis.com/stocks/mck/",
+    "company_name": "McKesson Corporation",
+    "market_cap": "75.62B",
+    "stock_price": "603.40",
+    "pct_change": "1.29%",
+    "revenue": "344.58B"
+  },
+  "ORLY": {
+    "webpage": "https://stockanalysis.com/stocks/orly/",
+    "company_name": "O'Reilly Automotive, Inc.",
+    "market_cap": "75.30B",
+    "stock_price": "1,310.02",
+    "pct_change": "-0.51%",
+    "revenue": "16.71B"
+  },
+  "TDG": {
+    "webpage": "https://stockanalysis.com/stocks/tdg/",
+    "company_name": "TransDigm Group Incorporated",
+    "market_cap": "74.89B",
+    "stock_price": "1,335.30",
+    "pct_change": "0.60%",
+    "revenue": "8.16B"
+  },
+  "REGN": {
+    "webpage": "https://stockanalysis.com/stocks/regn/",
+    "company_name": "Regeneron Pharmaceuticals, Inc.",
+    "market_cap": "73.89B",
+    "stock_price": "690.36",
+    "pct_change": "-2.77%",
+    "revenue": "14.20B"
+  },
+  "USB": {
+    "webpage": "https://stockanalysis.com/stocks/usb/",
+    "company_name": "U.S. Bancorp",
+    "market_cap": "73.13B",
+    "stock_price": "46.88",
+    "pct_change": "-0.74%",
+    "revenue": "25.10B"
+  },
+  "EOG": {
+    "webpage": "https://stockanalysis.com/stocks/eog/",
+    "company_name": "EOG Resources, Inc.",
+    "market_cap": "73.12B",
+    "stock_price": "130.56",
+    "pct_change": "3.21%",
+    "revenue": "23.86B"
+  },
+  "WDAY": {
+    "webpage": "https://stockanalysis.com/stocks/wday/",
+    "company_name": "Workday, Inc.",
+    "market_cap": "71.79B",
+    "stock_price": "269.88",
+    "pct_change": "-0.74%",
+    "revenue": "8.16B"
+  },
+  "EMR": {
+    "webpage": "https://stockanalysis.com/stocks/emr/",
+    "company_name": "Emerson Electric Co.",
+    "market_cap": "71.47B",
+    "stock_price": "126.75",
+    "pct_change": "1.91%",
+    "revenue": "17.55B"
+  },
+  "CL": {
+    "webpage": "https://stockanalysis.com/stocks/cl/",
+    "company_name": "Colgate-Palmolive Company",
+    "market_cap": "70.23B",
+    "stock_price": "85.96",
+    "pct_change": "-0.92%",
+    "revenue": "20.10B"
+  },
+  "RCL": {
+    "webpage": "https://stockanalysis.com/stocks/rcl/",
+    "company_name": "Royal Caribbean Cruises Ltd.",
+    "market_cap": "70.22B",
+    "stock_price": "261.15",
+    "pct_change": "-1.24%",
+    "revenue": "16.48B"
+  },
+  "ECL": {
+    "webpage": "https://stockanalysis.com/stocks/ecl/",
+    "company_name": "Ecolab Inc.",
+    "market_cap": "69.64B",
+    "stock_price": "245.94",
+    "pct_change": "-0.59%",
+    "revenue": "15.67B"
+  },
+  "RSG": {
+    "webpage": "https://stockanalysis.com/stocks/rsg/",
+    "company_name": "Republic Services, Inc.",
+    "market_cap": "69.55B",
+    "stock_price": "222.10",
+    "pct_change": "0.47%",
+    "revenue": "15.82B"
+  },
+  "GD": {
+    "webpage": "https://stockanalysis.com/stocks/gd/",
+    "company_name": "General Dynamics Corporation",
+    "market_cap": "69.20B",
+    "stock_price": "256.34",
+    "pct_change": "0.59%",
+    "revenue": "47.72B"
+  },
+  "APD": {
+    "webpage": "https://stockanalysis.com/stocks/apd/",
+    "company_name": "Air Products and Chemicals, Inc.",
+    "market_cap": "69.09B",
+    "stock_price": "310.55",
+    "pct_change": "0.04%",
+    "revenue": "12.03B"
+  },
+  "NOC": {
+    "webpage": "https://stockanalysis.com/stocks/noc/",
+    "company_name": "Northrop Grumman Corporation",
+    "market_cap": "68.67B",
+    "stock_price": "474.37",
+    "pct_change": "1.24%",
+    "revenue": "41.03B"
+  },
+  "WMB": {
+    "webpage": "https://stockanalysis.com/stocks/wmb/",
+    "company_name": "The Williams Companies, Inc.",
+    "market_cap": "68.47B",
+    "stock_price": "56.17",
+    "pct_change": "0.41%",
+    "revenue": "10.37B"
+  },
+  "CVS": {
+    "webpage": "https://stockanalysis.com/stocks/cvs/",
+    "company_name": "CVS Health Corporation",
+    "market_cap": "68.32B",
+    "stock_price": "54.29",
+    "pct_change": "0.52%",
+    "revenue": "367.25B"
+  },
+  "SPG": {
+    "webpage": "https://stockanalysis.com/stocks/spg/",
+    "company_name": "Simon Property Group, Inc.",
+    "market_cap": "68.08B",
+    "stock_price": "180.56",
+    "pct_change": "0.34%",
+    "revenue": "5.96B"
+  },
+  "BDX": {
+    "webpage": "https://stockanalysis.com/stocks/bdx/",
+    "company_name": "Becton, Dickinson and Company",
+    "market_cap": "65.91B",
+    "stock_price": "229.55",
+    "pct_change": "-0.13%",
+    "revenue": "20.64B"
+  },
+  "ADSK": {
+    "webpage": "https://stockanalysis.com/stocks/adsk/",
+    "company_name": "Autodesk, Inc.",
+    "market_cap": "65.53B",
+    "stock_price": "304.99",
+    "pct_change": "1.28%",
+    "revenue": "5.96B"
+  },
+  "HLT": {
+    "webpage": "https://stockanalysis.com/stocks/hlt/",
+    "company_name": "Hilton Worldwide Holdings Inc.",
+    "market_cap": "64.35B",
+    "stock_price": "267.48",
+    "pct_change": "-0.82%",
+    "revenue": "4.75B"
+  },
+  "CSX": {
+    "webpage": "https://stockanalysis.com/stocks/csx/",
+    "company_name": "CSX Corporation",
+    "market_cap": "63.79B",
+    "stock_price": "33.08",
+    "pct_change": "1.50%",
+    "revenue": "14.54B"
+  },
+  "FDX": {
+    "webpage": "https://stockanalysis.com/stocks/fdx/",
+    "company_name": "FedEx Corporation",
+    "market_cap": "62.19B",
+    "stock_price": "258.23",
+    "pct_change": "0.84%",
+    "revenue": "87.39B"
+  },
+  "TFC": {
+    "webpage": "https://stockanalysis.com/stocks/tfc/",
+    "company_name": "Truist Financial Corporation",
+    "market_cap": "62.05B",
+    "stock_price": "47.15",
+    "pct_change": "-1.11%",
+    "revenue": "11.41B"
+  },
+  "ROP": {
+    "webpage": "https://stockanalysis.com/stocks/rop/",
+    "company_name": "Roper Technologies, Inc.",
+    "market_cap": "61.61B",
+    "stock_price": "574.52",
+    "pct_change": "0.31%",
+    "revenue": "7.04B"
+  },
+  "BK": {
+    "webpage": "https://stockanalysis.com/stocks/bk/",
+    "company_name": "The Bank of New York Mellon Corporation",
+    "market_cap": "61.02B",
+    "stock_price": "85.03",
+    "pct_change": "-1.30%",
+    "revenue": "18.55B"
+  },
+  "TGT": {
+    "webpage": "https://stockanalysis.com/stocks/tgt/",
+    "company_name": "Target Corporation",
+    "market_cap": "60.15B",
+    "stock_price": "131.28",
+    "pct_change": "-0.05%",
+    "revenue": "107.57B"
+  },
+  "KMI": {
+    "webpage": "https://stockanalysis.com/stocks/kmi/",
+    "company_name": "Kinder Morgan, Inc.",
+    "market_cap": "60.14B",
+    "stock_price": "27.07",
+    "pct_change": "0.11%",
+    "revenue": "15.10B"
+  },
+  "CARR": {
+    "webpage": "https://stockanalysis.com/stocks/carr/",
+    "company_name": "Carrier Global Corporation",
+    "market_cap": "59.42B",
+    "stock_price": "66.23",
+    "pct_change": "3.21%",
+    "revenue": "24.80B"
+  },
+  "JCI": {
+    "webpage": "https://stockanalysis.com/stocks/jci/",
+    "company_name": "Johnson Controls International plc",
+    "market_cap": "59.10B",
+    "stock_price": "89.52",
+    "pct_change": "2.13%",
+    "revenue": "23.17B"
+  },
+  "SLB": {
+    "webpage": "https://stockanalysis.com/stocks/slb/",
+    "company_name": "Schlumberger Limited",
+    "market_cap": "57.73B",
+    "stock_price": "41.21",
+    "pct_change": "2.61%",
+    "revenue": "36.29B"
+  },
+  "OKE": {
+    "webpage": "https://stockanalysis.com/stocks/oke/",
+    "company_name": "ONEOK, Inc.",
+    "market_cap": "57.66B",
+    "stock_price": "98.69",
+    "pct_change": "3.01%",
+    "revenue": "19.93B"
+  },
+  "AZO": {
+    "webpage": "https://stockanalysis.com/stocks/azo/",
+    "company_name": "AutoZone, Inc.",
+    "market_cap": "57.52B",
+    "stock_price": "3,427.55",
+    "pct_change": "0.22%",
+    "revenue": "18.58B"
+  },
+  "NSC": {
+    "webpage": "https://stockanalysis.com/stocks/nsc/",
+    "company_name": "Norfolk Southern Corporation",
+    "market_cap": "57.36B",
+    "stock_price": "253.43",
+    "pct_change": "1.74%",
+    "revenue": "12.12B"
+  },
+  "VST": {
+    "webpage": "https://stockanalysis.com/stocks/vst/",
+    "company_name": "Vistra Corp.",
+    "market_cap": "57.29B",
+    "stock_price": "168.39",
+    "pct_change": "0.89%",
+    "revenue": "16.27B"
+  },
+  "MET": {
+    "webpage": "https://stockanalysis.com/stocks/met/",
+    "company_name": "MetLife, Inc.",
+    "market_cap": "57.26B",
+    "stock_price": "83.08",
+    "pct_change": "-1.00%",
+    "revenue": "70.99B"
+  },
+  "CPRT": {
+    "webpage": "https://stockanalysis.com/stocks/cprt/",
+    "company_name": "Copart, Inc.",
+    "market_cap": "56.49B",
+    "stock_price": "58.63",
+    "pct_change": "0.72%",
+    "revenue": "4.36B"
+  },
+  "AFL": {
+    "webpage": "https://stockanalysis.com/stocks/afl/",
+    "company_name": "Aflac Incorporated",
+    "market_cap": "56.43B",
+    "stock_price": "102.61",
+    "pct_change": "-0.94%",
+    "revenue": "18.93B"
+  },
+  "DLR": {
+    "webpage": "https://stockanalysis.com/stocks/dlr/",
+    "company_name": "Digital Realty Trust, Inc.",
+    "market_cap": "56.26B",
+    "stock_price": "166.39",
+    "pct_change": "-1.00%",
+    "revenue": "5.37B"
+  },
+  "PCAR": {
+    "webpage": "https://stockanalysis.com/stocks/pcar/",
+    "company_name": "PACCAR Inc",
+    "market_cap": "55.64B",
+    "stock_price": "106.11",
+    "pct_change": "0.08%",
+    "revenue": "33.66B"
+  },
+  "FCX": {
+    "webpage": "https://stockanalysis.com/stocks/fcx/",
+    "company_name": "Freeport-McMoRan Inc.",
+    "market_cap": "55.26B",
+    "stock_price": "38.46",
+    "pct_change": "0.63%",
+    "revenue": "25.46B"
+  },
+  "TRV": {
+    "webpage": "https://stockanalysis.com/stocks/trv/",
+    "company_name": "The Travelers Companies, Inc.",
+    "market_cap": "54.93B",
+    "stock_price": "242.42",
+    "pct_change": "-1.13%",
+    "revenue": "46.42B"
+  },
+  "CHTR": {
+    "webpage": "https://stockanalysis.com/stocks/chtr/",
+    "company_name": "Charter Communications, Inc.",
+    "market_cap": "54.46B",
+    "stock_price": "343.73",
+    "pct_change": "-1.18%",
+    "revenue": "55.09B"
+  },
+  "AEP": {
+    "webpage": "https://stockanalysis.com/stocks/aep/",
+    "company_name": "American Electric Power Company, Inc.",
+    "market_cap": "53.70B",
+    "stock_price": "100.83",
+    "pct_change": "1.42%",
+    "revenue": "19.60B"
+  },
+  "NXPI": {
+    "webpage": "https://stockanalysis.com/stocks/nxpi/",
+    "company_name": "NXP Semiconductors N.V.",
+    "market_cap": "53.39B",
+    "stock_price": "210.05",
+    "pct_change": "-1.35%",
+    "revenue": "12.61B"
+  },
+  "PSA": {
+    "webpage": "https://stockanalysis.com/stocks/psa/",
+    "company_name": "Public Storage",
+    "market_cap": "53.32B",
+    "stock_price": "303.62",
+    "pct_change": "0.33%",
+    "revenue": "4.70B"
+  },
+  "PAYX": {
+    "webpage": "https://stockanalysis.com/stocks/payx/",
+    "company_name": "Paychex, Inc.",
+    "market_cap": "52.93B",
+    "stock_price": "147.01",
+    "pct_change": "0.18%",
+    "revenue": "5.37B"
+  },
+  "NEM": {
+    "webpage": "https://stockanalysis.com/stocks/nem/",
+    "company_name": "Newmont Corporation",
+    "market_cap": "52.35B",
+    "stock_price": "46.46",
+    "pct_change": "3.61%",
+    "revenue": "16.99B"
+  },
+  "HWM": {
+    "webpage": "https://stockanalysis.com/stocks/hwm/",
+    "company_name": "Howmet Aerospace Inc.",
+    "market_cap": "52.08B",
+    "stock_price": "128.20",
+    "pct_change": "0.39%",
+    "revenue": "7.27B"
+  },
+  "SRE": {
+    "webpage": "https://stockanalysis.com/stocks/sre/",
+    "company_name": "Sempra",
+    "market_cap": "52.07B",
+    "stock_price": "82.21",
+    "pct_change": "0.28%",
+    "revenue": "12.92B"
+  },
+  "AXON": {
+    "webpage": "https://stockanalysis.com/stocks/axon/",
+    "company_name": "Axon Enterprise, Inc.",
+    "market_cap": "51.69B",
+    "stock_price": "677.85",
+    "pct_change": "-0.20%",
+    "revenue": "1.94B"
+  },
+  "CMI": {
+    "webpage": "https://stockanalysis.com/stocks/cmi/",
+    "company_name": "Cummins Inc.",
+    "market_cap": "51.37B",
+    "stock_price": "373.90",
+    "pct_change": "0.55%",
+    "revenue": "34.10B"
+  },
+  "PSX": {
+    "webpage": "https://stockanalysis.com/stocks/psx/",
+    "company_name": "Phillips 66",
+    "market_cap": "51.09B",
+    "stock_price": "123.71",
+    "pct_change": "2.83%",
+    "revenue": "143.15B"
+  },
+  "AMP": {
+    "webpage": "https://stockanalysis.com/stocks/amp/",
+    "company_name": "Ameriprise Financial, Inc.",
+    "market_cap": "50.91B",
+    "stock_price": "529.18",
+    "pct_change": "-1.75%",
+    "revenue": "17.45B"
+  },
+  "GWW": {
+    "webpage": "https://stockanalysis.com/stocks/gww/",
+    "company_name": "W.W. Grainger, Inc.",
+    "market_cap": "50.57B",
+    "stock_price": "1,038.47",
+    "pct_change": "0.26%",
+    "revenue": "17.17B"
+  },
+  "ALL": {
+    "webpage": "https://stockanalysis.com/stocks/all/",
+    "company_name": "The Allstate Corporation",
+    "market_cap": "49.44B",
+    "stock_price": "186.58",
+    "pct_change": "-1.92%",
+    "revenue": "64.11B"
+  },
+  "DFS": {
+    "webpage": "https://stockanalysis.com/stocks/dfs/",
+    "company_name": "Discover Financial Services",
+    "market_cap": "49.09B",
+    "stock_price": "195.41",
+    "pct_change": "-2.18%",
+    "revenue": "15.96B"
+  },
+  "URI": {
+    "webpage": "https://stockanalysis.com/stocks/uri/",
+    "company_name": "United Rentals, Inc.",
+    "market_cap": "48.80B",
+    "stock_price": "747.30",
+    "pct_change": "0.89%",
+    "revenue": "15.35B"
+  },
+  "MPC": {
+    "webpage": "https://stockanalysis.com/stocks/mpc/",
+    "company_name": "Marathon Petroleum Corporation",
+    "market_cap": "48.59B",
+    "stock_price": "153.78",
+    "pct_change": "2.44%",
+    "revenue": "139.34B"
+  },
+  "LULU": {
+    "webpage": "https://stockanalysis.com/stocks/lulu/",
+    "company_name": "Lululemon Athletica Inc.",
+    "market_cap": "48.52B",
+    "stock_price": "399.71",
+    "pct_change": "0.40%",
+    "revenue": "10.18B"
+  },
+  "COR": {
+    "webpage": "https://stockanalysis.com/stocks/cor/",
+    "company_name": "Cencora, Inc.",
+    "market_cap": "47.78B",
+    "stock_price": "246.38",
+    "pct_change": "-0.61%",
+    "revenue": "303.19B"
+  },
+  "O": {
+    "webpage": "https://stockanalysis.com/stocks/o/",
+    "company_name": "Realty Income Corporation",
+    "market_cap": "47.37B",
+    "stock_price": "53.96",
+    "pct_change": "-0.30%",
+    "revenue": "5.01B"
+  },
+  "KR": {
+    "webpage": "https://stockanalysis.com/stocks/kr/",
+    "company_name": "The Kroger Co.",
+    "market_cap": "47.24B",
+    "stock_price": "65.28",
+    "pct_change": "0.43%",
+    "revenue": "149.88B"
+  },
+  "FANG": {
+    "webpage": "https://stockanalysis.com/stocks/fang/",
+    "company_name": "Diamondback Energy, Inc.",
+    "market_cap": "47.20B",
+    "stock_price": "161.66",
+    "pct_change": "2.23%",
+    "revenue": "9.16B"
+  },
+  "BKR": {
+    "webpage": "https://stockanalysis.com/stocks/bkr/",
+    "company_name": "Baker Hughes Company",
+    "market_cap": "46.94B",
+    "stock_price": "47.41",
+    "pct_change": "2.62%",
+    "revenue": "27.83B"
+  },
+  "ROST": {
+    "webpage": "https://stockanalysis.com/stocks/rost/",
+    "company_name": "Ross Stores, Inc.",
+    "market_cap": "46.89B",
+    "stock_price": "142.13",
+    "pct_change": "-0.32%",
+    "revenue": "21.24B"
+  },
+  "AIG": {
+    "webpage": "https://stockanalysis.com/stocks/aig/",
+    "company_name": "American International Group, Inc.",
+    "market_cap": "46.84B",
+    "stock_price": "75.09",
+    "pct_change": "0.54%",
+    "revenue": "45.30B"
+  },
+  "NDAQ": {
+    "webpage": "https://stockanalysis.com/stocks/ndaq/",
+    "company_name": "Nasdaq, Inc.",
+    "market_cap": "46.68B",
+    "stock_price": "81.21",
+    "pct_change": "-1.94%",
+    "revenue": "7.40B"
+  },
+  "MNST": {
+    "webpage": "https://stockanalysis.com/stocks/mnst/",
+    "company_name": "Monster Beverage Corporation",
+    "market_cap": "46.50B",
+    "stock_price": "47.81",
+    "pct_change": "2.66%",
+    "revenue": "7.41B"
+  },
+  "D": {
+    "webpage": "https://stockanalysis.com/stocks/d/",
+    "company_name": "Dominion Energy, Inc.",
+    "market_cap": "46.46B",
+    "stock_price": "55.31",
+    "pct_change": "1.24%",
+    "revenue": "14.59B"
+  },
+  "GM": {
+    "webpage": "https://stockanalysis.com/stocks/gm/",
+    "company_name": "General Motors Company",
+    "market_cap": "46.34B",
+    "stock_price": "46.57",
+    "pct_change": "-1.73%",
+    "revenue": "187.44B"
+  },
+  "PWR": {
+    "webpage": "https://stockanalysis.com/stocks/pwr/",
+    "company_name": "Quanta Services, Inc.",
+    "market_cap": "45.86B",
+    "stock_price": "310.67",
+    "pct_change": "-0.50%",
+    "revenue": "22.90B"
+  },
+  "OXY": {
+    "webpage": "https://stockanalysis.com/stocks/oxy/",
+    "company_name": "Occidental Petroleum Corporation",
+    "market_cap": "45.40B",
+    "stock_price": "48.38",
+    "pct_change": "3.42%",
+    "revenue": "27.14B"
+  },
+  "FICO": {
+    "webpage": "https://stockanalysis.com/stocks/fico/",
+    "company_name": "Fair Isaac Corporation",
+    "market_cap": "45.35B",
+    "stock_price": "1,857.35",
+    "pct_change": "-0.08%",
+    "revenue": "1.78B"
+  },
+  "MSCI": {
+    "webpage": "https://stockanalysis.com/stocks/msci/",
+    "company_name": "MSCI Inc.",
+    "market_cap": "45.31B",
+    "stock_price": "583.48",
+    "pct_change": "0.71%",
+    "revenue": "2.86B"
+  },
+  "TRGP": {
+    "webpage": "https://stockanalysis.com/stocks/trgp/",
+    "company_name": "Targa Resources Corp.",
+    "market_cap": "44.91B",
+    "stock_price": "205.97",
+    "pct_change": "2.26%",
+    "revenue": "16.22B"
+  },
+  "HES": {
+    "webpage": "https://stockanalysis.com/stocks/hes/",
+    "company_name": "Hess Corporation",
+    "market_cap": "44.78B",
+    "stock_price": "145.83",
+    "pct_change": "2.02%",
+    "revenue": "12.66B"
+  },
+  "TEL": {
+    "webpage": "https://stockanalysis.com/stocks/tel/",
+    "company_name": "TE Connectivity plc",
+    "market_cap": "44.66B",
+    "stock_price": "149.69",
+    "pct_change": "1.91%",
+    "revenue": "15.85B"
+  },
+  "FIS": {
+    "webpage": "https://stockanalysis.com/stocks/fis/",
+    "company_name": "Fidelity National Information Services, Inc.",
+    "market_cap": "44.50B",
+    "stock_price": "82.66",
+    "pct_change": "-0.91%",
+    "revenue": "10.03B"
+  },
+  "KMB": {
+    "webpage": "https://stockanalysis.com/stocks/kmb/",
+    "company_name": "Kimberly-Clark Corporation",
+    "market_cap": "43.61B",
+    "stock_price": "131.43",
+    "pct_change": "0.87%",
+    "revenue": "20.06B"
+  },
+  "VLO": {
+    "webpage": "https://stockanalysis.com/stocks/vlo/",
+    "company_name": "Valero Energy Corporation",
+    "market_cap": "43.31B",
+    "stock_price": "136.81",
+    "pct_change": "2.80%",
+    "revenue": "129.88B"
+  },
+  "CBRE": {
+    "webpage": "https://stockanalysis.com/stocks/cbre/",
+    "company_name": "CBRE Group, Inc.",
+    "market_cap": "43.27B",
+    "stock_price": "143.86",
+    "pct_change": "0.76%",
+    "revenue": "34.31B"
+  },
+  "GLW": {
+    "webpage": "https://stockanalysis.com/stocks/glw/",
+    "company_name": "Corning Incorporated",
+    "market_cap": "43.13B",
+    "stock_price": "53.05",
+    "pct_change": "0.15%",
+    "revenue": "13.12B"
+  },
+  "CTSH": {
+    "webpage": "https://stockanalysis.com/stocks/ctsh/",
+    "company_name": "Cognizant Technology Solutions Corporation",
+    "market_cap": "43.12B",
+    "stock_price": "86.96",
+    "pct_change": "0.88%",
+    "revenue": "19.74B"
+  },
+  "ODFL": {
+    "webpage": "https://stockanalysis.com/stocks/odfl/",
+    "company_name": "Old Dominion Freight Line, Inc.",
+    "market_cap": "43.08B",
+    "stock_price": "201.78",
+    "pct_change": "2.32%",
+    "revenue": "5.81B"
+  },
+  "AME": {
+    "webpage": "https://stockanalysis.com/stocks/ame/",
+    "company_name": "AMETEK, Inc.",
+    "market_cap": "43.02B",
+    "stock_price": "185.97",
+    "pct_change": "0.79%",
+    "revenue": "6.94B"
+  },
+  "CTVA": {
+    "webpage": "https://stockanalysis.com/stocks/ctva/",
+    "company_name": "Corteva, Inc.",
+    "market_cap": "42.65B",
+    "stock_price": "62.21",
+    "pct_change": "-0.21%",
+    "revenue": "16.91B"
+  },
+  "DAL": {
+    "webpage": "https://stockanalysis.com/stocks/dal/",
+    "company_name": "Delta Air Lines, Inc.",
+    "market_cap": "42.44B",
+    "stock_price": "66.19",
+    "pct_change": "-2.86%",
+    "revenue": "61.64B"
+  },
+  "FAST": {
+    "webpage": "https://stockanalysis.com/stocks/fast/",
+    "company_name": "Fastenal Company",
+    "market_cap": "42.27B",
+    "stock_price": "73.72",
+    "pct_change": "-0.16%",
+    "revenue": "7.55B"
+  },
+  "EXC": {
+    "webpage": "https://stockanalysis.com/stocks/exc/",
+    "company_name": "Exelon Corporation",
+    "market_cap": "42.00B",
+    "stock_price": "41.80",
+    "pct_change": "1.19%",
+    "revenue": "22.92B"
+  },
+  "EW": {
+    "webpage": "https://stockanalysis.com/stocks/ew/",
+    "company_name": "Edwards Lifesciences Corporation",
+    "market_cap": "41.93B",
+    "stock_price": "71.10",
+    "pct_change": "1.07%",
+    "revenue": "6.31B"
+  },
+  "KDP": {
+    "webpage": "https://stockanalysis.com/stocks/kdp/",
+    "company_name": "Keurig Dr Pepper Inc.",
+    "market_cap": "41.91B",
+    "stock_price": "30.90",
+    "pct_change": "-0.45%",
+    "revenue": "15.15B"
+  },
+  "PEG": {
+    "webpage": "https://stockanalysis.com/stocks/peg/",
+    "company_name": "Public Service Enterprise Group Incorporated",
+    "market_cap": "41.80B",
+    "stock_price": "83.89",
+    "pct_change": "0.30%",
+    "revenue": "10.43B"
+  },
+  "VRSK": {
+    "webpage": "https://stockanalysis.com/stocks/vrsk/",
+    "company_name": "Verisk Analytics, Inc.",
+    "market_cap": "41.52B",
+    "stock_price": "294.00",
+    "pct_change": "0.09%",
+    "revenue": "2.82B"
+  },
+  "GRMN": {
+    "webpage": "https://stockanalysis.com/stocks/grmn/",
+    "company_name": "Garmin Ltd.",
+    "market_cap": "41.43B",
+    "stock_price": "215.73",
+    "pct_change": "-0.89%",
+    "revenue": "5.96B"
+  },
+  "YUM": {
+    "webpage": "https://stockanalysis.com/stocks/yum/",
+    "company_name": "Yum! Brands, Inc.",
+    "market_cap": "41.33B",
+    "stock_price": "148.15",
+    "pct_change": "3.20%",
+    "revenue": "7.55B"
+  },
+  "DHI": {
+    "webpage": "https://stockanalysis.com/stocks/dhi/",
+    "company_name": "D.R. Horton, Inc.",
+    "market_cap": "41.03B",
+    "stock_price": "130.21",
+    "pct_change": "0.94%",
+    "revenue": "36.69B"
+  },
+  "A": {
+    "webpage": "https://stockanalysis.com/stocks/a/",
+    "company_name": "Agilent Technologies, Inc.",
+    "market_cap": "40.99B",
+    "stock_price": "143.69",
+    "pct_change": "-1.05%",
+    "revenue": "6.51B"
+  },
+  "IT": {
+    "webpage": "https://stockanalysis.com/stocks/it/",
+    "company_name": "Gartner, Inc.",
+    "market_cap": "40.79B",
+    "stock_price": "528.87",
+    "pct_change": "-0.08%",
+    "revenue": "6.27B"
+  },
+  "GEHC": {
+    "webpage": "https://stockanalysis.com/stocks/gehc/",
+    "company_name": "GE HealthCare Technologies Inc.",
+    "market_cap": "39.98B",
+    "stock_price": "87.50",
+    "pct_change": "-0.16%",
+    "revenue": "19.56B"
+  },
+  "PRU": {
+    "webpage": "https://stockanalysis.com/stocks/pru/",
+    "company_name": "Prudential Financial, Inc.",
+    "market_cap": "39.75B",
+    "stock_price": "112.09",
+    "pct_change": "-0.65%",
+    "revenue": "65.42B"
+  },
+  "LHX": {
+    "webpage": "https://stockanalysis.com/stocks/lhx/",
+    "company_name": "L3Harris Technologies, Inc.",
+    "market_cap": "39.53B",
+    "stock_price": "208.43",
+    "pct_change": "1.12%",
+    "revenue": "21.33B"
+  },
+  "KVUE": {
+    "webpage": "https://stockanalysis.com/stocks/kvue/",
+    "company_name": "Kenvue Inc.",
+    "market_cap": "39.46B",
+    "stock_price": "20.58",
+    "pct_change": "1.98%",
+    "revenue": "15.46B"
+  },
+  "CCI": {
+    "webpage": "https://stockanalysis.com/stocks/cci/",
+    "company_name": "Crown Castle Inc.",
+    "market_cap": "38.97B",
+    "stock_price": "89.68",
+    "pct_change": "0.19%",
+    "revenue": "6.59B"
+  },
+  "XEL": {
+    "webpage": "https://stockanalysis.com/stocks/xel/",
+    "company_name": "Xcel Energy Inc.",
+    "market_cap": "38.41B",
+    "stock_price": "66.88",
+    "pct_change": "0.42%",
+    "revenue": "13.44B"
+  },
+  "OTIS": {
+    "webpage": "https://stockanalysis.com/stocks/otis/",
+    "company_name": "Otis Worldwide Corporation",
+    "market_cap": "38.09B",
+    "stock_price": "96.06",
+    "pct_change": "1.30%",
+    "revenue": "14.26B"
+  },
+  "IDXX": {
+    "webpage": "https://stockanalysis.com/stocks/idxx/",
+    "company_name": "IDEXX Laboratories, Inc.",
+    "market_cap": "38.07B",
+    "stock_price": "464.91",
+    "pct_change": "1.12%",
+    "revenue": "3.90B"
+  },
+  "TTWO": {
+    "webpage": "https://stockanalysis.com/stocks/ttwo/",
+    "company_name": "Take-Two Interactive Software, Inc.",
+    "market_cap": "37.51B",
+    "stock_price": "212.51",
+    "pct_change": "1.79%",
+    "revenue": "5.45B"
+  },
+  "IR": {
+    "webpage": "https://stockanalysis.com/stocks/ir/",
+    "company_name": "Ingersoll Rand Inc.",
+    "market_cap": "37.15B",
+    "stock_price": "92.18",
+    "pct_change": "1.35%",
+    "revenue": "7.16B"
+  },
+  "F": {
+    "webpage": "https://stockanalysis.com/stocks/f/",
+    "company_name": "Ford Motor Company",
+    "market_cap": "36.62B",
+    "stock_price": "9.24",
+    "pct_change": "0.05%",
+    "revenue": "184.99B"
+  },
+  "IQV": {
+    "webpage": "https://stockanalysis.com/stocks/iqv/",
+    "company_name": "IQVIA Holdings Inc.",
+    "market_cap": "36.45B",
+    "stock_price": "206.97",
+    "pct_change": "-0.56%",
+    "revenue": "15.41B"
+  },
+  "WAB": {
+    "webpage": "https://stockanalysis.com/stocks/wab/",
+    "company_name": "Westinghouse Air Brake Technologies Corporation",
+    "market_cap": "35.82B",
+    "stock_price": "208.37",
+    "pct_change": "0.76%",
+    "revenue": "10.33B"
+  },
+  "VMC": {
+    "webpage": "https://stockanalysis.com/stocks/vmc/",
+    "company_name": "Vulcan Materials Company",
+    "market_cap": "35.47B",
+    "stock_price": "268.56",
+    "pct_change": "-1.60%",
+    "revenue": "7.40B"
+  },
+  "ETR": {
+    "webpage": "https://stockanalysis.com/stocks/etr/",
+    "company_name": "Entergy Corporation",
+    "market_cap": "35.08B",
+    "stock_price": "81.80",
+    "pct_change": "-0.73%",
+    "revenue": "11.86B"
+  },
+  "RMD": {
+    "webpage": "https://stockanalysis.com/stocks/rmd/",
+    "company_name": "ResMed Inc.",
+    "market_cap": "35.04B",
+    "stock_price": "238.56",
+    "pct_change": "0.68%",
+    "revenue": "4.93B"
+  },
+  "KHC": {
+    "webpage": "https://stockanalysis.com/stocks/khc/",
+    "company_name": "The Kraft Heinz Company",
+    "market_cap": "35.02B",
+    "stock_price": "28.96",
+    "pct_change": "-1.16%",
+    "revenue": "26.13B"
+  },
+  "UAL": {
+    "webpage": "https://stockanalysis.com/stocks/ual/",
+    "company_name": "United Airlines Holdings, Inc.",
+    "market_cap": "34.89B",
+    "stock_price": "106.08",
+    "pct_change": "-2.68%",
+    "revenue": "57.06B"
+  },
+  "DXCM": {
+    "webpage": "https://stockanalysis.com/stocks/dxcm/",
+    "company_name": "DexCom, Inc.",
+    "market_cap": "34.48B",
+    "stock_price": "88.27",
+    "pct_change": "0.22%",
+    "revenue": "3.95B"
+  },
+  "EXR": {
+    "webpage": "https://stockanalysis.com/stocks/exr/",
+    "company_name": "Extra Space Storage Inc.",
+    "market_cap": "34.43B",
+    "stock_price": "156.56",
+    "pct_change": "0.36%",
+    "revenue": "3.31B"
+  },
+  "EA": {
+    "webpage": "https://stockanalysis.com/stocks/ea/",
+    "company_name": "Electronic Arts Inc.",
+    "market_cap": "34.42B",
+    "stock_price": "132.09",
+    "pct_change": "2.71%",
+    "revenue": "7.35B"
+  },
+  "SYY": {
+    "webpage": "https://stockanalysis.com/stocks/syy/",
+    "company_name": "Sysco Corporation",
+    "market_cap": "34.34B",
+    "stock_price": "70.20",
+    "pct_change": "-1.29%",
+    "revenue": "80.57B"
+  },
+  "ACGL": {
+    "webpage": "https://stockanalysis.com/stocks/acgl/",
+    "company_name": "Arch Capital Group Ltd.",
+    "market_cap": "34.27B",
+    "stock_price": "91.46",
+    "pct_change": "-2.18%",
+    "revenue": "17.44B"
+  },
+  "PCG": {
+    "webpage": "https://stockanalysis.com/stocks/pcg/",
+    "company_name": "PG&E Corporation",
+    "market_cap": "34.21B",
+    "stock_price": "15.65",
+    "pct_change": "2.15%",
+    "revenue": "24.83B"
+  },
+  "ROK": {
+    "webpage": "https://stockanalysis.com/stocks/rok/",
+    "company_name": "Rockwell Automation, Inc.",
+    "market_cap": "34.17B",
+    "stock_price": "302.34",
+    "pct_change": "12.65%",
+    "revenue": "8.09B"
+  },
+  "CCL": {
+    "webpage": "https://stockanalysis.com/stocks/ccl/",
+    "company_name": "Carnival Corporation & plc",
+    "market_cap": "34.17B",
+    "stock_price": "26.10",
+    "pct_change": "-2.43%",
+    "revenue": "25.02B"
+  },
+  "LYV": {
+    "webpage": "https://stockanalysis.com/stocks/lyv/",
+    "company_name": "Live Nation Entertainment, Inc.",
+    "market_cap": "33.97B",
+    "stock_price": "147.30",
+    "pct_change": "-0.68%",
+    "revenue": "23.32B"
+  },
+  "MPWR": {
+    "webpage": "https://stockanalysis.com/stocks/mpwr/",
+    "company_name": "Monolithic Power Systems, Inc.",
+    "market_cap": "33.73B",
+    "stock_price": "705.36",
+    "pct_change": "-2.07%",
+    "revenue": "2.21B"
+  },
+  "ED": {
+    "webpage": "https://stockanalysis.com/stocks/ed/",
+    "company_name": "Consolidated Edison, Inc.",
+    "market_cap": "33.50B",
+    "stock_price": "96.70",
+    "pct_change": "0.65%",
+    "revenue": "15.03B"
+  },
+  "RJF": {
+    "webpage": "https://stockanalysis.com/stocks/rjf/",
+    "company_name": "Raymond James Financial, Inc.",
+    "market_cap": "33.28B",
+    "stock_price": "162.42",
+    "pct_change": "-2.99%",
+    "revenue": "13.24B"
+  },
+  "EBAY": {
+    "webpage": "https://stockanalysis.com/stocks/ebay/",
+    "company_name": "eBay Inc.",
+    "market_cap": "32.70B",
+    "stock_price": "68.26",
+    "pct_change": "0.63%",
+    "revenue": "10.27B"
+  },
+  "MTB": {
+    "webpage": "https://stockanalysis.com/stocks/mtb/",
+    "company_name": "M&T Bank Corporation",
+    "market_cap": "32.70B",
+    "stock_price": "197.53",
+    "pct_change": "-1.42%",
+    "revenue": "8.67B"
+  },
+  "LEN": {
+    "webpage": "https://stockanalysis.com/stocks/len/",
+    "company_name": "Lennar Corporation",
+    "market_cap": "32.58B",
+    "stock_price": "122.69",
+    "pct_change": "0.62%",
+    "revenue": "35.44B"
+  },
+  "WTW": {
+    "webpage": "https://stockanalysis.com/stocks/wtw/",
+    "company_name": "Willis Towers Watson Public Limited Company",
+    "market_cap": "32.45B",
+    "stock_price": "325.18",
+    "pct_change": "-0.19%",
+    "revenue": "9.93B"
+  },
+  "MLM": {
+    "webpage": "https://stockanalysis.com/stocks/mlm/",
+    "company_name": "Martin Marietta Materials, Inc.",
+    "market_cap": "32.45B",
+    "stock_price": "530.97",
+    "pct_change": "-1.42%",
+    "revenue": "6.51B"
+  },
+  "NUE": {
+    "webpage": "https://stockanalysis.com/stocks/nue/",
+    "company_name": "Nucor Corporation",
+    "market_cap": "32.29B",
+    "stock_price": "137.53",
+    "pct_change": "5.58%",
+    "revenue": "30.73B"
+  },
+  "HIG": {
+    "webpage": "https://stockanalysis.com/stocks/hig/",
+    "company_name": "The Hartford Financial Services Group, Inc.",
+    "market_cap": "32.20B",
+    "stock_price": "111.96",
+    "pct_change": "-1.37%",
+    "revenue": "26.54B"
+  },
+  "WEC": {
+    "webpage": "https://stockanalysis.com/stocks/wec/",
+    "company_name": "WEC Energy Group, Inc.",
+    "market_cap": "32.16B",
+    "stock_price": "101.22",
+    "pct_change": "-0.56%",
+    "revenue": "8.60B"
+  },
+  "HUM": {
+    "webpage": "https://stockanalysis.com/stocks/hum/",
+    "company_name": "Humana Inc.",
+    "market_cap": "32.13B",
+    "stock_price": "266.80",
+    "pct_change": "-2.74%",
+    "revenue": "115.01B"
+  },
+  "GIS": {
+    "webpage": "https://stockanalysis.com/stocks/gis/",
+    "company_name": "General Mills, Inc.",
+    "market_cap": "32.07B",
+    "stock_price": "58.08",
+    "pct_change": "-1.26%",
+    "revenue": "19.90B"
+  },
+  "EQT": {
+    "webpage": "https://stockanalysis.com/stocks/eqt/",
+    "company_name": "EQT Corporation",
+    "market_cap": "31.92B",
+    "stock_price": "53.50",
+    "pct_change": "4.68%",
+    "revenue": "4.62B"
+  },
+  "XYL": {
+    "webpage": "https://stockanalysis.com/stocks/xyl/",
+    "company_name": "Xylem Inc.",
+    "market_cap": "31.89B",
+    "stock_price": "131.26",
+    "pct_change": "0.13%",
+    "revenue": "8.56B"
+  },
+  "DD": {
+    "webpage": "https://stockanalysis.com/stocks/dd/",
+    "company_name": "DuPont de Nemours, Inc.",
+    "market_cap": "31.87B",
+    "stock_price": "76.26",
+    "pct_change": "0.63%",
+    "revenue": "12.19B"
+  },
+  "TPL": {
+    "webpage": "https://stockanalysis.com/stocks/tpl/",
+    "company_name": "Texas Pacific Land Corporation",
+    "market_cap": "31.73B",
+    "stock_price": "1,381.19",
+    "pct_change": "2.67%",
+    "revenue": "686.70M"
+  },
+  "VICI": {
+    "webpage": "https://stockanalysis.com/stocks/vici/",
+    "company_name": "VICI Properties Inc.",
+    "market_cap": "31.57B",
+    "stock_price": "29.95",
+    "pct_change": "-0.53%",
+    "revenue": "3.81B"
+  },
+  "CSGP": {
+    "webpage": "https://stockanalysis.com/stocks/csgp/",
+    "company_name": "CoStar Group, Inc.",
+    "market_cap": "31.55B",
+    "stock_price": "76.97",
+    "pct_change": "-0.36%",
+    "revenue": "2.67B"
+  },
+  "EFX": {
+    "webpage": "https://stockanalysis.com/stocks/efx/",
+    "company_name": "Equifax Inc.",
+    "market_cap": "31.36B",
+    "stock_price": "252.90",
+    "pct_change": "1.86%",
+    "revenue": "5.68B"
+  },
+  "HSY": {
+    "webpage": "https://stockanalysis.com/stocks/hsy/",
+    "company_name": "The Hershey Company",
+    "market_cap": "31.26B",
+    "stock_price": "154.47",
+    "pct_change": "-0.30%",
+    "revenue": "11.20B"
+  },
+  "IRM": {
+    "webpage": "https://stockanalysis.com/stocks/irm/",
+    "company_name": "Iron Mountain Incorporated",
+    "market_cap": "31.17B",
+    "stock_price": "106.22",
+    "pct_change": "0.15%",
+    "revenue": "5.99B"
+  },
+  "AVB": {
+    "webpage": "https://stockanalysis.com/stocks/avb/",
+    "company_name": "AvalonBay Communities, Inc.",
+    "market_cap": "31.15B",
+    "stock_price": "219.26",
+    "pct_change": "-0.41%",
+    "revenue": "2.96B"
+  },
+  "BRO": {
+    "webpage": "https://stockanalysis.com/stocks/bro/",
+    "company_name": "Brown & Brown, Inc.",
+    "market_cap": "31.14B",
+    "stock_price": "108.91",
+    "pct_change": "0.30%",
+    "revenue": "4.71B"
+  },
+  "HPQ": {
+    "webpage": "https://stockanalysis.com/stocks/hpq/",
+    "company_name": "HP Inc.",
+    "market_cap": "30.78B",
+    "stock_price": "32.82",
+    "pct_change": "1.70%",
+    "revenue": "53.56B"
+  },
+  "CAH": {
+    "webpage": "https://stockanalysis.com/stocks/cah/",
+    "company_name": "Cardinal Health, Inc.",
+    "market_cap": "30.73B",
+    "stock_price": "127.20",
+    "pct_change": "-0.13%",
+    "revenue": "222.28B"
+  },
+  "KEYS": {
+    "webpage": "https://stockanalysis.com/stocks/keys/",
+    "company_name": "Keysight Technologies, Inc.",
+    "market_cap": "30.65B",
+    "stock_price": "177.28",
+    "pct_change": "1.70%",
+    "revenue": "4.98B"
+  },
+  "ANSS": {
+    "webpage": "https://stockanalysis.com/stocks/anss/",
+    "company_name": "ANSYS, Inc.",
+    "market_cap": "29.91B",
+    "stock_price": "342.00",
+    "pct_change": "-0.83%",
+    "revenue": "2.47B"
+  },
+  "LVS": {
+    "webpage": "https://stockanalysis.com/stocks/lvs/",
+    "company_name": "Las Vegas Sands Corp.",
+    "market_cap": "29.83B",
+    "stock_price": "41.67",
+    "pct_change": "-3.05%",
+    "revenue": "11.30B"
+  },
+  "STZ": {
+    "webpage": "https://stockanalysis.com/stocks/stz/",
+    "company_name": "Constellation Brands, Inc.",
+    "market_cap": "29.82B",
+    "stock_price": "165.00",
+    "pct_change": "-2.37%",
+    "revenue": "10.18B"
+  },
+  "GDDY": {
+    "webpage": "https://stockanalysis.com/stocks/gddy/",
+    "company_name": "GoDaddy Inc.",
+    "market_cap": "29.70B",
+    "stock_price": "211.57",
+    "pct_change": "0.08%",
+    "revenue": "4.48B"
+  },
+  "CNC": {
+    "webpage": "https://stockanalysis.com/stocks/cnc/",
+    "company_name": "Centene Corporation",
+    "market_cap": "29.21B",
+    "stock_price": "58.91",
+    "pct_change": "-0.05%",
+    "revenue": "147.29B"
+  },
+  "TSCO": {
+    "webpage": "https://stockanalysis.com/stocks/tsco/",
+    "company_name": "Tractor Supply Company",
+    "market_cap": "29.08B",
+    "stock_price": "54.43",
+    "pct_change": "2.80%",
+    "revenue": "14.88B"
+  },
+  "FITB": {
+    "webpage": "https://stockanalysis.com/stocks/fitb/",
+    "company_name": "Fifth Third Bancorp",
+    "market_cap": "29.02B",
+    "stock_price": "43.33",
+    "pct_change": "-1.61%",
+    "revenue": "7.95B"
+  },
+  "IP": {
+    "webpage": "https://stockanalysis.com/stocks/ip/",
+    "company_name": "International Paper Company",
+    "market_cap": "28.90B",
+    "stock_price": "54.81",
+    "pct_change": "-2.25%",
+    "revenue": "18.62B"
+  },
+  "K": {
+    "webpage": "https://stockanalysis.com/stocks/k/",
+    "company_name": "Kellanova",
+    "market_cap": "28.36B",
+    "stock_price": "82.28",
+    "pct_change": "-0.02%",
+    "revenue": "12.75B"
+  },
+  "BR": {
+    "webpage": "https://stockanalysis.com/stocks/br/",
+    "company_name": "Broadridge Financial Solutions, Inc.",
+    "market_cap": "28.36B",
+    "stock_price": "242.34",
+    "pct_change": "0.80%",
+    "revenue": "6.68B"
+  },
+  "STT": {
+    "webpage": "https://stockanalysis.com/stocks/stt/",
+    "company_name": "State Street Corporation",
+    "market_cap": "28.31B",
+    "stock_price": "98.05",
+    "pct_change": "-1.40%",
+    "revenue": "12.93B"
+  },
+  "HPE": {
+    "webpage": "https://stockanalysis.com/stocks/hpe/",
+    "company_name": "Hewlett Packard Enterprise Company",
+    "market_cap": "28.19B",
+    "stock_price": "21.43",
+    "pct_change": "0.75%",
+    "revenue": "30.13B"
+  },
+  "MTD": {
+    "webpage": "https://stockanalysis.com/stocks/mtd/",
+    "company_name": "Mettler-Toledo International Inc.",
+    "market_cap": "28.04B",
+    "stock_price": "1,340.49",
+    "pct_change": "-3.56%",
+    "revenue": "3.87B"
+  },
+  "MCHP": {
+    "webpage": "https://stockanalysis.com/stocks/mchp/",
+    "company_name": "Microchip Technology Incorporated",
+    "market_cap": "27.99B",
+    "stock_price": "52.05",
+    "pct_change": "0.31%",
+    "revenue": "4.76B"
+  },
+  "DOV": {
+    "webpage": "https://stockanalysis.com/stocks/dov/",
+    "company_name": "Dover Corporation",
+    "market_cap": "27.92B",
+    "stock_price": "203.54",
+    "pct_change": "0.49%",
+    "revenue": "7.75B"
+  },
+  "GPN": {
+    "webpage": "https://stockanalysis.com/stocks/gpn/",
+    "company_name": "Global Payments Inc.",
+    "market_cap": "27.90B",
+    "stock_price": "109.62",
+    "pct_change": "0.02%",
+    "revenue": "10.02B"
+  },
+  "SW": {
+    "webpage": "https://stockanalysis.com/stocks/sw/",
+    "company_name": "Smurfit Westrock Plc",
+    "market_cap": "27.75B",
+    "stock_price": "53.53",
+    "pct_change": "-0.87%",
+    "revenue": "16.43B"
+  },
+  "EQR": {
+    "webpage": "https://stockanalysis.com/stocks/eqr/",
+    "company_name": "Equity Residential",
+    "market_cap": "27.73B",
+    "stock_price": "70.91",
+    "pct_change": "-0.59%",
+    "revenue": "2.98B"
+  },
+  "FTV": {
+    "webpage": "https://stockanalysis.com/stocks/ftv/",
+    "company_name": "Fortive Corporation",
+    "market_cap": "27.47B",
+    "stock_price": "80.50",
+    "pct_change": "1.78%",
+    "revenue": "6.23B"
+  },
+  "DOW": {
+    "webpage": "https://stockanalysis.com/stocks/dow/",
+    "company_name": "Dow Inc.",
+    "market_cap": "27.15B",
+    "stock_price": "38.57",
+    "pct_change": "-0.03%",
+    "revenue": "42.96B"
+  },
+  "PPG": {
+    "webpage": "https://stockanalysis.com/stocks/ppg/",
+    "company_name": "PPG Industries, Inc.",
+    "market_cap": "26.44B",
+    "stock_price": "114.12",
+    "pct_change": "-0.63%",
+    "revenue": "15.85B"
+  },
+  "TYL": {
+    "webpage": "https://stockanalysis.com/stocks/tyl/",
+    "company_name": "Tyler Technologies, Inc.",
+    "market_cap": "26.19B",
+    "stock_price": "611.83",
+    "pct_change": "0.92%",
+    "revenue": "2.08B"
+  },
+  "EXPE": {
+    "webpage": "https://stockanalysis.com/stocks/expe/",
+    "company_name": "Expedia Group, Inc.",
+    "market_cap": "26.16B",
+    "stock_price": "203.00",
+    "pct_change": "0.31%",
+    "revenue": "13.69B"
+  },
+  "CPAY": {
+    "webpage": "https://stockanalysis.com/stocks/cpay/",
+    "company_name": "Corpay, Inc.",
+    "market_cap": "26.15B",
+    "stock_price": "375.15",
+    "pct_change": "-0.19%",
+    "revenue": "3.97B"
+  },
+  "AEE": {
+    "webpage": "https://stockanalysis.com/stocks/aee/",
+    "company_name": "Ameren Corporation",
+    "market_cap": "25.95B",
+    "stock_price": "97.20",
+    "pct_change": "0.11%",
+    "revenue": "7.06B"
+  },
+  "DTE": {
+    "webpage": "https://stockanalysis.com/stocks/dte/",
+    "company_name": "DTE Energy Company",
+    "market_cap": "25.62B",
+    "stock_price": "123.71",
+    "pct_change": "0.82%",
+    "revenue": "12.42B"
+  },
+  "CHD": {
+    "webpage": "https://stockanalysis.com/stocks/chd/",
+    "company_name": "Church & Dwight Co., Inc.",
+    "market_cap": "25.61B",
+    "stock_price": "104.55",
+    "pct_change": "-0.45%",
+    "revenue": "6.11B"
+  },
+  "CDW": {
+    "webpage": "https://stockanalysis.com/stocks/cdw/",
+    "company_name": "CDW Corporation",
+    "market_cap": "25.53B",
+    "stock_price": "191.57",
+    "pct_change": "-0.23%",
+    "revenue": "21.00B"
+  },
+  "SYF": {
+    "webpage": "https://stockanalysis.com/stocks/syf/",
+    "company_name": "Synchrony Financial",
+    "market_cap": "25.47B",
+    "stock_price": "65.52",
+    "pct_change": "-2.92%",
+    "revenue": "9.39B"
+  },
+  "VTR": {
+    "webpage": "https://stockanalysis.com/stocks/vtr/",
+    "company_name": "Ventas, Inc.",
+    "market_cap": "25.28B",
+    "stock_price": "59.76",
+    "pct_change": "-1.37%",
+    "revenue": "4.80B"
+  },
+  "PPL": {
+    "webpage": "https://stockanalysis.com/stocks/ppl/",
+    "company_name": "PPL Corporation",
+    "market_cap": "25.26B",
+    "stock_price": "34.23",
+    "pct_change": "0.26%",
+    "revenue": "8.28B"
+  },
+  "NTAP": {
+    "webpage": "https://stockanalysis.com/stocks/ntap/",
+    "company_name": "NetApp, Inc.",
+    "market_cap": "25.01B",
+    "stock_price": "123.02",
+    "pct_change": "0.09%",
+    "revenue": "6.47B"
+  },
+  "SMCI": {
+    "webpage": "https://stockanalysis.com/stocks/smci/",
+    "company_name": "Super Micro Computer, Inc.",
+    "market_cap": "24.97B",
+    "stock_price": "42.65",
+    "pct_change": "17.56%",
+    "revenue": "14.94B"
+  },
+  "EL": {
+    "webpage": "https://stockanalysis.com/stocks/el/",
+    "company_name": "The Est\u00e9e Lauder Companies Inc.",
+    "market_cap": "24.72B",
+    "stock_price": "68.71",
+    "pct_change": "5.66%",
+    "revenue": "15.18B"
+  },
+  "VLTO": {
+    "webpage": "https://stockanalysis.com/stocks/vlto/",
+    "company_name": "Veralto Corporation",
+    "market_cap": "24.68B",
+    "stock_price": "99.78",
+    "pct_change": "0.98%",
+    "revenue": "5.19B"
+  },
+  "LYB": {
+    "webpage": "https://stockanalysis.com/stocks/lyb/",
+    "company_name": "LyondellBasell Industries N.V.",
+    "market_cap": "24.60B",
+    "stock_price": "75.84",
+    "pct_change": "-1.01%",
+    "revenue": "40.73B"
+  },
+  "DECK": {
+    "webpage": "https://stockanalysis.com/stocks/deck/",
+    "company_name": "Deckers Outdoor Corporation",
+    "market_cap": "24.53B",
+    "stock_price": "161.65",
+    "pct_change": "-3.92%",
+    "revenue": "4.92B"
+  },
+  "WBD": {
+    "webpage": "https://stockanalysis.com/stocks/wbd/",
+    "company_name": "Warner Bros. Discovery, Inc.",
+    "market_cap": "24.48B",
+    "stock_price": "9.98",
+    "pct_change": "-1.77%",
+    "revenue": "39.58B"
+  },
+  "TROW": {
+    "webpage": "https://stockanalysis.com/stocks/trow/",
+    "company_name": "T. Rowe Price Group, Inc.",
+    "market_cap": "24.45B",
+    "stock_price": "109.62",
+    "pct_change": "-0.47%",
+    "revenue": "7.09B"
+  },
+  "HBAN": {
+    "webpage": "https://stockanalysis.com/stocks/hban/",
+    "company_name": "Huntington Bancshares Incorporated",
+    "market_cap": "24.32B",
+    "stock_price": "16.73",
+    "pct_change": "-1.12%",
+    "revenue": "6.97B"
+  },
+  "ROL": {
+    "webpage": "https://stockanalysis.com/stocks/rol/",
+    "company_name": "Rollins, Inc.",
+    "market_cap": "24.20B",
+    "stock_price": "49.97",
+    "pct_change": "-0.22%",
+    "revenue": "3.31B"
+  },
+  "WAT": {
+    "webpage": "https://stockanalysis.com/stocks/wat/",
+    "company_name": "Waters Corporation",
+    "market_cap": "24.20B",
+    "stock_price": "407.58",
+    "pct_change": "-0.47%",
+    "revenue": "2.91B"
+  },
+  "FOXA": {
+    "webpage": "https://stockanalysis.com/stocks/foxa/",
+    "company_name": "Fox Corporation",
+    "market_cap": "24.15B",
+    "stock_price": "53.25",
+    "pct_change": "0.87%",
+    "revenue": "15.18B"
+  },
+  "WDC": {
+    "webpage": "https://stockanalysis.com/stocks/wdc/",
+    "company_name": "Western Digital Corporation",
+    "market_cap": "24.01B",
+    "stock_price": "69.04",
+    "pct_change": "7.11%",
+    "revenue": "15.60B"
+  },
+  "AWK": {
+    "webpage": "https://stockanalysis.com/stocks/awk/",
+    "company_name": "American Water Works Company, Inc.",
+    "market_cap": "23.99B",
+    "stock_price": "123.11",
+    "pct_change": "0.51%",
+    "revenue": "4.52B"
+  },
+  "TDY": {
+    "webpage": "https://stockanalysis.com/stocks/tdy/",
+    "company_name": "Teledyne Technologies Incorporated",
+    "market_cap": "23.83B",
+    "stock_price": "511.25",
+    "pct_change": "-0.06%",
+    "revenue": "5.67B"
+  },
+  "WST": {
+    "webpage": "https://stockanalysis.com/stocks/wst/",
+    "company_name": "West Pharmaceutical Services, Inc.",
+    "market_cap": "23.47B",
+    "stock_price": "324.13",
+    "pct_change": "0.80%",
+    "revenue": "2.88B"
+  },
+  "FOX": {
+    "webpage": "https://stockanalysis.com/stocks/fox/",
+    "company_name": "Fox Corporation",
+    "market_cap": "23.46B",
+    "stock_price": "50.35",
+    "pct_change": "0.50%",
+    "revenue": "15.18B"
+  },
+  "WRB": {
+    "webpage": "https://stockanalysis.com/stocks/wrb/",
+    "company_name": "W. R. Berkley Corporation",
+    "market_cap": "23.12B",
+    "stock_price": "60.82",
+    "pct_change": "-1.12%",
+    "revenue": "13.64B"
+  },
+  "FE": {
+    "webpage": "https://stockanalysis.com/stocks/fe/",
+    "company_name": "FirstEnergy Corp.",
+    "market_cap": "22.97B",
+    "stock_price": "39.86",
+    "pct_change": "-0.75%",
+    "revenue": "13.26B"
+  },
+  "DRI": {
+    "webpage": "https://stockanalysis.com/stocks/dri/",
+    "company_name": "Darden Restaurants, Inc.",
+    "market_cap": "22.88B",
+    "stock_price": "195.31",
+    "pct_change": "-0.97%",
+    "revenue": "11.58B"
+  },
+  "HAL": {
+    "webpage": "https://stockanalysis.com/stocks/hal/",
+    "company_name": "Halliburton Company",
+    "market_cap": "22.82B",
+    "stock_price": "25.98",
+    "pct_change": "3.14%",
+    "revenue": "22.94B"
+  },
+  "NVR": {
+    "webpage": "https://stockanalysis.com/stocks/nvr/",
+    "company_name": "NVR, Inc.",
+    "market_cap": "22.64B",
+    "stock_price": "7,518.00",
+    "pct_change": "-0.53%",
+    "revenue": "10.69B"
+  },
+  "ATO": {
+    "webpage": "https://stockanalysis.com/stocks/ato/",
+    "company_name": "Atmos Energy Corporation",
+    "market_cap": "22.58B",
+    "stock_price": "142.28",
+    "pct_change": "-0.15%",
+    "revenue": "4.18B"
+  },
+  "DVN": {
+    "webpage": "https://stockanalysis.com/stocks/dvn/",
+    "company_name": "Devon Energy Corporation",
+    "market_cap": "22.51B",
+    "stock_price": "34.26",
+    "pct_change": "3.35%",
+    "revenue": "14.53B"
+  },
+  "SBAC": {
+    "webpage": "https://stockanalysis.com/stocks/sbac/",
+    "company_name": "SBA Communications Corporation",
+    "market_cap": "22.18B",
+    "stock_price": "206.31",
+    "pct_change": "0.24%",
+    "revenue": "2.66B"
+  },
+  "ES": {
+    "webpage": "https://stockanalysis.com/stocks/es/",
+    "company_name": "Eversource Energy",
+    "market_cap": "22.16B",
+    "stock_price": "60.49",
+    "pct_change": "1.80%",
+    "revenue": "11.62B"
+  },
+  "ADM": {
+    "webpage": "https://stockanalysis.com/stocks/adm/",
+    "company_name": "Archer-Daniels-Midland Company",
+    "market_cap": "22.06B",
+    "stock_price": "46.09",
+    "pct_change": "0.72%",
+    "revenue": "85.53B"
+  },
+  "STE": {
+    "webpage": "https://stockanalysis.com/stocks/ste/",
+    "company_name": "STERIS plc",
+    "market_cap": "22.04B",
+    "stock_price": "224.31",
+    "pct_change": "0.48%",
+    "revenue": "5.40B"
+  },
+  "CBOE": {
+    "webpage": "https://stockanalysis.com/stocks/cboe/",
+    "company_name": "Cboe Global Markets, Inc.",
+    "market_cap": "21.95B",
+    "stock_price": "209.71",
+    "pct_change": "-0.69%",
+    "revenue": "4.09B"
+  },
+  "RF": {
+    "webpage": "https://stockanalysis.com/stocks/rf/",
+    "company_name": "Regions Financial Corporation",
+    "market_cap": "21.89B",
+    "stock_price": "24.08",
+    "pct_change": "-1.51%",
+    "revenue": "6.60B"
+  },
+  "WY": {
+    "webpage": "https://stockanalysis.com/stocks/wy/",
+    "company_name": "Weyerhaeuser Company",
+    "market_cap": "21.86B",
+    "stock_price": "30.12",
+    "pct_change": "0.23%",
+    "revenue": "7.12B"
+  },
+  "NTRS": {
+    "webpage": "https://stockanalysis.com/stocks/ntrs/",
+    "company_name": "Northern Trust Corporation",
+    "market_cap": "21.75B",
+    "stock_price": "111.00",
+    "pct_change": "-2.21%",
+    "revenue": "8.29B"
+  },
+  "PHM": {
+    "webpage": "https://stockanalysis.com/stocks/phm/",
+    "company_name": "PulteGroup, Inc.",
+    "market_cap": "21.58B",
+    "stock_price": "106.57",
+    "pct_change": "0.66%",
+    "revenue": "17.95B"
+  },
+  "IFF": {
+    "webpage": "https://stockanalysis.com/stocks/iff/",
+    "company_name": "International Flavors & Fragrances Inc.",
+    "market_cap": "21.55B",
+    "stock_price": "84.29",
+    "pct_change": "-0.04%",
+    "revenue": "11.42B"
+  },
+  "HUBB": {
+    "webpage": "https://stockanalysis.com/stocks/hubb/",
+    "company_name": "Hubbell Incorporated",
+    "market_cap": "21.46B",
+    "stock_price": "399.80",
+    "pct_change": "-0.28%",
+    "revenue": "5.63B"
+  },
+  "NRG": {
+    "webpage": "https://stockanalysis.com/stocks/nrg/",
+    "company_name": "NRG Energy, Inc.",
+    "market_cap": "21.31B",
+    "stock_price": "105.18",
+    "pct_change": "2.11%",
+    "revenue": "28.12B"
+  },
+  "CINF": {
+    "webpage": "https://stockanalysis.com/stocks/cinf/",
+    "company_name": "Cincinnati Financial Corporation",
+    "market_cap": "21.20B",
+    "stock_price": "135.62",
+    "pct_change": "-0.98%",
+    "revenue": "12.16B"
+  },
+  "ERIE": {
+    "webpage": "https://stockanalysis.com/stocks/erie/",
+    "company_name": "Erie Indemnity Company",
+    "market_cap": "21.15B",
+    "stock_price": "404.43",
+    "pct_change": "-1.89%",
+    "revenue": "3.69B"
+  },
+  "VRSN": {
+    "webpage": "https://stockanalysis.com/stocks/vrsn/",
+    "company_name": "VeriSign, Inc.",
+    "market_cap": "21.11B",
+    "stock_price": "222.24",
+    "pct_change": "0.38%",
+    "revenue": "1.56B"
+  },
+  "CNP": {
+    "webpage": "https://stockanalysis.com/stocks/cnp/",
+    "company_name": "CenterPoint Energy, Inc.",
+    "market_cap": "21.10B",
+    "stock_price": "32.38",
+    "pct_change": "-0.06%",
+    "revenue": "8.56B"
+  },
+  "CTRA": {
+    "webpage": "https://stockanalysis.com/stocks/ctra/",
+    "company_name": "Coterra Energy Inc.",
+    "market_cap": "20.97B",
+    "stock_price": "28.47",
+    "pct_change": "3.98%",
+    "revenue": "5.50B"
+  },
+  "CFG": {
+    "webpage": "https://stockanalysis.com/stocks/cfg/",
+    "company_name": "Citizens Financial Group, Inc.",
+    "market_cap": "20.86B",
+    "stock_price": "47.36",
+    "pct_change": "-1.19%",
+    "revenue": "7.12B"
+  },
+  "LII": {
+    "webpage": "https://stockanalysis.com/stocks/lii/",
+    "company_name": "Lennox International Inc.",
+    "market_cap": "20.77B",
+    "stock_price": "583.13",
+    "pct_change": "1.39%",
+    "revenue": "5.34B"
+  },
+  "BIIB": {
+    "webpage": "https://stockanalysis.com/stocks/biib/",
+    "company_name": "Biogen Inc.",
+    "market_cap": "20.77B",
+    "stock_price": "142.54",
+    "pct_change": "0.84%",
+    "revenue": "9.61B"
+  },
+  "STX": {
+    "webpage": "https://stockanalysis.com/stocks/stx/",
+    "company_name": "Seagate Technology Holdings plc",
+    "market_cap": "20.70B",
+    "stock_price": "97.80",
+    "pct_change": "1.72%",
+    "revenue": "8.04B"
+  },
+  "CMS": {
+    "webpage": "https://stockanalysis.com/stocks/cms/",
+    "company_name": "CMS Energy Corporation",
+    "market_cap": "20.67B",
+    "stock_price": "69.18",
+    "pct_change": "0.70%",
+    "revenue": "7.52B"
+  },
+  "MKC": {
+    "webpage": "https://stockanalysis.com/stocks/mkc/",
+    "company_name": "McCormick & Company, Incorporated",
+    "market_cap": "20.56B",
+    "stock_price": "76.67",
+    "pct_change": "-2.14%",
+    "revenue": "6.72B"
+  },
+  "TSN": {
+    "webpage": "https://stockanalysis.com/stocks/tsn/",
+    "company_name": "Tyson Foods, Inc.",
+    "market_cap": "20.56B",
+    "stock_price": "57.71",
+    "pct_change": "-0.40%",
+    "revenue": "53.61B"
+  },
+  "LH": {
+    "webpage": "https://stockanalysis.com/stocks/lh/",
+    "company_name": "Labcorp Holdings Inc.",
+    "market_cap": "20.44B",
+    "stock_price": "245.08",
+    "pct_change": "-0.48%",
+    "revenue": "13.01B"
+  },
+  "PTC": {
+    "webpage": "https://stockanalysis.com/stocks/ptc/",
+    "company_name": "PTC Inc.",
+    "market_cap": "20.26B",
+    "stock_price": "168.42",
+    "pct_change": "-0.35%",
+    "revenue": "2.31B"
+  },
+  "STLD": {
+    "webpage": "https://stockanalysis.com/stocks/stld/",
+    "company_name": "Steel Dynamics, Inc.",
+    "market_cap": "20.23B",
+    "stock_price": "132.87",
+    "pct_change": "4.86%",
+    "revenue": "17.54B"
+  },
+  "ON": {
+    "webpage": "https://stockanalysis.com/stocks/on/",
+    "company_name": "ON Semiconductor Corporation",
+    "market_cap": "20.03B",
+    "stock_price": "47.04",
+    "pct_change": "-8.21%",
+    "revenue": "7.08B"
+  },
+  "PODD": {
+    "webpage": "https://stockanalysis.com/stocks/podd/",
+    "company_name": "Insulet Corporation",
+    "market_cap": "20.02B",
+    "stock_price": "285.34",
+    "pct_change": "0.80%",
+    "revenue": "1.98B"
+  },
+  "ZBH": {
+    "webpage": "https://stockanalysis.com/stocks/zbh/",
+    "company_name": "Zimmer Biomet Holdings, Inc.",
+    "market_cap": "19.99B",
+    "stock_price": "100.42",
+    "pct_change": "-0.51%",
+    "revenue": "7.68B"
+  },
+  "INVH": {
+    "webpage": "https://stockanalysis.com/stocks/invh/",
+    "company_name": "Invitation Homes Inc.",
+    "market_cap": "19.46B",
+    "stock_price": "31.67",
+    "pct_change": "0.16%",
+    "revenue": "2.55B"
+  },
+  "EIX": {
+    "webpage": "https://stockanalysis.com/stocks/eix/",
+    "company_name": "Edison International",
+    "market_cap": "19.42B",
+    "stock_price": "50.17",
+    "pct_change": "0.16%",
+    "revenue": "17.32B"
+  },
+  "ESS": {
+    "webpage": "https://stockanalysis.com/stocks/ess/",
+    "company_name": "Essex Property Trust, Inc.",
+    "market_cap": "19.40B",
+    "stock_price": "291.21",
+    "pct_change": "-0.32%",
+    "revenue": "1.83B"
+  },
+  "KEY": {
+    "webpage": "https://stockanalysis.com/stocks/key/",
+    "company_name": "KeyCorp",
+    "market_cap": "19.38B",
+    "stock_price": "17.51",
+    "pct_change": "-1.85%",
+    "revenue": "4.24B"
+  },
+  "PFG": {
+    "webpage": "https://stockanalysis.com/stocks/pfg/",
+    "company_name": "Principal Financial Group, Inc.",
+    "market_cap": "19.09B",
+    "stock_price": "84.38",
+    "pct_change": "2.49%",
+    "revenue": "16.13B"
+  },
+  "LDOS": {
+    "webpage": "https://stockanalysis.com/stocks/ldos/",
+    "company_name": "Leidos Holdings, Inc.",
+    "market_cap": "19.05B",
+    "stock_price": "142.77",
+    "pct_change": "0.35%",
+    "revenue": "16.28B"
+  },
+  "BBY": {
+    "webpage": "https://stockanalysis.com/stocks/bby/",
+    "company_name": "Best Buy Co., Inc.",
+    "market_cap": "18.83B",
+    "stock_price": "88.07",
+    "pct_change": "3.75%",
+    "revenue": "42.23B"
+  },
+  "MAA": {
+    "webpage": "https://stockanalysis.com/stocks/maa/",
+    "company_name": "Mid-America Apartment Communities, Inc.",
+    "market_cap": "18.82B",
+    "stock_price": "156.86",
+    "pct_change": "-0.80%",
+    "revenue": "2.19B"
+  },
+  "L": {
+    "webpage": "https://stockanalysis.com/stocks/l/",
+    "company_name": "Loews Corporation",
+    "market_cap": "18.72B",
+    "stock_price": "85.94",
+    "pct_change": "-0.96%",
+    "revenue": "17.51B"
+  },
+  "COO": {
+    "webpage": "https://stockanalysis.com/stocks/coo/",
+    "company_name": "The Cooper Companies, Inc.",
+    "market_cap": "18.69B",
+    "stock_price": "93.63",
+    "pct_change": "0.06%",
+    "revenue": "3.90B"
+  },
+  "PKG": {
+    "webpage": "https://stockanalysis.com/stocks/pkg/",
+    "company_name": "Packaging Corporation of America",
+    "market_cap": "18.67B",
+    "stock_price": "209.42",
+    "pct_change": "-0.38%",
+    "revenue": "8.38B"
+  },
+  "TER": {
+    "webpage": "https://stockanalysis.com/stocks/ter/",
+    "company_name": "Teradyne, Inc.",
+    "market_cap": "18.58B",
+    "stock_price": "114.06",
+    "pct_change": "0.73%",
+    "revenue": "2.82B"
+  },
+  "ZBRA": {
+    "webpage": "https://stockanalysis.com/stocks/zbra/",
+    "company_name": "Zebra Technologies Corporation",
+    "market_cap": "18.49B",
+    "stock_price": "358.44",
+    "pct_change": "-1.38%",
+    "revenue": "4.66B"
+  },
+  "DGX": {
+    "webpage": "https://stockanalysis.com/stocks/dgx/",
+    "company_name": "Quest Diagnostics Incorporated",
+    "market_cap": "18.34B",
+    "stock_price": "165.19",
+    "pct_change": "1.57%",
+    "revenue": "9.87B"
+  },
+  "TRMB": {
+    "webpage": "https://stockanalysis.com/stocks/trmb/",
+    "company_name": "Trimble Inc.",
+    "market_cap": "18.28B",
+    "stock_price": "74.36",
+    "pct_change": "0.02%",
+    "revenue": "3.63B"
+  },
+  "JBL": {
+    "webpage": "https://stockanalysis.com/stocks/jbl/",
+    "company_name": "Jabil Inc.",
+    "market_cap": "18.24B",
+    "stock_price": "166.52",
+    "pct_change": "0.67%",
+    "revenue": "27.49B"
+  },
+  "CLX": {
+    "webpage": "https://stockanalysis.com/stocks/clx/",
+    "company_name": "The Clorox Company",
+    "market_cap": "18.13B",
+    "stock_price": "147.14",
+    "pct_change": "-0.86%",
+    "revenue": "7.17B"
+  },
+  "BLDR": {
+    "webpage": "https://stockanalysis.com/stocks/bldr/",
+    "company_name": "Builders FirstSource, Inc.",
+    "market_cap": "17.92B",
+    "stock_price": "155.72",
+    "pct_change": "1.16%",
+    "revenue": "16.73B"
+  },
+  "SNA": {
+    "webpage": "https://stockanalysis.com/stocks/sna/",
+    "company_name": "Snap-on Incorporated",
+    "market_cap": "17.88B",
+    "stock_price": "340.61",
+    "pct_change": "0.62%",
+    "revenue": "5.11B"
+  },
+  "LUV": {
+    "webpage": "https://stockanalysis.com/stocks/luv/",
+    "company_name": "Southwest Airlines Co.",
+    "market_cap": "17.86B",
+    "stock_price": "30.13",
+    "pct_change": "-2.81%",
+    "revenue": "27.48B"
+  },
+  "NI": {
+    "webpage": "https://stockanalysis.com/stocks/ni/",
+    "company_name": "NiSource Inc.",
+    "market_cap": "17.79B",
+    "stock_price": "38.11",
+    "pct_change": "0.47%",
+    "revenue": "5.29B"
+  },
+  "FFIV": {
+    "webpage": "https://stockanalysis.com/stocks/ffiv/",
+    "company_name": "F5, Inc.",
+    "market_cap": "17.78B",
+    "stock_price": "308.35",
+    "pct_change": "0.57%",
+    "revenue": "2.89B"
+  },
+  "FDS": {
+    "webpage": "https://stockanalysis.com/stocks/fds/",
+    "company_name": "FactSet Research Systems Inc.",
+    "market_cap": "17.52B",
+    "stock_price": "460.66",
+    "pct_change": "-1.31%",
+    "revenue": "2.23B"
+  },
+  "NWS": {
+    "webpage": "https://stockanalysis.com/stocks/nws/",
+    "company_name": "News Corporation",
+    "market_cap": "17.48B",
+    "stock_price": "34.08",
+    "pct_change": "0.47%",
+    "revenue": "10.25B"
+  },
+  "ULTA": {
+    "webpage": "https://stockanalysis.com/stocks/ulta/",
+    "company_name": "Ulta Beauty, Inc.",
+    "market_cap": "17.45B",
+    "stock_price": "376.34",
+    "pct_change": "0.41%",
+    "revenue": "11.36B"
+  },
+  "FSLR": {
+    "webpage": "https://stockanalysis.com/stocks/fslr/",
+    "company_name": "First Solar, Inc.",
+    "market_cap": "17.44B",
+    "stock_price": "162.89",
+    "pct_change": "-3.24%",
+    "revenue": "3.85B"
+  },
+  "GEN": {
+    "webpage": "https://stockanalysis.com/stocks/gen/",
+    "company_name": "Gen Digital Inc.",
+    "market_cap": "17.33B",
+    "stock_price": "28.12",
+    "pct_change": "1.77%",
+    "revenue": "3.90B"
+  },
+  "JBHT": {
+    "webpage": "https://stockanalysis.com/stocks/jbht/",
+    "company_name": "J.B. Hunt Transport Services, Inc.",
+    "market_cap": "16.80B",
+    "stock_price": "167.10",
+    "pct_change": "0.57%",
+    "revenue": "12.09B"
+  },
+  "MAS": {
+    "webpage": "https://stockanalysis.com/stocks/mas/",
+    "company_name": "Masco Corporation",
+    "market_cap": "16.74B",
+    "stock_price": "77.58",
+    "pct_change": "0.43%",
+    "revenue": "7.88B"
+  },
+  "RL": {
+    "webpage": "https://stockanalysis.com/stocks/rl/",
+    "company_name": "Ralph Lauren Corporation",
+    "market_cap": "16.59B",
+    "stock_price": "268.55",
+    "pct_change": "-0.15%",
+    "revenue": "6.95B"
+  },
+  "NWSA": {
+    "webpage": "https://stockanalysis.com/stocks/nwsa/",
+    "company_name": "News Corporation",
+    "market_cap": "16.55B",
+    "stock_price": "29.18",
+    "pct_change": "0.48%",
+    "revenue": "10.25B"
+  },
+  "ARE": {
+    "webpage": "https://stockanalysis.com/stocks/are/",
+    "company_name": "Alexandria Real Estate Equities, Inc.",
+    "market_cap": "16.53B",
+    "stock_price": "95.51",
+    "pct_change": "-0.47%",
+    "revenue": "3.12B"
+  },
+  "J": {
+    "webpage": "https://stockanalysis.com/stocks/j/",
+    "company_name": "Jacobs Solutions Inc.",
+    "market_cap": "16.47B",
+    "stock_price": "134.39",
+    "pct_change": "0.34%",
+    "revenue": "11.62B"
+  },
+  "GPC": {
+    "webpage": "https://stockanalysis.com/stocks/gpc/",
+    "company_name": "Genuine Parts Company",
+    "market_cap": "16.47B",
+    "stock_price": "118.44",
+    "pct_change": "0.59%",
+    "revenue": "23.30B"
+  },
+  "DPZ": {
+    "webpage": "https://stockanalysis.com/stocks/dpz/",
+    "company_name": "Domino's Pizza, Inc.",
+    "market_cap": "16.40B",
+    "stock_price": "474.94",
+    "pct_change": "1.76%",
+    "revenue": "4.67B"
+  },
+  "TPR": {
+    "webpage": "https://stockanalysis.com/stocks/tpr/",
+    "company_name": "Tapestry, Inc.",
+    "market_cap": "16.36B",
+    "stock_price": "79.05",
+    "pct_change": "-1.65%",
+    "revenue": "6.78B"
+  },
+  "DG": {
+    "webpage": "https://stockanalysis.com/stocks/dg/",
+    "company_name": "Dollar General Corporation",
+    "market_cap": "16.31B",
+    "stock_price": "74.14",
+    "pct_change": "2.28%",
+    "revenue": "40.17B"
+  },
+  "PNR": {
+    "webpage": "https://stockanalysis.com/stocks/pnr/",
+    "company_name": "Pentair plc",
+    "market_cap": "16.26B",
+    "stock_price": "98.43",
+    "pct_change": "0.57%",
+    "revenue": "4.08B"
+  },
+  "OMC": {
+    "webpage": "https://stockanalysis.com/stocks/omc/",
+    "company_name": "Omnicom Group Inc.",
+    "market_cap": "16.23B",
+    "stock_price": "82.58",
+    "pct_change": "-1.46%",
+    "revenue": "15.69B"
+  },
+  "MOH": {
+    "webpage": "https://stockanalysis.com/stocks/moh/",
+    "company_name": "Molina Healthcare, Inc.",
+    "market_cap": "16.04B",
+    "stock_price": "286.42",
+    "pct_change": "0.86%",
+    "revenue": "39.16B"
+  },
+  "DLTR": {
+    "webpage": "https://stockanalysis.com/stocks/dltr/",
+    "company_name": "Dollar Tree, Inc.",
+    "market_cap": "15.88B",
+    "stock_price": "73.86",
+    "pct_change": "1.65%",
+    "revenue": "31.22B"
+  },
+  "HRL": {
+    "webpage": "https://stockanalysis.com/stocks/hrl/",
+    "company_name": "Hormel Foods Corporation",
+    "market_cap": "15.85B",
+    "stock_price": "28.87",
+    "pct_change": "-1.13%",
+    "revenue": "11.92B"
+  },
+  "ALGN": {
+    "webpage": "https://stockanalysis.com/stocks/algn/",
+    "company_name": "Align Technology, Inc.",
+    "market_cap": "15.83B",
+    "stock_price": "212.03",
+    "pct_change": "0.70%",
+    "revenue": "4.00B"
+  },
+  "EXPD": {
+    "webpage": "https://stockanalysis.com/stocks/expd/",
+    "company_name": "Expeditors International of Washington, Inc.",
+    "market_cap": "15.75B",
+    "stock_price": "112.50",
+    "pct_change": "1.91%",
+    "revenue": "9.92B"
+  },
+  "BAX": {
+    "webpage": "https://stockanalysis.com/stocks/bax/",
+    "company_name": "Baxter International Inc.",
+    "market_cap": "15.73B",
+    "stock_price": "30.81",
+    "pct_change": "0.62%",
+    "revenue": "15.06B"
+  },
+  "UDR": {
+    "webpage": "https://stockanalysis.com/stocks/udr/",
+    "company_name": "UDR, Inc.",
+    "market_cap": "15.58B",
+    "stock_price": "42.82",
+    "pct_change": "-0.19%",
+    "revenue": "1.69B"
+  },
+  "LNT": {
+    "webpage": "https://stockanalysis.com/stocks/lnt/",
+    "company_name": "Alliant Energy Corporation",
+    "market_cap": "15.36B",
+    "stock_price": "59.87",
+    "pct_change": "0.67%",
+    "revenue": "3.97B"
+  },
+  "AKAM": {
+    "webpage": "https://stockanalysis.com/stocks/akam/",
+    "company_name": "Akamai Technologies, Inc.",
+    "market_cap": "15.34B",
+    "stock_price": "102.10",
+    "pct_change": "2.47%",
+    "revenue": "3.97B"
+  },
+  "CF": {
+    "webpage": "https://stockanalysis.com/stocks/cf/",
+    "company_name": "CF Industries Holdings, Inc.",
+    "market_cap": "15.14B",
+    "stock_price": "87.00",
+    "pct_change": "3.51%",
+    "revenue": "5.98B"
+  },
+  "EVRG": {
+    "webpage": "https://stockanalysis.com/stocks/evrg/",
+    "company_name": "Evergy, Inc.",
+    "market_cap": "15.13B",
+    "stock_price": "65.80",
+    "pct_change": "0.90%",
+    "revenue": "5.78B"
+  },
+  "KIM": {
+    "webpage": "https://stockanalysis.com/stocks/kim/",
+    "company_name": "Kimco Realty Corporation",
+    "market_cap": "15.07B",
+    "stock_price": "22.14",
+    "pct_change": "-1.12%",
+    "revenue": "2.04B"
+  },
+  "BALL": {
+    "webpage": "https://stockanalysis.com/stocks/ball/",
+    "company_name": "Ball Corporation",
+    "market_cap": "15.03B",
+    "stock_price": "50.35",
+    "pct_change": "-0.24%",
+    "revenue": "11.80B"
+  },
+  "IEX": {
+    "webpage": "https://stockanalysis.com/stocks/iex/",
+    "company_name": "IDEX Corporation",
+    "market_cap": "14.88B",
+    "stock_price": "196.45",
+    "pct_change": "0.26%",
+    "revenue": "3.27B"
+  },
+  "EPAM": {
+    "webpage": "https://stockanalysis.com/stocks/epam/",
+    "company_name": "EPAM Systems, Inc.",
+    "market_cap": "14.75B",
+    "stock_price": "260.00",
+    "pct_change": "-0.15%",
+    "revenue": "4.64B"
+  },
+  "BF.B": {
+    "webpage": "https://stockanalysis.com/stocks/bf.b/",
+    "company_name": "Brown-Forman Corporation",
+    "market_cap": "14.73B",
+    "stock_price": "31.17",
+    "pct_change": "1.07%",
+    "revenue": "4.08B"
+  },
+  "APTV": {
+    "webpage": "https://stockanalysis.com/stocks/aptv/",
+    "company_name": "Aptiv PLC",
+    "market_cap": "14.68B",
+    "stock_price": "63.98",
+    "pct_change": "-0.19%",
+    "revenue": "19.71B"
+  },
+  "HOLX": {
+    "webpage": "https://stockanalysis.com/stocks/holx/",
+    "company_name": "Hologic, Inc.",
+    "market_cap": "14.64B",
+    "stock_price": "65.24",
+    "pct_change": "1.02%",
+    "revenue": "4.04B"
+  },
+  "AVY": {
+    "webpage": "https://stockanalysis.com/stocks/avy/",
+    "company_name": "Avery Dennison Corporation",
+    "market_cap": "14.60B",
+    "stock_price": "181.70",
+    "pct_change": "1.42%",
+    "revenue": "8.76B"
+  },
+  "AMCR": {
+    "webpage": "https://stockanalysis.com/stocks/amcr/",
+    "company_name": "Amcor plc",
+    "market_cap": "14.50B",
+    "stock_price": "10.04",
+    "pct_change": "0.20%",
+    "revenue": "13.54B"
+  },
+  "EG": {
+    "webpage": "https://stockanalysis.com/stocks/eg/",
+    "company_name": "Everest Group, Ltd.",
+    "market_cap": "14.33B",
+    "stock_price": "333.47",
+    "pct_change": "-1.35%",
+    "revenue": "17.16B"
+  },
+  "DVA": {
+    "webpage": "https://stockanalysis.com/stocks/dva/",
+    "company_name": "DaVita Inc.",
+    "market_cap": "14.23B",
+    "stock_price": "173.52",
+    "pct_change": "-0.03%",
+    "revenue": "12.67B"
+  },
+  "DOC": {
+    "webpage": "https://stockanalysis.com/stocks/doc/",
+    "company_name": "Healthpeak Properties, Inc.",
+    "market_cap": "13.98B",
+    "stock_price": "19.59",
+    "pct_change": "-1.36%",
+    "revenue": "2.70B"
+  },
+  "RVTY": {
+    "webpage": "https://stockanalysis.com/stocks/rvty/",
+    "company_name": "Revvity, Inc.",
+    "market_cap": "13.98B",
+    "stock_price": "114.84",
+    "pct_change": "-3.38%",
+    "revenue": "2.76B"
+  },
+  "TXT": {
+    "webpage": "https://stockanalysis.com/stocks/txt/",
+    "company_name": "Textron Inc.",
+    "market_cap": "13.50B",
+    "stock_price": "73.93",
+    "pct_change": "-0.79%",
+    "revenue": "13.70B"
+  },
+  "REG": {
+    "webpage": "https://stockanalysis.com/stocks/reg/",
+    "company_name": "Regency Centers Corporation",
+    "market_cap": "13.41B",
+    "stock_price": "73.61",
+    "pct_change": "-0.55%",
+    "revenue": "1.50B"
+  },
+  "SWK": {
+    "webpage": "https://stockanalysis.com/stocks/swk/",
+    "company_name": "Stanley Black & Decker, Inc.",
+    "market_cap": "13.22B",
+    "stock_price": "85.76",
+    "pct_change": "-0.81%",
+    "revenue": "15.37B"
+  },
+  "INCY": {
+    "webpage": "https://stockanalysis.com/stocks/incy/",
+    "company_name": "Incyte Corporation",
+    "market_cap": "13.16B",
+    "stock_price": "68.30",
+    "pct_change": "-7.86%",
+    "revenue": "4.24B"
+  },
+  "KMX": {
+    "webpage": "https://stockanalysis.com/stocks/kmx/",
+    "company_name": "CarMax, Inc.",
+    "market_cap": "13.14B",
+    "stock_price": "85.45",
+    "pct_change": "0.23%",
+    "revenue": "27.80B"
+  },
+  "CPT": {
+    "webpage": "https://stockanalysis.com/stocks/cpt/",
+    "company_name": "Camden Property Trust",
+    "market_cap": "12.92B",
+    "stock_price": "119.34",
+    "pct_change": "0.15%",
+    "revenue": "1.56B"
+  },
+  "SOLV": {
+    "webpage": "https://stockanalysis.com/stocks/solv/",
+    "company_name": "Solventum Corporation",
+    "market_cap": "12.84B",
+    "stock_price": "74.31",
+    "pct_change": "1.27%",
+    "revenue": "8.22B"
+  },
+  "POOL": {
+    "webpage": "https://stockanalysis.com/stocks/pool/",
+    "company_name": "Pool Corporation",
+    "market_cap": "12.72B",
+    "stock_price": "334.20",
+    "pct_change": "0.75%",
+    "revenue": "5.33B"
+  },
+  "VTRS": {
+    "webpage": "https://stockanalysis.com/stocks/vtrs/",
+    "company_name": "Viatris Inc.",
+    "market_cap": "12.68B",
+    "stock_price": "10.62",
+    "pct_change": "-1.03%",
+    "revenue": "15.05B"
+  },
+  "JKHY": {
+    "webpage": "https://stockanalysis.com/stocks/jkhy/",
+    "company_name": "Jack Henry & Associates, Inc.",
+    "market_cap": "12.66B",
+    "stock_price": "173.66",
+    "pct_change": "-0.09%",
+    "revenue": "2.27B"
+  },
+  "BXP": {
+    "webpage": "https://stockanalysis.com/stocks/bxp/",
+    "company_name": "BXP, Inc.",
+    "market_cap": "12.53B",
+    "stock_price": "71.12",
+    "pct_change": "-2.23%",
+    "revenue": "3.05B"
+  },
+  "NDSN": {
+    "webpage": "https://stockanalysis.com/stocks/ndsn/",
+    "company_name": "Nordson Corporation",
+    "market_cap": "12.38B",
+    "stock_price": "216.80",
+    "pct_change": "1.12%",
+    "revenue": "2.69B"
+  },
+  "MRNA": {
+    "webpage": "https://stockanalysis.com/stocks/mrna/",
+    "company_name": "Moderna, Inc.",
+    "market_cap": "12.26B",
+    "stock_price": "31.87",
+    "pct_change": "-2.24%",
+    "revenue": "5.08B"
+  },
+  "UHS": {
+    "webpage": "https://stockanalysis.com/stocks/uhs/",
+    "company_name": "Universal Health Services, Inc.",
+    "market_cap": "12.23B",
+    "stock_price": "185.35",
+    "pct_change": "-1.37%",
+    "revenue": "15.42B"
+  },
+  "JNPR": {
+    "webpage": "https://stockanalysis.com/stocks/jnpr/",
+    "company_name": "Juniper Networks, Inc.",
+    "market_cap": "11.91B",
+    "stock_price": "35.97",
+    "pct_change": "0.76%",
+    "revenue": "5.07B"
+  },
+  "CHRW": {
+    "webpage": "https://stockanalysis.com/stocks/chrw/",
+    "company_name": "C.H. Robinson Worldwide, Inc.",
+    "market_cap": "11.74B",
+    "stock_price": "99.34",
+    "pct_change": "2.85%",
+    "revenue": "17.72B"
+  },
+  "CAG": {
+    "webpage": "https://stockanalysis.com/stocks/cag/",
+    "company_name": "Conagra Brands, Inc.",
+    "market_cap": "11.71B",
+    "stock_price": "24.53",
+    "pct_change": "-1.17%",
+    "revenue": "11.93B"
+  },
+  "NCLH": {
+    "webpage": "https://stockanalysis.com/stocks/nclh/",
+    "company_name": "Norwegian Cruise Line Holdings Ltd.",
+    "market_cap": "11.65B",
+    "stock_price": "26.49",
+    "pct_change": "-3.07%",
+    "revenue": "9.36B"
+  },
+  "HST": {
+    "webpage": "https://stockanalysis.com/stocks/hst/",
+    "company_name": "Host Hotels & Resorts, Inc.",
+    "market_cap": "11.57B",
+    "stock_price": "16.55",
+    "pct_change": "-1.25%",
+    "revenue": "5.59B"
+  },
+  "PAYC": {
+    "webpage": "https://stockanalysis.com/stocks/payc/",
+    "company_name": "Paycom Software, Inc.",
+    "market_cap": "11.44B",
+    "stock_price": "204.76",
+    "pct_change": "2.49%",
+    "revenue": "1.82B"
+  },
+  "EMN": {
+    "webpage": "https://stockanalysis.com/stocks/emn/",
+    "company_name": "Eastman Chemical Company",
+    "market_cap": "11.41B",
+    "stock_price": "99.06",
+    "pct_change": "-0.16%",
+    "revenue": "9.38B"
+  },
+  "ALLE": {
+    "webpage": "https://stockanalysis.com/stocks/alle/",
+    "company_name": "Allegion plc",
+    "market_cap": "11.35B",
+    "stock_price": "130.56",
+    "pct_change": "1.45%",
+    "revenue": "3.72B"
+  },
+  "CPB": {
+    "webpage": "https://stockanalysis.com/stocks/cpb/",
+    "company_name": "The Campbell's Company",
+    "market_cap": "11.15B",
+    "stock_price": "37.39",
+    "pct_change": "-0.37%",
+    "revenue": "9.89B"
+  },
+  "TECH": {
+    "webpage": "https://stockanalysis.com/stocks/tech/",
+    "company_name": "Bio-Techne Corporation",
+    "market_cap": "11.05B",
+    "stock_price": "69.92",
+    "pct_change": "-3.98%",
+    "revenue": "1.20B"
+  },
+  "TAP": {
+    "webpage": "https://stockanalysis.com/stocks/tap/",
+    "company_name": "Molson Coors Beverage Company",
+    "market_cap": "11.05B",
+    "stock_price": "53.65",
+    "pct_change": "-1.12%",
+    "revenue": "11.68B"
+  },
+  "SJM": {
+    "webpage": "https://stockanalysis.com/stocks/sjm/",
+    "company_name": "The J. M. Smucker Company",
+    "market_cap": "10.96B",
+    "stock_price": "103.00",
+    "pct_change": "-0.27%",
+    "revenue": "8.83B"
+  },
+  "AIZ": {
+    "webpage": "https://stockanalysis.com/stocks/aiz/",
+    "company_name": "Assurant, Inc.",
+    "market_cap": "10.90B",
+    "stock_price": "212.53",
+    "pct_change": "-1.22%",
+    "revenue": "11.76B"
+  },
+  "BEN": {
+    "webpage": "https://stockanalysis.com/stocks/ben/",
+    "company_name": "Franklin Resources, Inc.",
+    "market_cap": "10.65B",
+    "stock_price": "20.27",
+    "pct_change": "-0.78%",
+    "revenue": "8.74B"
+  },
+  "DAY": {
+    "webpage": "https://stockanalysis.com/stocks/day/",
+    "company_name": "Dayforce Inc.",
+    "market_cap": "10.46B",
+    "stock_price": "65.76",
+    "pct_change": "1.12%",
+    "revenue": "1.76B"
+  },
+  "SWKS": {
+    "webpage": "https://stockanalysis.com/stocks/swks/",
+    "company_name": "Skyworks Solutions, Inc.",
+    "market_cap": "10.38B",
+    "stock_price": "64.59",
+    "pct_change": "-1.68%",
+    "revenue": "4.05B"
+  },
+  "GL": {
+    "webpage": "https://stockanalysis.com/stocks/gl/",
+    "company_name": "Globe Life Inc.",
+    "market_cap": "10.26B",
+    "stock_price": "122.25",
+    "pct_change": "-0.99%",
+    "revenue": "5.78B"
+  },
+  "MGM": {
+    "webpage": "https://stockanalysis.com/stocks/mgm/",
+    "company_name": "MGM Resorts International",
+    "market_cap": "10.23B",
+    "stock_price": "34.36",
+    "pct_change": "-0.61%",
+    "revenue": "17.22B"
+  },
+  "IPG": {
+    "webpage": "https://stockanalysis.com/stocks/ipg/",
+    "company_name": "The Interpublic Group of Companies, Inc.",
+    "market_cap": "10.12B",
+    "stock_price": "27.18",
+    "pct_change": "-1.13%",
+    "revenue": "9.34B"
+  },
+  "PNW": {
+    "webpage": "https://stockanalysis.com/stocks/pnw/",
+    "company_name": "Pinnacle West Capital Corporation",
+    "market_cap": "9.99B",
+    "stock_price": "87.83",
+    "pct_change": "0.99%",
+    "revenue": "5.02B"
+  },
+  "HSIC": {
+    "webpage": "https://stockanalysis.com/stocks/hsic/",
+    "company_name": "Henry Schein, Inc.",
+    "market_cap": "9.84B",
+    "stock_price": "78.90",
+    "pct_change": "-0.13%",
+    "revenue": "12.50B"
+  },
+  "LKQ": {
+    "webpage": "https://stockanalysis.com/stocks/lkq/",
+    "company_name": "LKQ Corporation",
+    "market_cap": "9.71B",
+    "stock_price": "37.35",
+    "pct_change": "0.27%",
+    "revenue": "14.50B"
+  },
+  "BG": {
+    "webpage": "https://stockanalysis.com/stocks/bg/",
+    "company_name": "Bunge Global SA",
+    "market_cap": "9.66B",
+    "stock_price": "69.16",
+    "pct_change": "-0.63%",
+    "revenue": "53.11B"
+  },
+  "AOS": {
+    "webpage": "https://stockanalysis.com/stocks/aos/",
+    "company_name": "A. O. Smith Corporation",
+    "market_cap": "9.53B",
+    "stock_price": "65.73",
+    "pct_change": "0.87%",
+    "revenue": "3.82B"
+  },
+  "FRT": {
+    "webpage": "https://stockanalysis.com/stocks/frt/",
+    "company_name": "Federal Realty Investment Trust",
+    "market_cap": "9.40B",
+    "stock_price": "109.80",
+    "pct_change": "-1.06%",
+    "revenue": "1.19B"
+  },
+  "ALB": {
+    "webpage": "https://stockanalysis.com/stocks/alb/",
+    "company_name": "Albemarle Corporation",
+    "market_cap": "8.83B",
+    "stock_price": "75.14",
+    "pct_change": "-2.88%",
+    "revenue": "6.50B"
+  },
+  "MOS": {
+    "webpage": "https://stockanalysis.com/stocks/mos/",
+    "company_name": "The Mosaic Company",
+    "market_cap": "8.71B",
+    "stock_price": "27.43",
+    "pct_change": "2.16%",
+    "revenue": "11.46B"
+  },
+  "GNRC": {
+    "webpage": "https://stockanalysis.com/stocks/gnrc/",
+    "company_name": "Generac Holdings Inc.",
+    "market_cap": "8.63B",
+    "stock_price": "145.07",
+    "pct_change": "2.08%",
+    "revenue": "4.12B"
+  },
+  "WBA": {
+    "webpage": "https://stockanalysis.com/stocks/wba/",
+    "company_name": "Walgreens Boots Alliance, Inc.",
+    "market_cap": "8.62B",
+    "stock_price": "9.97",
+    "pct_change": "-1.48%",
+    "revenue": "150.41B"
+  },
+  "WYNN": {
+    "webpage": "https://stockanalysis.com/stocks/wynn/",
+    "company_name": "Wynn Resorts, Limited",
+    "market_cap": "8.59B",
+    "stock_price": "78.96",
+    "pct_change": "-2.01%",
+    "revenue": "7.13B"
+  },
+  "APA": {
+    "webpage": "https://stockanalysis.com/stocks/apa/",
+    "company_name": "APA Corporation",
+    "market_cap": "8.51B",
+    "stock_price": "22.99",
+    "pct_change": "6.09%",
+    "revenue": "8.96B"
+  },
+  "MTCH": {
+    "webpage": "https://stockanalysis.com/stocks/mtch/",
+    "company_name": "Match Group, Inc.",
+    "market_cap": "8.46B",
+    "stock_price": "33.63",
+    "pct_change": "-0.50%",
+    "revenue": "3.48B"
+  },
+  "IVZ": {
+    "webpage": "https://stockanalysis.com/stocks/ivz/",
+    "company_name": "Invesco Ltd.",
+    "market_cap": "8.38B",
+    "stock_price": "18.71",
+    "pct_change": "-1.06%",
+    "revenue": "6.07B"
+  },
+  "ENPH": {
+    "webpage": "https://stockanalysis.com/stocks/enph/",
+    "company_name": "Enphase Energy, Inc.",
+    "market_cap": "8.35B",
+    "stock_price": "63.05",
+    "pct_change": "-0.76%",
+    "revenue": "1.33B"
+  },
+  "LW": {
+    "webpage": "https://stockanalysis.com/stocks/lw/",
+    "company_name": "Lamb Weston Holdings, Inc.",
+    "market_cap": "8.34B",
+    "stock_price": "58.49",
+    "pct_change": "-0.71%",
+    "revenue": "6.33B"
+  },
+  "HAS": {
+    "webpage": "https://stockanalysis.com/stocks/has/",
+    "company_name": "Hasbro, Inc.",
+    "market_cap": "8.29B",
+    "stock_price": "59.41",
+    "pct_change": "0.61%",
+    "revenue": "4.32B"
+  },
+  "CRL": {
+    "webpage": "https://stockanalysis.com/stocks/crl/",
+    "company_name": "Charles River Laboratories International, Inc.",
+    "market_cap": "8.18B",
+    "stock_price": "159.89",
+    "pct_change": "-2.38%",
+    "revenue": "4.06B"
+  },
+  "TFX": {
+    "webpage": "https://stockanalysis.com/stocks/tfx/",
+    "company_name": "Teleflex Incorporated",
+    "market_cap": "7.96B",
+    "stock_price": "171.46",
+    "pct_change": "0.21%",
+    "revenue": "3.03B"
+  },
+  "AES": {
+    "webpage": "https://stockanalysis.com/stocks/aes/",
+    "company_name": "The AES Corporation",
+    "market_cap": "7.64B",
+    "stock_price": "10.75",
+    "pct_change": "1.70%",
+    "revenue": "12.28B"
+  },
+  "CZR": {
+    "webpage": "https://stockanalysis.com/stocks/czr/",
+    "company_name": "Caesars Entertainment, Inc.",
+    "market_cap": "7.56B",
+    "stock_price": "35.57",
+    "pct_change": "-0.42%",
+    "revenue": "11.27B"
+  },
+  "MHK": {
+    "webpage": "https://stockanalysis.com/stocks/mhk/",
+    "company_name": "Mohawk Industries, Inc.",
+    "market_cap": "7.41B",
+    "stock_price": "117.47",
+    "pct_change": "-2.38%",
+    "revenue": "10.84B"
+  },
+  "MKTX": {
+    "webpage": "https://stockanalysis.com/stocks/mktx/",
+    "company_name": "MarketAxess Holdings Inc.",
+    "market_cap": "7.40B",
+    "stock_price": "196.20",
+    "pct_change": "-2.57%",
+    "revenue": "817.10M"
+  },
+  "CE": {
+    "webpage": "https://stockanalysis.com/stocks/ce/",
+    "company_name": "Celanese Corporation",
+    "market_cap": "7.32B",
+    "stock_price": "66.95",
+    "pct_change": "-1.62%",
+    "revenue": "10.48B"
+  },
+  "PARA": {
+    "webpage": "https://stockanalysis.com/stocks/para/",
+    "company_name": "Paramount Global",
+    "market_cap": "7.04B",
+    "stock_price": "10.55",
+    "pct_change": "-0.75%",
+    "revenue": "28.87B"
+  },
+  "HII": {
+    "webpage": "https://stockanalysis.com/stocks/hii/",
+    "company_name": "Huntington Ingalls Industries, Inc.",
+    "market_cap": "6.58B",
+    "stock_price": "168.27",
+    "pct_change": "-0.13%",
+    "revenue": "11.54B"
+  },
+  "BWA": {
+    "webpage": "https://stockanalysis.com/stocks/bwa/",
+    "company_name": "BorgWarner Inc.",
+    "market_cap": "6.42B",
+    "stock_price": "29.34",
+    "pct_change": "-2.27%",
+    "revenue": "14.09B"
+  },
+  "FMC": {
+    "webpage": "https://stockanalysis.com/stocks/fmc/",
+    "company_name": "FMC Corporation",
+    "market_cap": "4.38B",
+    "stock_price": "35.10",
+    "pct_change": "1.62%",
+    "revenue": "4.25B"
+  }
+}
