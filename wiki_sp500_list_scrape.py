@@ -2,7 +2,6 @@ import time
 import httpx
 import json
 import lxml.html
-from urllib.parse import urlparse
 
 ALLOWED_DOMAINS = ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",)
 REQUEST_DELAY = 0.1
@@ -10,6 +9,7 @@ REQUEST_DELAY = 0.1
 
 def make_request(url):
     """
+    ***TAKEN FROM PA3 CODE SUPPLIED BY INSTRUCTOR***
     Make a request to `url` and return the raw response.
 
     This function ensure that the domain matches what is expected
@@ -32,9 +32,9 @@ def make_request(url):
     
 def scrape_sp500_page(url):
     """
-    This function takes a URL to a park page and returns a
-    dictionary with the title, address, description,
-    and history of the park.
+    This function takes a URL to Wikipedia's S&P500 page and returns a
+    nested dictionary with the unique symbol (ticker), external url to the stock's exchange page, 
+    security name, and a url to the security's wikipedia page.
 
     Parameters:
         * url:  a URL to a wikipedia page with a list of the S&P500 securities
