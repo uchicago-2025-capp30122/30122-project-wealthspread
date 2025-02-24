@@ -4,7 +4,7 @@
 
 Our Portfolio Diversification Tool currently consists of **four** completed Python programs and one planned program for data collection, analysis, and visualization.
 
-The data collection system has been built with comprehensive functionality for gathering S&P 500 company information. We have created a web scraping system that collects data from multiple sources, ensuring data accuracy and completeness. The TwelveData API integration has been implemented with an efficient caching system that properly manages rate limits of 800 calls per day and 8 calls per minute. This system successfully retrieves and stores 5-year historical price data for all S&P 500 companies. Additionally, we have implemented ESG data collection, providing sustainability metrics for portfolio analysis.
+The data collection system has been built with comprehensive functionality for gathering S&P 500 company information. We have created a web scraping system that collects data from multiple sources, ensuring data accuracy and completeness. The TwelveData API integration has been implemented with an efficient caching system that properly manages rate limits of 800 calls per day and 8 calls per minute. This system successfully retrieves and stores 5-year historical price data for all S&P 500 companies. Additionally, we are in the process of implementing ESG data collection, providing sustainability metrics for portfolio analysis.
 
 ### 1. Web Scraping Implementations
 
@@ -22,6 +22,35 @@ This program scrapes detailed S&P 500 company information from StockAnalysis.com
   - Company-specific webpage links
 The data is saved in JSON format as "SA_sp500_tickers.json" for easy access and integration.
 
+**`companyinfo_scrape.py`**
+This program takes the company page url from "SA_sp500_tickers.json" and scrapes 
+further company information from StockAnalysis.com. It implements:
+- Unique key matching based on the ticker symbol (e.g. "AAPL" or "GOOG") from one scraped source
+  to scrape from another webpage
+- Structured webscraped data collection for each company including:
+  - Company background information (industry, employees, etc.)
+  - Company financial performance (e.g. annual revenue and YoY change)
+- Error handling if no primary key match is found
+The data is saved in JSON format as "companyinfo_scrape.json" for easy access and integration.
+
+**`WIP ESG SCRAPING IMPLEMENTATION USING SELENIUM`**
+**`MSCI_search.py and SP_Global_search.py`**
+These scripts use the selenium library to interact with searchbar functions on the following webpages:
+- SP Global: https://www.spglobal.com/esg/solutions/esg-scores-data
+- MSCI: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+The aim of this scraping is to gather ESG (Environmental, Social and Governance) reviews
+for a specific ticker symbol in the S&P500 (e.g. 'AAPL') and share the findings as part
+of the portfolio optimization result and rationale to help inform our investor (user) on 
+the impact of their investment. The intended implementation will:
+- Use selenium webdriver capabilities to interact with website search bars
+- Pull a unique ticker (matched with the unique IDs from previous webscrapes / portfolio optimization result) and
+  input the resulting value into the search box
+- Navigate to a new webpage as a result of the search
+- Scrape ESG-related data, which will be shared as part of the data visualization.
+Currently, both scripts are running into issues caused by bot-detection or cookie interference.
+Alternate data sources are being explored to mitigate.
+
+**`ARCHIVED SCRAPING IMPLEMENTATION`**
 **`wiki_sp500_list_scrape.py`**
 This script collects complementary S&P 500 data from Wikipedia, featuring:
 - The same secure request handling system
@@ -107,3 +136,4 @@ This will be integrated into the UI, this is just the prototype with singular ex
 The user interface development is currently our primary focus. We are working on creating an intuitive interface that will allow users to easily select companies, input their investment amounts, and view portfolio analysis results. The interface will incorporate our visualization components and provide a comprehensive dashboard for portfolio analysis. This development includes creating efficient company selection mechanisms and investment input systems that will integrate seamlessly with our existing data processing pipeline.
 
 We are also in the process of integrating all components into a unified system and cleaning the code. This involves merging our separate modules while maintaining code efficiency and reliability. Our team is focused on optimizing the codebase, improving error handling mechanisms, and ensuring comprehensive documentation throughout the system.
+
