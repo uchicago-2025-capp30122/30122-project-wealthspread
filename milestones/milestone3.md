@@ -33,8 +33,8 @@ further company information from StockAnalysis.com. It implements:
 - Error handling if no primary key match is found
 The data is saved in JSON format as "companyinfo_scrape.json" for easy access and integration.
 
-**`WIP ESG SCRAPING IMPLEMENTATION USING SELENIUM`**
-**`MSCI_search.py and SP_Global_search.py`**
+#### WIP ESG SCRAPING IMPLEMENTATION USING SELENIUM
+**`MSCI_search.py`** and **`SP_Global_search.py`**
 These scripts use the selenium library to interact with searchbar functions on the following webpages:
 - SP Global: https://www.spglobal.com/esg/solutions/esg-scores-data
 - MSCI: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
@@ -50,7 +50,7 @@ the impact of their investment. The intended implementation will:
 Currently, both scripts are running into issues caused by bot-detection or cookie interference.
 Alternate data sources are being explored to mitigate.
 
-**`ARCHIVED SCRAPING IMPLEMENTATION`**
+#### ARCHIVED SCRAPING IMPLEMENTATION
 **`wiki_sp500_list_scrape.py`**
 This script collects complementary S&P 500 data from Wikipedia, featuring:
 - The same secure request handling system
