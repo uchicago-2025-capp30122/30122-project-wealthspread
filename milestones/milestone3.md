@@ -6,8 +6,6 @@ Our Portfolio Diversification Tool currently consists of **four** completed Pyth
 
 The data collection system has been built with comprehensive functionality for gathering S&P 500 company information. We have created a web scraping system that collects data from multiple sources, ensuring data accuracy and completeness. The TwelveData API integration has been implemented with an efficient caching system that properly manages rate limits of 800 calls per day and 8 calls per minute. This system successfully retrieves and stores 5-year historical price data for all S&P 500 companies. Additionally, we have implemented ESG data collection, providing sustainability metrics for portfolio analysis.
 
-WRITE ABOUT THE CORRELATION UNDERSTANDING - Raabi
-
 ### 1. Web Scraping Implementations
 
 **`stockanalysis_scrape.py`**
@@ -34,7 +32,60 @@ This script collects complementary S&P 500 data from Wikipedia, featuring:
   - Wikipedia page links
 The data is stored in "Wiki_sp500_tickers.json", providing additional context and verification for our company list.
 
-### 2. Visualization System
+### 2. Use of TwelveData API  
+**`correlation/correlation.py`**
+The correlation.py file implements the core functionality for handling stock market data through the TwelveData API. Here's a concise summary:
+Key Functions:
+
+1. `tickers_list_creator()`: Creates a list of S&P 500 tickers from previously scraped data in "SA_sp500_tickers.json"
+
+2. `calculate_weight_of_portfolio()`: Calculates normalized weights for stocks in a portfolio based on investment amounts
+
+3. `url_to_cache_key()`: Converts API URLs to safe cache keys by sanitizing characters and ensuring proper formatting
+
+4. `fetch_and_cache()`: Main API handling function that:
+    - Implements rate limiting (10-second delay between calls)
+    - Checks cache before making new API calls
+    - Fetches 5-year historical data for each stock
+    - Stores responses in "_cache2" directory
+    - Creates "company_info.json" with processed data
+
+5. `parse_csv_to_dict()`: Converts CSV responses from the API into dictionaries with dates and closing prices
+
+The file establishes a robust system for data retrieval and caching, ensuring efficient use of the TwelveData API while maintaining a comprehensive database of historical stock prices for analysis.
+
+This mathematical analysis module (`correlation.py`) implements the core portfolio optimization logic. Here's a concise summary:
+
+### 3. Mathematical Implementation: Portfolio Optimization Through Correlation Analysis
+**`correlation/simulation.py`**
+**Key Functions:**
+1. `calculate_weight_of_portfolio()`: Normalizes portfolio weights based on investment amounts (e.g., {'GOOG': 10000, 'AAPL': 20000} → percentage weights)
+
+2. `convert_to_percentchange()`: 
+   - Reads historical price data from "company_info.json"
+   - Calculates percentage changes for each stock
+   - Stores results in "percent_changes.json"
+
+3. `weighted_mean_correlation()`: 
+   - Takes correlation matrix and portfolio weights
+   - Uses NumPy for matrix operations
+   - Calculates weighted correlation for portfolio diversification
+
+4. `correlation_matrix()`:
+   - Creates correlation matrix from percentage changes
+   - Saves to "correlation_matrix.csv"
+
+5. `suggest_stocks()`: Core optimization function that:
+   - Takes current portfolio and new investment amount
+   - Analyzes possible stock combinations
+   - Uses correlation minimization to find best diversification
+   - Returns optimal stock suggestion and correlation score
+
+The module focuses on portfolio optimization through correlation analysis, helping users maximize diversification by suggesting stocks that minimize portfolio correlation.
+
+Would you like me to explain any specific function or the mathematical methodology in more detail?
+
+### 4. Visualization System (to be integrated with the UI)
 
 **`data_visualization_historic_performance.py`**
 Our visualization program creates professional-grade stock performance charts using matplotlib. Key features include:
@@ -51,12 +102,6 @@ Our visualization program creates professional-grade stock performance charts us
 - High-resolution output (300 DPI) saved as PNG files
 
 This will be integrated into the UI, this is just the prototype with singular example usage, the sample PNGs have been uploaded on the repository.
-
-### 3. Using TwelveDataAPI to get 5 years of stock data 
-
-**`xyz.py`** (TO BE COMPLETED BY RAABIYAL)
-
-
 
 ### In Progress
 The user interface development is currently our primary focus. We are working on creating an intuitive interface that will allow users to easily select companies, input their investment amounts, and view portfolio analysis results. The interface will incorporate our visualization components and provide a comprehensive dashboard for portfolio analysis. This development includes creating efficient company selection mechanisms and investment input systems that will integrate seamlessly with our existing data processing pipeline.
