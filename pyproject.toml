@@ -1,0 +1,20 @@
+[project]
+name = "wealthspread"
+version = "0.1.0"
+description = "Portfolio diversification recommender with S&P500"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "selenium",
+    "pillow",
+    "httpx",
+    "lxml",
+    "requests",
+    "numpy",
+    "pandas"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
