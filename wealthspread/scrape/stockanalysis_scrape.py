@@ -3,7 +3,7 @@ import httpx
 import json
 import lxml.html
 
-ALLOWED_DOMAINS = ("https://stockanalysis.com/list/sp-500-stocks/",)
+ALLOWED_DOMAINS = ("https://stockanalysis.com/",)
 REQUEST_DELAY = 0.1
 
 
@@ -32,12 +32,12 @@ def make_request(url):
     
 def scrape_sp500_page(url):
     """
-    This function takes a URL to Wikipedia's S&P500 page and returns a
-    nested dictionary with the unique symbol (ticker), external url to the stock's exchange page, 
-    security name, and a url to the security's wikipedia page.
+    This function takes a URL to a S&P500 webpage and returns a
+    nested dictionary with the unique symbol (ticker), url to the stock's detailed page, 
+    security name, and more data.
 
     Parameters:
-        * url:  a URL to a wikipedia page with a list of the S&P500 securities
+        * url:  a URL to a page with a list of the S&P500 securities
 
     Returns:
         A nested dictionary with the following keys:

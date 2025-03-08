@@ -1,4 +1,5 @@
 import httpx
+import lxml.html
 import json
 from time import sleep
 

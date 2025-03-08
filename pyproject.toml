@@ -13,7 +13,9 @@ dependencies = [
     "requests",
     "numpy",
     "pandas",
-    "matplotlib"
+    "matplotlib",
+    "yfinance",
+    "pytest"
 ]
 
 [build-system]
