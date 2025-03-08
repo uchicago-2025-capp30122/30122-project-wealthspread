@@ -1,5 +1,4 @@
 import yfinance as yf
-import requests
 from requests.exceptions import RequestException
 import pandas as pd
 import json
@@ -26,15 +25,11 @@ def esg_scores(ticker):
             return filtered_df.to_dict()['esgScores']
     
     except RequestException as e:
-        #print(f"404 Error for {ticker}: {e}")
         return f"No ESG Data for {ticker}"
     except Exception as e:
-        #print(f"Exception for {ticker}: {e}")
         return f"No ESG Data for {ticker}"
 
-    
-
-with open('../SA_sp500_tickers.json', 'r') as file:
+with open('../scrape/SA_sp500_tickers.json', 'r') as file:
     data = json.load(file)
 
 esg_dict = {}
@@ -42,10 +37,8 @@ for ticker, info in data.items():
     result = esg_scores(ticker)
     if result:
         esg_dict[ticker] = result
+    else:
+        esg_dict[ticker] = f"No ESG data available for {ticker}."
 
 with open("ESG_Scores.json", "w") as file:
     json.dump(esg_dict, file, indent=2)
-
-print(len(esg_dict))
-
-#print(esg_scores('AAPL'))

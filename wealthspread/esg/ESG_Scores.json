@@ -5,17 +5,24 @@
     "socialScore": 7.31,
     "governanceScore": 8.5
   },
+  "MSFT": {
+    "totalEsg": 13.51,
+    "environmentScore": 1.65,
+    "socialScore": 7.61,
+    "governanceScore": 4.25
+  },
   "NVDA": {
     "totalEsg": 12.23,
     "environmentScore": 2.73,
     "socialScore": 3.86,
     "governanceScore": 5.65
   },
-  "MSFT": {
-    "totalEsg": 13.51,
-    "environmentScore": 1.65,
-    "socialScore": 7.61,
-    "governanceScore": 4.25
+  "GOOG": "No ESG data available for GOOG.",
+  "GOOGL": {
+    "totalEsg": 24.89,
+    "environmentScore": 2.94,
+    "socialScore": 11.74,
+    "governanceScore": 10.21
   },
   "AMZN": {
     "totalEsg": 26.1,
@@ -23,29 +30,24 @@
     "socialScore": 11.05,
     "governanceScore": 6.75
   },
-  "GOOGL": {
-    "totalEsg": 24.89,
-    "environmentScore": 2.94,
-    "socialScore": 11.74,
-    "governanceScore": 10.21
-  },
   "META": {
     "totalEsg": 32.73,
     "environmentScore": 2.41,
     "socialScore": 21.64,
     "governanceScore": 8.68
   },
-  "TSLA": {
-    "totalEsg": 24.73,
-    "environmentScore": 3.2,
-    "socialScore": 14.13,
-    "governanceScore": 7.4
-  },
+  "BRK.B": "No ESG data available for BRK.B.",
   "AVGO": {
     "totalEsg": 19.2,
     "environmentScore": 8.12,
     "socialScore": 6.86,
     "governanceScore": 4.21
+  },
+  "TSLA": {
+    "totalEsg": 24.73,
+    "environmentScore": 3.2,
+    "socialScore": 14.13,
+    "governanceScore": 7.4
   },
   "LLY": {
     "totalEsg": 23.62,
@@ -83,6 +85,12 @@
     "socialScore": 11.58,
     "governanceScore": 6.99
   },
+  "UNH": {
+    "totalEsg": 16.62,
+    "environmentScore": 0.12,
+    "socialScore": 11.89,
+    "governanceScore": 4.62
+  },
   "ORCL": {
     "totalEsg": 14.89,
     "environmentScore": 1.58,
@@ -94,18 +102,6 @@
     "environmentScore": 8.65,
     "socialScore": 15.5,
     "governanceScore": 4.98
-  },
-  "UNH": {
-    "totalEsg": 16.62,
-    "environmentScore": 0.12,
-    "socialScore": 11.89,
-    "governanceScore": 4.62
-  },
-  "NFLX": {
-    "totalEsg": 15.6,
-    "environmentScore": 0.16,
-    "socialScore": 7.38,
-    "governanceScore": 8.07
   },
   "PG": {
     "totalEsg": 24.93,
@@ -119,17 +115,23 @@
     "socialScore": 13.03,
     "governanceScore": 6.13
   },
-  "HD": {
-    "totalEsg": 12.61,
-    "environmentScore": 3.43,
-    "socialScore": 6.53,
-    "governanceScore": 2.65
+  "NFLX": {
+    "totalEsg": 15.6,
+    "environmentScore": 0.16,
+    "socialScore": 7.38,
+    "governanceScore": 8.07
   },
   "ABBV": {
     "totalEsg": 25.97,
     "environmentScore": 1.78,
     "socialScore": 15.71,
     "governanceScore": 8.48
+  },
+  "HD": {
+    "totalEsg": 12.61,
+    "environmentScore": 3.43,
+    "socialScore": 6.53,
+    "governanceScore": 2.65
   },
   "BAC": {
     "totalEsg": 24.36,
@@ -149,23 +151,17 @@
     "socialScore": 13.08,
     "governanceScore": 6.02
   },
-  "CRM": {
-    "totalEsg": 15.18,
-    "environmentScore": 2.05,
-    "socialScore": 8.16,
-    "governanceScore": 4.97
-  },
   "CVX": {
     "totalEsg": 38.36,
     "environmentScore": 19.91,
     "socialScore": 10.61,
     "governanceScore": 7.84
   },
-  "WFC": {
-    "totalEsg": 34.38,
-    "environmentScore": 1.5,
-    "socialScore": 14.68,
-    "governanceScore": 18.2
+  "CRM": {
+    "totalEsg": 15.18,
+    "environmentScore": 2.05,
+    "socialScore": 8.16,
+    "governanceScore": 4.97
   },
   "CSCO": {
     "totalEsg": 12.91,
@@ -179,17 +175,11 @@
     "socialScore": 6.68,
     "governanceScore": 5.01
   },
-  "PM": {
-    "totalEsg": 26.55,
-    "environmentScore": 5.63,
-    "socialScore": 13.63,
-    "governanceScore": 7.3
-  },
-  "PLTR": {
-    "totalEsg": 22.35,
-    "environmentScore": 5.19,
-    "socialScore": 10.21,
-    "governanceScore": 6.94
+  "MRK": {
+    "totalEsg": 19.96,
+    "environmentScore": 2.89,
+    "socialScore": 11.4,
+    "governanceScore": 5.67
   },
   "ABT": {
     "totalEsg": 21.62,
@@ -197,17 +187,17 @@
     "socialScore": 13.77,
     "governanceScore": 6.05
   },
-  "ACN": {
-    "totalEsg": 11.09,
-    "environmentScore": 0.14,
-    "socialScore": 6.94,
-    "governanceScore": 4.01
+  "PM": {
+    "totalEsg": 26.55,
+    "environmentScore": 5.63,
+    "socialScore": 13.63,
+    "governanceScore": 7.3
   },
-  "MRK": {
-    "totalEsg": 19.96,
-    "environmentScore": 2.89,
-    "socialScore": 11.4,
-    "governanceScore": 5.67
+  "WFC": {
+    "totalEsg": 34.38,
+    "environmentScore": 1.5,
+    "socialScore": 14.68,
+    "governanceScore": 18.2
   },
   "MCD": {
     "totalEsg": 25.56,
@@ -221,23 +211,11 @@
     "socialScore": 1.31,
     "governanceScore": 2.09
   },
-  "GE": {
-    "totalEsg": 32.49,
-    "environmentScore": 13.44,
-    "socialScore": 12.73,
-    "governanceScore": 6.32
-  },
-  "MS": {
-    "totalEsg": 24.82,
-    "environmentScore": 1.28,
-    "socialScore": 11.83,
-    "governanceScore": 11.71
-  },
-  "ISRG": {
-    "totalEsg": 18.03,
-    "environmentScore": 2.68,
-    "socialScore": 9.81,
-    "governanceScore": 5.54
+  "ACN": {
+    "totalEsg": 11.09,
+    "environmentScore": 0.14,
+    "socialScore": 6.94,
+    "governanceScore": 4.01
   },
   "PEP": {
     "totalEsg": 19.98,
@@ -245,17 +223,11 @@
     "socialScore": 8.98,
     "governanceScore": 3.83
   },
-  "AXP": {
-    "totalEsg": 18.28,
-    "environmentScore": 0.13,
-    "socialScore": 9.7,
-    "governanceScore": 8.45
-  },
-  "GS": {
-    "totalEsg": 25.22,
-    "environmentScore": 0.75,
-    "socialScore": 13.47,
-    "governanceScore": 11.01
+  "GE": {
+    "totalEsg": 32.49,
+    "environmentScore": 13.44,
+    "socialScore": 12.73,
+    "governanceScore": 6.32
   },
   "TMO": {
     "totalEsg": 12.43,
@@ -263,17 +235,65 @@
     "socialScore": 4.89,
     "governanceScore": 6.04
   },
-  "DIS": {
-    "totalEsg": 14.51,
-    "environmentScore": 0.09,
-    "socialScore": 8.53,
-    "governanceScore": 5.89
+  "PLTR": {
+    "totalEsg": 22.35,
+    "environmentScore": 5.19,
+    "socialScore": 10.21,
+    "governanceScore": 6.94
   },
   "ADBE": {
     "totalEsg": 14.06,
     "environmentScore": 1.69,
     "socialScore": 7.23,
     "governanceScore": 5.14
+  },
+  "T": {
+    "totalEsg": 22.07,
+    "environmentScore": 4.04,
+    "socialScore": 11.5,
+    "governanceScore": 6.53
+  },
+  "VZ": {
+    "totalEsg": 19.32,
+    "environmentScore": 4.13,
+    "socialScore": 10.13,
+    "governanceScore": 5.07
+  },
+  "MS": {
+    "totalEsg": 24.82,
+    "environmentScore": 1.28,
+    "socialScore": 11.83,
+    "governanceScore": 11.71
+  },
+  "AXP": {
+    "totalEsg": 18.28,
+    "environmentScore": 0.13,
+    "socialScore": 9.7,
+    "governanceScore": 8.45
+  },
+  "DIS": {
+    "totalEsg": 14.51,
+    "environmentScore": 0.09,
+    "socialScore": 8.53,
+    "governanceScore": 5.89
+  },
+  "ISRG": {
+    "totalEsg": 18.03,
+    "environmentScore": 2.68,
+    "socialScore": 9.81,
+    "governanceScore": 5.54
+  },
+  "GS": {
+    "totalEsg": 25.22,
+    "environmentScore": 0.75,
+    "socialScore": 13.47,
+    "governanceScore": 11.01
+  },
+  "QCOM": {
+    "totalEsg": 13.62,
+    "environmentScore": 6.1,
+    "socialScore": 4.14,
+    "governanceScore": 3.39
   },
   "BX": {
     "totalEsg": 25.17,
@@ -287,11 +307,11 @@
     "socialScore": 8.46,
     "governanceScore": 3.63
   },
-  "T": {
-    "totalEsg": 22.07,
-    "environmentScore": 4.04,
-    "socialScore": 11.5,
-    "governanceScore": 6.53
+  "AMGN": {
+    "totalEsg": 22.76,
+    "environmentScore": 1.83,
+    "socialScore": 14.88,
+    "governanceScore": 6.05
   },
   "TXN": {
     "totalEsg": 21.88,
@@ -299,17 +319,29 @@
     "socialScore": 6.03,
     "governanceScore": 5.72
   },
-  "QCOM": {
-    "totalEsg": 13.62,
-    "environmentScore": 6.1,
-    "socialScore": 4.14,
-    "governanceScore": 3.39
+  "RTX": {
+    "totalEsg": 29.84,
+    "environmentScore": 7.69,
+    "socialScore": 15.31,
+    "governanceScore": 6.84
   },
-  "VZ": {
-    "totalEsg": 19.32,
-    "environmentScore": 4.13,
-    "socialScore": 10.13,
-    "governanceScore": 5.07
+  "INTU": {
+    "totalEsg": 16.82,
+    "environmentScore": 3.92,
+    "socialScore": 8.7,
+    "governanceScore": 4.2
+  },
+  "CAT": {
+    "totalEsg": 28.33,
+    "environmentScore": 10.17,
+    "socialScore": 11.77,
+    "governanceScore": 6.39
+  },
+  "PGR": {
+    "totalEsg": 19.83,
+    "environmentScore": 1.47,
+    "socialScore": 9.2,
+    "governanceScore": 9.17
   },
   "AMD": {
     "totalEsg": 12.51,
@@ -323,11 +355,11 @@
     "socialScore": 11.54,
     "governanceScore": 5.81
   },
-  "RTX": {
-    "totalEsg": 29.84,
-    "environmentScore": 7.69,
-    "socialScore": 15.31,
-    "governanceScore": 6.84
+  "BKNG": {
+    "totalEsg": 14.76,
+    "environmentScore": 0.87,
+    "socialScore": 9.55,
+    "governanceScore": 4.35
   },
   "SPGI": {
     "totalEsg": 11.45,
@@ -335,59 +367,11 @@
     "socialScore": 6.22,
     "governanceScore": 5.23
   },
-  "BKNG": {
-    "totalEsg": 14.76,
-    "environmentScore": 0.87,
-    "socialScore": 9.55,
-    "governanceScore": 4.35
-  },
-  "AMGN": {
-    "totalEsg": 22.76,
-    "environmentScore": 1.83,
-    "socialScore": 14.88,
-    "governanceScore": 6.05
-  },
-  "CAT": {
-    "totalEsg": 28.33,
-    "environmentScore": 10.17,
-    "socialScore": 11.77,
-    "governanceScore": 6.39
-  },
-  "INTU": {
-    "totalEsg": 16.82,
-    "environmentScore": 3.92,
-    "socialScore": 8.7,
-    "governanceScore": 4.2
-  },
-  "PGR": {
-    "totalEsg": 19.83,
-    "environmentScore": 1.47,
-    "socialScore": 9.2,
-    "governanceScore": 9.17
-  },
-  "BSX": {
-    "totalEsg": 22.06,
-    "environmentScore": 2.4,
-    "socialScore": 11.86,
-    "governanceScore": 7.8
-  },
-  "BLK": {
-    "totalEsg": 23.32,
-    "environmentScore": null,
-    "socialScore": null,
-    "governanceScore": null
-  },
   "DHR": {
     "totalEsg": 8.52,
     "environmentScore": 0.99,
     "socialScore": 3.32,
     "governanceScore": 4.21
-  },
-  "C": {
-    "totalEsg": 21.89,
-    "environmentScore": 1.54,
-    "socialScore": 12.57,
-    "governanceScore": 7.78
   },
   "PFE": {
     "totalEsg": 19.36,
@@ -407,29 +391,17 @@
     "socialScore": 8.87,
     "governanceScore": 4.85
   },
-  "SYK": {
-    "totalEsg": 21.08,
-    "environmentScore": 3.68,
-    "socialScore": 11.77,
-    "governanceScore": 5.63
+  "BLK": {
+    "totalEsg": 23.32,
+    "environmentScore": null,
+    "socialScore": null,
+    "governanceScore": null
   },
-  "SCHW": {
-    "totalEsg": 23.3,
-    "environmentScore": 2.45,
-    "socialScore": 8.81,
-    "governanceScore": 12.05
-  },
-  "AMAT": {
-    "totalEsg": 11.56,
-    "environmentScore": 3.8,
-    "socialScore": 3.09,
-    "governanceScore": 4.67
-  },
-  "HON": {
-    "totalEsg": 27.12,
-    "environmentScore": 10.26,
-    "socialScore": 9.71,
-    "governanceScore": 7.16
+  "BSX": {
+    "totalEsg": 22.06,
+    "environmentScore": 2.4,
+    "socialScore": 11.86,
+    "governanceScore": 7.8
   },
   "GILD": {
     "totalEsg": 21.68,
@@ -437,17 +409,23 @@
     "socialScore": 14.35,
     "governanceScore": 6.71
   },
+  "SYK": {
+    "totalEsg": 21.08,
+    "environmentScore": 3.68,
+    "socialScore": 11.77,
+    "governanceScore": 5.63
+  },
   "CMCSA": {
     "totalEsg": 22.27,
     "environmentScore": 4.14,
     "socialScore": 9.88,
     "governanceScore": 8.25
   },
-  "TJX": {
-    "totalEsg": 15.8,
-    "environmentScore": 2.35,
-    "socialScore": 8.95,
-    "governanceScore": 4.51
+  "HON": {
+    "totalEsg": 27.12,
+    "environmentScore": 10.26,
+    "socialScore": 9.71,
+    "governanceScore": 7.16
   },
   "LOW": {
     "totalEsg": 11.93,
@@ -461,17 +439,59 @@
     "socialScore": 9.05,
     "governanceScore": 4.7
   },
-  "BA": {
-    "totalEsg": 36.55,
-    "environmentScore": 7.9,
-    "socialScore": 22.18,
-    "governanceScore": 6.47
+  "SCHW": {
+    "totalEsg": 23.3,
+    "environmentScore": 2.45,
+    "socialScore": 8.81,
+    "governanceScore": 12.05
+  },
+  "TJX": {
+    "totalEsg": 15.8,
+    "environmentScore": 2.35,
+    "socialScore": 8.95,
+    "governanceScore": 4.51
+  },
+  "C": {
+    "totalEsg": 21.89,
+    "environmentScore": 1.54,
+    "socialScore": 12.57,
+    "governanceScore": 7.78
+  },
+  "AMAT": {
+    "totalEsg": 11.56,
+    "environmentScore": 3.8,
+    "socialScore": 3.09,
+    "governanceScore": 4.67
+  },
+  "VRTX": {
+    "totalEsg": 19.56,
+    "environmentScore": 0.94,
+    "socialScore": 13.66,
+    "governanceScore": 4.97
+  },
+  "ADP": {
+    "totalEsg": 15.12,
+    "environmentScore": 4.01,
+    "socialScore": 7.37,
+    "governanceScore": 3.74
+  },
+  "BMY": {
+    "totalEsg": 21.2,
+    "environmentScore": 0.46,
+    "socialScore": 14.59,
+    "governanceScore": 6.14
   },
   "FI": {
     "totalEsg": 19.21,
     "environmentScore": 5.16,
     "socialScore": 10.21,
     "governanceScore": 3.84
+  },
+  "MDT": {
+    "totalEsg": 22.16,
+    "environmentScore": 1.82,
+    "socialScore": 13.39,
+    "governanceScore": 6.95
   },
   "SBUX": {
     "totalEsg": 22.34,
@@ -485,11 +505,23 @@
     "socialScore": 7.99,
     "governanceScore": 4.89
   },
-  "ADP": {
-    "totalEsg": 15.12,
-    "environmentScore": 4.01,
-    "socialScore": 7.37,
-    "governanceScore": 3.74
+  "NKE": {
+    "totalEsg": 18.44,
+    "environmentScore": 3.04,
+    "socialScore": 9.98,
+    "governanceScore": 5.42
+  },
+  "BA": {
+    "totalEsg": 36.55,
+    "environmentScore": 7.9,
+    "socialScore": 22.18,
+    "governanceScore": 6.47
+  },
+  "MMC": {
+    "totalEsg": 19.98,
+    "environmentScore": 0.19,
+    "socialScore": 11.03,
+    "governanceScore": 8.76
   },
   "COP": {
     "totalEsg": 33.14,
@@ -497,17 +529,17 @@
     "socialScore": 8.74,
     "governanceScore": 7.2
   },
-  "VRTX": {
-    "totalEsg": 19.56,
-    "environmentScore": 0.94,
-    "socialScore": 13.66,
-    "governanceScore": 4.97
+  "CB": {
+    "totalEsg": 23.3,
+    "environmentScore": 2.48,
+    "socialScore": 10.85,
+    "governanceScore": 9.97
   },
-  "ANET": {
-    "totalEsg": 16.53,
-    "environmentScore": 4.1,
-    "socialScore": 7.54,
-    "governanceScore": 4.88
+  "PLD": {
+    "totalEsg": 10.93,
+    "environmentScore": 3.12,
+    "socialScore": 3.88,
+    "governanceScore": 3.92
   },
   "ADI": {
     "totalEsg": 16.7,
@@ -521,83 +553,17 @@
     "socialScore": 9.26,
     "governanceScore": 4.03
   },
-  "KKR": {
-    "totalEsg": 22.02,
-    "environmentScore": 0.75,
-    "socialScore": 9.37,
-    "governanceScore": 11.9
-  },
-  "MDT": {
-    "totalEsg": 22.16,
-    "environmentScore": 1.82,
-    "socialScore": 13.39,
-    "governanceScore": 6.95
-  },
-  "PLD": {
-    "totalEsg": 10.93,
-    "environmentScore": 3.12,
-    "socialScore": 3.88,
-    "governanceScore": 3.92
-  },
-  "BMY": {
-    "totalEsg": 21.2,
-    "environmentScore": 0.46,
-    "socialScore": 14.59,
-    "governanceScore": 6.14
-  },
-  "NKE": {
-    "totalEsg": 18.44,
-    "environmentScore": 3.04,
-    "socialScore": 9.98,
-    "governanceScore": 5.42
-  },
-  "MMC": {
-    "totalEsg": 19.98,
-    "environmentScore": 0.19,
-    "socialScore": 11.03,
-    "governanceScore": 8.76
-  },
-  "LRCX": {
-    "totalEsg": 12.21,
-    "environmentScore": 4.28,
-    "socialScore": 4.18,
-    "governanceScore": 3.76
-  },
-  "MU": {
-    "totalEsg": 18.6,
-    "environmentScore": 8.88,
-    "socialScore": 5.03,
-    "governanceScore": 4.69
-  },
-  "INTC": {
-    "totalEsg": 19.17,
-    "environmentScore": 7.68,
-    "socialScore": 6.86,
-    "governanceScore": 4.62
-  },
-  "CB": {
-    "totalEsg": 23.3,
-    "environmentScore": 2.48,
-    "socialScore": 10.85,
-    "governanceScore": 9.97
-  },
   "LMT": {
     "totalEsg": 28.14,
     "environmentScore": 7.9,
     "socialScore": 14.07,
     "governanceScore": 6.16
   },
-  "KLAC": {
-    "totalEsg": 13.08,
-    "environmentScore": 5.11,
-    "socialScore": 4.57,
-    "governanceScore": 3.39
-  },
-  "CRWD": {
-    "totalEsg": 17.75,
-    "environmentScore": 0.97,
-    "socialScore": 10.4,
-    "governanceScore": 6.38
+  "ANET": {
+    "totalEsg": 16.53,
+    "environmentScore": 4.1,
+    "socialScore": 7.54,
+    "governanceScore": 4.88
   },
   "UPS": {
     "totalEsg": 18.88,
@@ -605,11 +571,35 @@
     "socialScore": 9.47,
     "governanceScore": 4.91
   },
+  "MU": {
+    "totalEsg": 18.6,
+    "environmentScore": 8.88,
+    "socialScore": 5.03,
+    "governanceScore": 4.69
+  },
+  "KKR": {
+    "totalEsg": 22.02,
+    "environmentScore": 0.75,
+    "socialScore": 9.37,
+    "governanceScore": 11.9
+  },
+  "LRCX": {
+    "totalEsg": 12.21,
+    "environmentScore": 4.28,
+    "socialScore": 4.18,
+    "governanceScore": 3.76
+  },
   "SO": {
     "totalEsg": 28.14,
     "environmentScore": 11.27,
     "socialScore": 10.0,
     "governanceScore": 6.87
+  },
+  "AMT": {
+    "totalEsg": 12.62,
+    "environmentScore": 4.22,
+    "socialScore": 3.93,
+    "governanceScore": 4.47
   },
   "ICE": {
     "totalEsg": 18.24,
@@ -617,23 +607,89 @@
     "socialScore": 9.07,
     "governanceScore": 7.27
   },
-  "WELL": {
-    "totalEsg": 11.51,
-    "environmentScore": 4.24,
-    "socialScore": 2.95,
-    "governanceScore": 4.33
-  },
   "MO": {
     "totalEsg": 27.88,
     "environmentScore": 6.61,
     "socialScore": 15.71,
     "governanceScore": 5.56
   },
+  "WELL": {
+    "totalEsg": 11.51,
+    "environmentScore": 4.24,
+    "socialScore": 2.95,
+    "governanceScore": 4.33
+  },
+  "KLAC": {
+    "totalEsg": 13.08,
+    "environmentScore": 5.11,
+    "socialScore": 4.57,
+    "governanceScore": 3.39
+  },
+  "ELV": {
+    "totalEsg": 9.31,
+    "environmentScore": 0.09,
+    "socialScore": 5.26,
+    "governanceScore": 3.97
+  },
   "WM": {
     "totalEsg": 18.74,
     "environmentScore": 9.43,
     "socialScore": 6.86,
     "governanceScore": 2.45
+  },
+  "CME": {
+    "totalEsg": 17.08,
+    "environmentScore": 2.26,
+    "socialScore": 6.13,
+    "governanceScore": 8.69
+  },
+  "SHW": {
+    "totalEsg": 29.38,
+    "environmentScore": 14.87,
+    "socialScore": 10.17,
+    "governanceScore": 4.34
+  },
+  "DUK": {
+    "totalEsg": 27.16,
+    "environmentScore": 13.82,
+    "socialScore": 10.42,
+    "governanceScore": 2.91
+  },
+  "INTC": {
+    "totalEsg": 19.17,
+    "environmentScore": 7.68,
+    "socialScore": 6.86,
+    "governanceScore": 4.62
+  },
+  "CI": {
+    "totalEsg": 12.99,
+    "environmentScore": 0.13,
+    "socialScore": 8.85,
+    "governanceScore": 4.01
+  },
+  "MDLZ": {
+    "totalEsg": 21.98,
+    "environmentScore": 9.3,
+    "socialScore": 9.03,
+    "governanceScore": 3.65
+  },
+  "AON": {
+    "totalEsg": 15.29,
+    "environmentScore": 0.07,
+    "socialScore": 5.63,
+    "governanceScore": 9.59
+  },
+  "EQIX": {
+    "totalEsg": 13.14,
+    "environmentScore": 3.56,
+    "socialScore": 4.76,
+    "governanceScore": 4.82
+  },
+  "CVS": {
+    "totalEsg": 18.27,
+    "environmentScore": 0.07,
+    "socialScore": 13.22,
+    "governanceScore": 4.99
   },
   "ABNB": {
     "totalEsg": 23.39,
@@ -647,125 +703,17 @@
     "socialScore": 6.17,
     "governanceScore": 6.79
   },
-  "CME": {
-    "totalEsg": 17.08,
-    "environmentScore": 2.26,
-    "socialScore": 6.13,
-    "governanceScore": 8.69
-  },
-  "DUK": {
-    "totalEsg": 27.16,
-    "environmentScore": 13.82,
-    "socialScore": 10.42,
-    "governanceScore": 2.91
-  },
-  "EQIX": {
-    "totalEsg": 13.14,
-    "environmentScore": 3.56,
-    "socialScore": 4.76,
-    "governanceScore": 4.82
-  },
-  "AMT": {
-    "totalEsg": 12.62,
-    "environmentScore": 4.22,
-    "socialScore": 3.93,
-    "governanceScore": 4.47
-  },
-  "CEG": {
-    "totalEsg": 28.49,
-    "environmentScore": 11.6,
-    "socialScore": 13.4,
-    "governanceScore": 3.49
-  },
-  "ELV": {
-    "totalEsg": 9.31,
-    "environmentScore": 0.09,
-    "socialScore": 5.26,
-    "governanceScore": 3.97
-  },
-  "SHW": {
-    "totalEsg": 29.38,
-    "environmentScore": 14.87,
-    "socialScore": 10.17,
-    "governanceScore": 4.34
-  },
-  "PH": {
-    "totalEsg": 26.84,
-    "environmentScore": 8.67,
-    "socialScore": 12.87,
-    "governanceScore": 5.29
-  },
-  "APO": {
-    "totalEsg": 23.84,
-    "environmentScore": 2.4,
-    "socialScore": 9.8,
-    "governanceScore": 11.65
-  },
-  "FTNT": {
-    "totalEsg": 15.96,
-    "environmentScore": 3.69,
-    "socialScore": 8.7,
-    "governanceScore": 3.57
-  },
-  "AON": {
-    "totalEsg": 15.29,
-    "environmentScore": 0.07,
-    "socialScore": 5.63,
-    "governanceScore": 9.59
-  },
-  "MDLZ": {
-    "totalEsg": 21.98,
-    "environmentScore": 9.3,
-    "socialScore": 9.03,
-    "governanceScore": 3.65
-  },
-  "CI": {
-    "totalEsg": 12.99,
-    "environmentScore": 0.13,
-    "socialScore": 8.85,
-    "governanceScore": 4.01
-  },
   "AJG": {
     "totalEsg": 20.26,
     "environmentScore": 0.22,
     "socialScore": 10.9,
     "governanceScore": 9.14
   },
-  "CTAS": {
-    "totalEsg": 17.03,
-    "environmentScore": 3.19,
-    "socialScore": 8.24,
-    "governanceScore": 5.61
-  },
-  "DELL": {
-    "totalEsg": 15.9,
-    "environmentScore": 0.63,
-    "socialScore": 7.29,
-    "governanceScore": 7.99
-  },
-  "APH": {
-    "totalEsg": 18.02,
-    "environmentScore": 8.34,
-    "socialScore": 4.77,
-    "governanceScore": 4.9
-  },
-  "CVS": {
-    "totalEsg": 18.27,
-    "environmentScore": 0.07,
-    "socialScore": 13.22,
-    "governanceScore": 4.99
-  },
-  "TT": {
-    "totalEsg": 14.8,
-    "environmentScore": 4.64,
-    "socialScore": 5.79,
-    "governanceScore": 4.37
-  },
-  "MMM": {
-    "totalEsg": 42.86,
-    "environmentScore": 19.53,
-    "socialScore": 16.82,
-    "governanceScore": 6.51
+  "CRWD": {
+    "totalEsg": 17.75,
+    "environmentScore": 0.97,
+    "socialScore": 10.4,
+    "governanceScore": 6.38
   },
   "HCA": {
     "totalEsg": 27.76,
@@ -773,23 +721,72 @@
     "socialScore": 18.45,
     "governanceScore": 4.81
   },
+  "CTAS": {
+    "totalEsg": 17.03,
+    "environmentScore": 3.19,
+    "socialScore": 8.24,
+    "governanceScore": 5.61
+  },
+  "PH": {
+    "totalEsg": 26.84,
+    "environmentScore": 8.67,
+    "socialScore": 12.87,
+    "governanceScore": 5.29
+  },
+  "MCK": {
+    "totalEsg": 13.06,
+    "environmentScore": 1.67,
+    "socialScore": 7.23,
+    "governanceScore": 4.16
+  },
   "ITW": {
     "totalEsg": 26.26,
     "environmentScore": 10.31,
     "socialScore": 10.06,
     "governanceScore": 5.89
   },
-  "MAR": {
-    "totalEsg": 19.32,
-    "environmentScore": 7.14,
-    "socialScore": 8.48,
-    "governanceScore": 3.7
+  "GEV": "No ESG data available for GEV.",
+  "MMM": {
+    "totalEsg": 42.86,
+    "environmentScore": 19.53,
+    "socialScore": 16.82,
+    "governanceScore": 6.51
   },
-  "COF": {
-    "totalEsg": 20.42,
-    "environmentScore": 0.32,
-    "socialScore": 12.57,
-    "governanceScore": 7.53
+  "CL": {
+    "totalEsg": 24.12,
+    "environmentScore": 9.01,
+    "socialScore": 10.11,
+    "governanceScore": 5.01
+  },
+  "FTNT": {
+    "totalEsg": 15.96,
+    "environmentScore": 3.69,
+    "socialScore": 8.7,
+    "governanceScore": 3.57
+  },
+  "TT": {
+    "totalEsg": 14.8,
+    "environmentScore": 4.64,
+    "socialScore": 5.79,
+    "governanceScore": 4.37
+  },
+  "ZTS": {
+    "totalEsg": 15.08,
+    "environmentScore": 2.68,
+    "socialScore": 5.8,
+    "governanceScore": 6.6
+  },
+  "APH": {
+    "totalEsg": 18.02,
+    "environmentScore": 8.34,
+    "socialScore": 4.77,
+    "governanceScore": 4.9
+  },
+  "ECL": {
+    "totalEsg": 23.86,
+    "environmentScore": 11.06,
+    "socialScore": 7.25,
+    "governanceScore": 5.56
   },
   "REGN": {
     "totalEsg": 18.39,
@@ -803,29 +800,59 @@
     "socialScore": 8.45,
     "governanceScore": 3.03
   },
-  "MCK": {
-    "totalEsg": 13.06,
-    "environmentScore": 1.67,
-    "socialScore": 7.23,
-    "governanceScore": 4.16
+  "APO": {
+    "totalEsg": 23.84,
+    "environmentScore": 2.4,
+    "socialScore": 9.8,
+    "governanceScore": 11.65
   },
-  "ECL": {
-    "totalEsg": 23.86,
-    "environmentScore": 11.06,
-    "socialScore": 7.25,
-    "governanceScore": 5.56
+  "TDG": {
+    "totalEsg": 38.09,
+    "environmentScore": 13.96,
+    "socialScore": 17.4,
+    "governanceScore": 6.73
   },
-  "EOG": {
-    "totalEsg": 34.38,
-    "environmentScore": 21.34,
-    "socialScore": 6.51,
-    "governanceScore": 6.53
+  "GD": {
+    "totalEsg": 34.09,
+    "environmentScore": 9.34,
+    "socialScore": 18.86,
+    "governanceScore": 5.88
+  },
+  "RSG": {
+    "totalEsg": 17.04,
+    "environmentScore": 8.69,
+    "socialScore": 6.18,
+    "governanceScore": 2.16
+  },
+  "MAR": {
+    "totalEsg": 19.32,
+    "environmentScore": 7.14,
+    "socialScore": 8.48,
+    "governanceScore": 3.7
   },
   "PNC": {
     "totalEsg": 23.71,
     "environmentScore": 1.9,
     "socialScore": 13.1,
     "governanceScore": 8.71
+  },
+  "MSI": {
+    "totalEsg": 17.87,
+    "environmentScore": 5.57,
+    "socialScore": 7.45,
+    "governanceScore": 4.85
+  },
+  "NOC": {
+    "totalEsg": 26.61,
+    "environmentScore": 7.25,
+    "socialScore": 15.11,
+    "governanceScore": 4.25
+  },
+  "APD": {
+    "totalEsg": 14.83,
+    "environmentScore": 8.45,
+    "socialScore": 3.44,
+    "governanceScore": 2.94
   },
   "PYPL": {
     "totalEsg": 16.28,
@@ -839,53 +866,17 @@
     "socialScore": 6.98,
     "governanceScore": 3.59
   },
-  "CL": {
-    "totalEsg": 24.12,
-    "environmentScore": 9.01,
-    "socialScore": 10.11,
-    "governanceScore": 5.01
-  },
-  "TDG": {
-    "totalEsg": 38.09,
-    "environmentScore": 13.96,
-    "socialScore": 17.4,
-    "governanceScore": 6.73
-  },
-  "RSG": {
-    "totalEsg": 17.04,
-    "environmentScore": 8.69,
-    "socialScore": 6.18,
-    "governanceScore": 2.16
-  },
-  "ZTS": {
-    "totalEsg": 15.08,
-    "environmentScore": 2.68,
-    "socialScore": 5.8,
-    "governanceScore": 6.6
-  },
   "USB": {
     "totalEsg": 24.21,
     "environmentScore": 1.06,
     "socialScore": 12.13,
     "governanceScore": 11.03
   },
-  "CDNS": {
-    "totalEsg": 14.49,
-    "environmentScore": 3.22,
-    "socialScore": 8.0,
-    "governanceScore": 3.27
-  },
-  "MSI": {
-    "totalEsg": 17.87,
-    "environmentScore": 5.57,
-    "socialScore": 7.45,
-    "governanceScore": 4.85
-  },
-  "WMB": {
-    "totalEsg": 19.61,
-    "environmentScore": 8.05,
-    "socialScore": 9.34,
-    "governanceScore": 2.22
+  "EOG": {
+    "totalEsg": 34.38,
+    "environmentScore": 21.34,
+    "socialScore": 6.51,
+    "governanceScore": 6.53
   },
   "CMG": {
     "totalEsg": 22.6,
@@ -893,35 +884,41 @@
     "socialScore": 9.72,
     "governanceScore": 2.89
   },
-  "EMR": {
-    "totalEsg": 22.79,
-    "environmentScore": 6.05,
-    "socialScore": 12.6,
-    "governanceScore": 4.13
-  },
-  "SPG": {
-    "totalEsg": 12.49,
-    "environmentScore": 3.53,
-    "socialScore": 3.96,
-    "governanceScore": 5.0
-  },
-  "APD": {
-    "totalEsg": 14.83,
-    "environmentScore": 8.45,
-    "socialScore": 3.44,
-    "governanceScore": 2.94
-  },
   "WDAY": {
     "totalEsg": 16.19,
     "environmentScore": 1.13,
     "socialScore": 9.32,
     "governanceScore": 5.73
   },
-  "GD": {
-    "totalEsg": 34.09,
-    "environmentScore": 9.34,
-    "socialScore": 18.86,
-    "governanceScore": 5.88
+  "EMR": {
+    "totalEsg": 22.79,
+    "environmentScore": 6.05,
+    "socialScore": 12.6,
+    "governanceScore": 4.13
+  },
+  "CDNS": {
+    "totalEsg": 14.49,
+    "environmentScore": 3.22,
+    "socialScore": 8.0,
+    "governanceScore": 3.27
+  },
+  "CEG": {
+    "totalEsg": 28.49,
+    "environmentScore": 11.6,
+    "socialScore": 13.4,
+    "governanceScore": 3.49
+  },
+  "WMB": {
+    "totalEsg": 19.61,
+    "environmentScore": 8.05,
+    "socialScore": 9.34,
+    "governanceScore": 2.22
+  },
+  "COF": {
+    "totalEsg": 20.42,
+    "environmentScore": 0.32,
+    "socialScore": 12.57,
+    "governanceScore": 7.53
   },
   "BDX": {
     "totalEsg": 23.67,
@@ -929,35 +926,17 @@
     "socialScore": 13.72,
     "governanceScore": 6.72
   },
-  "NOC": {
-    "totalEsg": 26.61,
-    "environmentScore": 7.25,
-    "socialScore": 15.11,
-    "governanceScore": 4.25
+  "SPG": {
+    "totalEsg": 12.49,
+    "environmentScore": 3.53,
+    "socialScore": 3.96,
+    "governanceScore": 5.0
   },
-  "RCL": {
-    "totalEsg": 18.45,
-    "environmentScore": 7.97,
-    "socialScore": 6.84,
-    "governanceScore": 3.64
-  },
-  "BK": {
-    "totalEsg": 19.93,
-    "environmentScore": 0.7,
-    "socialScore": 10.55,
-    "governanceScore": 8.67
-  },
-  "HLT": {
-    "totalEsg": 17.52,
-    "environmentScore": 6.81,
-    "socialScore": 7.51,
-    "governanceScore": 3.2
-  },
-  "CSX": {
-    "totalEsg": 21.07,
-    "environmentScore": 7.12,
-    "socialScore": 10.07,
-    "governanceScore": 3.89
+  "DELL": {
+    "totalEsg": 15.9,
+    "environmentScore": 0.63,
+    "socialScore": 7.29,
+    "governanceScore": 7.99
   },
   "ROP": {
     "totalEsg": 19.42,
@@ -965,11 +944,11 @@
     "socialScore": 9.68,
     "governanceScore": 5.1
   },
-  "ADSK": {
-    "totalEsg": 15.14,
-    "environmentScore": 3.34,
-    "socialScore": 8.09,
-    "governanceScore": 3.72
+  "BK": {
+    "totalEsg": 19.93,
+    "environmentScore": 0.7,
+    "socialScore": 10.55,
+    "governanceScore": 8.67
   },
   "FDX": {
     "totalEsg": 19.14,
@@ -977,35 +956,11 @@
     "socialScore": 8.5,
     "governanceScore": 4.91
   },
-  "TFC": {
-    "totalEsg": 23.66,
-    "environmentScore": 1.65,
-    "socialScore": 11.43,
-    "governanceScore": 10.57
-  },
-  "NXPI": {
-    "totalEsg": 16.69,
-    "environmentScore": 8.62,
-    "socialScore": 4.29,
-    "governanceScore": 3.78
-  },
-  "KMI": {
-    "totalEsg": 23.27,
-    "environmentScore": 8.35,
-    "socialScore": 9.85,
-    "governanceScore": 5.07
-  },
-  "CARR": {
-    "totalEsg": 16.17,
-    "environmentScore": 7.98,
-    "socialScore": 4.67,
-    "governanceScore": 3.53
-  },
-  "OKE": {
-    "totalEsg": 26.37,
-    "environmentScore": 9.56,
-    "socialScore": 12.28,
-    "governanceScore": 4.53
+  "AZO": {
+    "totalEsg": 10.98,
+    "environmentScore": 0.16,
+    "socialScore": 7.21,
+    "governanceScore": 3.6
   },
   "CHTR": {
     "totalEsg": 23.69,
@@ -1013,35 +968,11 @@
     "socialScore": 11.47,
     "governanceScore": 6.86
   },
-  "TGT": {
-    "totalEsg": 18.59,
-    "environmentScore": 1.92,
-    "socialScore": 13.14,
-    "governanceScore": 3.53
-  },
-  "SLB": {
-    "totalEsg": 18.48,
-    "environmentScore": 6.26,
-    "socialScore": 7.66,
-    "governanceScore": 4.55
-  },
-  "DLR": {
-    "totalEsg": 12.63,
-    "environmentScore": 4.13,
-    "socialScore": 2.77,
-    "governanceScore": 5.73
-  },
-  "AZO": {
-    "totalEsg": 10.98,
-    "environmentScore": 0.16,
-    "socialScore": 7.21,
-    "governanceScore": 3.6
-  },
-  "JCI": {
-    "totalEsg": 15.92,
-    "environmentScore": 7.47,
-    "socialScore": 5.07,
-    "governanceScore": 3.38
+  "HLT": {
+    "totalEsg": 17.52,
+    "environmentScore": 6.81,
+    "socialScore": 7.51,
+    "governanceScore": 3.2
   },
   "AFL": {
     "totalEsg": 18.58,
@@ -1049,29 +980,29 @@
     "socialScore": 8.32,
     "governanceScore": 8.97
   },
-  "NSC": {
-    "totalEsg": 23.04,
-    "environmentScore": 8.12,
-    "socialScore": 10.5,
-    "governanceScore": 4.42
+  "CSX": {
+    "totalEsg": 21.07,
+    "environmentScore": 7.12,
+    "socialScore": 10.07,
+    "governanceScore": 3.89
   },
-  "AEP": {
-    "totalEsg": 21.95,
-    "environmentScore": 10.43,
-    "socialScore": 7.61,
-    "governanceScore": 3.9
+  "TRV": {
+    "totalEsg": 20.41,
+    "environmentScore": 0.78,
+    "socialScore": 10.4,
+    "governanceScore": 9.23
   },
-  "MET": {
-    "totalEsg": 15.09,
-    "environmentScore": 0.5,
-    "socialScore": 7.17,
-    "governanceScore": 7.42
+  "CARR": {
+    "totalEsg": 16.17,
+    "environmentScore": 7.98,
+    "socialScore": 4.67,
+    "governanceScore": 3.53
   },
-  "SRE": {
-    "totalEsg": 23.22,
-    "environmentScore": 11.32,
-    "socialScore": 7.88,
-    "governanceScore": 4.02
+  "KMI": {
+    "totalEsg": 23.27,
+    "environmentScore": 8.35,
+    "socialScore": 9.85,
+    "governanceScore": 5.07
   },
   "PCAR": {
     "totalEsg": 31.38,
@@ -1079,17 +1010,41 @@
     "socialScore": 12.0,
     "governanceScore": 7.5
   },
-  "CPRT": {
-    "totalEsg": 18.25,
-    "environmentScore": 3.11,
-    "socialScore": 10.08,
-    "governanceScore": 5.06
+  "RCL": {
+    "totalEsg": 18.45,
+    "environmentScore": 7.97,
+    "socialScore": 6.84,
+    "governanceScore": 3.64
   },
-  "TRV": {
-    "totalEsg": 20.41,
-    "environmentScore": 0.78,
-    "socialScore": 10.4,
-    "governanceScore": 9.23
+  "NXPI": {
+    "totalEsg": 16.69,
+    "environmentScore": 8.62,
+    "socialScore": 4.29,
+    "governanceScore": 3.78
+  },
+  "SLB": {
+    "totalEsg": 18.48,
+    "environmentScore": 6.26,
+    "socialScore": 7.66,
+    "governanceScore": 4.55
+  },
+  "MET": {
+    "totalEsg": 15.09,
+    "environmentScore": 0.5,
+    "socialScore": 7.17,
+    "governanceScore": 7.42
+  },
+  "AEP": {
+    "totalEsg": 21.95,
+    "environmentScore": 10.43,
+    "socialScore": 7.61,
+    "governanceScore": 3.9
+  },
+  "ADSK": {
+    "totalEsg": 15.14,
+    "environmentScore": 3.34,
+    "socialScore": 8.09,
+    "governanceScore": 3.72
   },
   "PAYX": {
     "totalEsg": 16.67,
@@ -1103,23 +1058,17 @@
     "socialScore": 2.42,
     "governanceScore": 5.45
   },
-  "FCX": {
-    "totalEsg": 28.1,
-    "environmentScore": 17.09,
-    "socialScore": 6.8,
-    "governanceScore": 4.22
+  "TFC": {
+    "totalEsg": 23.66,
+    "environmentScore": 1.65,
+    "socialScore": 11.43,
+    "governanceScore": 10.57
   },
-  "HWM": {
-    "totalEsg": 23.62,
-    "environmentScore": 7.69,
-    "socialScore": 12.56,
-    "governanceScore": 3.37
-  },
-  "PSX": {
-    "totalEsg": 32.99,
-    "environmentScore": 20.56,
-    "socialScore": 8.04,
-    "governanceScore": 4.38
+  "NSC": {
+    "totalEsg": 23.04,
+    "environmentScore": 8.12,
+    "socialScore": 10.5,
+    "governanceScore": 4.42
   },
   "MNST": {
     "totalEsg": 32.89,
@@ -1127,35 +1076,11 @@
     "socialScore": 12.72,
     "governanceScore": 4.66
   },
-  "VST": {
-    "totalEsg": 29.52,
-    "environmentScore": 18.92,
-    "socialScore": 7.41,
-    "governanceScore": 3.19
-  },
-  "NEM": {
-    "totalEsg": 21.39,
-    "environmentScore": 8.29,
-    "socialScore": 9.09,
-    "governanceScore": 4.01
-  },
-  "AMP": {
-    "totalEsg": 18.71,
-    "environmentScore": 1.75,
-    "socialScore": 7.58,
-    "governanceScore": 9.39
-  },
-  "CMI": {
-    "totalEsg": 22.82,
-    "environmentScore": 9.9,
-    "socialScore": 8.15,
-    "governanceScore": 4.76
-  },
-  "O": {
-    "totalEsg": 15.53,
-    "environmentScore": 4.64,
-    "socialScore": 5.19,
-    "governanceScore": 5.7
+  "OKE": {
+    "totalEsg": 26.37,
+    "environmentScore": 9.56,
+    "socialScore": 12.28,
+    "governanceScore": 4.53
   },
   "ALL": {
     "totalEsg": 24.68,
@@ -1163,11 +1088,65 @@
     "socialScore": 12.59,
     "governanceScore": 10.8
   },
-  "DFS": {
-    "totalEsg": 22.81,
-    "environmentScore": 0.32,
-    "socialScore": 12.4,
-    "governanceScore": 10.09
+  "FCX": {
+    "totalEsg": 28.1,
+    "environmentScore": 17.09,
+    "socialScore": 6.8,
+    "governanceScore": 4.22
+  },
+  "JCI": {
+    "totalEsg": 15.92,
+    "environmentScore": 7.47,
+    "socialScore": 5.07,
+    "governanceScore": 3.38
+  },
+  "TGT": {
+    "totalEsg": 18.59,
+    "environmentScore": 1.92,
+    "socialScore": 13.14,
+    "governanceScore": 3.53
+  },
+  "O": {
+    "totalEsg": 15.53,
+    "environmentScore": 4.64,
+    "socialScore": 5.19,
+    "governanceScore": 5.7
+  },
+  "CPRT": {
+    "totalEsg": 18.25,
+    "environmentScore": 3.11,
+    "socialScore": 10.08,
+    "governanceScore": 5.06
+  },
+  "PSX": {
+    "totalEsg": 32.99,
+    "environmentScore": 20.56,
+    "socialScore": 8.04,
+    "governanceScore": 4.38
+  },
+  "DLR": {
+    "totalEsg": 12.63,
+    "environmentScore": 4.13,
+    "socialScore": 2.77,
+    "governanceScore": 5.73
+  },
+  "HWM": {
+    "totalEsg": 23.62,
+    "environmentScore": 7.69,
+    "socialScore": 12.56,
+    "governanceScore": 3.37
+  },
+  "NEM": {
+    "totalEsg": 21.39,
+    "environmentScore": 8.29,
+    "socialScore": 9.09,
+    "governanceScore": 4.01
+  },
+  "COR": {
+    "totalEsg": 12.43,
+    "environmentScore": 1.09,
+    "socialScore": 6.62,
+    "governanceScore": 4.72
   },
   "GWW": {
     "totalEsg": 14.98,
@@ -1175,17 +1154,95 @@
     "socialScore": 6.54,
     "governanceScore": 4.91
   },
-  "MPC": {
-    "totalEsg": 27.06,
-    "environmentScore": 16.12,
-    "socialScore": 8.13,
-    "governanceScore": 2.81
+  "AIG": {
+    "totalEsg": 23.6,
+    "environmentScore": 1.95,
+    "socialScore": 11.0,
+    "governanceScore": 10.64
+  },
+  "KMB": {
+    "totalEsg": 24.45,
+    "environmentScore": 10.12,
+    "socialScore": 9.27,
+    "governanceScore": 5.06
+  },
+  "AMP": {
+    "totalEsg": 18.71,
+    "environmentScore": 1.75,
+    "socialScore": 7.58,
+    "governanceScore": 9.39
+  },
+  "GM": {
+    "totalEsg": 27.02,
+    "environmentScore": 8.2,
+    "socialScore": 14.07,
+    "governanceScore": 4.75
   },
   "D": {
     "totalEsg": 28.58,
     "environmentScore": 14.97,
     "socialScore": 8.33,
     "governanceScore": 5.28
+  },
+  "CMI": {
+    "totalEsg": 22.82,
+    "environmentScore": 9.9,
+    "socialScore": 8.15,
+    "governanceScore": 4.76
+  },
+  "FAST": {
+    "totalEsg": 25.04,
+    "environmentScore": 9.51,
+    "socialScore": 8.36,
+    "governanceScore": 7.17
+  },
+  "YUM": {
+    "totalEsg": 20.51,
+    "environmentScore": 7.04,
+    "socialScore": 10.25,
+    "governanceScore": 3.22
+  },
+  "HES": {
+    "totalEsg": 31.97,
+    "environmentScore": 19.37,
+    "socialScore": 6.09,
+    "governanceScore": 6.5
+  },
+  "KDP": {
+    "totalEsg": 24.29,
+    "environmentScore": 8.95,
+    "socialScore": 10.92,
+    "governanceScore": 4.42
+  },
+  "SRE": {
+    "totalEsg": 23.22,
+    "environmentScore": 11.32,
+    "socialScore": 7.88,
+    "governanceScore": 4.02
+  },
+  "TEL": {
+    "totalEsg": 13.3,
+    "environmentScore": 4.8,
+    "socialScore": 5.52,
+    "governanceScore": 2.97
+  },
+  "ROST": {
+    "totalEsg": 17.03,
+    "environmentScore": 2.07,
+    "socialScore": 10.02,
+    "governanceScore": 4.94
+  },
+  "FICO": {
+    "totalEsg": 20.09,
+    "environmentScore": 4.88,
+    "socialScore": 9.11,
+    "governanceScore": 6.1
+  },
+  "KVUE": {
+    "totalEsg": 22.73,
+    "environmentScore": 9.0,
+    "socialScore": 8.68,
+    "governanceScore": 5.06
   },
   "OXY": {
     "totalEsg": 37.83,
@@ -1199,95 +1256,11 @@
     "socialScore": 10.85,
     "governanceScore": 4.91
   },
-  "COR": {
-    "totalEsg": 12.43,
-    "environmentScore": 1.09,
-    "socialScore": 6.62,
-    "governanceScore": 4.72
-  },
-  "NDAQ": {
-    "totalEsg": 13.63,
-    "environmentScore": 0.07,
-    "socialScore": 7.08,
-    "governanceScore": 6.48
-  },
-  "KMB": {
-    "totalEsg": 24.45,
-    "environmentScore": 10.12,
-    "socialScore": 9.27,
-    "governanceScore": 5.06
-  },
-  "KDP": {
-    "totalEsg": 24.29,
-    "environmentScore": 8.95,
-    "socialScore": 10.92,
-    "governanceScore": 4.42
-  },
-  "TEL": {
-    "totalEsg": 13.3,
-    "environmentScore": 4.8,
-    "socialScore": 5.52,
-    "governanceScore": 2.97
-  },
-  "GM": {
-    "totalEsg": 27.02,
-    "environmentScore": 8.2,
-    "socialScore": 14.07,
-    "governanceScore": 4.75
-  },
-  "FANG": {
-    "totalEsg": 37.31,
-    "environmentScore": 19.99,
-    "socialScore": 9.91,
-    "governanceScore": 7.41
-  },
-  "HES": {
-    "totalEsg": 31.97,
-    "environmentScore": 19.37,
-    "socialScore": 6.09,
-    "governanceScore": 6.5
-  },
-  "AIG": {
-    "totalEsg": 23.6,
-    "environmentScore": 1.95,
-    "socialScore": 11.0,
-    "governanceScore": 10.64
-  },
-  "BKR": {
-    "totalEsg": 19.12,
-    "environmentScore": 7.3,
-    "socialScore": 6.39,
-    "governanceScore": 5.44
-  },
-  "ROST": {
-    "totalEsg": 17.03,
-    "environmentScore": 2.07,
-    "socialScore": 10.02,
-    "governanceScore": 4.94
-  },
   "MSCI": {
     "totalEsg": 14.4,
     "environmentScore": 2.33,
     "socialScore": 5.46,
     "governanceScore": 6.6
-  },
-  "KVUE": {
-    "totalEsg": 22.73,
-    "environmentScore": 9.0,
-    "socialScore": 8.68,
-    "governanceScore": 5.06
-  },
-  "GLW": {
-    "totalEsg": 17.5,
-    "environmentScore": 8.38,
-    "socialScore": 4.47,
-    "governanceScore": 4.64
-  },
-  "TRGP": {
-    "totalEsg": 31.82,
-    "environmentScore": 13.96,
-    "socialScore": 15.07,
-    "governanceScore": 2.79
   },
   "EXC": {
     "totalEsg": 18.98,
@@ -1295,101 +1268,17 @@
     "socialScore": 8.1,
     "governanceScore": 4.52
   },
-  "LULU": {
-    "totalEsg": 14.11,
-    "environmentScore": 1.78,
-    "socialScore": 7.9,
-    "governanceScore": 4.42
+  "MPC": {
+    "totalEsg": 27.06,
+    "environmentScore": 16.12,
+    "socialScore": 8.13,
+    "governanceScore": 2.81
   },
-  "GRMN": {
-    "totalEsg": 20.99,
-    "environmentScore": 4.95,
-    "socialScore": 11.65,
-    "governanceScore": 4.39
-  },
-  "EW": {
-    "totalEsg": 22.02,
-    "environmentScore": 2.96,
-    "socialScore": 13.41,
-    "governanceScore": 5.64
-  },
-  "CTVA": {
-    "totalEsg": 33.76,
-    "environmentScore": 15.2,
-    "socialScore": 14.31,
-    "governanceScore": 4.25
-  },
-  "AME": {
-    "totalEsg": 14.23,
-    "environmentScore": 6.49,
-    "socialScore": 3.74,
-    "governanceScore": 4.0
-  },
-  "URI": {
-    "totalEsg": 15.74,
-    "environmentScore": 5.38,
-    "socialScore": 5.81,
-    "governanceScore": 4.55
-  },
-  "FAST": {
-    "totalEsg": 25.04,
-    "environmentScore": 9.51,
-    "socialScore": 8.36,
-    "governanceScore": 7.17
-  },
-  "VLO": {
-    "totalEsg": 30.54,
-    "environmentScore": 19.21,
-    "socialScore": 7.23,
-    "governanceScore": 4.1
-  },
-  "CTSH": {
-    "totalEsg": 15.34,
-    "environmentScore": 2.75,
-    "socialScore": 8.01,
-    "governanceScore": 4.58
-  },
-  "PEG": {
-    "totalEsg": 25.34,
-    "environmentScore": 10.82,
-    "socialScore": 10.32,
-    "governanceScore": 4.2
-  },
-  "VRSK": {
-    "totalEsg": 16.29,
-    "environmentScore": 0.13,
-    "socialScore": 12.49,
-    "governanceScore": 3.66
-  },
-  "GEHC": {
-    "totalEsg": 21.46,
-    "environmentScore": 2.74,
-    "socialScore": 14.21,
-    "governanceScore": 4.51
-  },
-  "YUM": {
-    "totalEsg": 20.51,
-    "environmentScore": 7.04,
-    "socialScore": 10.25,
-    "governanceScore": 3.22
-  },
-  "FICO": {
-    "totalEsg": 20.09,
-    "environmentScore": 4.88,
-    "socialScore": 9.11,
-    "governanceScore": 6.1
-  },
-  "XEL": {
-    "totalEsg": 26.57,
-    "environmentScore": 13.17,
-    "socialScore": 9.48,
-    "governanceScore": 3.92
-  },
-  "CBRE": {
-    "totalEsg": 8.96,
-    "environmentScore": 1.46,
-    "socialScore": 2.99,
-    "governanceScore": 4.51
+  "NDAQ": {
+    "totalEsg": 13.63,
+    "environmentScore": 0.07,
+    "socialScore": 7.08,
+    "governanceScore": 6.48
   },
   "CCI": {
     "totalEsg": 11.98,
@@ -1397,11 +1286,35 @@
     "socialScore": 2.9,
     "governanceScore": 3.62
   },
-  "PWR": {
-    "totalEsg": 36.6,
-    "environmentScore": 12.26,
-    "socialScore": 16.52,
-    "governanceScore": 7.82
+  "BKR": {
+    "totalEsg": 19.12,
+    "environmentScore": 7.3,
+    "socialScore": 6.39,
+    "governanceScore": 5.44
+  },
+  "AME": {
+    "totalEsg": 14.23,
+    "environmentScore": 6.49,
+    "socialScore": 3.74,
+    "governanceScore": 4.0
+  },
+  "GRMN": {
+    "totalEsg": 20.99,
+    "environmentScore": 4.95,
+    "socialScore": 11.65,
+    "governanceScore": 4.39
+  },
+  "VRSK": {
+    "totalEsg": 16.29,
+    "environmentScore": 0.13,
+    "socialScore": 12.49,
+    "governanceScore": 3.66
+  },
+  "DFS": {
+    "totalEsg": 22.81,
+    "environmentScore": 0.32,
+    "socialScore": 12.4,
+    "governanceScore": 10.09
   },
   "DHI": {
     "totalEsg": 21.64,
@@ -1409,47 +1322,17 @@
     "socialScore": 6.44,
     "governanceScore": 5.21
   },
-  "AXON": {
-    "totalEsg": 30.49,
-    "environmentScore": 2.38,
-    "socialScore": 20.09,
-    "governanceScore": 8.03
+  "LULU": {
+    "totalEsg": 14.11,
+    "environmentScore": 1.78,
+    "socialScore": 7.9,
+    "governanceScore": 4.42
   },
-  "OTIS": {
-    "totalEsg": 18.77,
-    "environmentScore": 4.38,
-    "socialScore": 10.84,
-    "governanceScore": 3.54
-  },
-  "PRU": {
-    "totalEsg": 18.63,
-    "environmentScore": 0.5,
-    "socialScore": 8.62,
-    "governanceScore": 9.51
-  },
-  "A": {
-    "totalEsg": 11.31,
-    "environmentScore": 1.14,
-    "socialScore": 6.23,
-    "governanceScore": 3.93
-  },
-  "ODFL": {
-    "totalEsg": 15.93,
-    "environmentScore": 4.7,
-    "socialScore": 7.82,
-    "governanceScore": 3.42
-  },
-  "DAL": {
-    "totalEsg": 30.38,
-    "environmentScore": 11.38,
-    "socialScore": 13.88,
-    "governanceScore": 5.12
-  },
-  "IT": {
-    "totalEsg": 16.67,
-    "environmentScore": 4.75,
-    "socialScore": 7.44,
-    "governanceScore": 4.47
+  "CTVA": {
+    "totalEsg": 33.76,
+    "environmentScore": 15.2,
+    "socialScore": 14.31,
+    "governanceScore": 4.25
   },
   "LHX": {
     "totalEsg": 24.2,
@@ -1457,29 +1340,77 @@
     "socialScore": 9.35,
     "governanceScore": 4.64
   },
-  "TTWO": {
-    "totalEsg": 15.87,
-    "environmentScore": 0.34,
-    "socialScore": 10.42,
-    "governanceScore": 5.11
+  "EW": {
+    "totalEsg": 22.02,
+    "environmentScore": 2.96,
+    "socialScore": 13.41,
+    "governanceScore": 5.64
   },
-  "KHC": {
-    "totalEsg": 31.17,
-    "environmentScore": 13.0,
-    "socialScore": 14.56,
-    "governanceScore": 3.62
+  "OTIS": {
+    "totalEsg": 18.77,
+    "environmentScore": 4.38,
+    "socialScore": 10.84,
+    "governanceScore": 3.54
   },
-  "IDXX": {
-    "totalEsg": 16.32,
-    "environmentScore": 2.48,
-    "socialScore": 7.69,
-    "governanceScore": 6.15
+  "CTSH": {
+    "totalEsg": 15.34,
+    "environmentScore": 2.75,
+    "socialScore": 8.01,
+    "governanceScore": 4.58
   },
-  "FIS": {
-    "totalEsg": 18.24,
-    "environmentScore": 5.45,
-    "socialScore": 9.99,
-    "governanceScore": 2.81
+  "URI": {
+    "totalEsg": 15.74,
+    "environmentScore": 5.38,
+    "socialScore": 5.81,
+    "governanceScore": 4.55
+  },
+  "FANG": {
+    "totalEsg": 37.31,
+    "environmentScore": 19.99,
+    "socialScore": 9.91,
+    "governanceScore": 7.41
+  },
+  "AXON": {
+    "totalEsg": 30.49,
+    "environmentScore": 2.38,
+    "socialScore": 20.09,
+    "governanceScore": 8.03
+  },
+  "VLO": {
+    "totalEsg": 30.54,
+    "environmentScore": 19.21,
+    "socialScore": 7.23,
+    "governanceScore": 4.1
+  },
+  "TRGP": {
+    "totalEsg": 31.82,
+    "environmentScore": 13.96,
+    "socialScore": 15.07,
+    "governanceScore": 2.79
+  },
+  "GEHC": {
+    "totalEsg": 21.46,
+    "environmentScore": 2.74,
+    "socialScore": 14.21,
+    "governanceScore": 4.51
+  },
+  "PEG": {
+    "totalEsg": 25.34,
+    "environmentScore": 10.82,
+    "socialScore": 10.32,
+    "governanceScore": 4.2
+  },
+  "PRU": {
+    "totalEsg": 18.63,
+    "environmentScore": 0.5,
+    "socialScore": 8.62,
+    "governanceScore": 9.51
+  },
+  "GLW": {
+    "totalEsg": 17.5,
+    "environmentScore": 8.38,
+    "socialScore": 4.47,
+    "governanceScore": 4.64
   },
   "F": {
     "totalEsg": 27.57,
@@ -1487,23 +1418,41 @@
     "socialScore": 7.06,
     "governanceScore": 7.59
   },
-  "ETR": {
-    "totalEsg": 25.02,
-    "environmentScore": 13.29,
-    "socialScore": 7.48,
-    "governanceScore": 4.25
+  "XEL": {
+    "totalEsg": 26.57,
+    "environmentScore": 13.17,
+    "socialScore": 9.48,
+    "governanceScore": 3.92
   },
-  "SYY": {
-    "totalEsg": 15.33,
-    "environmentScore": 6.09,
-    "socialScore": 6.13,
-    "governanceScore": 3.11
+  "VST": {
+    "totalEsg": 29.52,
+    "environmentScore": 18.92,
+    "socialScore": 7.41,
+    "governanceScore": 3.19
   },
-  "PCG": {
-    "totalEsg": 30.51,
-    "environmentScore": 9.88,
-    "socialScore": 17.71,
-    "governanceScore": 2.92
+  "CBRE": {
+    "totalEsg": 8.96,
+    "environmentScore": 1.46,
+    "socialScore": 2.99,
+    "governanceScore": 4.51
+  },
+  "KHC": {
+    "totalEsg": 31.17,
+    "environmentScore": 13.0,
+    "socialScore": 14.56,
+    "governanceScore": 3.62
+  },
+  "ODFL": {
+    "totalEsg": 15.93,
+    "environmentScore": 4.7,
+    "socialScore": 7.82,
+    "governanceScore": 3.42
+  },
+  "FIS": {
+    "totalEsg": 18.24,
+    "environmentScore": 5.45,
+    "socialScore": 9.99,
+    "governanceScore": 2.81
   },
   "HSY": {
     "totalEsg": 24.98,
@@ -1511,29 +1460,17 @@
     "socialScore": 10.7,
     "governanceScore": 4.09
   },
-  "DXCM": {
-    "totalEsg": 20.24,
-    "environmentScore": 4.41,
-    "socialScore": 10.4,
-    "governanceScore": 5.43
+  "SYY": {
+    "totalEsg": 15.33,
+    "environmentScore": 6.09,
+    "socialScore": 6.13,
+    "governanceScore": 3.11
   },
-  "LYV": {
-    "totalEsg": 17.24,
-    "environmentScore": 0.34,
-    "socialScore": 8.42,
-    "governanceScore": 8.47
-  },
-  "EXR": {
-    "totalEsg": 13.67,
-    "environmentScore": 4.89,
-    "socialScore": 3.87,
-    "governanceScore": 4.91
-  },
-  "DD": {
-    "totalEsg": 26.87,
-    "environmentScore": 16.2,
-    "socialScore": 6.93,
-    "governanceScore": 3.73
+  "IT": {
+    "totalEsg": 16.67,
+    "environmentScore": 4.75,
+    "socialScore": 7.44,
+    "governanceScore": 4.47
   },
   "EA": {
     "totalEsg": 12.96,
@@ -1541,23 +1478,29 @@
     "socialScore": 8.43,
     "governanceScore": 4.22
   },
+  "PWR": {
+    "totalEsg": 36.6,
+    "environmentScore": 12.26,
+    "socialScore": 16.52,
+    "governanceScore": 7.82
+  },
+  "A": {
+    "totalEsg": 11.31,
+    "environmentScore": 1.14,
+    "socialScore": 6.23,
+    "governanceScore": 3.93
+  },
+  "TTWO": {
+    "totalEsg": 15.87,
+    "environmentScore": 0.34,
+    "socialScore": 10.42,
+    "governanceScore": 5.11
+  },
   "ED": {
     "totalEsg": 21.11,
     "environmentScore": 7.94,
     "socialScore": 8.65,
     "governanceScore": 4.52
-  },
-  "RMD": {
-    "totalEsg": 24.67,
-    "environmentScore": 3.88,
-    "socialScore": 12.79,
-    "governanceScore": 7.99
-  },
-  "IR": {
-    "totalEsg": 10.6,
-    "environmentScore": 2.15,
-    "socialScore": 6.36,
-    "governanceScore": 2.1
   },
   "GIS": {
     "totalEsg": 26.0,
@@ -1565,35 +1508,29 @@
     "socialScore": 13.42,
     "governanceScore": 3.19
   },
-  "IQV": {
-    "totalEsg": 16.07,
-    "environmentScore": 0.91,
-    "socialScore": 10.59,
-    "governanceScore": 4.56
+  "PCG": {
+    "totalEsg": 30.51,
+    "environmentScore": 9.88,
+    "socialScore": 17.71,
+    "governanceScore": 2.92
   },
-  "VMC": {
-    "totalEsg": 28.44,
-    "environmentScore": 13.34,
-    "socialScore": 6.97,
-    "governanceScore": 8.13
+  "ETR": {
+    "totalEsg": 25.02,
+    "environmentScore": 13.29,
+    "socialScore": 7.48,
+    "governanceScore": 4.25
   },
-  "ROK": {
-    "totalEsg": 20.36,
-    "environmentScore": 9.56,
-    "socialScore": 6.33,
-    "governanceScore": 4.47
+  "IDXX": {
+    "totalEsg": 16.32,
+    "environmentScore": 2.48,
+    "socialScore": 7.69,
+    "governanceScore": 6.15
   },
-  "EBAY": {
-    "totalEsg": 15.2,
-    "environmentScore": 2.71,
-    "socialScore": 8.05,
-    "governanceScore": 4.44
-  },
-  "WEC": {
-    "totalEsg": 22.78,
-    "environmentScore": 12.2,
-    "socialScore": 7.39,
-    "governanceScore": 3.19
+  "EXR": {
+    "totalEsg": 13.67,
+    "environmentScore": 4.89,
+    "socialScore": 3.87,
+    "governanceScore": 4.91
   },
   "VICI": {
     "totalEsg": 13.92,
@@ -1601,35 +1538,53 @@
     "socialScore": 5.35,
     "governanceScore": 4.27
   },
+  "IR": {
+    "totalEsg": 10.6,
+    "environmentScore": 2.15,
+    "socialScore": 6.36,
+    "governanceScore": 2.1
+  },
+  "DAL": {
+    "totalEsg": 30.38,
+    "environmentScore": 11.38,
+    "socialScore": 13.88,
+    "governanceScore": 5.12
+  },
+  "RMD": {
+    "totalEsg": 24.67,
+    "environmentScore": 3.88,
+    "socialScore": 12.79,
+    "governanceScore": 7.99
+  },
   "ACGL": {
     "totalEsg": 20.27,
     "environmentScore": 1.57,
     "socialScore": 9.92,
     "governanceScore": 8.78
   },
-  "MCHP": {
-    "totalEsg": 29.56,
-    "environmentScore": 14.04,
-    "socialScore": 8.07,
-    "governanceScore": 7.44
+  "WEC": {
+    "totalEsg": 22.78,
+    "environmentScore": 12.2,
+    "socialScore": 7.39,
+    "governanceScore": 3.19
   },
-  "SMCI": {
-    "totalEsg": 20.5,
-    "environmentScore": null,
-    "socialScore": null,
-    "governanceScore": null
+  "BRO": {
+    "totalEsg": 21.11,
+    "environmentScore": 0.31,
+    "socialScore": 9.91,
+    "governanceScore": 10.89
   },
-  "WTW": {
-    "totalEsg": 16.34,
-    "environmentScore": 0.17,
-    "socialScore": 7.82,
-    "governanceScore": 8.35
+  "IQV": {
+    "totalEsg": 16.07,
+    "environmentScore": 0.91,
+    "socialScore": 10.59,
+    "governanceScore": 4.56
   },
-  "HPQ": {
-    "totalEsg": 10.59,
-    "environmentScore": 0.23,
-    "socialScore": 5.88,
-    "governanceScore": 4.48
+  "STZ": {
+    "totalEsg": 26.39,
+    "environmentScore": 10.49,
+    "socialScore": 11.89,
+    "governanceScore": 4.0
   },
   "HIG": {
     "totalEsg": 16.78,
@@ -1643,53 +1598,23 @@
     "socialScore": 8.66,
     "governanceScore": 5.87
   },
-  "BRO": {
-    "totalEsg": 21.11,
-    "environmentScore": 0.31,
-    "socialScore": 9.91,
-    "governanceScore": 10.89
+  "WTW": {
+    "totalEsg": 16.34,
+    "environmentScore": 0.17,
+    "socialScore": 7.82,
+    "governanceScore": 8.35
   },
-  "MTB": {
-    "totalEsg": 25.26,
-    "environmentScore": 2.01,
-    "socialScore": 11.55,
-    "governanceScore": 11.7
+  "EBAY": {
+    "totalEsg": 15.2,
+    "environmentScore": 2.71,
+    "socialScore": 8.05,
+    "governanceScore": 4.44
   },
-  "STZ": {
-    "totalEsg": 26.39,
-    "environmentScore": 10.49,
-    "socialScore": 11.89,
-    "governanceScore": 4.0
-  },
-  "NUE": {
-    "totalEsg": 31.93,
-    "environmentScore": 9.28,
-    "socialScore": 14.88,
-    "governanceScore": 7.77
-  },
-  "MPWR": {
-    "totalEsg": 19.03,
-    "environmentScore": 4.33,
-    "socialScore": 7.04,
-    "governanceScore": 7.66
-  },
-  "WAB": {
-    "totalEsg": 22.7,
-    "environmentScore": 5.97,
-    "socialScore": 11.99,
-    "governanceScore": 4.74
-  },
-  "UAL": {
-    "totalEsg": 27.04,
-    "environmentScore": 8.53,
-    "socialScore": 15.78,
-    "governanceScore": 2.73
-  },
-  "LVS": {
-    "totalEsg": 20.65,
-    "environmentScore": 2.2,
-    "socialScore": 10.37,
-    "governanceScore": 8.08
+  "DD": {
+    "totalEsg": 26.87,
+    "environmentScore": 16.2,
+    "socialScore": 6.93,
+    "governanceScore": 3.73
   },
   "CSGP": {
     "totalEsg": 21.68,
@@ -1697,17 +1622,17 @@
     "socialScore": 9.56,
     "governanceScore": 6.47
   },
-  "AVB": {
-    "totalEsg": 8.09,
-    "environmentScore": 2.23,
-    "socialScore": 2.4,
-    "governanceScore": 3.47
+  "LVS": {
+    "totalEsg": 20.65,
+    "environmentScore": 2.2,
+    "socialScore": 10.37,
+    "governanceScore": 8.08
   },
-  "RJF": {
-    "totalEsg": 26.68,
-    "environmentScore": 2.24,
-    "socialScore": 11.82,
-    "governanceScore": 12.62
+  "MCHP": {
+    "totalEsg": 29.56,
+    "environmentScore": 14.04,
+    "socialScore": 8.07,
+    "governanceScore": 7.44
   },
   "XYL": {
     "totalEsg": 22.86,
@@ -1721,11 +1646,41 @@
     "socialScore": 1.85,
     "governanceScore": 11.97
   },
+  "EFX": {
+    "totalEsg": 22.21,
+    "environmentScore": 0.23,
+    "socialScore": 16.75,
+    "governanceScore": 5.23
+  },
   "HUM": {
     "totalEsg": 18.9,
     "environmentScore": 0.04,
     "socialScore": 14.67,
     "governanceScore": 4.19
+  },
+  "ROK": {
+    "totalEsg": 20.36,
+    "environmentScore": 9.56,
+    "socialScore": 6.33,
+    "governanceScore": 4.47
+  },
+  "AVB": {
+    "totalEsg": 8.09,
+    "environmentScore": 2.23,
+    "socialScore": 2.4,
+    "governanceScore": 3.47
+  },
+  "NUE": {
+    "totalEsg": 31.93,
+    "environmentScore": 9.28,
+    "socialScore": 14.88,
+    "governanceScore": 7.77
+  },
+  "WAB": {
+    "totalEsg": 22.7,
+    "environmentScore": 5.97,
+    "socialScore": 11.99,
+    "governanceScore": 4.74
   },
   "CAH": {
     "totalEsg": 11.32,
@@ -1733,23 +1688,11 @@
     "socialScore": 6.91,
     "governanceScore": 3.65
   },
-  "CCL": {
-    "totalEsg": 21.94,
-    "environmentScore": 7.26,
-    "socialScore": 10.57,
-    "governanceScore": 4.11
-  },
-  "KEYS": {
-    "totalEsg": 8.95,
-    "environmentScore": 4.59,
-    "socialScore": 1.4,
-    "governanceScore": 2.96
-  },
-  "EQT": {
-    "totalEsg": 31.69,
-    "environmentScore": 16.61,
-    "socialScore": 9.29,
-    "governanceScore": 5.79
+  "DXCM": {
+    "totalEsg": 20.24,
+    "environmentScore": 4.41,
+    "socialScore": 10.4,
+    "governanceScore": 5.43
   },
   "TSCO": {
     "totalEsg": 13.91,
@@ -1757,41 +1700,11 @@
     "socialScore": 7.08,
     "governanceScore": 3.68
   },
-  "MLM": {
-    "totalEsg": 23.9,
-    "environmentScore": 14.07,
-    "socialScore": 6.0,
-    "governanceScore": 3.82
-  },
-  "EFX": {
-    "totalEsg": 22.21,
-    "environmentScore": 0.23,
-    "socialScore": 16.75,
-    "governanceScore": 5.23
-  },
-  "ANSS": {
-    "totalEsg": 14.69,
-    "environmentScore": 3.61,
-    "socialScore": 7.33,
-    "governanceScore": 3.75
-  },
-  "IP": {
-    "totalEsg": 22.22,
-    "environmentScore": 13.63,
-    "socialScore": 6.53,
-    "governanceScore": 2.05
-  },
   "VTR": {
     "totalEsg": 11.16,
     "environmentScore": 3.0,
     "socialScore": 4.22,
     "governanceScore": 3.95
-  },
-  "FITB": {
-    "totalEsg": 16.87,
-    "environmentScore": 0.78,
-    "socialScore": 8.86,
-    "governanceScore": 7.23
   },
   "CNC": {
     "totalEsg": 15.29,
@@ -1799,101 +1712,53 @@
     "socialScore": 11.43,
     "governanceScore": 3.78
   },
+  "LYV": {
+    "totalEsg": 17.24,
+    "environmentScore": 0.34,
+    "socialScore": 8.42,
+    "governanceScore": 8.47
+  },
+  "RJF": {
+    "totalEsg": 26.68,
+    "environmentScore": 2.24,
+    "socialScore": 11.82,
+    "governanceScore": 12.62
+  },
+  "MTB": {
+    "totalEsg": 25.26,
+    "environmentScore": 2.01,
+    "socialScore": 11.55,
+    "governanceScore": 11.7
+  },
+  "VMC": {
+    "totalEsg": 28.44,
+    "environmentScore": 13.34,
+    "socialScore": 6.97,
+    "governanceScore": 8.13
+  },
+  "HPQ": {
+    "totalEsg": 10.59,
+    "environmentScore": 0.23,
+    "socialScore": 5.88,
+    "governanceScore": 4.48
+  },
+  "MPWR": {
+    "totalEsg": 19.03,
+    "environmentScore": 4.33,
+    "socialScore": 7.04,
+    "governanceScore": 7.66
+  },
+  "ANSS": {
+    "totalEsg": 14.69,
+    "environmentScore": 3.61,
+    "socialScore": 7.33,
+    "governanceScore": 3.75
+  },
   "K": {
     "totalEsg": 30.44,
     "environmentScore": 14.45,
     "socialScore": 12.0,
     "governanceScore": 3.99
-  },
-  "STT": {
-    "totalEsg": 22.05,
-    "environmentScore": 1.93,
-    "socialScore": 10.93,
-    "governanceScore": 9.19
-  },
-  "EQR": {
-    "totalEsg": 11.43,
-    "environmentScore": 3.2,
-    "socialScore": 2.95,
-    "governanceScore": 5.27
-  },
-  "DOW": {
-    "totalEsg": 19.98,
-    "environmentScore": 12.21,
-    "socialScore": 3.44,
-    "governanceScore": 4.33
-  },
-  "HPE": {
-    "totalEsg": 11.48,
-    "environmentScore": 0.87,
-    "socialScore": 6.45,
-    "governanceScore": 4.15
-  },
-  "BR": {
-    "totalEsg": 18.18,
-    "environmentScore": 5.5,
-    "socialScore": 9.51,
-    "governanceScore": 3.18
-  },
-  "DOV": {
-    "totalEsg": 24.45,
-    "environmentScore": 7.47,
-    "socialScore": 12.55,
-    "governanceScore": 4.43
-  },
-  "DTE": {
-    "totalEsg": 31.28,
-    "environmentScore": 13.86,
-    "socialScore": 11.84,
-    "governanceScore": 5.58
-  },
-  "FTV": {
-    "totalEsg": 27.9,
-    "environmentScore": 14.31,
-    "socialScore": 10.66,
-    "governanceScore": 2.93
-  },
-  "IRM": {
-    "totalEsg": 14.25,
-    "environmentScore": 5.85,
-    "socialScore": 3.45,
-    "governanceScore": 4.95
-  },
-  "MTD": {
-    "totalEsg": 10.73,
-    "environmentScore": 0.95,
-    "socialScore": 6.71,
-    "governanceScore": 3.07
-  },
-  "PPG": {
-    "totalEsg": 22.3,
-    "environmentScore": 9.79,
-    "socialScore": 8.12,
-    "governanceScore": 4.38
-  },
-  "AEE": {
-    "totalEsg": 26.97,
-    "environmentScore": 13.09,
-    "socialScore": 9.82,
-    "governanceScore": 4.05
-  },
-  "TYL": {
-    "totalEsg": 18.28,
-    "environmentScore": 4.22,
-    "socialScore": 9.11,
-    "governanceScore": 4.95
-  },
-  "WBD": {
-    "totalEsg": 18.12,
-    "environmentScore": 2.27,
-    "socialScore": 9.16,
-    "governanceScore": 6.7
-  },
-  "CHD": {
-    "totalEsg": 22.65,
-    "environmentScore": 7.02,
-    "socialScore": 9.59,
-    "governanceScore": 6.05
   },
   "AWK": {
     "totalEsg": 19.18,
@@ -1901,11 +1766,131 @@
     "socialScore": 6.69,
     "governanceScore": 3.63
   },
+  "BR": {
+    "totalEsg": 18.18,
+    "environmentScore": 5.5,
+    "socialScore": 9.51,
+    "governanceScore": 3.18
+  },
+  "EQR": {
+    "totalEsg": 11.43,
+    "environmentScore": 3.2,
+    "socialScore": 2.95,
+    "governanceScore": 5.27
+  },
+  "EQT": {
+    "totalEsg": 31.69,
+    "environmentScore": 16.61,
+    "socialScore": 9.29,
+    "governanceScore": 5.79
+  },
+  "MLM": {
+    "totalEsg": 23.9,
+    "environmentScore": 14.07,
+    "socialScore": 6.0,
+    "governanceScore": 3.82
+  },
+  "CHD": {
+    "totalEsg": 22.65,
+    "environmentScore": 7.02,
+    "socialScore": 9.59,
+    "governanceScore": 6.05
+  },
+  "IP": {
+    "totalEsg": 22.22,
+    "environmentScore": 13.63,
+    "socialScore": 6.53,
+    "governanceScore": 2.05
+  },
+  "DTE": {
+    "totalEsg": 31.28,
+    "environmentScore": 13.86,
+    "socialScore": 11.84,
+    "governanceScore": 5.58
+  },
+  "WBD": {
+    "totalEsg": 18.12,
+    "environmentScore": 2.27,
+    "socialScore": 9.16,
+    "governanceScore": 6.7
+  },
+  "UAL": {
+    "totalEsg": 27.04,
+    "environmentScore": 8.53,
+    "socialScore": 15.78,
+    "governanceScore": 2.73
+  },
+  "CCL": {
+    "totalEsg": 21.94,
+    "environmentScore": 7.26,
+    "socialScore": 10.57,
+    "governanceScore": 4.11
+  },
+  "MTD": {
+    "totalEsg": 10.73,
+    "environmentScore": 0.95,
+    "socialScore": 6.71,
+    "governanceScore": 3.07
+  },
+  "KEYS": {
+    "totalEsg": 8.95,
+    "environmentScore": 4.59,
+    "socialScore": 1.4,
+    "governanceScore": 2.96
+  },
+  "FITB": {
+    "totalEsg": 16.87,
+    "environmentScore": 0.78,
+    "socialScore": 8.86,
+    "governanceScore": 7.23
+  },
+  "AEE": {
+    "totalEsg": 26.97,
+    "environmentScore": 13.09,
+    "socialScore": 9.82,
+    "governanceScore": 4.05
+  },
+  "DOW": {
+    "totalEsg": 19.98,
+    "environmentScore": 12.21,
+    "socialScore": 3.44,
+    "governanceScore": 4.33
+  },
   "EL": {
     "totalEsg": 23.96,
     "environmentScore": 5.59,
     "socialScore": 10.47,
     "governanceScore": 7.9
+  },
+  "PPG": {
+    "totalEsg": 22.3,
+    "environmentScore": 9.79,
+    "socialScore": 8.12,
+    "governanceScore": 4.38
+  },
+  "FTV": {
+    "totalEsg": 27.9,
+    "environmentScore": 14.31,
+    "socialScore": 10.66,
+    "governanceScore": 2.93
+  },
+  "STT": {
+    "totalEsg": 22.05,
+    "environmentScore": 1.93,
+    "socialScore": 10.93,
+    "governanceScore": 9.19
+  },
+  "DOV": {
+    "totalEsg": 24.45,
+    "environmentScore": 7.47,
+    "socialScore": 12.55,
+    "governanceScore": 4.43
+  },
+  "TYL": {
+    "totalEsg": 18.28,
+    "environmentScore": 4.22,
+    "socialScore": 9.11,
+    "governanceScore": 4.95
   },
   "FOXA": {
     "totalEsg": 11.94,
@@ -1919,35 +1904,11 @@
     "socialScore": 7.64,
     "governanceScore": 4.38
   },
-  "GPN": {
-    "totalEsg": 19.63,
-    "environmentScore": 4.22,
-    "socialScore": 10.55,
-    "governanceScore": 4.86
-  },
-  "CPAY": {
-    "totalEsg": 22.46,
-    "environmentScore": 4.74,
-    "socialScore": 12.24,
-    "governanceScore": 5.48
-  },
-  "EXPE": {
-    "totalEsg": 21.4,
-    "environmentScore": 2.73,
-    "socialScore": 11.42,
-    "governanceScore": 7.24
-  },
-  "NTAP": {
-    "totalEsg": 14.34,
-    "environmentScore": 2.34,
-    "socialScore": 7.85,
-    "governanceScore": 4.15
-  },
-  "GDDY": {
-    "totalEsg": 18.99,
-    "environmentScore": 4.4,
-    "socialScore": 9.26,
-    "governanceScore": 5.33
+  "ROL": {
+    "totalEsg": 18.6,
+    "environmentScore": 1.99,
+    "socialScore": 11.34,
+    "governanceScore": 5.27
   },
   "LYB": {
     "totalEsg": 19.84,
@@ -1955,29 +1916,17 @@
     "socialScore": 2.24,
     "governanceScore": 3.41
   },
-  "ROL": {
-    "totalEsg": 18.6,
-    "environmentScore": 1.99,
-    "socialScore": 11.34,
-    "governanceScore": 5.27
+  "GPN": {
+    "totalEsg": 19.63,
+    "environmentScore": 4.22,
+    "socialScore": 10.55,
+    "governanceScore": 4.86
   },
-  "CDW": {
-    "totalEsg": 7.49,
-    "environmentScore": 1.82,
-    "socialScore": 3.38,
-    "governanceScore": 2.28
-  },
-  "FE": {
-    "totalEsg": 27.51,
-    "environmentScore": 12.64,
-    "socialScore": 10.75,
-    "governanceScore": 4.12
-  },
-  "DVN": {
-    "totalEsg": 31.55,
-    "environmentScore": 17.4,
-    "socialScore": 8.04,
-    "governanceScore": 6.12
+  "IRM": {
+    "totalEsg": 14.25,
+    "environmentScore": 5.85,
+    "socialScore": 3.45,
+    "governanceScore": 4.95
   },
   "VLTO": {
     "totalEsg": 23.93,
@@ -1985,41 +1934,25 @@
     "socialScore": 14.08,
     "governanceScore": 3.68
   },
-  "WDC": {
-    "totalEsg": 9.69,
-    "environmentScore": 1.56,
-    "socialScore": 3.95,
-    "governanceScore": 4.17
+  "GDDY": {
+    "totalEsg": 18.99,
+    "environmentScore": 4.4,
+    "socialScore": 9.26,
+    "governanceScore": 5.33
   },
-  "SYF": {
-    "totalEsg": 16.46,
-    "environmentScore": 0.16,
-    "socialScore": 10.79,
-    "governanceScore": 5.52
+  "FOX": "No ESG data available for FOX.",
+  "SW": "No ESG data available for SW.",
+  "SBAC": {
+    "totalEsg": 9.73,
+    "environmentScore": 3.35,
+    "socialScore": 2.48,
+    "governanceScore": 3.9
   },
-  "ATO": {
-    "totalEsg": 31.23,
-    "environmentScore": 13.71,
-    "socialScore": 13.21,
-    "governanceScore": 4.31
-  },
-  "TROW": {
-    "totalEsg": 17.43,
-    "environmentScore": 1.37,
-    "socialScore": 7.91,
-    "governanceScore": 8.15
-  },
-  "HBAN": {
-    "totalEsg": 16.38,
-    "environmentScore": 1.45,
-    "socialScore": 7.68,
-    "governanceScore": 7.25
-  },
-  "ES": {
-    "totalEsg": 18.08,
-    "environmentScore": 4.1,
-    "socialScore": 8.17,
-    "governanceScore": 5.82
+  "EXPE": {
+    "totalEsg": 21.4,
+    "environmentScore": 2.73,
+    "socialScore": 11.42,
+    "governanceScore": 7.24
   },
   "WRB": {
     "totalEsg": 21.26,
@@ -2033,41 +1966,23 @@
     "socialScore": 9.39,
     "governanceScore": 3.4
   },
-  "TDY": {
-    "totalEsg": 34.28,
-    "environmentScore": 10.8,
-    "socialScore": 16.92,
-    "governanceScore": 6.56
+  "ATO": {
+    "totalEsg": 31.23,
+    "environmentScore": 13.71,
+    "socialScore": 13.21,
+    "governanceScore": 4.31
   },
-  "SBAC": {
-    "totalEsg": 9.73,
-    "environmentScore": 3.35,
-    "socialScore": 2.48,
-    "governanceScore": 3.9
+  "CPAY": {
+    "totalEsg": 22.46,
+    "environmentScore": 4.74,
+    "socialScore": 12.24,
+    "governanceScore": 5.48
   },
-  "HAL": {
-    "totalEsg": 23.84,
-    "environmentScore": 10.21,
-    "socialScore": 6.79,
-    "governanceScore": 6.84
-  },
-  "ON": {
-    "totalEsg": 21.27,
-    "environmentScore": 11.66,
-    "socialScore": 5.55,
-    "governanceScore": 4.06
-  },
-  "DRI": {
-    "totalEsg": 27.46,
-    "environmentScore": 10.96,
-    "socialScore": 12.77,
-    "governanceScore": 3.73
-  },
-  "CNP": {
-    "totalEsg": 24.96,
-    "environmentScore": 11.31,
-    "socialScore": 9.87,
-    "governanceScore": 3.77
+  "ERIE": {
+    "totalEsg": 27.91,
+    "environmentScore": 2.82,
+    "socialScore": 11.52,
+    "governanceScore": 13.56
   },
   "WAT": {
     "totalEsg": 12.77,
@@ -2075,23 +1990,17 @@
     "socialScore": 8.11,
     "governanceScore": 3.22
   },
-  "DECK": {
-    "totalEsg": 14.23,
-    "environmentScore": 3.2,
-    "socialScore": 7.94,
-    "governanceScore": 3.09
+  "STE": {
+    "totalEsg": 23.17,
+    "environmentScore": 4.85,
+    "socialScore": 12.09,
+    "governanceScore": 6.22
   },
-  "NTRS": {
-    "totalEsg": 24.92,
-    "environmentScore": 1.57,
-    "socialScore": 11.29,
-    "governanceScore": 12.06
-  },
-  "CBOE": {
-    "totalEsg": 21.46,
-    "environmentScore": 2.68,
-    "socialScore": 8.06,
-    "governanceScore": 10.72
+  "DRI": {
+    "totalEsg": 27.46,
+    "environmentScore": 10.96,
+    "socialScore": 12.77,
+    "governanceScore": 3.73
   },
   "VRSN": {
     "totalEsg": 20.77,
@@ -2099,17 +2008,53 @@
     "socialScore": 10.63,
     "governanceScore": 5.29
   },
-  "LII": {
-    "totalEsg": 22.38,
-    "environmentScore": 11.98,
-    "socialScore": 4.65,
-    "governanceScore": 5.75
+  "SMCI": {
+    "totalEsg": 20.5,
+    "environmentScore": null,
+    "socialScore": null,
+    "governanceScore": null
   },
-  "STE": {
-    "totalEsg": 23.17,
-    "environmentScore": 4.85,
-    "socialScore": 12.09,
-    "governanceScore": 6.22
+  "TDY": {
+    "totalEsg": 34.28,
+    "environmentScore": 10.8,
+    "socialScore": 16.92,
+    "governanceScore": 6.56
+  },
+  "DVN": {
+    "totalEsg": 31.55,
+    "environmentScore": 17.4,
+    "socialScore": 8.04,
+    "governanceScore": 6.12
+  },
+  "TROW": {
+    "totalEsg": 17.43,
+    "environmentScore": 1.37,
+    "socialScore": 7.91,
+    "governanceScore": 8.15
+  },
+  "ES": {
+    "totalEsg": 18.08,
+    "environmentScore": 4.1,
+    "socialScore": 8.17,
+    "governanceScore": 5.82
+  },
+  "CNP": {
+    "totalEsg": 24.96,
+    "environmentScore": 11.31,
+    "socialScore": 9.87,
+    "governanceScore": 3.77
+  },
+  "CDW": {
+    "totalEsg": 7.49,
+    "environmentScore": 1.82,
+    "socialScore": 3.38,
+    "governanceScore": 2.28
+  },
+  "CBOE": {
+    "totalEsg": 21.46,
+    "environmentScore": 2.68,
+    "socialScore": 8.06,
+    "governanceScore": 10.72
   },
   "WY": {
     "totalEsg": 15.31,
@@ -2117,11 +2062,11 @@
     "socialScore": 4.01,
     "governanceScore": 2.12
   },
-  "TSN": {
-    "totalEsg": 36.82,
-    "environmentScore": 16.12,
-    "socialScore": 12.72,
-    "governanceScore": 7.98
+  "FE": {
+    "totalEsg": 27.51,
+    "environmentScore": 12.64,
+    "socialScore": 10.75,
+    "governanceScore": 4.12
   },
   "MKC": {
     "totalEsg": 26.04,
@@ -2129,35 +2074,23 @@
     "socialScore": 13.49,
     "governanceScore": 3.94
   },
-  "NRG": {
-    "totalEsg": 34.25,
-    "environmentScore": 18.93,
-    "socialScore": 10.21,
-    "governanceScore": 5.12
-  },
-  "CMS": {
-    "totalEsg": 20.26,
-    "environmentScore": 9.15,
-    "socialScore": 6.85,
-    "governanceScore": 4.25
-  },
-  "STX": {
-    "totalEsg": 11.55,
-    "environmentScore": 0.84,
-    "socialScore": 6.54,
-    "governanceScore": 4.17
-  },
   "NVR": {
     "totalEsg": 21.0,
     "environmentScore": 9.63,
     "socialScore": 6.7,
     "governanceScore": 4.68
   },
-  "RF": {
-    "totalEsg": 14.3,
-    "environmentScore": 1.47,
-    "socialScore": 5.96,
-    "governanceScore": 6.87
+  "BIIB": {
+    "totalEsg": 20.51,
+    "environmentScore": 0.45,
+    "socialScore": 13.01,
+    "governanceScore": 7.05
+  },
+  "HBAN": {
+    "totalEsg": 16.38,
+    "environmentScore": 1.45,
+    "socialScore": 7.68,
+    "governanceScore": 7.25
   },
   "CINF": {
     "totalEsg": 23.11,
@@ -2171,41 +2104,17 @@
     "socialScore": 5.94,
     "governanceScore": 4.65
   },
-  "ZBH": {
-    "totalEsg": 26.19,
-    "environmentScore": 4.89,
-    "socialScore": 13.99,
-    "governanceScore": 7.31
+  "CMS": {
+    "totalEsg": 20.26,
+    "environmentScore": 9.15,
+    "socialScore": 6.85,
+    "governanceScore": 4.25
   },
-  "LH": {
-    "totalEsg": 19.74,
-    "environmentScore": 0.43,
-    "socialScore": 12.71,
-    "governanceScore": 6.6
-  },
-  "CTRA": {
-    "totalEsg": 32.75,
-    "environmentScore": 19.31,
-    "socialScore": 7.63,
-    "governanceScore": 5.81
-  },
-  "BIIB": {
-    "totalEsg": 20.51,
-    "environmentScore": 0.45,
-    "socialScore": 13.01,
-    "governanceScore": 7.05
-  },
-  "IFF": {
-    "totalEsg": 23.17,
-    "environmentScore": 12.34,
-    "socialScore": 5.93,
-    "governanceScore": 4.9
-  },
-  "HUBB": {
-    "totalEsg": 17.94,
-    "environmentScore": 8.7,
-    "socialScore": 6.07,
-    "governanceScore": 3.17
+  "TSN": {
+    "totalEsg": 36.82,
+    "environmentScore": 16.12,
+    "socialScore": 12.72,
+    "governanceScore": 7.98
   },
   "EIX": {
     "totalEsg": 23.97,
@@ -2213,35 +2122,41 @@
     "socialScore": 12.11,
     "governanceScore": 3.48
   },
-  "ERIE": {
-    "totalEsg": 27.91,
-    "environmentScore": 2.82,
-    "socialScore": 11.52,
-    "governanceScore": 13.56
+  "HAL": {
+    "totalEsg": 23.84,
+    "environmentScore": 10.21,
+    "socialScore": 6.79,
+    "governanceScore": 6.84
   },
-  "STLD": {
-    "totalEsg": 31.41,
-    "environmentScore": 9.21,
-    "socialScore": 14.63,
-    "governanceScore": 7.57
+  "LII": {
+    "totalEsg": 22.38,
+    "environmentScore": 11.98,
+    "socialScore": 4.65,
+    "governanceScore": 5.75
   },
-  "PODD": {
-    "totalEsg": 21.37,
-    "environmentScore": 3.73,
-    "socialScore": 11.36,
-    "governanceScore": 6.27
+  "ZBH": {
+    "totalEsg": 26.19,
+    "environmentScore": 4.89,
+    "socialScore": 13.99,
+    "governanceScore": 7.31
   },
-  "ESS": {
-    "totalEsg": 11.61,
-    "environmentScore": 3.38,
-    "socialScore": 2.93,
-    "governanceScore": 5.31
+  "SYF": {
+    "totalEsg": 16.46,
+    "environmentScore": 0.16,
+    "socialScore": 10.79,
+    "governanceScore": 5.52
   },
-  "CFG": {
-    "totalEsg": 22.95,
-    "environmentScore": 1.69,
-    "socialScore": 8.98,
-    "governanceScore": 12.27
+  "LH": {
+    "totalEsg": 19.74,
+    "environmentScore": 0.43,
+    "socialScore": 12.71,
+    "governanceScore": 6.6
+  },
+  "IFF": {
+    "totalEsg": 23.17,
+    "environmentScore": 12.34,
+    "socialScore": 5.93,
+    "governanceScore": 4.9
   },
   "INVH": {
     "totalEsg": 16.01,
@@ -2249,17 +2164,29 @@
     "socialScore": 4.97,
     "governanceScore": 4.59
   },
-  "PTC": {
-    "totalEsg": 18.48,
-    "environmentScore": 4.89,
-    "socialScore": 8.38,
-    "governanceScore": 5.21
+  "HPE": {
+    "totalEsg": 11.48,
+    "environmentScore": 0.87,
+    "socialScore": 6.45,
+    "governanceScore": 4.15
   },
-  "CLX": {
-    "totalEsg": 20.03,
-    "environmentScore": 7.94,
-    "socialScore": 8.5,
-    "governanceScore": 3.59
+  "NTRS": {
+    "totalEsg": 24.92,
+    "environmentScore": 1.57,
+    "socialScore": 11.29,
+    "governanceScore": 12.06
+  },
+  "ESS": {
+    "totalEsg": 11.61,
+    "environmentScore": 3.38,
+    "socialScore": 2.93,
+    "governanceScore": 5.31
+  },
+  "RF": {
+    "totalEsg": 14.3,
+    "environmentScore": 1.47,
+    "socialScore": 5.96,
+    "governanceScore": 6.87
   },
   "MAA": {
     "totalEsg": 11.68,
@@ -2267,11 +2194,17 @@
     "socialScore": 3.12,
     "governanceScore": 5.23
   },
-  "BBY": {
-    "totalEsg": 13.67,
-    "environmentScore": 2.53,
-    "socialScore": 7.95,
-    "governanceScore": 3.2
+  "CTRA": {
+    "totalEsg": 32.75,
+    "environmentScore": 19.31,
+    "socialScore": 7.63,
+    "governanceScore": 5.81
+  },
+  "PTC": {
+    "totalEsg": 18.48,
+    "environmentScore": 4.89,
+    "socialScore": 8.38,
+    "governanceScore": 5.21
   },
   "DGX": {
     "totalEsg": 20.49,
@@ -2285,23 +2218,53 @@
     "socialScore": 5.14,
     "governanceScore": 5.57
   },
-  "NI": {
-    "totalEsg": 20.58,
-    "environmentScore": 9.36,
-    "socialScore": 8.07,
-    "governanceScore": 3.15
+  "DECK": {
+    "totalEsg": 14.23,
+    "environmentScore": 3.2,
+    "socialScore": 7.94,
+    "governanceScore": 3.09
   },
-  "TER": {
-    "totalEsg": 16.07,
-    "environmentScore": 6.73,
-    "socialScore": 5.49,
-    "governanceScore": 3.85
+  "ON": {
+    "totalEsg": 21.27,
+    "environmentScore": 11.66,
+    "socialScore": 5.55,
+    "governanceScore": 4.06
   },
-  "KEY": {
-    "totalEsg": 25.21,
-    "environmentScore": 1.57,
-    "socialScore": 11.63,
-    "governanceScore": 12.02
+  "NTAP": {
+    "totalEsg": 14.34,
+    "environmentScore": 2.34,
+    "socialScore": 7.85,
+    "governanceScore": 4.15
+  },
+  "HUBB": {
+    "totalEsg": 17.94,
+    "environmentScore": 8.7,
+    "socialScore": 6.07,
+    "governanceScore": 3.17
+  },
+  "STLD": {
+    "totalEsg": 31.41,
+    "environmentScore": 9.21,
+    "socialScore": 14.63,
+    "governanceScore": 7.57
+  },
+  "BAX": {
+    "totalEsg": 21.91,
+    "environmentScore": 2.73,
+    "socialScore": 13.51,
+    "governanceScore": 5.68
+  },
+  "STX": {
+    "totalEsg": 11.55,
+    "environmentScore": 0.84,
+    "socialScore": 6.54,
+    "governanceScore": 4.17
+  },
+  "CLX": {
+    "totalEsg": 20.03,
+    "environmentScore": 7.94,
+    "socialScore": 8.5,
+    "governanceScore": 3.59
   },
   "PKG": {
     "totalEsg": 17.64,
@@ -2309,11 +2272,96 @@
     "socialScore": 1.39,
     "governanceScore": 3.45
   },
-  "JBL": {
-    "totalEsg": 9.45,
-    "environmentScore": 2.8,
-    "socialScore": 3.18,
-    "governanceScore": 3.47
+  "LDOS": {
+    "totalEsg": 17.26,
+    "environmentScore": 3.37,
+    "socialScore": 9.35,
+    "governanceScore": 4.54
+  },
+  "CFG": {
+    "totalEsg": 22.95,
+    "environmentScore": 1.69,
+    "socialScore": 8.98,
+    "governanceScore": 12.27
+  },
+  "MOH": {
+    "totalEsg": 22.84,
+    "environmentScore": 0.28,
+    "socialScore": 17.47,
+    "governanceScore": 5.09
+  },
+  "L": {
+    "totalEsg": 28.56,
+    "environmentScore": 2.2,
+    "socialScore": 12.0,
+    "governanceScore": 14.36
+  },
+  "NI": {
+    "totalEsg": 20.58,
+    "environmentScore": 9.36,
+    "socialScore": 8.07,
+    "governanceScore": 3.15
+  },
+  "DG": {
+    "totalEsg": 21.2,
+    "environmentScore": 3.86,
+    "socialScore": 13.07,
+    "governanceScore": 4.27
+  },
+  "SNA": {
+    "totalEsg": 30.88,
+    "environmentScore": 12.39,
+    "socialScore": 11.85,
+    "governanceScore": 6.63
+  },
+  "ARE": {
+    "totalEsg": 13.14,
+    "environmentScore": 2.85,
+    "socialScore": 3.69,
+    "governanceScore": 6.59
+  },
+  "PODD": {
+    "totalEsg": 21.37,
+    "environmentScore": 3.73,
+    "socialScore": 11.36,
+    "governanceScore": 6.27
+  },
+  "GPC": {
+    "totalEsg": 12.83,
+    "environmentScore": 4.59,
+    "socialScore": 5.33,
+    "governanceScore": 2.9
+  },
+  "TER": {
+    "totalEsg": 16.07,
+    "environmentScore": 6.73,
+    "socialScore": 5.49,
+    "governanceScore": 3.85
+  },
+  "EXPD": {
+    "totalEsg": 18.4,
+    "environmentScore": 5.07,
+    "socialScore": 9.04,
+    "governanceScore": 4.29
+  },
+  "BF.B": "No ESG data available for BF.B.",
+  "NRG": {
+    "totalEsg": 34.25,
+    "environmentScore": 18.93,
+    "socialScore": 10.21,
+    "governanceScore": 5.12
+  },
+  "GEN": {
+    "totalEsg": 14.61,
+    "environmentScore": 2.97,
+    "socialScore": 7.85,
+    "governanceScore": 3.8
+  },
+  "KEY": {
+    "totalEsg": 25.21,
+    "environmentScore": 1.57,
+    "socialScore": 11.63,
+    "governanceScore": 12.02
   },
   "LUV": {
     "totalEsg": 28.41,
@@ -2327,17 +2375,11 @@
     "socialScore": 7.55,
     "governanceScore": 4.24
   },
-  "L": {
-    "totalEsg": 28.56,
-    "environmentScore": 2.2,
-    "socialScore": 12.0,
-    "governanceScore": 14.36
-  },
-  "SNA": {
-    "totalEsg": 30.88,
-    "environmentScore": 12.39,
-    "socialScore": 11.85,
-    "governanceScore": 6.63
+  "BBY": {
+    "totalEsg": 13.67,
+    "environmentScore": 2.53,
+    "socialScore": 7.95,
+    "governanceScore": 3.2
   },
   "TRMB": {
     "totalEsg": 9.55,
@@ -2351,89 +2393,11 @@
     "socialScore": 6.2,
     "governanceScore": 5.57
   },
-  "TPR": {
-    "totalEsg": 13.13,
-    "environmentScore": 1.21,
-    "socialScore": 7.83,
-    "governanceScore": 4.09
-  },
-  "BAX": {
-    "totalEsg": 21.91,
-    "environmentScore": 2.73,
-    "socialScore": 13.51,
-    "governanceScore": 5.68
-  },
-  "RL": {
-    "totalEsg": 13.91,
-    "environmentScore": 1.08,
-    "socialScore": 7.68,
-    "governanceScore": 5.15
-  },
-  "FFIV": {
-    "totalEsg": 16.3,
-    "environmentScore": 4.33,
-    "socialScore": 7.71,
-    "governanceScore": 4.26
-  },
-  "GPC": {
-    "totalEsg": 12.83,
-    "environmentScore": 4.59,
-    "socialScore": 5.33,
-    "governanceScore": 2.9
-  },
-  "DG": {
-    "totalEsg": 21.2,
-    "environmentScore": 3.86,
-    "socialScore": 13.07,
-    "governanceScore": 4.27
-  },
-  "JBHT": {
-    "totalEsg": 14.34,
-    "environmentScore": 2.56,
-    "socialScore": 6.92,
-    "governanceScore": 4.86
-  },
-  "ULTA": {
-    "totalEsg": 13.78,
-    "environmentScore": 2.88,
-    "socialScore": 6.95,
-    "governanceScore": 3.95
-  },
-  "GEN": {
-    "totalEsg": 14.61,
-    "environmentScore": 2.97,
-    "socialScore": 7.85,
-    "governanceScore": 3.8
-  },
-  "FSLR": {
-    "totalEsg": 17.31,
-    "environmentScore": 6.04,
-    "socialScore": 6.08,
-    "governanceScore": 5.19
-  },
-  "LDOS": {
-    "totalEsg": 17.26,
-    "environmentScore": 3.37,
-    "socialScore": 9.35,
-    "governanceScore": 4.54
-  },
-  "ARE": {
-    "totalEsg": 13.14,
-    "environmentScore": 2.85,
-    "socialScore": 3.69,
-    "governanceScore": 6.59
-  },
-  "HRL": {
-    "totalEsg": 26.11,
-    "environmentScore": 11.11,
-    "socialScore": 10.12,
-    "governanceScore": 4.88
-  },
-  "NWSA": {
-    "totalEsg": 9.98,
-    "environmentScore": 0.04,
-    "socialScore": 4.83,
-    "governanceScore": 5.1
+  "WST": {
+    "totalEsg": 17.97,
+    "environmentScore": 2.94,
+    "socialScore": 9.4,
+    "governanceScore": 5.63
   },
   "OMC": {
     "totalEsg": 14.57,
@@ -2441,29 +2405,24 @@
     "socialScore": 8.7,
     "governanceScore": 5.66
   },
-  "LNT": {
-    "totalEsg": 17.11,
-    "environmentScore": 6.79,
-    "socialScore": 5.25,
-    "governanceScore": 5.07
+  "NWS": "No ESG data available for NWS.",
+  "ULTA": {
+    "totalEsg": 13.78,
+    "environmentScore": 2.88,
+    "socialScore": 6.95,
+    "governanceScore": 3.95
   },
-  "DLTR": {
-    "totalEsg": 18.8,
-    "environmentScore": 3.23,
-    "socialScore": 13.01,
-    "governanceScore": 2.55
+  "HRL": {
+    "totalEsg": 26.11,
+    "environmentScore": 11.11,
+    "socialScore": 10.12,
+    "governanceScore": 4.88
   },
-  "EXPD": {
-    "totalEsg": 18.4,
-    "environmentScore": 5.07,
-    "socialScore": 9.04,
-    "governanceScore": 4.29
-  },
-  "ZBRA": {
-    "totalEsg": 9.94,
-    "environmentScore": 1.79,
-    "socialScore": 3.34,
-    "governanceScore": 4.81
+  "JBHT": {
+    "totalEsg": 14.34,
+    "environmentScore": 2.56,
+    "socialScore": 6.92,
+    "governanceScore": 4.86
   },
   "DPZ": {
     "totalEsg": 27.49,
@@ -2471,89 +2430,35 @@
     "socialScore": 11.85,
     "governanceScore": 5.71
   },
-  "MAS": {
-    "totalEsg": 22.27,
-    "environmentScore": 11.05,
-    "socialScore": 6.42,
-    "governanceScore": 4.8
-  },
-  "J": {
-    "totalEsg": 23.89,
-    "environmentScore": 7.47,
-    "socialScore": 11.45,
-    "governanceScore": 4.96
-  },
-  "MOH": {
-    "totalEsg": 22.84,
-    "environmentScore": 0.28,
-    "socialScore": 17.47,
-    "governanceScore": 5.09
-  },
-  "EVRG": {
-    "totalEsg": 29.24,
-    "environmentScore": 13.73,
-    "socialScore": 10.64,
-    "governanceScore": 4.88
-  },
-  "BLDR": {
-    "totalEsg": 26.73,
-    "environmentScore": 13.64,
-    "socialScore": 6.96,
-    "governanceScore": 6.14
-  },
   "UDR": {
     "totalEsg": 15.36,
     "environmentScore": 5.03,
     "socialScore": 3.89,
     "governanceScore": 6.44
   },
-  "PNR": {
-    "totalEsg": 22.0,
-    "environmentScore": 6.12,
-    "socialScore": 10.73,
-    "governanceScore": 5.15
+  "LNT": {
+    "totalEsg": 17.11,
+    "environmentScore": 6.79,
+    "socialScore": 5.25,
+    "governanceScore": 5.07
   },
-  "APTV": {
-    "totalEsg": 12.89,
-    "environmentScore": 4.35,
-    "socialScore": 4.56,
-    "governanceScore": 3.97
+  "MAS": {
+    "totalEsg": 22.27,
+    "environmentScore": 11.05,
+    "socialScore": 6.42,
+    "governanceScore": 4.8
   },
-  "WST": {
-    "totalEsg": 17.97,
-    "environmentScore": 2.94,
-    "socialScore": 9.4,
-    "governanceScore": 5.63
+  "FFIV": {
+    "totalEsg": 16.3,
+    "environmentScore": 4.33,
+    "socialScore": 7.71,
+    "governanceScore": 4.26
   },
-  "AVY": {
-    "totalEsg": 10.98,
-    "environmentScore": 7.03,
-    "socialScore": 1.28,
-    "governanceScore": 2.67
-  },
-  "AMCR": {
-    "totalEsg": 14.69,
-    "environmentScore": 11.21,
-    "socialScore": 0.95,
-    "governanceScore": 2.54
-  },
-  "KIM": {
-    "totalEsg": 11.22,
-    "environmentScore": 4.54,
-    "socialScore": 2.54,
-    "governanceScore": 4.13
-  },
-  "IEX": {
-    "totalEsg": 30.65,
-    "environmentScore": 13.79,
-    "socialScore": 11.75,
-    "governanceScore": 5.11
-  },
-  "BALL": {
-    "totalEsg": 13.06,
-    "environmentScore": 10.13,
-    "socialScore": 0.89,
-    "governanceScore": 2.04
+  "NWSA": {
+    "totalEsg": 9.98,
+    "environmentScore": 0.04,
+    "socialScore": 4.83,
+    "governanceScore": 5.1
   },
   "EG": {
     "totalEsg": 17.96,
@@ -2561,29 +2466,126 @@
     "socialScore": 6.67,
     "governanceScore": 9.91
   },
+  "TPR": {
+    "totalEsg": 13.13,
+    "environmentScore": 1.21,
+    "socialScore": 7.83,
+    "governanceScore": 4.09
+  },
+  "BALL": {
+    "totalEsg": 13.06,
+    "environmentScore": 10.13,
+    "socialScore": 0.89,
+    "governanceScore": 2.04
+  },
+  "APTV": {
+    "totalEsg": 12.89,
+    "environmentScore": 4.35,
+    "socialScore": 4.56,
+    "governanceScore": 3.97
+  },
+  "JBL": {
+    "totalEsg": 9.45,
+    "environmentScore": 2.8,
+    "socialScore": 3.18,
+    "governanceScore": 3.47
+  },
+  "BLDR": {
+    "totalEsg": 26.73,
+    "environmentScore": 13.64,
+    "socialScore": 6.96,
+    "governanceScore": 6.14
+  },
+  "J": {
+    "totalEsg": 23.89,
+    "environmentScore": 7.47,
+    "socialScore": 11.45,
+    "governanceScore": 4.96
+  },
+  "EVRG": {
+    "totalEsg": 29.24,
+    "environmentScore": 13.73,
+    "socialScore": 10.64,
+    "governanceScore": 4.88
+  },
+  "ZBRA": {
+    "totalEsg": 9.94,
+    "environmentScore": 1.79,
+    "socialScore": 3.34,
+    "governanceScore": 4.81
+  },
+  "FSLR": {
+    "totalEsg": 17.31,
+    "environmentScore": 6.04,
+    "socialScore": 6.08,
+    "governanceScore": 5.19
+  },
+  "AMCR": {
+    "totalEsg": 14.69,
+    "environmentScore": 11.21,
+    "socialScore": 0.95,
+    "governanceScore": 2.54
+  },
+  "DLTR": {
+    "totalEsg": 18.8,
+    "environmentScore": 3.23,
+    "socialScore": 13.01,
+    "governanceScore": 2.55
+  },
+  "DOC": "No ESG data available for DOC.",
+  "KIM": {
+    "totalEsg": 11.22,
+    "environmentScore": 4.54,
+    "socialScore": 2.54,
+    "governanceScore": 4.13
+  },
+  "PNR": {
+    "totalEsg": 22.0,
+    "environmentScore": 6.12,
+    "socialScore": 10.73,
+    "governanceScore": 5.15
+  },
+  "AVY": {
+    "totalEsg": 10.98,
+    "environmentScore": 7.03,
+    "socialScore": 1.28,
+    "governanceScore": 2.67
+  },
+  "WDC": {
+    "totalEsg": 9.69,
+    "environmentScore": 1.56,
+    "socialScore": 3.95,
+    "governanceScore": 4.17
+  },
   "HOLX": {
     "totalEsg": 21.85,
     "environmentScore": 4.26,
     "socialScore": 12.27,
     "governanceScore": 5.32
   },
-  "ALGN": {
-    "totalEsg": 18.58,
-    "environmentScore": 2.69,
-    "socialScore": 9.37,
-    "governanceScore": 6.53
+  "RL": {
+    "totalEsg": 13.91,
+    "environmentScore": 1.08,
+    "socialScore": 7.68,
+    "governanceScore": 5.15
   },
-  "INCY": {
-    "totalEsg": 23.59,
-    "environmentScore": 3.15,
-    "socialScore": 15.97,
-    "governanceScore": 4.47
+  "IEX": {
+    "totalEsg": 30.65,
+    "environmentScore": 13.79,
+    "socialScore": 11.75,
+    "governanceScore": 5.11
   },
   "RVTY": {
     "totalEsg": 15.58,
     "environmentScore": 1.34,
     "socialScore": 9.87,
     "governanceScore": 4.38
+  },
+  "JKHY": {
+    "totalEsg": 18.66,
+    "environmentScore": 4.47,
+    "socialScore": 8.73,
+    "governanceScore": 5.46
   },
   "MRNA": {
     "totalEsg": 19.16,
@@ -2597,17 +2599,17 @@
     "socialScore": 13.61,
     "governanceScore": 5.81
   },
-  "VTRS": {
-    "totalEsg": 25.93,
-    "environmentScore": 3.1,
-    "socialScore": 13.75,
-    "governanceScore": 9.08
+  "POOL": {
+    "totalEsg": 10.93,
+    "environmentScore": 3.21,
+    "socialScore": 4.75,
+    "governanceScore": 2.97
   },
-  "REG": {
-    "totalEsg": 11.31,
-    "environmentScore": 3.98,
-    "socialScore": 3.38,
-    "governanceScore": 3.96
+  "INCY": {
+    "totalEsg": 23.59,
+    "environmentScore": 3.15,
+    "socialScore": 15.97,
+    "governanceScore": 4.47
   },
   "TXT": {
     "totalEsg": 33.13,
@@ -2615,17 +2617,12 @@
     "socialScore": 16.51,
     "governanceScore": 4.97
   },
-  "CF": {
-    "totalEsg": 28.16,
-    "environmentScore": 15.89,
-    "socialScore": 8.85,
-    "governanceScore": 3.42
-  },
-  "POOL": {
-    "totalEsg": 10.93,
-    "environmentScore": 3.21,
-    "socialScore": 4.75,
-    "governanceScore": 2.97
+  "SOLV": "No ESG data available for SOLV.",
+  "REG": {
+    "totalEsg": 11.31,
+    "environmentScore": 3.98,
+    "socialScore": 3.38,
+    "governanceScore": 3.96
   },
   "CPT": {
     "totalEsg": 14.18,
@@ -2633,17 +2630,17 @@
     "socialScore": 3.81,
     "governanceScore": 6.87
   },
-  "KMX": {
-    "totalEsg": 11.08,
-    "environmentScore": 0.25,
-    "socialScore": 8.29,
-    "governanceScore": 2.54
+  "AKAM": {
+    "totalEsg": 13.31,
+    "environmentScore": 2.74,
+    "socialScore": 6.83,
+    "governanceScore": 3.74
   },
-  "JKHY": {
-    "totalEsg": 18.66,
-    "environmentScore": 4.47,
-    "socialScore": 8.73,
-    "governanceScore": 5.46
+  "CF": {
+    "totalEsg": 28.16,
+    "environmentScore": 15.89,
+    "socialScore": 8.85,
+    "governanceScore": 3.42
   },
   "CAG": {
     "totalEsg": 26.94,
@@ -2651,11 +2648,11 @@
     "socialScore": 13.84,
     "governanceScore": 3.84
   },
-  "NDSN": {
-    "totalEsg": 24.15,
-    "environmentScore": 8.32,
-    "socialScore": 11.46,
-    "governanceScore": 4.37
+  "ALGN": {
+    "totalEsg": 18.58,
+    "environmentScore": 2.69,
+    "socialScore": 9.37,
+    "governanceScore": 6.53
   },
   "TAP": {
     "totalEsg": 27.98,
@@ -2663,11 +2660,11 @@
     "socialScore": 11.3,
     "governanceScore": 5.69
   },
-  "BXP": {
-    "totalEsg": 11.99,
-    "environmentScore": 2.8,
-    "socialScore": 3.93,
-    "governanceScore": 5.26
+  "SJM": {
+    "totalEsg": 27.19,
+    "environmentScore": 11.72,
+    "socialScore": 12.33,
+    "governanceScore": 3.14
   },
   "CPB": {
     "totalEsg": 26.3,
@@ -2675,11 +2672,17 @@
     "socialScore": 10.47,
     "governanceScore": 3.77
   },
-  "JNPR": {
-    "totalEsg": 13.28,
-    "environmentScore": 2.37,
-    "socialScore": 6.84,
-    "governanceScore": 4.06
+  "NDSN": {
+    "totalEsg": 24.15,
+    "environmentScore": 8.32,
+    "socialScore": 11.46,
+    "governanceScore": 4.37
+  },
+  "BXP": {
+    "totalEsg": 11.99,
+    "environmentScore": 2.8,
+    "socialScore": 3.93,
+    "governanceScore": 5.26
   },
   "CHRW": {
     "totalEsg": 17.44,
@@ -2687,35 +2690,35 @@
     "socialScore": 8.84,
     "governanceScore": 4.14
   },
+  "JNPR": {
+    "totalEsg": 13.28,
+    "environmentScore": 2.37,
+    "socialScore": 6.84,
+    "governanceScore": 4.06
+  },
   "PAYC": {
     "totalEsg": 18.87,
     "environmentScore": 5.86,
     "socialScore": 8.52,
     "governanceScore": 4.49
   },
-  "UHS": {
-    "totalEsg": 30.82,
-    "environmentScore": 5.04,
-    "socialScore": 17.67,
-    "governanceScore": 8.12
+  "KMX": {
+    "totalEsg": 11.08,
+    "environmentScore": 0.25,
+    "socialScore": 8.29,
+    "governanceScore": 2.54
   },
-  "EPAM": {
-    "totalEsg": 27.36,
-    "environmentScore": 4.84,
-    "socialScore": 16.47,
-    "governanceScore": 6.06
+  "DVA": {
+    "totalEsg": 21.78,
+    "environmentScore": 0.07,
+    "socialScore": 14.44,
+    "governanceScore": 7.27
   },
-  "SJM": {
-    "totalEsg": 27.19,
-    "environmentScore": 11.72,
-    "socialScore": 12.33,
-    "governanceScore": 3.14
-  },
-  "AKAM": {
-    "totalEsg": 13.31,
-    "environmentScore": 2.74,
-    "socialScore": 6.83,
-    "governanceScore": 3.74
+  "SWKS": {
+    "totalEsg": 24.11,
+    "environmentScore": 9.94,
+    "socialScore": 7.92,
+    "governanceScore": 6.25
   },
   "HST": {
     "totalEsg": 12.86,
@@ -2723,11 +2726,11 @@
     "socialScore": 4.7,
     "governanceScore": 4.95
   },
-  "DVA": {
-    "totalEsg": 21.78,
-    "environmentScore": 0.07,
-    "socialScore": 14.44,
-    "governanceScore": 7.27
+  "VTRS": {
+    "totalEsg": 25.93,
+    "environmentScore": 3.1,
+    "socialScore": 13.75,
+    "governanceScore": 9.08
   },
   "EMN": {
     "totalEsg": 34.47,
@@ -2741,23 +2744,11 @@
     "socialScore": 5.16,
     "governanceScore": 3.8
   },
-  "SWKS": {
-    "totalEsg": 24.11,
-    "environmentScore": 9.94,
-    "socialScore": 7.92,
-    "governanceScore": 6.25
-  },
-  "BEN": {
-    "totalEsg": 19.67,
-    "environmentScore": 2.45,
-    "socialScore": 9.07,
-    "governanceScore": 8.16
-  },
-  "NCLH": {
-    "totalEsg": 20.04,
-    "environmentScore": 7.03,
-    "socialScore": 8.21,
-    "governanceScore": 4.8
+  "EPAM": {
+    "totalEsg": 27.36,
+    "environmentScore": 4.84,
+    "socialScore": 16.47,
+    "governanceScore": 6.06
   },
   "LKQ": {
     "totalEsg": 10.99,
@@ -2765,11 +2756,23 @@
     "socialScore": 4.13,
     "governanceScore": 2.83
   },
+  "UHS": {
+    "totalEsg": 30.82,
+    "environmentScore": 5.04,
+    "socialScore": 17.67,
+    "governanceScore": 8.12
+  },
   "PNW": {
     "totalEsg": 25.96,
     "environmentScore": 13.21,
     "socialScore": 7.96,
     "governanceScore": 4.8
+  },
+  "BEN": {
+    "totalEsg": 19.67,
+    "environmentScore": 2.45,
+    "socialScore": 9.07,
+    "governanceScore": 8.16
   },
   "GL": {
     "totalEsg": 20.43,
@@ -2777,23 +2780,11 @@
     "socialScore": 9.87,
     "governanceScore": 9.31
   },
-  "MGM": {
-    "totalEsg": 24.27,
-    "environmentScore": 0.97,
-    "socialScore": 12.67,
-    "governanceScore": 10.63
-  },
-  "DAY": {
-    "totalEsg": 17.28,
-    "environmentScore": 4.5,
-    "socialScore": 7.98,
-    "governanceScore": 4.79
-  },
-  "TECH": {
-    "totalEsg": 25.97,
-    "environmentScore": 1.53,
-    "socialScore": 17.98,
-    "governanceScore": 6.45
+  "IPG": {
+    "totalEsg": 8.89,
+    "environmentScore": 0.03,
+    "socialScore": 4.87,
+    "governanceScore": 3.99
   },
   "AIZ": {
     "totalEsg": 23.48,
@@ -2801,11 +2792,11 @@
     "socialScore": 10.8,
     "governanceScore": 11.03
   },
-  "IPG": {
-    "totalEsg": 8.89,
-    "environmentScore": 0.03,
-    "socialScore": 4.87,
-    "governanceScore": 3.99
+  "TECH": {
+    "totalEsg": 25.97,
+    "environmentScore": 1.53,
+    "socialScore": 17.98,
+    "governanceScore": 6.45
   },
   "BG": {
     "totalEsg": 32.92,
@@ -2813,41 +2804,11 @@
     "socialScore": 13.26,
     "governanceScore": 5.27
   },
-  "HSIC": {
-    "totalEsg": 14.5,
-    "environmentScore": 2.77,
-    "socialScore": 5.95,
-    "governanceScore": 5.78
-  },
-  "WYNN": {
-    "totalEsg": 24.98,
-    "environmentScore": 3.93,
-    "socialScore": 12.02,
-    "governanceScore": 9.03
-  },
-  "ALB": {
-    "totalEsg": 20.11,
-    "environmentScore": 11.83,
-    "socialScore": 3.79,
-    "governanceScore": 4.49
-  },
   "AOS": {
     "totalEsg": 26.82,
     "environmentScore": 6.65,
     "socialScore": 13.55,
     "governanceScore": 6.61
-  },
-  "HAS": {
-    "totalEsg": 7.28,
-    "environmentScore": 1.2,
-    "socialScore": 3.38,
-    "governanceScore": 2.7
-  },
-  "FRT": {
-    "totalEsg": 12.44,
-    "environmentScore": 3.06,
-    "socialScore": 5.68,
-    "governanceScore": 3.7
   },
   "WBA": {
     "totalEsg": 15.57,
@@ -2855,17 +2816,23 @@
     "socialScore": 8.48,
     "governanceScore": 5.16
   },
-  "ENPH": {
-    "totalEsg": 19.9,
-    "environmentScore": 4.84,
-    "socialScore": 8.81,
-    "governanceScore": 6.25
+  "WYNN": {
+    "totalEsg": 24.98,
+    "environmentScore": 3.93,
+    "socialScore": 12.02,
+    "governanceScore": 9.03
   },
-  "APA": {
-    "totalEsg": 43.08,
-    "environmentScore": 27.69,
-    "socialScore": 8.26,
-    "governanceScore": 7.12
+  "HSIC": {
+    "totalEsg": 14.5,
+    "environmentScore": 2.77,
+    "socialScore": 5.95,
+    "governanceScore": 5.78
+  },
+  "MGM": {
+    "totalEsg": 24.27,
+    "environmentScore": 0.97,
+    "socialScore": 12.67,
+    "governanceScore": 10.63
   },
   "CRL": {
     "totalEsg": 18.14,
@@ -2873,41 +2840,47 @@
     "socialScore": 10.75,
     "governanceScore": 5.67
   },
+  "HAS": {
+    "totalEsg": 7.28,
+    "environmentScore": 1.2,
+    "socialScore": 3.38,
+    "governanceScore": 2.7
+  },
+  "ALB": {
+    "totalEsg": 20.11,
+    "environmentScore": 11.83,
+    "socialScore": 3.79,
+    "governanceScore": 4.49
+  },
+  "NCLH": {
+    "totalEsg": 20.04,
+    "environmentScore": 7.03,
+    "socialScore": 8.21,
+    "governanceScore": 4.8
+  },
+  "DAY": {
+    "totalEsg": 17.28,
+    "environmentScore": 4.5,
+    "socialScore": 7.98,
+    "governanceScore": 4.79
+  },
+  "FRT": {
+    "totalEsg": 12.44,
+    "environmentScore": 3.06,
+    "socialScore": 5.68,
+    "governanceScore": 3.7
+  },
   "MTCH": {
     "totalEsg": 16.89,
     "environmentScore": 1.3,
     "socialScore": 9.0,
     "governanceScore": 6.6
   },
-  "GNRC": {
-    "totalEsg": 21.93,
-    "environmentScore": 7.22,
-    "socialScore": 9.34,
-    "governanceScore": 5.37
-  },
-  "MOS": {
-    "totalEsg": 37.28,
-    "environmentScore": 18.98,
-    "socialScore": 11.74,
-    "governanceScore": 6.57
-  },
-  "TFX": {
-    "totalEsg": 23.77,
-    "environmentScore": 3.98,
-    "socialScore": 13.41,
-    "governanceScore": 6.38
-  },
-  "LW": {
-    "totalEsg": 22.75,
-    "environmentScore": 11.46,
-    "socialScore": 8.73,
-    "governanceScore": 2.56
-  },
-  "IVZ": {
-    "totalEsg": 21.61,
-    "environmentScore": 1.6,
-    "socialScore": 10.32,
-    "governanceScore": 9.69
+  "ENPH": {
+    "totalEsg": 19.9,
+    "environmentScore": 4.84,
+    "socialScore": 8.81,
+    "governanceScore": 6.25
   },
   "PARA": {
     "totalEsg": 13.64,
@@ -2915,17 +2888,23 @@
     "socialScore": 7.67,
     "governanceScore": 5.79
   },
+  "GNRC": {
+    "totalEsg": 21.93,
+    "environmentScore": 7.22,
+    "socialScore": 9.34,
+    "governanceScore": 5.37
+  },
   "AES": {
     "totalEsg": 24.32,
     "environmentScore": 12.02,
     "socialScore": 9.05,
     "governanceScore": 3.25
   },
-  "CZR": {
-    "totalEsg": 19.88,
-    "environmentScore": 1.79,
-    "socialScore": 9.79,
-    "governanceScore": 8.29
+  "MOS": {
+    "totalEsg": 37.28,
+    "environmentScore": 18.98,
+    "socialScore": 11.74,
+    "governanceScore": 6.57
   },
   "MKTX": {
     "totalEsg": 13.87,
@@ -2933,17 +2912,35 @@
     "socialScore": 5.93,
     "governanceScore": 6.1
   },
+  "HII": {
+    "totalEsg": 33.95,
+    "environmentScore": 11.55,
+    "socialScore": 16.71,
+    "governanceScore": 5.7
+  },
+  "LW": {
+    "totalEsg": 22.75,
+    "environmentScore": 11.46,
+    "socialScore": 8.73,
+    "governanceScore": 2.56
+  },
   "MHK": {
     "totalEsg": 13.74,
     "environmentScore": 6.11,
     "socialScore": 3.46,
     "governanceScore": 4.16
   },
-  "HII": {
-    "totalEsg": 33.95,
-    "environmentScore": 11.55,
-    "socialScore": 16.71,
-    "governanceScore": 5.7
+  "IVZ": {
+    "totalEsg": 21.61,
+    "environmentScore": 1.6,
+    "socialScore": 10.32,
+    "governanceScore": 9.69
+  },
+  "APA": {
+    "totalEsg": 43.08,
+    "environmentScore": 27.69,
+    "socialScore": 8.26,
+    "governanceScore": 7.12
   },
   "BWA": {
     "totalEsg": 9.93,
@@ -2951,11 +2948,23 @@
     "socialScore": 4.35,
     "governanceScore": 3.88
   },
+  "TFX": {
+    "totalEsg": 23.77,
+    "environmentScore": 3.98,
+    "socialScore": 13.41,
+    "governanceScore": 6.38
+  },
   "CE": {
     "totalEsg": 24.96,
     "environmentScore": 14.75,
     "socialScore": 6.49,
     "governanceScore": 3.73
+  },
+  "CZR": {
+    "totalEsg": 19.88,
+    "environmentScore": 1.79,
+    "socialScore": 9.79,
+    "governanceScore": 8.29
   },
   "FMC": {
     "totalEsg": 25.08,
