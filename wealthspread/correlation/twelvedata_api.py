@@ -13,8 +13,7 @@ def tickers_list_creator():
     with open(tickers_file,"r") as ticker_file:
         tickers = json.load(ticker_file)
         for key, val in tickers.items():
-            tickers_list.append(key)
-    print(f"Length is {len(tickers_list)}")
+            tickers_list.append(key) 
     return tickers_list
 
 
