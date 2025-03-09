@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import json
 from itertools import combinations
-from correlation import tickers_list_creator
+from twelvedata_api import tickers_list_creator
 
 ALL_STOCKS = tickers_list_creator()
 
@@ -120,6 +120,26 @@ def suggest_stocks(current_inv, investment_amount):
 
     return best_combination, float(best_correlation) 
 
+# Create a simulation object that contains the functions
+class Simulation:
+    def __init__(self):
+        pass
+    
+    def suggest_stocks(self, current_inv, investment_amount):
+        return suggest_stocks(current_inv, investment_amount)
+    
+    def calculate_weight_of_portfolio(self, current_inv):
+        return calculate_weight_of_portfolio(current_inv)
+    
+    def convert_to_percentchange(self):
+        return convert_to_percentchange()
+    
+    def correlation_matrix(self):
+        return correlation_matrix()
+
+# Create the simulation object
+simulation = Simulation()
+
 # Example Usage
-# simulation.suggest_stocks({"CTAS":10000, "BKR":20000, "ORCL":15000}, 10000)
+simulation.suggest_stocks({"CTAS":10000, "BKR":20000, "ORCL":15000}, 10000)
 # simulation.suggest_stocks({"CTAS":10000, "BKR":20000, "AMZN":15000, "PM": 5000}, 10000)
