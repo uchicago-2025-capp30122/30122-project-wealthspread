@@ -83,35 +83,28 @@ def suggest_stocks(current_inv, investment_amount):
     """
     current_tickers = list(current_inv.keys())
     current_amounts = np.array(list(current_inv.values()))
-    # print(current_tickers)
-    # print(current_amounts)
     corr_matrix = pd.read_csv("correlation_matrix.csv", index_col=0)
-    # print(corr_matrix)
     # Determine how many stocks to suggest
     if len(current_tickers) == 1:
         num_suggestions = 2
         possible_additions = list(combinations(ALL_STOCKS, 2))
-        # print(possible_additions,"if")
     else:
         num_suggestions = 1
-        # possible_additions = [(stock) for stock in ALL_STOCKS]  #we removed the comma 
         possible_additions = [stock for stock in ALL_STOCKS if stock not in current_inv]
-
-       # print(possible_additions,"else")
     best_combination = None
     best_correlation = float("inf")
 
     for new_stocks in possible_additions:
         print(new_stocks, 'new stocks') 
-        new_tickers = current_tickers + [new_stocks] #[stock for stock in new_stocks if stock not in current_tickers]
+        new_tickers = current_tickers + [new_stocks]
         print(new_tickers, 'new_ticker')
         print(new_stocks, 'new_stock') 
         print(current_tickers, 'curr')
     
         # Compute new weights
-        new_amounts = np.append(current_amounts, investment_amount) #[investment_amount / len(new_stocks)] * len(new_stocks))
+        new_amounts = np.append(current_amounts, investment_amount)
         print(new_amounts, 'new amount')
-        new_weights = {ticker: float(amt / new_amounts.sum() )for ticker, amt in zip(new_tickers, new_amounts)}
+        new_weights = {ticker: float(amt / new_amounts.sum())for ticker, amt in zip(new_tickers, new_amounts)}
         print(new_weights)
 
         # Extract sub-matrix
@@ -128,8 +121,5 @@ def suggest_stocks(current_inv, investment_amount):
     return best_combination, float(best_correlation) 
 
 # Example Usage
-# current_inv = {"GOOG": 10000, "AAPL": 20000, "MSFT": 20000}  # Current portfolio
-# investment_amount = 10000  # New investment amount
-
-# best_stocks, correlation = suggest_stocks(current_inv, investment_amount)
-# print(f"Suggested Stocks: {best_stocks}, New Mean Correlation: {correlation:.4f}")
+# simulation.suggest_stocks({"CTAS":10000, "BKR":20000, "ORCL":15000}, 10000)
+# simulation.suggest_stocks({"CTAS":10000, "BKR":20000, "AMZN":15000, "PM": 5000}, 10000)
