@@ -12,7 +12,7 @@ def plot_stock_history(symbol):
     """
     try:
         # Read the JSON file
-        with open(f'stock_json_cache/{symbol}.json', 'r') as file:
+        with open(f'company_info/{symbol}.json', 'r') as file:
             data = json.load(file)
         
         # Convert to DataFrame
@@ -95,4 +95,4 @@ def plot_stock_history(symbol):
 
 # Example usage, you can input any other SP500 stock, e.g. MSFT (Microsoft), NFLX (Netflix), AMZN (Amazon)
 if __name__ == "__main__":
-    plot_stock_history('AAPL')
+    plot_stock_history('BA')
