@@ -9,34 +9,13 @@ import time
 
 def tickers_list_creator():
     tickers_list = []
-    tickers_file = "SA_sp500_tickers.json"
+    tickers_file = "stocks_details.json"
     with open(tickers_file,"r") as ticker_file:
         tickers = json.load(ticker_file)
         for key, val in tickers.items():
             tickers_list.append(key)
     print(f"Length is {len(tickers_list)}")
     return tickers_list
-    
-    
-def calculate_weight_of_portfolio(current_stocks_investment_amounts):
-    """
-    Calculate the weight of each stock in the portfolio based on investment amounts.
-
-    Parameters:
-    current_stocks_investment_amounts (dict): A dictionary where keys are stock tickers (str) 
-                                              and values are investment amounts (float or int).
-
-    Returns:
-    dict: A dictionary where keys are stock tickers and values are their respective weights 
-          in the portfolio, summing to 1.
-    """
-    total_investment = sum(current_stocks_investment_amounts.values())
-    weights = {}
-    
-    for ticker, amount in current_stocks_investment_amounts.items():
-        weights[ticker] = amount / total_investment
-    
-    return weights 
 
 
 CACHE_DIR = Path(__file__).parent / "_cache2"
@@ -78,8 +57,6 @@ def fetch_and_cache(tickers=None):
             time.sleep(10)
             updated_url = url_to_cache_key(f"https://api.twelvedata.com/time_series?apikey=330256b3d0894fec82b468d4d763bd04&interval=1day&symbol={ticker}&start_date=2020-02-01 02:01:00&end_date=2025-02-01 02:01:00&format=CSV")
             new_path = os.path.join(CACHE_DIR, updated_url)
-            #new_path = CACHE_DIR / f"{updated_url}.json"
-
             
             if os.path.exists(new_path):
                 with Path(new_path).open("r") as f:
@@ -87,9 +64,6 @@ def fetch_and_cache(tickers=None):
                     print(f"Data for {ticker} was already fetched and cached previously")
                     data_dict = parse_csv_to_dict(content)
                     cache[ticker] = data_dict  # Save the parsed dictionary in cache
-                    
-
-                #   return cache
     
             else:
                 response = requests.get(f"https://api.twelvedata.com/time_series?apikey=330256b3d0894fec82b468d4d763bd04&interval=1day&symbol={ticker}&start_date=2020-02-01 02:01:00&end_date=2025-02-01 02:01:00&format=CSV")
@@ -104,13 +78,8 @@ def fetch_and_cache(tickers=None):
                        
                         print(f"Data for {ticker} fetched and cached now.")
                         
-        with open("company_info.json", "w") as output_file:
-            json.dump(cache, output_file, indent=4)           
-        
-        # print(cache)
-        # for key, value in cache.items(): 
-        #     print(key)
-    
+        with open("stock_prices.json", "w") as output_file:
+            json.dump(cache, output_file, indent=4)            
 
 
 def parse_csv_to_dict(csv_data):
@@ -130,10 +99,7 @@ def parse_csv_to_dict(csv_data):
 
 def count_companies():
 
-    with open('company_info.json', 'r') as f: 
+    with open('stock_prices.json', 'r') as f: 
         contents = json.load(f)
         print(len(contents))
             
-
-
-
