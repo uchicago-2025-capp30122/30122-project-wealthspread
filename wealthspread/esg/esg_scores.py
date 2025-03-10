@@ -40,5 +40,6 @@ for ticker, info in data.items():
     else:
         esg_dict[ticker] = f"No ESG data available for {ticker}."
 
+
 with open("ESG_Scores.json", "w") as file:
     json.dump(esg_dict, file, indent=2)

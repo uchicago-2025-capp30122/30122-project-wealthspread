@@ -322,6 +322,17 @@ def get_esg_scores(ticker):
     # Return ESG data if available, otherwise calculate from stock data
     if ticker in get_esg_scores.cache:
         esg_data = get_esg_scores.cache[ticker]
+
+        # Exception handling for ticker with no ESG data
+        if not isinstance(esg_data, dict):
+            logger.warning(f"No ESG data available for {ticker}. Using Defaults.")
+            return {
+                'total': 0,
+                'environmental': 0,
+                'social': 0,
+                'governance': 0
+            }
+        
         # Map the field names to our expected format
         return {
             'total': esg_data.get('totalEsg', 0),
@@ -660,26 +671,31 @@ def show_esg_info(ticker):
         weakest = max(scores, key=lambda x: x[1])
         
         # Format the analysis text
-        analysis = f"""
-A company's total ESG risk score reflects its overall exposure to environmental, social, and governance risks
-and how well those risks are managed. A lower score indicates better management of ESG risks.
+        # Check that total_esg isn't a default / 0 value
+        if total_esg == 0:
+            analysis = f"Sorry, no ESG data available for: {ticker}. Try a different stock."
+        # Otherwise print analysis
+        else:
+            analysis = f"""
+                A company's total ESG risk score reflects its overall exposure to environmental, social, and governance risks
+                and how well those risks are managed. A lower score indicates better management of ESG risks.
 
-For {ticker} ({sector}), the total ESG risk score is {total_esg}, which is considered {risk_level} ({risk_color}).
+                For {ticker} ({sector}), the total ESG risk score is {total_esg}, which is considered {risk_level} ({risk_color}).
 
-Breaking it down by category:
-- Environmental: {env_score} - Impact on natural environment
-  (carbon emissions, resource use, waste management, climate initiatives)
-  
-- Social: {social_score} - Impact on people and communities
-  (labor practices, customer relations, community engagement, data privacy)
-  
-- Governance: {gov_score} - Corporate leadership and oversight
-  (board structure, executive compensation, ethical practices, shareholder rights)
+                Breaking it down by category:
+                - Environmental: {env_score} - Impact on natural environment
+                (carbon emissions, resource use, waste management, climate initiatives)
+                
+                - Social: {social_score} - Impact on people and communities
+                (labor practices, customer relations, community engagement, data privacy)
+                
+                - Governance: {gov_score} - Corporate leadership and oversight
+                (board structure, executive compensation, ethical practices, shareholder rights)
 
-{ticker}'s strongest ESG area is {strongest[0]} with a score of {strongest[1]}.
-Its most challenging area is {weakest[0]} with a score of {weakest[1]}.
+                {ticker}'s strongest ESG area is {strongest[0]} with a score of {strongest[1]}.
+                Its most challenging area is {weakest[0]} with a score of {weakest[1]}.
 
-"""
+                """
         
         # Add sector comparison if available
         if hasattr(get_esg_scores, "sector_averages") and sector in get_esg_scores.sector_averages:
