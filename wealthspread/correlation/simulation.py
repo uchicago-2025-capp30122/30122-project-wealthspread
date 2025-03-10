@@ -82,31 +82,11 @@ def suggest_stocks(current_inv, investment_amount):
             best_correlation = total_mean_corr
             best_combination = new_stocks
 
-<<<<<<< HEAD
+
     return f"We suggest investing in {best_combination}, Portfolio correlation would be {float(np.round(best_correlation,3))}"
-=======
-    return best_combination, float(best_correlation) 
 
-# Create an object SIMULATION that contains the functions
-class Simulation:
-    def __init__(self):
-        pass
-    
-    def suggest_stocks(self, current_inv, investment_amount):
-        return suggest_stocks(current_inv, investment_amount)
-    
-    def calculate_weight_of_portfolio(self, current_inv):
-        return calculate_weight_of_portfolio(current_inv)
-    
-    def convert_to_percentchange(self):
-        return convert_to_percentchange()
-    
-    def correlation_matrix(self):
-        return correlation_matrix()
 
-# Create the simulation object
-simulation = Simulation()
->>>>>>> bcc8a1a (Done)
+
 
 # Example Usage
 #simulation.suggest_stocks({"CTAS":10000, "BKR":20000, "ORCL":15000}, 10000)
