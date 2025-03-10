@@ -722,9 +722,9 @@ def show_main_menu():
     print("3. Exit")
     
     choice = input_with_validation(
-        "\nEnter your choice (1-4): ",
-        lambda x: x.isdigit() and 1 <= int(x) <= 4,
-        "Please enter a number between 1 and 4."
+        "\nEnter your choice (1-3): ",
+        lambda x: x.isdigit() and 1 <= int(x) <= 3,
+        "Please enter a number between 1 and 3."
     )
     
     return int(choice)
