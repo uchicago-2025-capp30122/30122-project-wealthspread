@@ -718,8 +718,8 @@ def show_main_menu():
     print("MAIN MENU")
     print("1. Get Portfolio Suggestions")
     print("2. Analyze ESG Scores")
-    print("3. Visualize Stock Performance")
-    print("4. Exit")
+    #print("3. Visualize Stock Performance")
+    print("3. Exit")
     
     choice = input_with_validation(
         "\nEnter your choice (1-4): ",
@@ -842,9 +842,9 @@ def main():
                 get_portfolio_suggestions()
             elif choice == 2:
                 analyze_esg_scores()
+            #elif choice == 3:
+            #    visualize_stock_performance()
             elif choice == 3:
-                visualize_stock_performance()
-            elif choice == 4:
                 print("\nThank you for using Wealth Spread! Goodbye.")
                 break
     except KeyboardInterrupt:
