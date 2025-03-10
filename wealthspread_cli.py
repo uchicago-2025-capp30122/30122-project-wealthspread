@@ -690,7 +690,7 @@ Its most challenging area is {weakest[0]} with a score of {weakest[1]}.
         print(analysis)
             
     except Exception as e:
-        logger.error(f"Sorry, no ESG data available for: {e}. Try a different stock.")
+        logger.error(f"Sorry, no ESG data available for: {ticker}. Try a different stock.")
     
     input("\nPress Enter to continue...")
 

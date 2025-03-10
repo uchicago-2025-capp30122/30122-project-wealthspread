@@ -45,3 +45,9 @@
 2025-03-10 09:44:59,246 - wealth_spread - ERROR - Error retrieving ESG data: 'str' object has no attribute 'get'
 2025-03-10 09:45:43,816 - wealth_spread - ERROR - Error retrieving ESG data: 'str' object has no attribute 'get'
 2025-03-10 09:48:58,881 - wealth_spread - ERROR - Error retrieving ESG data: 'str' object has no attribute 'get'
+2025-03-10 09:58:10,951 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-10 09:58:10,951 - wealth_spread - ERROR - Sorry, no ESG data available for: 'str' object has no attribute 'get'. Try a different stock.
+2025-03-10 09:59:07,118 - wealth_spread - ERROR - Sorry, no ESG data available for: 'str' object has no attribute 'get'. Try a different stock.
+2025-03-10 09:59:38,416 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-10 09:59:38,416 - wealth_spread - ERROR - Sorry, no ESG data available for: GOOG. Try a different stock.
+2025-03-10 09:59:44,760 - wealth_spread - INFO - Loaded stock data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/stocks_details.json
