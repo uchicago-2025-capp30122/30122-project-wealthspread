@@ -7,9 +7,9 @@ with open('../scrape/SA_sp500_tickers.json', 'r') as file:
     ticker_data = json.load(file)
 
 def risk_ranking(score):
-    if score <= 10:
+    if score <= 15:
         return 'low'
-    elif 10 < score <= 20:
+    elif score <= 25:
         return 'medium'
     else:
         return 'high'
