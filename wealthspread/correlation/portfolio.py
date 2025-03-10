@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import json
 from itertools import combinations
-from simulation import weighted_mean_correlation
+from wealthspread.correlation.simulation import weighted_mean_correlation
 from twelvedata_api import tickers_list_creator
 
 ALL_STOCKS = tickers_list_creator()

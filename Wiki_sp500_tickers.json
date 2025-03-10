@@ -1,0 +1,2517 @@
+{
+  "MMM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MMM",
+    "security": "3M",
+    "wiki_page": "https://en.wikipedia.org/wiki/3M"
+  },
+  "AOS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AOS",
+    "security": "A. O. Smith",
+    "wiki_page": "https://en.wikipedia.org/wiki/A._O._Smith"
+  },
+  "ABT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ABT",
+    "security": "Abbott Laboratories",
+    "wiki_page": "https://en.wikipedia.org/wiki/Abbott_Laboratories"
+  },
+  "ABBV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ABBV",
+    "security": "AbbVie",
+    "wiki_page": "https://en.wikipedia.org/wiki/AbbVie"
+  },
+  "ACN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ACN",
+    "security": "Accenture",
+    "wiki_page": "https://en.wikipedia.org/wiki/Accenture"
+  },
+  "ADBE": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/adbe",
+    "security": "Adobe Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Adobe_Inc."
+  },
+  "AMD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/amd",
+    "security": "Advanced Micro Devices",
+    "wiki_page": "https://en.wikipedia.org/wiki/AMD"
+  },
+  "AES": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AES",
+    "security": "AES Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/AES_Corporation"
+  },
+  "AFL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AFL",
+    "security": "Aflac",
+    "wiki_page": "https://en.wikipedia.org/wiki/Aflac"
+  },
+  "A": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:A",
+    "security": "Agilent Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Agilent_Technologies"
+  },
+  "APD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:APD",
+    "security": "Air Products",
+    "wiki_page": "https://en.wikipedia.org/wiki/Air_Products"
+  },
+  "ABNB": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/abnb",
+    "security": "Airbnb",
+    "wiki_page": "https://en.wikipedia.org/wiki/Airbnb"
+  },
+  "AKAM": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/akam",
+    "security": "Akamai Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Akamai_Technologies"
+  },
+  "ALB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ALB",
+    "security": "Albemarle Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Albemarle_Corporation"
+  },
+  "ARE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ARE",
+    "security": "Alexandria Real Estate Equities",
+    "wiki_page": "https://en.wikipedia.org/wiki/Alexandria_Real_Estate_Equities"
+  },
+  "ALGN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/algn",
+    "security": "Align Technology",
+    "wiki_page": "https://en.wikipedia.org/wiki/Align_Technology"
+  },
+  "ALLE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ALLE",
+    "security": "Allegion",
+    "wiki_page": "https://en.wikipedia.org/wiki/Allegion"
+  },
+  "LNT": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/lnt",
+    "security": "Alliant Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Alliant_Energy"
+  },
+  "ALL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ALL",
+    "security": "Allstate",
+    "wiki_page": "https://en.wikipedia.org/wiki/Allstate"
+  },
+  "GOOGL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/googl",
+    "security": "Alphabet Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Alphabet_Inc."
+  },
+  "GOOG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/goog",
+    "security": "Alphabet Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Alphabet_Inc."
+  },
+  "MO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MO",
+    "security": "Altria",
+    "wiki_page": "https://en.wikipedia.org/wiki/Altria"
+  },
+  "AMZN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/amzn",
+    "security": "Amazon",
+    "wiki_page": "https://en.wikipedia.org/wiki/Amazon_(company)"
+  },
+  "AMCR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AMCR",
+    "security": "Amcor",
+    "wiki_page": "https://en.wikipedia.org/wiki/Amcor"
+  },
+  "AEE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AEE",
+    "security": "Ameren",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ameren"
+  },
+  "AEP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/aep",
+    "security": "American Electric Power",
+    "wiki_page": "https://en.wikipedia.org/wiki/American_Electric_Power"
+  },
+  "AXP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AXP",
+    "security": "American Express",
+    "wiki_page": "https://en.wikipedia.org/wiki/American_Express"
+  },
+  "AIG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AIG",
+    "security": "American International Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/American_International_Group"
+  },
+  "AMT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AMT",
+    "security": "American Tower",
+    "wiki_page": "https://en.wikipedia.org/wiki/American_Tower"
+  },
+  "AWK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AWK",
+    "security": "American Water Works",
+    "wiki_page": "https://en.wikipedia.org/wiki/American_Water_Works"
+  },
+  "AMP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AMP",
+    "security": "Ameriprise Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ameriprise_Financial"
+  },
+  "AME": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AME",
+    "security": "Ametek",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ametek"
+  },
+  "AMGN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/amgn",
+    "security": "Amgen",
+    "wiki_page": "https://en.wikipedia.org/wiki/Amgen"
+  },
+  "APH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:APH",
+    "security": "Amphenol",
+    "wiki_page": "https://en.wikipedia.org/wiki/Amphenol"
+  },
+  "ADI": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/adi",
+    "security": "Analog Devices",
+    "wiki_page": "https://en.wikipedia.org/wiki/Analog_Devices"
+  },
+  "ANSS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/anss",
+    "security": "Ansys",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ansys"
+  },
+  "AON": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AON",
+    "security": "Aon",
+    "wiki_page": "https://en.wikipedia.org/wiki/Aon_(company)"
+  },
+  "APA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/apa",
+    "security": "APA Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/APA_Corporation"
+  },
+  "APO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:APO",
+    "security": "Apollo Global Management",
+    "wiki_page": "https://en.wikipedia.org/wiki/Apollo_Global_Management"
+  },
+  "AAPL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/aapl",
+    "security": "Apple Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Apple_Inc."
+  },
+  "AMAT": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/amat",
+    "security": "Applied Materials",
+    "wiki_page": "https://en.wikipedia.org/wiki/Applied_Materials"
+  },
+  "APTV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:APTV",
+    "security": "Aptiv",
+    "wiki_page": "https://en.wikipedia.org/wiki/Aptiv"
+  },
+  "ACGL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/acgl",
+    "security": "Arch Capital Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Arch_Capital_Group"
+  },
+  "ADM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ADM",
+    "security": "Archer Daniels Midland",
+    "wiki_page": "https://en.wikipedia.org/wiki/Archer_Daniels_Midland"
+  },
+  "ANET": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ANET",
+    "security": "Arista Networks",
+    "wiki_page": "https://en.wikipedia.org/wiki/Arista_Networks"
+  },
+  "AJG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AJG",
+    "security": "Arthur J. Gallagher & Co.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Arthur_J._Gallagher_%26_Co."
+  },
+  "AIZ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AIZ",
+    "security": "Assurant",
+    "wiki_page": "https://en.wikipedia.org/wiki/Assurant"
+  },
+  "T": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:T",
+    "security": "AT&T",
+    "wiki_page": "https://en.wikipedia.org/wiki/AT%26T"
+  },
+  "ATO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ATO",
+    "security": "Atmos Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Atmos_Energy"
+  },
+  "ADSK": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/adsk",
+    "security": "Autodesk",
+    "wiki_page": "https://en.wikipedia.org/wiki/Autodesk"
+  },
+  "ADP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/adp",
+    "security": "Automatic Data Processing",
+    "wiki_page": "https://en.wikipedia.org/wiki/ADP_(company)"
+  },
+  "AZO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AZO",
+    "security": "AutoZone",
+    "wiki_page": "https://en.wikipedia.org/wiki/AutoZone"
+  },
+  "AVB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AVB",
+    "security": "AvalonBay Communities",
+    "wiki_page": "https://en.wikipedia.org/wiki/AvalonBay_Communities"
+  },
+  "AVY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:AVY",
+    "security": "Avery Dennison",
+    "wiki_page": "https://en.wikipedia.org/wiki/Avery_Dennison"
+  },
+  "AXON": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/axon",
+    "security": "Axon Enterprise",
+    "wiki_page": "https://en.wikipedia.org/wiki/Axon_Enterprise"
+  },
+  "BKR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/bkr",
+    "security": "Baker Hughes",
+    "wiki_page": "https://en.wikipedia.org/wiki/Baker_Hughes"
+  },
+  "BALL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BALL",
+    "security": "Ball Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ball_Corporation"
+  },
+  "BAC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BAC",
+    "security": "Bank of America",
+    "wiki_page": "https://en.wikipedia.org/wiki/Bank_of_America"
+  },
+  "BAX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BAX",
+    "security": "Baxter International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Baxter_International"
+  },
+  "BDX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BDX",
+    "security": "Becton Dickinson",
+    "wiki_page": "https://en.wikipedia.org/wiki/BD_(company)"
+  },
+  "BRK.B": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BRK.B",
+    "security": "Berkshire Hathaway",
+    "wiki_page": "https://en.wikipedia.org/wiki/Berkshire_Hathaway"
+  },
+  "BBY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BBY",
+    "security": "Best Buy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Best_Buy"
+  },
+  "TECH": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/tech",
+    "security": "Bio-Techne",
+    "wiki_page": "https://en.wikipedia.org/wiki/Bio-Techne"
+  },
+  "BIIB": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/biib",
+    "security": "Biogen",
+    "wiki_page": "https://en.wikipedia.org/wiki/Biogen"
+  },
+  "BLK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BLK",
+    "security": "BlackRock",
+    "wiki_page": "https://en.wikipedia.org/wiki/BlackRock"
+  },
+  "BX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BX",
+    "security": "Blackstone Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Blackstone_Inc."
+  },
+  "BK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BK",
+    "security": "BNY Mellon",
+    "wiki_page": "https://en.wikipedia.org/wiki/BNY_Mellon"
+  },
+  "BA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BA",
+    "security": "Boeing",
+    "wiki_page": "https://en.wikipedia.org/wiki/Boeing"
+  },
+  "BKNG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/bkng",
+    "security": "Booking Holdings",
+    "wiki_page": "https://en.wikipedia.org/wiki/Booking_Holdings"
+  },
+  "BWA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BWA",
+    "security": "BorgWarner",
+    "wiki_page": "https://en.wikipedia.org/wiki/BorgWarner"
+  },
+  "BSX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BSX",
+    "security": "Boston Scientific",
+    "wiki_page": "https://en.wikipedia.org/wiki/Boston_Scientific"
+  },
+  "BMY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BMY",
+    "security": "Bristol Myers Squibb",
+    "wiki_page": "https://en.wikipedia.org/wiki/Bristol_Myers_Squibb"
+  },
+  "AVGO": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/avgo",
+    "security": "Broadcom",
+    "wiki_page": "https://en.wikipedia.org/wiki/Broadcom"
+  },
+  "BR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BR",
+    "security": "Broadridge Financial Solutions",
+    "wiki_page": "https://en.wikipedia.org/wiki/Broadridge_Financial_Solutions"
+  },
+  "BRO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BRO",
+    "security": "Brown & Brown",
+    "wiki_page": "https://en.wikipedia.org/wiki/Brown_%26_Brown"
+  },
+  "BF.B": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BF.B",
+    "security": "Brown\u2013Forman",
+    "wiki_page": "https://en.wikipedia.org/wiki/Brown%E2%80%93Forman"
+  },
+  "BLDR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BLDR",
+    "security": "Builders FirstSource",
+    "wiki_page": "https://en.wikipedia.org/wiki/Builders_FirstSource"
+  },
+  "BG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BG",
+    "security": "Bunge Global",
+    "wiki_page": "https://en.wikipedia.org/wiki/Bunge_Global"
+  },
+  "BXP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BXP",
+    "security": "BXP, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/BXP,_Inc."
+  },
+  "CHRW": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/chrw",
+    "security": "C.H. Robinson",
+    "wiki_page": "https://en.wikipedia.org/wiki/C.H._Robinson"
+  },
+  "CDNS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cdns",
+    "security": "Cadence Design Systems",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cadence_Design_Systems"
+  },
+  "CZR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/czr",
+    "security": "Caesars Entertainment",
+    "wiki_page": "https://en.wikipedia.org/wiki/Caesars_Entertainment"
+  },
+  "CPT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CPT",
+    "security": "Camden Property Trust",
+    "wiki_page": "https://en.wikipedia.org/wiki/Camden_Property_Trust"
+  },
+  "CPB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CPB",
+    "security": "Campbell Soup Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Campbell_Soup_Company"
+  },
+  "COF": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:COF",
+    "security": "Capital One",
+    "wiki_page": "https://en.wikipedia.org/wiki/Capital_One"
+  },
+  "CAH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CAH",
+    "security": "Cardinal Health",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cardinal_Health"
+  },
+  "KMX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KMX",
+    "security": "CarMax",
+    "wiki_page": "https://en.wikipedia.org/wiki/CarMax"
+  },
+  "CCL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CCL",
+    "security": "Carnival",
+    "wiki_page": "https://en.wikipedia.org/wiki/Carnival_Corporation_%26_plc"
+  },
+  "CARR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CARR",
+    "security": "Carrier Global",
+    "wiki_page": "https://en.wikipedia.org/wiki/Carrier_Global"
+  },
+  "CAT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CAT",
+    "security": "Caterpillar Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Caterpillar_Inc."
+  },
+  "CBOE": {
+    "exchange_url": "https://markets.cboe.com/us/equities/listings/listed_products/symbols/CBOE",
+    "security": "Cboe Global Markets",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cboe_Global_Markets"
+  },
+  "CBRE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CBRE",
+    "security": "CBRE Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/CBRE_Group"
+  },
+  "CDW": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cdw",
+    "security": "CDW",
+    "wiki_page": "https://en.wikipedia.org/wiki/CDW"
+  },
+  "CE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CE",
+    "security": "Celanese",
+    "wiki_page": "https://en.wikipedia.org/wiki/Celanese"
+  },
+  "COR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:COR",
+    "security": "Cencora",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cencora"
+  },
+  "CNC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CNC",
+    "security": "Centene Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Centene_Corporation"
+  },
+  "CNP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CNP",
+    "security": "CenterPoint Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/CenterPoint_Energy"
+  },
+  "CF": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CF",
+    "security": "CF Industries",
+    "wiki_page": "https://en.wikipedia.org/wiki/CF_Industries"
+  },
+  "CRL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CRL",
+    "security": "Charles River Laboratories",
+    "wiki_page": "https://en.wikipedia.org/wiki/Charles_River_Laboratories"
+  },
+  "SCHW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SCHW",
+    "security": "Charles Schwab Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation"
+  },
+  "CHTR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/chtr",
+    "security": "Charter Communications",
+    "wiki_page": "https://en.wikipedia.org/wiki/Charter_Communications"
+  },
+  "CVX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CVX",
+    "security": "Chevron Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Chevron_Corporation"
+  },
+  "CMG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CMG",
+    "security": "Chipotle Mexican Grill",
+    "wiki_page": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill"
+  },
+  "CB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CB",
+    "security": "Chubb Limited",
+    "wiki_page": "https://en.wikipedia.org/wiki/Chubb_Limited"
+  },
+  "CHD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CHD",
+    "security": "Church & Dwight",
+    "wiki_page": "https://en.wikipedia.org/wiki/Church_%26_Dwight"
+  },
+  "CI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CI",
+    "security": "Cigna",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cigna"
+  },
+  "CINF": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cinf",
+    "security": "Cincinnati Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cincinnati_Financial"
+  },
+  "CTAS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ctas",
+    "security": "Cintas",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cintas"
+  },
+  "CSCO": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/csco",
+    "security": "Cisco",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cisco"
+  },
+  "C": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:C",
+    "security": "Citigroup",
+    "wiki_page": "https://en.wikipedia.org/wiki/Citigroup"
+  },
+  "CFG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CFG",
+    "security": "Citizens Financial Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Citizens_Financial_Group"
+  },
+  "CLX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CLX",
+    "security": "Clorox",
+    "wiki_page": "https://en.wikipedia.org/wiki/Clorox"
+  },
+  "CME": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cme",
+    "security": "CME Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/CME_Group"
+  },
+  "CMS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CMS",
+    "security": "CMS Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/CMS_Energy"
+  },
+  "KO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KO",
+    "security": "Coca-Cola Company (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company"
+  },
+  "CTSH": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ctsh",
+    "security": "Cognizant",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cognizant"
+  },
+  "CL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CL",
+    "security": "Colgate-Palmolive",
+    "wiki_page": "https://en.wikipedia.org/wiki/Colgate-Palmolive"
+  },
+  "CMCSA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cmcsa",
+    "security": "Comcast",
+    "wiki_page": "https://en.wikipedia.org/wiki/Comcast"
+  },
+  "CAG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CAG",
+    "security": "Conagra Brands",
+    "wiki_page": "https://en.wikipedia.org/wiki/Conagra_Brands"
+  },
+  "COP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:COP",
+    "security": "ConocoPhillips",
+    "wiki_page": "https://en.wikipedia.org/wiki/ConocoPhillips"
+  },
+  "ED": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ED",
+    "security": "Consolidated Edison",
+    "wiki_page": "https://en.wikipedia.org/wiki/Consolidated_Edison"
+  },
+  "STZ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:STZ",
+    "security": "Constellation Brands",
+    "wiki_page": "https://en.wikipedia.org/wiki/Constellation_Brands"
+  },
+  "CEG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ceg",
+    "security": "Constellation Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Constellation_Energy"
+  },
+  "COO": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/coo",
+    "security": "Cooper Companies (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Cooper_Companies"
+  },
+  "CPRT": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cprt",
+    "security": "Copart",
+    "wiki_page": "https://en.wikipedia.org/wiki/Copart"
+  },
+  "GLW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GLW",
+    "security": "Corning Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Corning_Inc."
+  },
+  "CPAY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CPAY",
+    "security": "Corpay",
+    "wiki_page": "https://en.wikipedia.org/wiki/Corpay"
+  },
+  "CTVA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CTVA",
+    "security": "Corteva",
+    "wiki_page": "https://en.wikipedia.org/wiki/Corteva"
+  },
+  "CSGP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/csgp",
+    "security": "CoStar Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/CoStar_Group"
+  },
+  "COST": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/cost",
+    "security": "Costco",
+    "wiki_page": "https://en.wikipedia.org/wiki/Costco"
+  },
+  "CTRA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CTRA",
+    "security": "Coterra",
+    "wiki_page": "https://en.wikipedia.org/wiki/Coterra"
+  },
+  "CRWD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/crwd",
+    "security": "CrowdStrike",
+    "wiki_page": "https://en.wikipedia.org/wiki/CrowdStrike"
+  },
+  "CCI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CCI",
+    "security": "Crown Castle",
+    "wiki_page": "https://en.wikipedia.org/wiki/Crown_Castle"
+  },
+  "CSX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/csx",
+    "security": "CSX Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/CSX_Corporation"
+  },
+  "CMI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CMI",
+    "security": "Cummins",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cummins"
+  },
+  "CVS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CVS",
+    "security": "CVS Health",
+    "wiki_page": "https://en.wikipedia.org/wiki/CVS_Health"
+  },
+  "DHR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DHR",
+    "security": "Danaher Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Danaher_Corporation"
+  },
+  "DRI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DRI",
+    "security": "Darden Restaurants",
+    "wiki_page": "https://en.wikipedia.org/wiki/Darden_Restaurants"
+  },
+  "DVA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DVA",
+    "security": "DaVita",
+    "wiki_page": "https://en.wikipedia.org/wiki/DaVita"
+  },
+  "DAY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DAY",
+    "security": "Dayforce",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dayforce"
+  },
+  "DECK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DECK",
+    "security": "Deckers Brands",
+    "wiki_page": "https://en.wikipedia.org/wiki/Deckers_Brands"
+  },
+  "DE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DE",
+    "security": "Deere & Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Deere_%26_Company"
+  },
+  "DELL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DELL",
+    "security": "Dell Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dell_Technologies"
+  },
+  "DAL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DAL",
+    "security": "Delta Air Lines",
+    "wiki_page": "https://en.wikipedia.org/wiki/Delta_Air_Lines"
+  },
+  "DVN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DVN",
+    "security": "Devon Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Devon_Energy"
+  },
+  "DXCM": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/dxcm",
+    "security": "Dexcom",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dexcom"
+  },
+  "FANG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/fang",
+    "security": "Diamondback Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Diamondback_Energy"
+  },
+  "DLR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DLR",
+    "security": "Digital Realty",
+    "wiki_page": "https://en.wikipedia.org/wiki/Digital_Realty"
+  },
+  "DFS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DFS",
+    "security": "Discover Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Discover_Financial"
+  },
+  "DG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DG",
+    "security": "Dollar General",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dollar_General"
+  },
+  "DLTR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/dltr",
+    "security": "Dollar Tree",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dollar_Tree"
+  },
+  "D": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:D",
+    "security": "Dominion Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dominion_Energy"
+  },
+  "DPZ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DPZ",
+    "security": "Domino's",
+    "wiki_page": "https://en.wikipedia.org/wiki/Domino%27s"
+  },
+  "DOV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DOV",
+    "security": "Dover Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dover_Corporation"
+  },
+  "DOW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DOW",
+    "security": "Dow Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dow_Inc."
+  },
+  "DHI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DHI",
+    "security": "D. R. Horton",
+    "wiki_page": "https://en.wikipedia.org/wiki/D._R._Horton"
+  },
+  "DTE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DTE",
+    "security": "DTE Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/DTE_Energy"
+  },
+  "DUK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DUK",
+    "security": "Duke Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Duke_Energy"
+  },
+  "DD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DD",
+    "security": "DuPont",
+    "wiki_page": "https://en.wikipedia.org/wiki/DuPont"
+  },
+  "EMN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EMN",
+    "security": "Eastman Chemical Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Eastman_Chemical_Company"
+  },
+  "ETN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ETN",
+    "security": "Eaton Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Eaton_Corporation"
+  },
+  "EBAY": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ebay",
+    "security": "eBay",
+    "wiki_page": "https://en.wikipedia.org/wiki/EBay"
+  },
+  "ECL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ECL",
+    "security": "Ecolab",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ecolab"
+  },
+  "EIX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EIX",
+    "security": "Edison International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Edison_International"
+  },
+  "EW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EW",
+    "security": "Edwards Lifesciences",
+    "wiki_page": "https://en.wikipedia.org/wiki/Edwards_Lifesciences"
+  },
+  "EA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ea",
+    "security": "Electronic Arts",
+    "wiki_page": "https://en.wikipedia.org/wiki/Electronic_Arts"
+  },
+  "ELV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ELV",
+    "security": "Elevance Health",
+    "wiki_page": "https://en.wikipedia.org/wiki/Elevance_Health"
+  },
+  "EMR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EMR",
+    "security": "Emerson Electric",
+    "wiki_page": "https://en.wikipedia.org/wiki/Emerson_Electric"
+  },
+  "ENPH": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/enph",
+    "security": "Enphase Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Enphase_Energy"
+  },
+  "ETR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ETR",
+    "security": "Entergy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Entergy"
+  },
+  "EOG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EOG",
+    "security": "EOG Resources",
+    "wiki_page": "https://en.wikipedia.org/wiki/EOG_Resources"
+  },
+  "EPAM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EPAM",
+    "security": "EPAM Systems",
+    "wiki_page": "https://en.wikipedia.org/wiki/EPAM_Systems"
+  },
+  "EQT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EQT",
+    "security": "EQT Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/EQT_Corporation"
+  },
+  "EFX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EFX",
+    "security": "Equifax",
+    "wiki_page": "https://en.wikipedia.org/wiki/Equifax"
+  },
+  "EQIX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/eqix",
+    "security": "Equinix",
+    "wiki_page": "https://en.wikipedia.org/wiki/Equinix"
+  },
+  "EQR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EQR",
+    "security": "Equity Residential",
+    "wiki_page": "https://en.wikipedia.org/wiki/Equity_Residential"
+  },
+  "ERIE": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/erie",
+    "security": "Erie Indemnity",
+    "wiki_page": "https://en.wikipedia.org/wiki/Erie_Insurance_Group"
+  },
+  "ESS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ESS",
+    "security": "Essex Property Trust",
+    "wiki_page": "https://en.wikipedia.org/wiki/Essex_Property_Trust"
+  },
+  "EL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EL",
+    "security": "Est\u00e9e Lauder Companies (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"
+  },
+  "EG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EG",
+    "security": "Everest Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Everest_Group"
+  },
+  "EVRG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EVRG",
+    "security": "Evergy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Evergy"
+  },
+  "ES": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ES",
+    "security": "Eversource Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Eversource_Energy"
+  },
+  "EXC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/exc",
+    "security": "Exelon",
+    "wiki_page": "https://en.wikipedia.org/wiki/Exelon"
+  },
+  "EXPE": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/expe",
+    "security": "Expedia Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Expedia_Group"
+  },
+  "EXPD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/expd",
+    "security": "Expeditors International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Expeditors_International"
+  },
+  "EXR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:EXR",
+    "security": "Extra Space Storage",
+    "wiki_page": "https://en.wikipedia.org/wiki/Extra_Space_Storage"
+  },
+  "XOM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:XOM",
+    "security": "ExxonMobil",
+    "wiki_page": "https://en.wikipedia.org/wiki/ExxonMobil"
+  },
+  "FFIV": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ffiv",
+    "security": "F5, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/F5,_Inc."
+  },
+  "FDS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FDS",
+    "security": "FactSet",
+    "wiki_page": "https://en.wikipedia.org/wiki/FactSet"
+  },
+  "FICO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FICO",
+    "security": "Fair Isaac",
+    "wiki_page": "https://en.wikipedia.org/wiki/FICO"
+  },
+  "FAST": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/fast",
+    "security": "Fastenal",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fastenal"
+  },
+  "FRT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FRT",
+    "security": "Federal Realty Investment Trust",
+    "wiki_page": "https://en.wikipedia.org/wiki/Federal_Realty_Investment_Trust"
+  },
+  "FDX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FDX",
+    "security": "FedEx",
+    "wiki_page": "https://en.wikipedia.org/wiki/FedEx"
+  },
+  "FIS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FIS",
+    "security": "Fidelity National Information Services",
+    "wiki_page": "https://en.wikipedia.org/wiki/FIS_(company)"
+  },
+  "FITB": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/fitb",
+    "security": "Fifth Third Bancorp",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fifth_Third_Bancorp"
+  },
+  "FSLR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/fslr",
+    "security": "First Solar",
+    "wiki_page": "https://en.wikipedia.org/wiki/First_Solar"
+  },
+  "FE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FE",
+    "security": "FirstEnergy",
+    "wiki_page": "https://en.wikipedia.org/wiki/FirstEnergy"
+  },
+  "FI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FI",
+    "security": "Fiserv",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fiserv"
+  },
+  "FMC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FMC",
+    "security": "FMC Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/FMC_Corporation"
+  },
+  "F": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:F",
+    "security": "Ford Motor Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ford_Motor_Company"
+  },
+  "FTNT": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ftnt",
+    "security": "Fortinet",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fortinet"
+  },
+  "FTV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FTV",
+    "security": "Fortive",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fortive"
+  },
+  "FOXA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/foxa",
+    "security": "Fox Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fox_Corporation"
+  },
+  "FOX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/fox",
+    "security": "Fox Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fox_Corporation"
+  },
+  "BEN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:BEN",
+    "security": "Franklin Resources",
+    "wiki_page": "https://en.wikipedia.org/wiki/Franklin_Resources"
+  },
+  "FCX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:FCX",
+    "security": "Freeport-McMoRan",
+    "wiki_page": "https://en.wikipedia.org/wiki/Freeport-McMoRan"
+  },
+  "GRMN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GRMN",
+    "security": "Garmin",
+    "wiki_page": "https://en.wikipedia.org/wiki/Garmin"
+  },
+  "IT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IT",
+    "security": "Gartner",
+    "wiki_page": "https://en.wikipedia.org/wiki/Gartner"
+  },
+  "GE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GE",
+    "security": "GE Aerospace",
+    "wiki_page": "https://en.wikipedia.org/wiki/GE_Aerospace"
+  },
+  "GEHC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/gehc",
+    "security": "GE HealthCare",
+    "wiki_page": "https://en.wikipedia.org/wiki/GE_HealthCare"
+  },
+  "GEV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GEV",
+    "security": "GE Vernova",
+    "wiki_page": "https://en.wikipedia.org/wiki/GE_Vernova"
+  },
+  "GEN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/gen",
+    "security": "Gen Digital",
+    "wiki_page": "https://en.wikipedia.org/wiki/Gen_Digital"
+  },
+  "GNRC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GNRC",
+    "security": "Generac",
+    "wiki_page": "https://en.wikipedia.org/wiki/Generac"
+  },
+  "GD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GD",
+    "security": "General Dynamics",
+    "wiki_page": "https://en.wikipedia.org/wiki/General_Dynamics"
+  },
+  "GIS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GIS",
+    "security": "General Mills",
+    "wiki_page": "https://en.wikipedia.org/wiki/General_Mills"
+  },
+  "GM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GM",
+    "security": "General Motors",
+    "wiki_page": "https://en.wikipedia.org/wiki/General_Motors"
+  },
+  "GPC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GPC",
+    "security": "Genuine Parts Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Genuine_Parts_Company"
+  },
+  "GILD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/gild",
+    "security": "Gilead Sciences",
+    "wiki_page": "https://en.wikipedia.org/wiki/Gilead_Sciences"
+  },
+  "GPN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GPN",
+    "security": "Global Payments",
+    "wiki_page": "https://en.wikipedia.org/wiki/Global_Payments"
+  },
+  "GL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GL",
+    "security": "Globe Life",
+    "wiki_page": "https://en.wikipedia.org/wiki/Globe_Life"
+  },
+  "GDDY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GDDY",
+    "security": "GoDaddy",
+    "wiki_page": "https://en.wikipedia.org/wiki/GoDaddy"
+  },
+  "GS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GS",
+    "security": "Goldman Sachs",
+    "wiki_page": "https://en.wikipedia.org/wiki/Goldman_Sachs"
+  },
+  "HAL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HAL",
+    "security": "Halliburton",
+    "wiki_page": "https://en.wikipedia.org/wiki/Halliburton"
+  },
+  "HIG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HIG",
+    "security": "Hartford (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Hartford"
+  },
+  "HAS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/has",
+    "security": "Hasbro",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hasbro"
+  },
+  "HCA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HCA",
+    "security": "HCA Healthcare",
+    "wiki_page": "https://en.wikipedia.org/wiki/HCA_Healthcare"
+  },
+  "DOC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DOC",
+    "security": "Healthpeak Properties",
+    "wiki_page": "https://en.wikipedia.org/wiki/Healthpeak_Properties"
+  },
+  "HSIC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/hsic",
+    "security": "Henry Schein",
+    "wiki_page": "https://en.wikipedia.org/wiki/Henry_Schein"
+  },
+  "HSY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HSY",
+    "security": "Hershey Company (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Hershey_Company"
+  },
+  "HES": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HES",
+    "security": "Hess Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hess_Corporation"
+  },
+  "HPE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HPE",
+    "security": "Hewlett Packard Enterprise",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hewlett_Packard_Enterprise"
+  },
+  "HLT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HLT",
+    "security": "Hilton Worldwide",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hilton_Worldwide"
+  },
+  "HOLX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/holx",
+    "security": "Hologic",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hologic"
+  },
+  "HD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HD",
+    "security": "Home Depot (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/Home_Depot"
+  },
+  "HON": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/hon",
+    "security": "Honeywell",
+    "wiki_page": "https://en.wikipedia.org/wiki/Honeywell"
+  },
+  "HRL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HRL",
+    "security": "Hormel Foods",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hormel_Foods"
+  },
+  "HST": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/hst",
+    "security": "Host Hotels & Resorts",
+    "wiki_page": "https://en.wikipedia.org/wiki/Host_Hotels_%26_Resorts"
+  },
+  "HWM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HWM",
+    "security": "Howmet Aerospace",
+    "wiki_page": "https://en.wikipedia.org/wiki/Howmet_Aerospace"
+  },
+  "HPQ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HPQ",
+    "security": "HP Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/HP_Inc."
+  },
+  "HUBB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HUBB",
+    "security": "Hubbell Incorporated",
+    "wiki_page": "https://en.wikipedia.org/wiki/Hubbell_Incorporated"
+  },
+  "HUM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HUM",
+    "security": "Humana",
+    "wiki_page": "https://en.wikipedia.org/wiki/Humana"
+  },
+  "HBAN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/hban",
+    "security": "Huntington Bancshares",
+    "wiki_page": "https://en.wikipedia.org/wiki/Huntington_Bancshares"
+  },
+  "HII": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:HII",
+    "security": "Huntington Ingalls Industries",
+    "wiki_page": "https://en.wikipedia.org/wiki/Huntington_Ingalls_Industries"
+  },
+  "IBM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IBM",
+    "security": "IBM",
+    "wiki_page": "https://en.wikipedia.org/wiki/IBM"
+  },
+  "IEX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IEX",
+    "security": "IDEX Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/IDEX_Corporation"
+  },
+  "IDXX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/idxx",
+    "security": "Idexx Laboratories",
+    "wiki_page": "https://en.wikipedia.org/wiki/Idexx_Laboratories"
+  },
+  "ITW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ITW",
+    "security": "Illinois Tool Works",
+    "wiki_page": "https://en.wikipedia.org/wiki/Illinois_Tool_Works"
+  },
+  "INCY": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/incy",
+    "security": "Incyte",
+    "wiki_page": "https://en.wikipedia.org/wiki/Incyte"
+  },
+  "IR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IR",
+    "security": "Ingersoll Rand",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ingersoll_Rand"
+  },
+  "PODD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/podd",
+    "security": "Insulet Corporation",
+    "wiki_page": "https://en.wikipedia.org/w/index.php?title=Insulet_Corporation&action=edit&redlink=1"
+  },
+  "INTC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/intc",
+    "security": "Intel",
+    "wiki_page": "https://en.wikipedia.org/wiki/Intel"
+  },
+  "ICE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ICE",
+    "security": "Intercontinental Exchange",
+    "wiki_page": "https://en.wikipedia.org/wiki/Intercontinental_Exchange"
+  },
+  "IFF": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IFF",
+    "security": "International Flavors & Fragrances",
+    "wiki_page": "https://en.wikipedia.org/wiki/International_Flavors_%26_Fragrances"
+  },
+  "IP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IP",
+    "security": "International Paper",
+    "wiki_page": "https://en.wikipedia.org/wiki/International_Paper"
+  },
+  "IPG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IPG",
+    "security": "Interpublic Group of Companies (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Interpublic_Group_of_Companies"
+  },
+  "INTU": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/intu",
+    "security": "Intuit",
+    "wiki_page": "https://en.wikipedia.org/wiki/Intuit"
+  },
+  "ISRG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/isrg",
+    "security": "Intuitive Surgical",
+    "wiki_page": "https://en.wikipedia.org/wiki/Intuitive_Surgical"
+  },
+  "IVZ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IVZ",
+    "security": "Invesco",
+    "wiki_page": "https://en.wikipedia.org/wiki/Invesco"
+  },
+  "INVH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:INVH",
+    "security": "Invitation Homes",
+    "wiki_page": "https://en.wikipedia.org/wiki/Invitation_Homes"
+  },
+  "IQV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IQV",
+    "security": "IQVIA",
+    "wiki_page": "https://en.wikipedia.org/wiki/IQVIA"
+  },
+  "IRM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:IRM",
+    "security": "Iron Mountain",
+    "wiki_page": "https://en.wikipedia.org/wiki/Iron_Mountain_(company)"
+  },
+  "JBHT": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/jbht",
+    "security": "J.B. Hunt",
+    "wiki_page": "https://en.wikipedia.org/wiki/J.B._Hunt"
+  },
+  "JBL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:JBL",
+    "security": "Jabil",
+    "wiki_page": "https://en.wikipedia.org/wiki/Jabil"
+  },
+  "JKHY": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/jkhy",
+    "security": "Jack Henry & Associates",
+    "wiki_page": "https://en.wikipedia.org/wiki/Jack_Henry_%26_Associates"
+  },
+  "J": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:J",
+    "security": "Jacobs Solutions",
+    "wiki_page": "https://en.wikipedia.org/wiki/Jacobs_Solutions"
+  },
+  "JNJ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:JNJ",
+    "security": "Johnson & Johnson",
+    "wiki_page": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson"
+  },
+  "JCI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:JCI",
+    "security": "Johnson Controls",
+    "wiki_page": "https://en.wikipedia.org/wiki/Johnson_Controls"
+  },
+  "JPM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:JPM",
+    "security": "JPMorgan Chase",
+    "wiki_page": "https://en.wikipedia.org/wiki/JPMorgan_Chase"
+  },
+  "JNPR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:JNPR",
+    "security": "Juniper Networks",
+    "wiki_page": "https://en.wikipedia.org/wiki/Juniper_Networks"
+  },
+  "K": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:K",
+    "security": "Kellanova",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kellanova"
+  },
+  "KVUE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KVUE",
+    "security": "Kenvue",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kenvue"
+  },
+  "KDP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/kdp",
+    "security": "Keurig Dr Pepper",
+    "wiki_page": "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper"
+  },
+  "KEY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KEY",
+    "security": "KeyCorp",
+    "wiki_page": "https://en.wikipedia.org/wiki/KeyCorp"
+  },
+  "KEYS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KEYS",
+    "security": "Keysight Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Keysight_Technologies"
+  },
+  "KMB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KMB",
+    "security": "Kimberly-Clark",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kimberly-Clark"
+  },
+  "KIM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KIM",
+    "security": "Kimco Realty",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kimco_Realty"
+  },
+  "KMI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KMI",
+    "security": "Kinder Morgan",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kinder_Morgan"
+  },
+  "KKR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KKR",
+    "security": "KKR",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kohlberg_Kravis_Roberts"
+  },
+  "KLAC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/klac",
+    "security": "KLA Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/KLA_Corporation"
+  },
+  "KHC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/khc",
+    "security": "Kraft Heinz",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kraft_Heinz"
+  },
+  "KR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:KR",
+    "security": "Kroger",
+    "wiki_page": "https://en.wikipedia.org/wiki/Kroger"
+  },
+  "LHX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LHX",
+    "security": "L3Harris",
+    "wiki_page": "https://en.wikipedia.org/wiki/L3Harris"
+  },
+  "LH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LH",
+    "security": "LabCorp",
+    "wiki_page": "https://en.wikipedia.org/wiki/LabCorp"
+  },
+  "LRCX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/lrcx",
+    "security": "Lam Research",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lam_Research"
+  },
+  "LW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LW",
+    "security": "Lamb Weston",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lamb_Weston"
+  },
+  "LVS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LVS",
+    "security": "Las Vegas Sands",
+    "wiki_page": "https://en.wikipedia.org/wiki/Las_Vegas_Sands"
+  },
+  "LDOS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LDOS",
+    "security": "Leidos",
+    "wiki_page": "https://en.wikipedia.org/wiki/Leidos"
+  },
+  "LEN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LEN",
+    "security": "Lennar",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lennar"
+  },
+  "LII": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LII",
+    "security": "Lennox International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lennox_International"
+  },
+  "LLY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LLY",
+    "security": "Lilly (Eli)",
+    "wiki_page": "https://en.wikipedia.org/wiki/Eli_Lilly_and_Company"
+  },
+  "LIN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LIN",
+    "security": "Linde plc",
+    "wiki_page": "https://en.wikipedia.org/wiki/Linde_plc"
+  },
+  "LYV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LYV",
+    "security": "Live Nation Entertainment",
+    "wiki_page": "https://en.wikipedia.org/wiki/Live_Nation_Entertainment"
+  },
+  "LKQ": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/lkq",
+    "security": "LKQ Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/LKQ_Corporation"
+  },
+  "LMT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LMT",
+    "security": "Lockheed Martin",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lockheed_Martin"
+  },
+  "L": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:L",
+    "security": "Loews Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Loews_Corporation"
+  },
+  "LOW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LOW",
+    "security": "Lowe's",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lowe%27s"
+  },
+  "LULU": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/lulu",
+    "security": "Lululemon Athletica",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lululemon_Athletica"
+  },
+  "LYB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LYB",
+    "security": "LyondellBasell",
+    "wiki_page": "https://en.wikipedia.org/wiki/LyondellBasell"
+  },
+  "MTB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MTB",
+    "security": "M&T Bank",
+    "wiki_page": "https://en.wikipedia.org/wiki/M%26T_Bank"
+  },
+  "MPC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MPC",
+    "security": "Marathon Petroleum",
+    "wiki_page": "https://en.wikipedia.org/wiki/Marathon_Petroleum"
+  },
+  "MKTX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mktx",
+    "security": "MarketAxess",
+    "wiki_page": "https://en.wikipedia.org/wiki/MarketAxess"
+  },
+  "MAR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mar",
+    "security": "Marriott International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Marriott_International"
+  },
+  "MMC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MMC",
+    "security": "Marsh McLennan",
+    "wiki_page": "https://en.wikipedia.org/wiki/Marsh_McLennan"
+  },
+  "MLM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MLM",
+    "security": "Martin Marietta Materials",
+    "wiki_page": "https://en.wikipedia.org/wiki/Martin_Marietta_Materials"
+  },
+  "MAS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MAS",
+    "security": "Masco",
+    "wiki_page": "https://en.wikipedia.org/wiki/Masco"
+  },
+  "MA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MA",
+    "security": "Mastercard",
+    "wiki_page": "https://en.wikipedia.org/wiki/Mastercard"
+  },
+  "MTCH": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mtch",
+    "security": "Match Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Match_Group"
+  },
+  "MKC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MKC",
+    "security": "McCormick & Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/McCormick_%26_Company"
+  },
+  "MCD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MCD",
+    "security": "McDonald's",
+    "wiki_page": "https://en.wikipedia.org/wiki/McDonald%27s"
+  },
+  "MCK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MCK",
+    "security": "McKesson Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/McKesson_Corporation"
+  },
+  "MDT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MDT",
+    "security": "Medtronic",
+    "wiki_page": "https://en.wikipedia.org/wiki/Medtronic"
+  },
+  "MRK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MRK",
+    "security": "Merck & Co.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Merck_%26_Co."
+  },
+  "META": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/meta",
+    "security": "Meta Platforms",
+    "wiki_page": "https://en.wikipedia.org/wiki/Meta_Platforms"
+  },
+  "MET": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MET",
+    "security": "MetLife",
+    "wiki_page": "https://en.wikipedia.org/wiki/MetLife"
+  },
+  "MTD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MTD",
+    "security": "Mettler Toledo",
+    "wiki_page": "https://en.wikipedia.org/wiki/Mettler_Toledo"
+  },
+  "MGM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MGM",
+    "security": "MGM Resorts",
+    "wiki_page": "https://en.wikipedia.org/wiki/MGM_Resorts"
+  },
+  "MCHP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mchp",
+    "security": "Microchip Technology",
+    "wiki_page": "https://en.wikipedia.org/wiki/Microchip_Technology"
+  },
+  "MU": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mu",
+    "security": "Micron Technology",
+    "wiki_page": "https://en.wikipedia.org/wiki/Micron_Technology"
+  },
+  "MSFT": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/msft",
+    "security": "Microsoft",
+    "wiki_page": "https://en.wikipedia.org/wiki/Microsoft"
+  },
+  "MAA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MAA",
+    "security": "Mid-America Apartment Communities",
+    "wiki_page": "https://en.wikipedia.org/wiki/Mid-America_Apartment_Communities"
+  },
+  "MRNA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mrna",
+    "security": "Moderna",
+    "wiki_page": "https://en.wikipedia.org/wiki/Moderna"
+  },
+  "MHK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MHK",
+    "security": "Mohawk Industries",
+    "wiki_page": "https://en.wikipedia.org/wiki/Mohawk_Industries"
+  },
+  "MOH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MOH",
+    "security": "Molina Healthcare",
+    "wiki_page": "https://en.wikipedia.org/wiki/Molina_Healthcare"
+  },
+  "TAP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TAP",
+    "security": "Molson Coors Beverage Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Molson_Coors_Beverage_Company"
+  },
+  "MDLZ": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mdlz",
+    "security": "Mondelez International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Mondelez_International"
+  },
+  "MPWR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mpwr",
+    "security": "Monolithic Power Systems",
+    "wiki_page": "https://en.wikipedia.org/wiki/Monolithic_Power_Systems"
+  },
+  "MNST": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/mnst",
+    "security": "Monster Beverage",
+    "wiki_page": "https://en.wikipedia.org/wiki/Monster_Beverage"
+  },
+  "MCO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MCO",
+    "security": "Moody's Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Moody%27s_Corporation"
+  },
+  "MS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MS",
+    "security": "Morgan Stanley",
+    "wiki_page": "https://en.wikipedia.org/wiki/Morgan_Stanley"
+  },
+  "MOS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MOS",
+    "security": "Mosaic Company (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Mosaic_Company"
+  },
+  "MSI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MSI",
+    "security": "Motorola Solutions",
+    "wiki_page": "https://en.wikipedia.org/wiki/Motorola_Solutions"
+  },
+  "MSCI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:MSCI",
+    "security": "MSCI",
+    "wiki_page": "https://en.wikipedia.org/wiki/MSCI"
+  },
+  "NDAQ": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ndaq",
+    "security": "Nasdaq, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Nasdaq,_Inc."
+  },
+  "NTAP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ntap",
+    "security": "NetApp",
+    "wiki_page": "https://en.wikipedia.org/wiki/NetApp"
+  },
+  "NFLX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/nflx",
+    "security": "Netflix",
+    "wiki_page": "https://en.wikipedia.org/wiki/Netflix,_Inc."
+  },
+  "NEM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NEM",
+    "security": "Newmont",
+    "wiki_page": "https://en.wikipedia.org/wiki/Newmont"
+  },
+  "NWSA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/nwsa",
+    "security": "News Corp",
+    "wiki_page": "https://en.wikipedia.org/wiki/News_Corp"
+  },
+  "NWS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/nws",
+    "security": "News Corp",
+    "wiki_page": "https://en.wikipedia.org/wiki/News_Corp"
+  },
+  "NEE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NEE",
+    "security": "NextEra Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/NextEra_Energy"
+  },
+  "NKE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NKE",
+    "security": "Nike, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Nike,_Inc."
+  },
+  "NI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NI",
+    "security": "NiSource",
+    "wiki_page": "https://en.wikipedia.org/wiki/NiSource"
+  },
+  "NDSN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ndsn",
+    "security": "Nordson Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Nordson_Corporation"
+  },
+  "NSC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NSC",
+    "security": "Norfolk Southern Railway",
+    "wiki_page": "https://en.wikipedia.org/wiki/Norfolk_Southern_Railway"
+  },
+  "NTRS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ntrs",
+    "security": "Northern Trust",
+    "wiki_page": "https://en.wikipedia.org/wiki/Northern_Trust"
+  },
+  "NOC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NOC",
+    "security": "Northrop Grumman",
+    "wiki_page": "https://en.wikipedia.org/wiki/Northrop_Grumman"
+  },
+  "NCLH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NCLH",
+    "security": "Norwegian Cruise Line Holdings",
+    "wiki_page": "https://en.wikipedia.org/wiki/Norwegian_Cruise_Line_Holdings"
+  },
+  "NRG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NRG",
+    "security": "NRG Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/NRG_Energy"
+  },
+  "NUE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NUE",
+    "security": "Nucor",
+    "wiki_page": "https://en.wikipedia.org/wiki/Nucor"
+  },
+  "NVDA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/nvda",
+    "security": "Nvidia",
+    "wiki_page": "https://en.wikipedia.org/wiki/Nvidia"
+  },
+  "NVR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NVR",
+    "security": "NVR, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/NVR,_Inc."
+  },
+  "NXPI": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/nxpi",
+    "security": "NXP Semiconductors",
+    "wiki_page": "https://en.wikipedia.org/wiki/NXP_Semiconductors"
+  },
+  "ORLY": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/orly",
+    "security": "O'Reilly Auto Parts",
+    "wiki_page": "https://en.wikipedia.org/wiki/O%27Reilly_Auto_Parts"
+  },
+  "OXY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:OXY",
+    "security": "Occidental Petroleum",
+    "wiki_page": "https://en.wikipedia.org/wiki/Occidental_Petroleum"
+  },
+  "ODFL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/odfl",
+    "security": "Old Dominion",
+    "wiki_page": "https://en.wikipedia.org/wiki/Old_Dominion_Freight_Line"
+  },
+  "OMC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:OMC",
+    "security": "Omnicom Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Omnicom_Group"
+  },
+  "ON": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/on",
+    "security": "ON Semiconductor",
+    "wiki_page": "https://en.wikipedia.org/wiki/ON_Semiconductor"
+  },
+  "OKE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:OKE",
+    "security": "ONEOK",
+    "wiki_page": "https://en.wikipedia.org/wiki/Oneok"
+  },
+  "ORCL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ORCL",
+    "security": "Oracle Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+  },
+  "OTIS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:OTIS",
+    "security": "Otis Worldwide",
+    "wiki_page": "https://en.wikipedia.org/wiki/Otis_Worldwide"
+  },
+  "PCAR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/pcar",
+    "security": "Paccar",
+    "wiki_page": "https://en.wikipedia.org/wiki/Paccar"
+  },
+  "PKG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PKG",
+    "security": "Packaging Corporation of America",
+    "wiki_page": "https://en.wikipedia.org/wiki/Packaging_Corporation_of_America"
+  },
+  "PLTR": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/pltr",
+    "security": "Palantir Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Palantir_Technologies"
+  },
+  "PANW": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/panw",
+    "security": "Palo Alto Networks",
+    "wiki_page": "https://en.wikipedia.org/wiki/Palo_Alto_Networks"
+  },
+  "PARA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/para",
+    "security": "Paramount Global",
+    "wiki_page": "https://en.wikipedia.org/wiki/Paramount_Global"
+  },
+  "PH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PH",
+    "security": "Parker Hannifin",
+    "wiki_page": "https://en.wikipedia.org/wiki/Parker_Hannifin"
+  },
+  "PAYX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/payx",
+    "security": "Paychex",
+    "wiki_page": "https://en.wikipedia.org/wiki/Paychex"
+  },
+  "PAYC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PAYC",
+    "security": "Paycom",
+    "wiki_page": "https://en.wikipedia.org/wiki/Paycom"
+  },
+  "PYPL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/pypl",
+    "security": "PayPal",
+    "wiki_page": "https://en.wikipedia.org/wiki/PayPal"
+  },
+  "PNR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PNR",
+    "security": "Pentair",
+    "wiki_page": "https://en.wikipedia.org/wiki/Pentair"
+  },
+  "PEP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/pep",
+    "security": "PepsiCo",
+    "wiki_page": "https://en.wikipedia.org/wiki/PepsiCo"
+  },
+  "PFE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PFE",
+    "security": "Pfizer",
+    "wiki_page": "https://en.wikipedia.org/wiki/Pfizer"
+  },
+  "PCG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PCG",
+    "security": "PG&E Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/PG%26E"
+  },
+  "PM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PM",
+    "security": "Philip Morris International",
+    "wiki_page": "https://en.wikipedia.org/wiki/Philip_Morris_International"
+  },
+  "PSX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PSX",
+    "security": "Phillips 66",
+    "wiki_page": "https://en.wikipedia.org/wiki/Phillips_66"
+  },
+  "PNW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PNW",
+    "security": "Pinnacle West",
+    "wiki_page": "https://en.wikipedia.org/wiki/Pinnacle_West"
+  },
+  "PNC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PNC",
+    "security": "PNC Financial Services",
+    "wiki_page": "https://en.wikipedia.org/wiki/PNC_Financial_Services"
+  },
+  "POOL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/pool",
+    "security": "Pool Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Pool_Corporation"
+  },
+  "PPG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PPG",
+    "security": "PPG Industries",
+    "wiki_page": "https://en.wikipedia.org/wiki/PPG_Industries"
+  },
+  "PPL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PPL",
+    "security": "PPL Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/PPL_Corporation"
+  },
+  "PFG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/pfg",
+    "security": "Principal Financial Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Principal_Financial_Group"
+  },
+  "PG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PG",
+    "security": "Procter & Gamble",
+    "wiki_page": "https://en.wikipedia.org/wiki/Procter_%26_Gamble"
+  },
+  "PGR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PGR",
+    "security": "Progressive Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Progressive_Corporation"
+  },
+  "PLD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PLD",
+    "security": "Prologis",
+    "wiki_page": "https://en.wikipedia.org/wiki/Prologis"
+  },
+  "PRU": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PRU",
+    "security": "Prudential Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Prudential_Financial"
+  },
+  "PEG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PEG",
+    "security": "Public Service Enterprise Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Public_Service_Enterprise_Group"
+  },
+  "PTC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ptc",
+    "security": "PTC Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/PTC_(software_company)"
+  },
+  "PSA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PSA",
+    "security": "Public Storage",
+    "wiki_page": "https://en.wikipedia.org/wiki/Public_Storage"
+  },
+  "PHM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PHM",
+    "security": "PulteGroup",
+    "wiki_page": "https://en.wikipedia.org/wiki/PulteGroup"
+  },
+  "PWR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:PWR",
+    "security": "Quanta Services",
+    "wiki_page": "https://en.wikipedia.org/wiki/Quanta_Services"
+  },
+  "QCOM": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/qcom",
+    "security": "Qualcomm",
+    "wiki_page": "https://en.wikipedia.org/wiki/Qualcomm"
+  },
+  "DGX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DGX",
+    "security": "Quest Diagnostics",
+    "wiki_page": "https://en.wikipedia.org/wiki/Quest_Diagnostics"
+  },
+  "RL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RL",
+    "security": "Ralph Lauren Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ralph_Lauren_Corporation"
+  },
+  "RJF": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RJF",
+    "security": "Raymond James Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Raymond_James_Financial"
+  },
+  "RTX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RTX",
+    "security": "RTX Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/RTX_Corporation"
+  },
+  "O": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:O",
+    "security": "Realty Income",
+    "wiki_page": "https://en.wikipedia.org/wiki/Realty_Income"
+  },
+  "REG": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/reg",
+    "security": "Regency Centers",
+    "wiki_page": "https://en.wikipedia.org/wiki/Regency_Centers"
+  },
+  "REGN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/regn",
+    "security": "Regeneron Pharmaceuticals",
+    "wiki_page": "https://en.wikipedia.org/wiki/Regeneron_Pharmaceuticals"
+  },
+  "RF": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RF",
+    "security": "Regions Financial Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Regions_Financial_Corporation"
+  },
+  "RSG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RSG",
+    "security": "Republic Services",
+    "wiki_page": "https://en.wikipedia.org/wiki/Republic_Services"
+  },
+  "RMD": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RMD",
+    "security": "ResMed",
+    "wiki_page": "https://en.wikipedia.org/wiki/ResMed"
+  },
+  "RVTY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RVTY",
+    "security": "Revvity",
+    "wiki_page": "https://en.wikipedia.org/wiki/Revvity"
+  },
+  "ROK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ROK",
+    "security": "Rockwell Automation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Rockwell_Automation"
+  },
+  "ROL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ROL",
+    "security": "Rollins, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Rollins,_Inc."
+  },
+  "ROP": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/rop",
+    "security": "Roper Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Roper_Technologies"
+  },
+  "ROST": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/rost",
+    "security": "Ross Stores",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ross_Stores"
+  },
+  "RCL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:RCL",
+    "security": "Royal Caribbean Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Royal_Caribbean_Group"
+  },
+  "SPGI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SPGI",
+    "security": "S&P Global",
+    "wiki_page": "https://en.wikipedia.org/wiki/S%26P_Global"
+  },
+  "CRM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:CRM",
+    "security": "Salesforce",
+    "wiki_page": "https://en.wikipedia.org/wiki/Salesforce"
+  },
+  "SBAC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/sbac",
+    "security": "SBA Communications",
+    "wiki_page": "https://en.wikipedia.org/wiki/SBA_Communications"
+  },
+  "SLB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SLB",
+    "security": "Schlumberger",
+    "wiki_page": "https://en.wikipedia.org/wiki/Schlumberger"
+  },
+  "STX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/stx",
+    "security": "Seagate Technology",
+    "wiki_page": "https://en.wikipedia.org/wiki/Seagate_Technology"
+  },
+  "SRE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SRE",
+    "security": "Sempra",
+    "wiki_page": "https://en.wikipedia.org/wiki/Sempra"
+  },
+  "NOW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:NOW",
+    "security": "ServiceNow",
+    "wiki_page": "https://en.wikipedia.org/wiki/ServiceNow"
+  },
+  "SHW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SHW",
+    "security": "Sherwin-Williams",
+    "wiki_page": "https://en.wikipedia.org/wiki/Sherwin-Williams"
+  },
+  "SPG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SPG",
+    "security": "Simon Property Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/Simon_Property_Group"
+  },
+  "SWKS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/swks",
+    "security": "Skyworks Solutions",
+    "wiki_page": "https://en.wikipedia.org/wiki/Skyworks_Solutions"
+  },
+  "SJM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SJM",
+    "security": "J.M. Smucker Company (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_J.M._Smucker_Company"
+  },
+  "SW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SW",
+    "security": "Smurfit WestRock",
+    "wiki_page": "https://en.wikipedia.org/wiki/Smurfit_WestRock"
+  },
+  "SNA": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SNA",
+    "security": "Snap-on",
+    "wiki_page": "https://en.wikipedia.org/wiki/Snap-on"
+  },
+  "SOLV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SOLV",
+    "security": "Solventum",
+    "wiki_page": "https://en.wikipedia.org/wiki/Solventum"
+  },
+  "SO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SO",
+    "security": "Southern Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Southern_Company"
+  },
+  "LUV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:LUV",
+    "security": "Southwest Airlines",
+    "wiki_page": "https://en.wikipedia.org/wiki/Southwest_Airlines"
+  },
+  "SWK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SWK",
+    "security": "Stanley Black & Decker",
+    "wiki_page": "https://en.wikipedia.org/wiki/Stanley_Black_%26_Decker"
+  },
+  "SBUX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/sbux",
+    "security": "Starbucks",
+    "wiki_page": "https://en.wikipedia.org/wiki/Starbucks"
+  },
+  "STT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:STT",
+    "security": "State Street Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/State_Street_Corporation"
+  },
+  "STLD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/stld",
+    "security": "Steel Dynamics",
+    "wiki_page": "https://en.wikipedia.org/wiki/Steel_Dynamics"
+  },
+  "STE": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:STE",
+    "security": "Steris",
+    "wiki_page": "https://en.wikipedia.org/wiki/Steris"
+  },
+  "SYK": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SYK",
+    "security": "Stryker Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Stryker_Corporation"
+  },
+  "SMCI": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/smci",
+    "security": "Supermicro",
+    "wiki_page": "https://en.wikipedia.org/wiki/Supermicro"
+  },
+  "SYF": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SYF",
+    "security": "Synchrony Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Synchrony_Financial"
+  },
+  "SNPS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/snps",
+    "security": "Synopsys",
+    "wiki_page": "https://en.wikipedia.org/wiki/Synopsys"
+  },
+  "SYY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:SYY",
+    "security": "Sysco",
+    "wiki_page": "https://en.wikipedia.org/wiki/Sysco"
+  },
+  "TMUS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/tmus",
+    "security": "T-Mobile US",
+    "wiki_page": "https://en.wikipedia.org/wiki/T-Mobile_US"
+  },
+  "TROW": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/trow",
+    "security": "T. Rowe Price",
+    "wiki_page": "https://en.wikipedia.org/wiki/T._Rowe_Price"
+  },
+  "TTWO": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ttwo",
+    "security": "Take-Two Interactive",
+    "wiki_page": "https://en.wikipedia.org/wiki/Take-Two_Interactive"
+  },
+  "TPR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TPR",
+    "security": "Tapestry, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Tapestry,_Inc."
+  },
+  "TRGP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TRGP",
+    "security": "Targa Resources",
+    "wiki_page": "https://en.wikipedia.org/wiki/Targa_Resources"
+  },
+  "TGT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TGT",
+    "security": "Target Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Target_Corporation"
+  },
+  "TEL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TEL",
+    "security": "TE Connectivity",
+    "wiki_page": "https://en.wikipedia.org/wiki/TE_Connectivity"
+  },
+  "TDY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TDY",
+    "security": "Teledyne Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Teledyne_Technologies"
+  },
+  "TFX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TFX",
+    "security": "Teleflex",
+    "wiki_page": "https://en.wikipedia.org/wiki/Teleflex"
+  },
+  "TER": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ter",
+    "security": "Teradyne",
+    "wiki_page": "https://en.wikipedia.org/wiki/Teradyne"
+  },
+  "TSLA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/tsla",
+    "security": "Tesla, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+  },
+  "TXN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/txn",
+    "security": "Texas Instruments",
+    "wiki_page": "https://en.wikipedia.org/wiki/Texas_Instruments"
+  },
+  "TPL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TPL",
+    "security": "Texas Pacific Land Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Texas_Pacific_Land_Corporation"
+  },
+  "TXT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TXT",
+    "security": "Textron",
+    "wiki_page": "https://en.wikipedia.org/wiki/Textron"
+  },
+  "TMO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TMO",
+    "security": "Thermo Fisher Scientific",
+    "wiki_page": "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific"
+  },
+  "TJX": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TJX",
+    "security": "TJX Companies",
+    "wiki_page": "https://en.wikipedia.org/wiki/TJX_Companies"
+  },
+  "TSCO": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/tsco",
+    "security": "Tractor Supply",
+    "wiki_page": "https://en.wikipedia.org/wiki/Tractor_Supply"
+  },
+  "TT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TT",
+    "security": "Trane Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Trane_Technologies"
+  },
+  "TDG": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TDG",
+    "security": "TransDigm Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/TransDigm_Group"
+  },
+  "TRV": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TRV",
+    "security": "Travelers Companies (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Travelers_Companies"
+  },
+  "TRMB": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/trmb",
+    "security": "Trimble Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Trimble_Inc."
+  },
+  "TFC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TFC",
+    "security": "Truist Financial",
+    "wiki_page": "https://en.wikipedia.org/wiki/Truist_Financial"
+  },
+  "TYL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TYL",
+    "security": "Tyler Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Tyler_Technologies"
+  },
+  "TSN": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:TSN",
+    "security": "Tyson Foods",
+    "wiki_page": "https://en.wikipedia.org/wiki/Tyson_Foods"
+  },
+  "USB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:USB",
+    "security": "U.S. Bancorp",
+    "wiki_page": "https://en.wikipedia.org/wiki/U.S._Bancorp"
+  },
+  "UBER": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:UBER",
+    "security": "Uber",
+    "wiki_page": "https://en.wikipedia.org/wiki/Uber"
+  },
+  "UDR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:UDR",
+    "security": "UDR, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/UDR,_Inc."
+  },
+  "ULTA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ulta",
+    "security": "Ulta Beauty",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ulta_Beauty"
+  },
+  "UNP": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:UNP",
+    "security": "Union Pacific Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Union_Pacific_Corporation"
+  },
+  "UAL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/ual",
+    "security": "United Airlines Holdings",
+    "wiki_page": "https://en.wikipedia.org/wiki/United_Airlines_Holdings"
+  },
+  "UPS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:UPS",
+    "security": "United Parcel Service",
+    "wiki_page": "https://en.wikipedia.org/wiki/United_Parcel_Service"
+  },
+  "URI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:URI",
+    "security": "United Rentals",
+    "wiki_page": "https://en.wikipedia.org/wiki/United_Rentals"
+  },
+  "UNH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:UNH",
+    "security": "UnitedHealth Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/UnitedHealth_Group"
+  },
+  "UHS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:UHS",
+    "security": "Universal Health Services",
+    "wiki_page": "https://en.wikipedia.org/wiki/Universal_Health_Services"
+  },
+  "VLO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VLO",
+    "security": "Valero Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Valero_Energy"
+  },
+  "VTR": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VTR",
+    "security": "Ventas",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ventas_(company)"
+  },
+  "VLTO": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VLTO",
+    "security": "Veralto",
+    "wiki_page": "https://en.wikipedia.org/wiki/Veralto"
+  },
+  "VRSN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/vrsn",
+    "security": "Verisign",
+    "wiki_page": "https://en.wikipedia.org/wiki/Verisign"
+  },
+  "VRSK": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/vrsk",
+    "security": "Verisk Analytics",
+    "wiki_page": "https://en.wikipedia.org/wiki/Verisk_Analytics"
+  },
+  "VZ": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VZ",
+    "security": "Verizon",
+    "wiki_page": "https://en.wikipedia.org/wiki/Verizon"
+  },
+  "VRTX": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/vrtx",
+    "security": "Vertex Pharmaceuticals",
+    "wiki_page": "https://en.wikipedia.org/wiki/Vertex_Pharmaceuticals"
+  },
+  "VTRS": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/vtrs",
+    "security": "Viatris",
+    "wiki_page": "https://en.wikipedia.org/wiki/Viatris"
+  },
+  "VICI": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VICI",
+    "security": "Vici Properties",
+    "wiki_page": "https://en.wikipedia.org/wiki/Vici_Properties"
+  },
+  "V": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:V",
+    "security": "Visa Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Visa_Inc."
+  },
+  "VST": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VST",
+    "security": "Vistra Corp",
+    "wiki_page": "https://en.wikipedia.org/wiki/Vistra_Corp"
+  },
+  "VMC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:VMC",
+    "security": "Vulcan Materials Company",
+    "wiki_page": "https://en.wikipedia.org/wiki/Vulcan_Materials_Company"
+  },
+  "WRB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WRB",
+    "security": "W. R. Berkley Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/W._R._Berkley_Corporation"
+  },
+  "GWW": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:GWW",
+    "security": "W. W. Grainger",
+    "wiki_page": "https://en.wikipedia.org/wiki/W._W._Grainger"
+  },
+  "WAB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WAB",
+    "security": "Wabtec",
+    "wiki_page": "https://en.wikipedia.org/wiki/Wabtec"
+  },
+  "WBA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/wba",
+    "security": "Walgreens Boots Alliance",
+    "wiki_page": "https://en.wikipedia.org/wiki/Walgreens_Boots_Alliance"
+  },
+  "WMT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WMT",
+    "security": "Walmart",
+    "wiki_page": "https://en.wikipedia.org/wiki/Walmart"
+  },
+  "DIS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:DIS",
+    "security": "Walt Disney Company (The)",
+    "wiki_page": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+  },
+  "WBD": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/wbd",
+    "security": "Warner Bros. Discovery",
+    "wiki_page": "https://en.wikipedia.org/wiki/Warner_Bros._Discovery"
+  },
+  "WM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WM",
+    "security": "Waste Management",
+    "wiki_page": "https://en.wikipedia.org/wiki/Waste_Management,_Inc."
+  },
+  "WAT": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WAT",
+    "security": "Waters Corporation",
+    "wiki_page": "https://en.wikipedia.org/wiki/Waters_Corporation"
+  },
+  "WEC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WEC",
+    "security": "WEC Energy Group",
+    "wiki_page": "https://en.wikipedia.org/wiki/WEC_Energy_Group"
+  },
+  "WFC": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WFC",
+    "security": "Wells Fargo",
+    "wiki_page": "https://en.wikipedia.org/wiki/Wells_Fargo"
+  },
+  "WELL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WELL",
+    "security": "Welltower",
+    "wiki_page": "https://en.wikipedia.org/wiki/Welltower"
+  },
+  "WST": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WST",
+    "security": "West Pharmaceutical Services",
+    "wiki_page": "https://en.wikipedia.org/wiki/West_Pharmaceutical_Services"
+  },
+  "WDC": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/wdc",
+    "security": "Western Digital",
+    "wiki_page": "https://en.wikipedia.org/wiki/Western_Digital"
+  },
+  "WY": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WY",
+    "security": "Weyerhaeuser",
+    "wiki_page": "https://en.wikipedia.org/wiki/Weyerhaeuser"
+  },
+  "WMB": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:WMB",
+    "security": "Williams Companies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Williams_Companies"
+  },
+  "WTW": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/wtw",
+    "security": "Willis Towers Watson",
+    "wiki_page": "https://en.wikipedia.org/wiki/Willis_Towers_Watson"
+  },
+  "WDAY": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/wday",
+    "security": "Workday, Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Workday,_Inc."
+  },
+  "WYNN": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/wynn",
+    "security": "Wynn Resorts",
+    "wiki_page": "https://en.wikipedia.org/wiki/Wynn_Resorts"
+  },
+  "XEL": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/xel",
+    "security": "Xcel Energy",
+    "wiki_page": "https://en.wikipedia.org/wiki/Xcel_Energy"
+  },
+  "XYL": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:XYL",
+    "security": "Xylem Inc.",
+    "wiki_page": "https://en.wikipedia.org/wiki/Xylem_Inc."
+  },
+  "YUM": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:YUM",
+    "security": "Yum! Brands",
+    "wiki_page": "https://en.wikipedia.org/wiki/Yum!_Brands"
+  },
+  "ZBRA": {
+    "exchange_url": "https://www.nasdaq.com/market-activity/stocks/zbra",
+    "security": "Zebra Technologies",
+    "wiki_page": "https://en.wikipedia.org/wiki/Zebra_Technologies"
+  },
+  "ZBH": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ZBH",
+    "security": "Zimmer Biomet",
+    "wiki_page": "https://en.wikipedia.org/wiki/Zimmer_Biomet"
+  },
+  "ZTS": {
+    "exchange_url": "https://www.nyse.com/quote/XNYS:ZTS",
+    "security": "Zoetis",
+    "wiki_page": "https://en.wikipedia.org/wiki/Zoetis"
+  }
+}
