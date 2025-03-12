@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Wealth Spread: Interactive CLI for Intelligent Portfolio Diversification
-Direct integration with portfolio.py
 """
 
 import os
@@ -28,28 +27,13 @@ project_root = Path(__file__).parent.absolute()
 correlation_path = project_root / "wealthspread" / "correlation"
 sys.path.insert(0, str(correlation_path))
 
-# Copy the stocks_details.json file to the correlation directory if needed
-stocks_details_source = correlation_path / "stocks_details.json"
-stocks_details_target = Path("stocks_details.json")
-
-if stocks_details_source.exists() and not stocks_details_target.exists():
-    try:
-        # Create a copy of the file instead of a symlink
-        with open(stocks_details_source, 'r') as src:
-            with open(stocks_details_target, 'w') as dest:
-                dest.write(src.read())
-        logger.info(f"Created copy of stocks_details.json in current directory")
-    except Exception as e:
-        logger.error(f"Error copying stocks_details.json: {e}")
-
-# Define file paths
-ESG_SCORES_PATH = project_root / "wealthspread" / "esg" / "ESG_Scores.json"
-ESG_ANALYSIS_PATH = project_root / "wealthspread" / "esg" / "ESG_analysis.json"
-COMPANY_INFO_PATH = project_root / "wealthspread" / "scrape" / "company_info.json"
-
 # Import the portfolio module directly
 import portfolio
 logger.info("Successfully imported portfolio module")
+
+# Define file paths
+ESG_SCORES_PATH = project_root / "wealthspread" / "esg" / "ESG_Scores.json"
+COMPANY_INFO_PATH = project_root / "wealthspread" / "scrape" / "company_info.json"
 
 # Common tickers for better UX
 SAMPLE_TICKERS = [
@@ -62,51 +46,28 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_header():
-<<<<<<< HEAD
     """Print application header"""
     clear_screen()
-    print("\n" + "=" * 80)
+    print("\n" + "=" * 90)
     print("""
-'   __      __              .__   __  .__                                          .___
-'  /  \    /  \ ____ _____  |  |_/  |_|  |__   __________________  ____ _____    __| _/
-'  \   \/\/   /  __ \ __  \ |  |\   __\  |  \ /  ___|____ \_  __ \/ __ \ __  \  / __ | 
-'   \        /\  ___/ / __ \|  |_|  | |   Y  \ ___ \|  |_| |  | \|  ___/ / __ \/ /_/ | 
-'    \__/\  /  \___  >____  /____/__| |___|  /____  >   __/|__|   \___  >____  |____ | 
-'         \/       \/     \/               \/     \/|__|              \/     \/     \/ 
-
-    Intelligent Portfolio Diversification Tool
-    """)
-    print("=" * 80 + "\n")
-=======
-   """Print application header"""
-   clear_screen()
-   print("\n" + "=" * 90)
-   print("""
     __      __              .__   __   .__                                              __
-   /  \    /  \____   ____  |  |_/  |_ |  |__   ________ __ _______  ____________    __| |
-   \   \/\/   /    \_/  _ \ |  |\   __\|  |  \ /  ___/     \\_  __ \ /    \_/  _ \  /  __ |
+   /  \    /  \____   ____  |  |_/  |_ |  |__   ________ __  _______  ____________    __| |
+   \   \/\/   /    \_/  _ \ |  |\   __\\|  |  \ /  ___/     \\_  __ \ /    \_/  _ \  /  __ |
     \        (   ^__)  |_\ ||  |_|  |  |   Y  \\___ \|  |  / |  | \/(   ^__)  |_\ |/  /_/ |
-     \__/\__/ \____/|_____,_|____|__|__|__/___|______)   /  |__|    \____/|_____,_\_____|
+     \__/\__/ \____/|_____,_|____|__|  |__/___|______)   /  |__|    \____/|_____,_\_____|
                                                      |__|            
    Intelligent Portfolio Diversification Tool
    """)
-   print("=" * 90 + "\n")
+    print("=" * 90 + "\n")
 
 def load_json_file(filepath):
     """Load a JSON file and return the data"""
     try:
         with open(filepath, 'r') as f:
             return json.load(f)
-    except FileNotFoundError:
-        logger.error(f"File not found: {filepath}")
-        return {}
-    except json.JSONDecodeError:
-        logger.error(f"Invalid JSON in file: {filepath}")
-        return {}
     except Exception as e:
         logger.error(f"Error loading {filepath}: {e}")
         return {}
->>>>>>> d2842e7 (Improved application)
 
 def input_with_validation(prompt, validator=None, error_message=None):
     """Get user input with validation"""
@@ -192,19 +153,31 @@ def analyze_portfolio():
             print(f"  {ticker}: ${amount:.2f}")
         print(f"Additional investment: ${investment_amount:.2f}")
         
-        proceed = input("\nAnalyze this portfolio for suggestions? (y/n): ").lower().strip()
-        if proceed == 'y':
-            print("\nAnalyzing portfolio... (this may take a moment)")
-            
-            # Call the suggest_stocks_sharpe function directly from the portfolio module
-            result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
-            print("\n=== ANALYSIS RESULTS ===")
-            print(result)
+        while True:
+            proceed = input("\nAnalyze this portfolio for suggestions? (y/n): ").lower().strip()
+            if proceed == 'y':
+                print("\nAnalyzing portfolio... (this may take a moment)")
+                
+                try:
+                    # Call the suggest_stocks_sharpe function from portfolio module
+                    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+                    print("\n=== ANALYSIS RESULTS ===")
+                    print(result)
+                except Exception as e:
+                    logger.error(f"Error analyzing portfolio: {e}")
+                    print(f"\nError analyzing portfolio: {str(e)}")
+                    print("Please try again with different stocks.")
+                
+                break
+            elif proceed == 'n':
+                print("\nReturning to main menu...")
+                break
+            else:
+                print("Please enter 'y' for yes or 'n' for no.")
+    
     except Exception as e:
-        logger.error(f"Error analyzing portfolio: {e}")
-        print(f"\nError analyzing portfolio: {str(e)}")
-        import traceback
-        logger.error(f"Traceback: {traceback.format_exc()}")
+        logger.error(f"Error in portfolio setup: {e}")
+        print(f"\nError setting up portfolio: {str(e)}")
     
     input("\nPress Enter to continue...")
 
@@ -225,25 +198,9 @@ def get_esg_info():
     ).upper()
     
     try:
-        # Check if files exist and load them
-        esg_scores = {}
-        esg_analysis = {}
-        company_info = {}
-        
-        if ESG_SCORES_PATH.exists():
-            esg_scores = load_json_file(ESG_SCORES_PATH)
-        else:
-            print(f"Warning: ESG scores file not found at {ESG_SCORES_PATH}")
-        
-        if ESG_ANALYSIS_PATH.exists():
-            esg_analysis = load_json_file(ESG_ANALYSIS_PATH)
-        else:
-            print(f"Warning: ESG analysis file not found at {ESG_ANALYSIS_PATH}")
-        
-        if COMPANY_INFO_PATH.exists():
-            company_info = load_json_file(COMPANY_INFO_PATH)
-        else:
-            print(f"Warning: Company info file not found at {COMPANY_INFO_PATH}")
+        # Load ESG data and company info
+        esg_scores = load_json_file(ESG_SCORES_PATH)
+        company_info = load_json_file(COMPANY_INFO_PATH)
         
         # Display company information
         print(f"\n=== COMPANY AND ESG INFORMATION FOR {ticker} ===\n")
@@ -301,12 +258,6 @@ def get_esg_info():
                     else:
                         risk_level = "High risk (concerning)"
                     print(f"- Risk Level: {risk_level}")
-                    
-                # Add additional ESG analysis if available
-                if esg_analysis and ticker in esg_analysis:
-                    additional_info = esg_analysis[ticker]
-                    if isinstance(additional_info, dict) and 'analysis' in additional_info:
-                        print(f"\nESG ANALYSIS:\n{additional_info['analysis']}")
             else:
                 print(f"ESG data for {ticker} is not in the expected format.")
         else:
@@ -315,8 +266,6 @@ def get_esg_info():
     except Exception as e:
         logger.error(f"Error getting ESG information: {e}")
         print(f"\nError getting ESG information: {str(e)}")
-        import traceback
-        logger.error(f"Traceback: {traceback.format_exc()}")
     
     input("\nPress Enter to continue...")
 
