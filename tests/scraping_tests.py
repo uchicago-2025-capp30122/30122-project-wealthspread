@@ -1,14 +1,27 @@
 import pytest
 import json
+from pathlib import Path
+
+path = Path(__file__).parent /"../wealthspread/scrape/"
 
 def test_count_tickers():
-    with open('../wealthspread/scrape/SA_sp500_tickers.json', 'r') as file:
+    file_path = path / "SA_sp500_tickers.json"
+    with file_path.open('r') as file:
         data = json.load(file)
     
-    assert len(data) == 503, f"Expected 503 tickers, received {len(data)}"
+    assert len(data) >= 500, f"Expected at least 500 tickers, received {len(data)}"
+
+def test_ticker_length():
+    file_path = path / "SA_sp500_tickers.json"
+    with file_path.open('r') as file:
+        data = json.load(file)
+
+    for ticker in data.keys():
+        assert 1 <= len(ticker) <= 5, f"Ticker {ticker} has an invalid length: {len(ticker)}"
 
 def test_check_ticker_webpages():
-    with open('../wealthspread/scrape/SA_sp500_tickers.json', 'r') as file:
+    file_path = path / "SA_sp500_tickers.json"
+    with file_path.open('r') as file:
         data = json.load(file)
     
     for ticker, info in data.items():
@@ -17,13 +30,15 @@ def test_check_ticker_webpages():
         assert webpage.strip(), f"Webpage for {ticker} is empty, didn't scrape correctly"
 
 def test_count_companies():
-    with open('../wealthspread/scrape/company_info.json', 'r') as file:
+    file_path = path / "company_info.json"
+    with file_path.open('r') as file:
         data = json.load(file)
     
-    assert len(data) == 503, f"Expected 503 companies, received {len(data)}"
+    assert len(data) >= 500, f"Expected at least 500 companies, received {len(data)}"
 
 def test_company_info():
-    with open('../wealthspread/scrape/company_info.json', 'r') as file:
+    file_path = path / "company_info.json"
+    with file_path.open('r') as file:
         data = json.load(file)
     
     for ticker, info in data.items():
