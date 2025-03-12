@@ -302,3 +302,204 @@ KeyError: "['MOC'] not in index"
 2025-03-12 15:30:15,175 - wealth_spread - INFO - Successfully imported portfolio module
 2025-03-12 15:30:57,100 - wealth_spread - INFO - Successfully imported portfolio module
 >>>>>>> d2842e7 (Improved application)
+2025-03-12 15:54:44,562 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:00:40,912 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:01:37,996 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:02:11,951 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:02:11,961 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 206, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "[('AAPL', 'MSFT')] not in index"
+
+2025-03-12 16:04:25,253 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:04:40,634 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:04:40,638 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 206, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "[('AAPL', 'MSFT')] not in index"
+
+2025-03-12 16:05:13,635 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:05:25,367 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:05:25,372 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 205, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "[('AAPL', 'MSFT')] not in index"
+
+2025-03-12 16:06:29,445 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:06:57,915 - wealth_spread - ERROR - Error analyzing portfolio: "['10', '3000'] not in index"
+2025-03-12 16:06:57,919 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 183, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['10', '3000'] not in index"
+
+2025-03-12 16:07:12,989 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:07:12,990 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 183, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "[('AAPL', 'MSFT')] not in index"
+
+2025-03-12 16:07:51,377 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:08:00,218 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:08:00,222 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 183, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "[('AAPL', 'MSFT')] not in index"
+
+2025-03-12 16:13:14,511 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:13:14,514 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 183, in analyze_portfolio
+    try:
+    
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "[('AAPL', 'MSFT')] not in index"
+
+2025-03-12 16:13:34,886 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:14:00,961 - wealth_spread - ERROR - Error analyzing portfolio: name 'fixed_suggest_stocks_sharpe' is not defined
+2025-03-12 16:15:55,812 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:21:03,525 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:21:03,525 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:28:06,612 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:28:17,494 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:30:44,062 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:31:03,333 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 16:49:35,478 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:50:26,161 - wealth_spread - INFO - Successfully imported portfolio module
