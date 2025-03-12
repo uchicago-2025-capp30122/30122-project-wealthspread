@@ -9,9 +9,7 @@ REQUEST_DELAY = 0.1
 
 def make_request(url):
     """
-    ***TAKEN FROM PA3 CODE SUPPLIED BY INSTRUCTOR***
     Make a request to `url` and return the raw response.
-
     This function ensure that the domain matches what is expected
     and that the rate limit is obeyed.
     """

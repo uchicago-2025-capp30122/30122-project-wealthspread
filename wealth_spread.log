@@ -209,3 +209,18 @@ AttributeError: 'str' object has no attribute 'get'
 2025-03-10 14:46:32,127 - wealth_spread - INFO - Loaded correlation data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
 2025-03-10 14:46:32,129 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
 2025-03-10 14:46:32,132 - wealth_spread - INFO - Loaded company info from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/scrape/company_info.json
+2025-03-10 15:07:45,709 - wealth_spread - INFO - Loaded stock data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/stocks_details.json
+2025-03-10 15:07:45,820 - wealth_spread - INFO - Loaded correlation data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
+2025-03-10 15:07:45,823 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-10 15:07:45,827 - wealth_spread - INFO - Loaded company info from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/scrape/company_info.json
+2025-03-10 16:37:01,861 - wealth_spread - WARNING - No ESG data available for BRK.B. Using Defaults.
+2025-03-10 16:37:01,862 - wealth_spread - WARNING - No ESG data available for GOOG. Using Defaults.
+2025-03-10 17:31:32,714 - wealth_spread - ERROR - Unexpected error: 
+2025-03-10 19:55:21,046 - wealth_spread - INFO - Loaded stock data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/stocks_details.json
+2025-03-10 19:55:21,173 - wealth_spread - INFO - Loaded correlation data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
+2025-03-10 19:55:21,176 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-10 19:55:21,179 - wealth_spread - INFO - Loaded company info from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/scrape/company_info.json
+2025-03-12 09:10:06,648 - wealth_spread - INFO - Loaded stock data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/stocks_details.json
+2025-03-12 09:10:06,761 - wealth_spread - INFO - Loaded correlation data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
+2025-03-12 09:10:06,763 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-12 09:10:06,766 - wealth_spread - INFO - Loaded company info from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/scrape/company_info.json
