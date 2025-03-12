@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-03-10 04:24:34,739 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'stocks_details.json'
 2025-03-10 04:25:07,959 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'stocks_details.json'
 2025-03-10 04:30:56,689 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'stocks_details.json'
@@ -228,3 +229,76 @@ AttributeError: 'str' object has no attribute 'get'
 2025-03-12 09:41:26,266 - wealth_spread - INFO - Loaded correlation data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
 2025-03-12 09:41:26,268 - wealth_spread - INFO - Loaded ESG data from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
 2025-03-12 09:41:26,271 - wealth_spread - INFO - Loaded company info from /home/mariefarhat/122project/30122-project-wealthspread/wealthspread/scrape/company_info.json
+=======
+2025-03-10 18:32:23,769 - wealth_spread - INFO - Loaded stock data from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/stocks_details.json
+2025-03-10 18:32:23,855 - wealth_spread - INFO - Loaded correlation data from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
+2025-03-10 18:32:23,856 - wealth_spread - INFO - Loaded ESG data from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-10 18:32:23,858 - wealth_spread - INFO - Loaded company info from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/scrape/company_info.json
+2025-03-12 12:42:52,446 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 12:42:52,446 - wealth_spread - WARNING - Company info file not found at: 30122-project-wealthspread/wealthspread/scrape/company_info.json
+2025-03-12 12:42:52,446 - wealth_spread - WARNING - Stock details file not found at: 30122-project-wealthspread/wealthspread/correlation/stock_details.json
+2025-03-12 12:42:52,447 - wealth_spread - WARNING - ESG data file not found at expected locations
+2025-03-12 13:03:10,754 - wealth_spread - INFO - Successfully used suggest_stocks_sharpe function
+2025-03-12 13:17:31,922 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 13:17:31,922 - wealth_spread - WARNING - Company info file not found at expected locations
+2025-03-12 13:17:31,922 - wealth_spread - WARNING - Stock details file not found at: 30122-project-wealthspread/wealthspread/correlation/stock_details.json
+2025-03-12 13:17:31,922 - wealth_spread - WARNING - ESG data file not found at expected locations
+2025-03-12 13:17:52,713 - wealth_spread - INFO - Successfully used suggest_stocks_sharpe function
+2025-03-12 13:21:39,976 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 13:21:39,976 - wealth_spread - WARNING - Company info file not found at expected locations
+2025-03-12 13:21:39,976 - wealth_spread - WARNING - Stock details file not found at: 30122-project-wealthspread/wealthspread/correlation/stock_details.json
+2025-03-12 13:21:39,976 - wealth_spread - WARNING - ESG data file not found at expected locations
+2025-03-12 13:21:56,636 - wealth_spread - INFO - Successfully used suggest_stocks_sharpe function
+2025-03-12 13:22:27,370 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 13:22:27,370 - wealth_spread - WARNING - Company info file not found at expected locations
+2025-03-12 13:22:27,371 - wealth_spread - WARNING - Stock details file not found at: 30122-project-wealthspread/wealthspread/correlation/stock_details.json
+2025-03-12 13:22:27,371 - wealth_spread - WARNING - ESG data file not found at expected locations
+2025-03-12 13:22:54,251 - wealth_spread - INFO - Successfully used suggest_stocks_sharpe function
+2025-03-12 13:26:31,140 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 13:26:31,140 - wealth_spread - WARNING - Company info file not found at expected locations
+2025-03-12 13:26:31,140 - wealth_spread - WARNING - Stock details file not found at: 30122-project-wealthspread/wealthspread/correlation/stock_details.json
+2025-03-12 13:26:31,140 - wealth_spread - WARNING - ESG data file not found at expected locations
+2025-03-12 13:26:59,454 - wealth_spread - ERROR - Error calling suggest_stocks_sharpe: list index out of range
+2025-03-12 13:40:32,353 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 13:40:45,509 - wealth_spread - ERROR - Portfolio module not found at: 30122-project-wealthspread/wealthspread/correlation/portfolio.py
+2025-03-12 13:46:26,589 - wealth_spread - ERROR - Error importing portfolio module: [Errno 2] No such file or directory: 'stocks_details.json'
+2025-03-12 14:16:15,162 - wealth_spread - INFO - Created symlink to /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/stocks_details.json
+2025-03-12 15:07:30,380 - wealth_spread - INFO - Created symlink from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv to /Users/khushidesai/Downloads/30122-project-wealthspread/correlation_matrix.csv
+2025-03-12 15:07:30,380 - wealth_spread - INFO - Created symlink from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/geometric_mean.json to /Users/khushidesai/Downloads/30122-project-wealthspread/geometric_mean.json
+2025-03-12 15:07:30,380 - wealth_spread - INFO - Created symlink from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/scaled_geometric_mean.json to /Users/khushidesai/Downloads/30122-project-wealthspread/scaled_geometric_mean.json
+2025-03-12 15:07:30,381 - wealth_spread - INFO - Created symlink from /Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/esg/ESG_Scores.json to /Users/khushidesai/Downloads/30122-project-wealthspread/ESG_Scores.json
+2025-03-12 15:07:30,794 - wealth_spread - ERROR - Import error: No module named 'twelvedata_api'
+2025-03-12 15:13:29,831 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 15:19:35,908 - wealth_spread - ERROR - Error analyzing portfolio: "['MOC'] not in index"
+2025-03-12 15:19:35,914 - wealth_spread - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread_cli.py", line 183, in analyze_portfolio
+    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/wealthspread/correlation/portfolio.py", line 96, in suggest_stocks_sharpe
+    sub_corr_matrix = corr_matrix.loc[new_tickers, new_tickers]
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/khushidesai/Downloads/30122-project-wealthspread/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['MOC'] not in index"
+
+2025-03-12 15:29:08,854 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 15:29:27,191 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 15:29:39,068 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 15:29:58,387 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 15:30:15,175 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 15:30:57,100 - wealth_spread - INFO - Successfully imported portfolio module
+>>>>>>> d2842e7 (Improved application)
