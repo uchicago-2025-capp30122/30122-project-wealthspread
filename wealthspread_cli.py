@@ -8,6 +8,11 @@ import sys
 import json
 import logging
 from pathlib import Path
+import random
+from wealthspread.correlation.twelvedata_api import tickers_list_creator
+
+
+ALL_STOCKS = tickers_list_creator()
 
 # Set up logging
 logging.basicConfig(
@@ -28,7 +33,7 @@ correlation_path = project_root / "wealthspread" / "correlation"
 sys.path.insert(0, str(correlation_path))
 
 # Import the portfolio module directly
-import portfolio
+import wealthspread.correlation.portfolio
 logger.info("Successfully imported portfolio module")
 
 # Define file paths
@@ -36,10 +41,7 @@ ESG_SCORES_PATH = project_root / "wealthspread" / "esg" / "ESG_Scores.json"
 COMPANY_INFO_PATH = project_root / "wealthspread" / "scrape" / "company_info.json"
 
 # Common tickers for better UX
-SAMPLE_TICKERS = [
-    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "BRK.B", "JPM", "V", "PG",
-    "NVDA", "HD", "UNH", "JNJ", "MA", "BAC", "DIS", "ADBE", "CRM", "NFLX"
-]
+SAMPLE_TICKERS = ALL_STOCKS
 
 def clear_screen():
     """Clear the terminal screen"""
@@ -50,8 +52,8 @@ def print_header():
     clear_screen()
     print("\n" + "=" * 90)
     print("""
-    __      __              .__   __   .__                                              __
-   /  \    /  \____   ____  |  |_/  |_ |  |__   ________ __  _______  ____________    __| |
+    __      __              .__   __   .__                                             __
+   /  \    /  \____   ____  |  |_/  |_ |  |__   ________ __ _______  ____________   __ | |
    \   \/\/   /    \_/  _ \ |  |\   __\\|  |  \ /  ___/     \\_  __ \ /    \_/  _ \  /  __ |
     \        (   ^__)  |_\ ||  |_|  |  |   Y  \\___ \|  |  / |  | \/(   ^__)  |_\ |/  /_/ |
      \__/\__/ \____/|_____,_|____|__|  |__/___|______)   /  |__|    \____/|_____,_\_____|
@@ -85,13 +87,17 @@ def is_valid_amount(amount_str):
     except ValueError:
         return False
 
+def ticker_validator(ticker):
+    "Validates if the tickers is from the S&P 500"
+    return ticker.upper() in ALL_STOCKS
+
 def get_current_portfolio():
     """Interactively get the user's current portfolio"""
     print("\n=== CURRENT PORTFOLIO ===")
-    print("Let's start by creating your current portfolio (1-5 stocks).\n")
+    print("Let's start by creating your current portfolio (2-5 stocks).\n")
     
     portfolio = {}
-    min_stocks = 1
+    min_stocks = 2
     max_stocks = 5
     
     # Get number of stocks
@@ -104,7 +110,7 @@ def get_current_portfolio():
     
     # Show some sample tickers
     print("\nSample tickers for reference:")
-    sample_display = ", ".join(SAMPLE_TICKERS[:10])
+    sample_display = ", ".join(random.sample(ALL_STOCKS, 15))
     print(f"  {sample_display}, ...")
     
     # Get each stock ticker and amount
@@ -114,8 +120,8 @@ def get_current_portfolio():
         # Get ticker
         ticker = input_with_validation(
             "Enter ticker symbol (e.g., AAPL): ",
-            lambda x: len(x) > 0 and len(x) <= 5,
-            "Please enter a valid ticker symbol (1-5 characters)."
+            ticker_validator,
+            "Ticker not found. Please enter a valid ticker FROM S&P 500."
         ).upper()
         
         # Get amount invested
@@ -160,9 +166,27 @@ def analyze_portfolio():
                 
                 try:
                     # Call the suggest_stocks_sharpe function from portfolio module
-                    result = portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+                    result = wealthspread.correlation.portfolio.suggest_stocks_sharpe(user_portfolio, investment_amount)
+                    with open(COMPANY_INFO_PATH, 'r') as file:
+                          data = json.load(file)
+
+                    # Preview results in an appealing way
                     print("\n=== ANALYSIS RESULTS ===")
-                    print(result)
+                    print("\n" + "="*50)
+                    print("📈 Portfolio Diversification Suggestion 📈")
+                    print("="*50)
+                    print(f"\n🎯 **Recommended Stock to Add:** {result[0]}")
+                    print(f"\n🚀 **Optimized Sharpe Ratio:** {result[1]}")
+                    print(f"🔗 **Average Portfolio Correlation:** {result[2]}")
+                    print(f"\n🌿 **Current ESG Score:** {result[3]}")
+                    print(f"🌱 **New ESG Score (after addition):** {result[4]}")                    
+                    print("\n✨ Happy Investing! ✨")
+                    print("\n--- Company Information ---")
+                    print(f"\n**About Company:**\n{data[result[0]]['about_company']}")
+                    print("\n--- Financial Performance ---")
+                    print(f"\n**Financials:**\n{data[result[0]]['fin_performance']}")
+                    print("="*50 + "\n")
+                    
                 except Exception as e:
                     logger.error(f"Error analyzing portfolio: {e}")
                     print(f"\nError analyzing portfolio: {str(e)}")
@@ -186,9 +210,9 @@ def get_esg_info():
     print_header()
     print("=== ESG INFORMATION ===")
     
-    # Show some sample tickers
+    # Show sample tickers
     print("Sample tickers for reference:")
-    sample_display = ", ".join(SAMPLE_TICKERS[:10])
+    sample_display = ", ".join(random.sample(ALL_STOCKS, 15))
     print(f"  {sample_display}, ...")
     
     ticker = input_with_validation(

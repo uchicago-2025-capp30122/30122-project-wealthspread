@@ -3,12 +3,16 @@ import pandas as pd
 import json
 from itertools import combinations
 from wealthspread.correlation.simulation import weighted_mean_correlation
-from twelvedata_api import tickers_list_creator
+from wealthspread.correlation.twelvedata_api import tickers_list_creator
+# from twelvedata_api import tickers_list_creator
+# from simulation import weighted_mean_correlation
+# to run the suggest_stocks_sharpe independently(i.e not from CLI) change path by
+# unhashing above 2 paths and hashing the paths above them.
 
 ALL_STOCKS = tickers_list_creator()
 
 def scale_returns():
-    import json
+    "Scales the returns of stocks with very high historical returns"
 
     # Load the dictionary from the JSON file
     input_file = "geometric_mean.json"
@@ -28,6 +32,7 @@ def scale_returns():
     output_file
 
 def all_geometric_mean():
+    "Creates a file with the geometric means of all the stocks"
     
     all_geo_means = {}
     with open('stock_prices.json', 'r') as file:
@@ -44,16 +49,16 @@ def all_geometric_mean():
         # Calculate geometric mean using the formula
             geometric_mean = (end_price / start_price) ** (1 / 5) - 1
             all_geo_means[ticker] = geometric_mean
+
    # Save dictionary to a JSON file
     with open("geometric_mean.json", "w") as file:
         json.dump(all_geo_means, file, indent=4)
 
 def portfolio_geometric_mean(data, new_weights): 
-
-    lst = [] 
-        
+    "Returns the portfolios geometric mean by taking each stocks return and weights"
+    
+    lst = []     
     for ticker, weight in new_weights.items():
-      
         ret = data[ticker]
         weighted_geometric_mean = ret * weight
         lst.append(weighted_geometric_mean)
@@ -63,18 +68,20 @@ def portfolio_geometric_mean(data, new_weights):
 
 def suggest_stocks_sharpe(current_inv, investment_amount):
     """
-    current_inv: dict {ticker: amount_invested}
+    Main function that returns the stock with the highest sharpe ratio
+    Inputs: current_inv: dict {ticker: amount_invested}, 
     investment_amount: float (new money to be invested)
-    ALL_STOCKS: list of tickers to consider adding
+    Output: A list [Suggested Stock, Sharpe Ratio, Portfolio Correlation, 
+    Old Portfolio ESG, New Portfolio ESG]
     """
     current_tickers = list(current_inv.keys())
     current_amounts = np.array(list(current_inv.values()))
-    corr_matrix = pd.read_csv("correlation_matrix.csv", index_col=0)
+    corr_matrix = pd.read_csv("wealthspread/correlation/correlation_matrix.csv", index_col=0)
     
-    with open("scaled_geometric_mean.json", "r") as file:
+    with open("wealthspread/correlation/scaled_geometric_mean.json", "r") as file:
         geo_means_dict = json.load(file)
     
-    with open("ESG_Scores.json", "r") as file:  
+    with open("wealthspread/correlation/ESG_Scores.json", "r") as file:  
         esg_scores = json.load(file) 
 
     # Determine how many stocks to suggest
@@ -106,8 +113,7 @@ def suggest_stocks_sharpe(current_inv, investment_amount):
             best_sharpe = sharpe_ratio
             best_combination = new_stocks
 
-
-    new_stock = best_combination[0] if isinstance(best_combination, tuple) else best_combination  # ***** Fix applied here *****
+    new_stock = best_combination[0] if isinstance(best_combination, tuple) else best_combination
 
     # Compute weighted ESG score for the current portfolio
     current_esg_score = sum(
@@ -122,7 +128,7 @@ def suggest_stocks_sharpe(current_inv, investment_amount):
         for ticker in new_portfolio_inv
     ) / sum(new_portfolio_inv.values()) if new_portfolio_inv else 0
 
-    return f"We suggest investing in {best_combination}, Sharpe ratio would be {float(np.round(best_sharpe,3))}, Portfolio correlation would be {float(np.round(total_mean_corr,3))}, Your ESG score has changed from {np.round(current_esg_score,2)} to {np.round(new_esg_score,2)}"
+    return [best_combination, float(np.round(best_sharpe,3)), float(np.round(total_mean_corr,3)), np.round(current_esg_score,2), np.round(new_esg_score,2)]
 
     # Example Usage:
     # portfolio.suggest_stocks_sharpe({"FI":1000, "BA":1000, "USB":1000, "CMG" :1000, "TDG": 1000}, 1000)

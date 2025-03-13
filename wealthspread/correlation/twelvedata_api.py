@@ -1,4 +1,3 @@
-ALLOWED_CHARS = "abcdefghijklmnopqrstuvwxyz1234567890%+,^=._"
 import requests
 import csv
 import json
@@ -6,8 +5,16 @@ from io import StringIO
 from pathlib import Path
 import os
 import time
+ALLOWED_CHARS = "abcdefghijklmnopqrstuvwxyz1234567890%+,^=._"
+
+# ******** Paste API Key below which has been sent via email ******
+API_KEY = ""
+
 
 def tickers_list_creator():
+    "Creates the list of tickers which will be used to "
+    "iterate over when running the API"
+
     tickers_list = []
     tickers_file = "stocks_details.json"
     with open(tickers_file,"r") as ticker_file:
@@ -16,7 +23,7 @@ def tickers_list_creator():
             tickers_list.append(key) 
     return tickers_list
 
-
+# Creates the CACHE
 CACHE_DIR = Path(__file__).parent / "_cache2"
 # Cache dictionary to store all API responses for multiple tickers
 cache = {}
@@ -47,14 +54,17 @@ def url_to_cache_key(url: str) -> str:
             updated_url += charac        
     return updated_url
 
+
 def fetch_and_cache(tickers=None):
+    "Fetches the data via API and cache's it"
+    
     if tickers == None:
         tickers = tickers_list_creator()
         CACHE_DIR.mkdir(exist_ok=True)
         cache = {} 
         for ticker in tickers: 
             time.sleep(10)
-            updated_url = url_to_cache_key(f"https://api.twelvedata.com/time_series?apikey=330256b3d0894fec82b468d4d763bd04&interval=1day&symbol={ticker}&start_date=2020-02-01 02:01:00&end_date=2025-02-01 02:01:00&format=CSV")
+            updated_url = url_to_cache_key(f"https://api.twelvedata.com/time_series?apikey={API_KEY}&interval=1day&symbol={ticker}&start_date=2020-02-01 02:01:00&end_date=2025-02-01 02:01:00&format=CSV")
             new_path = os.path.join(CACHE_DIR, updated_url)
             
             if os.path.exists(new_path):
@@ -65,7 +75,7 @@ def fetch_and_cache(tickers=None):
                     cache[ticker] = data_dict  # Save the parsed dictionary in cache
     
             else:
-                response = requests.get(f"https://api.twelvedata.com/time_series?apikey=330256b3d0894fec82b468d4d763bd04&interval=1day&symbol={ticker}&start_date=2020-02-01 02:01:00&end_date=2025-02-01 02:01:00&format=CSV")
+                response = requests.get(f"https://api.twelvedata.com/time_series?apikey={API_KEY}&interval=1day&symbol={ticker}&start_date=2020-02-01 02:01:00&end_date=2025-02-01 02:01:00&format=CSV")
                 if response.status_code == 200:
                     response_text = response.text
                     with Path(new_path).open("w") as f:
@@ -82,6 +92,8 @@ def fetch_and_cache(tickers=None):
 
 
 def parse_csv_to_dict(csv_data):
+    "Parses the CSV to a Dictionary"
+    
     # Use StringIO to treat the string as a file for the csv.reader
     f = StringIO(csv_data)
     reader = csv.DictReader(f, delimiter=";")
@@ -96,9 +108,10 @@ def parse_csv_to_dict(csv_data):
     print(f"Parsed dictionary: {data_dict}")  # Debug print to check the parsed data
     return data_dict
 
+
 def count_companies():
+    "Counts the numbers of stocks"
 
     with open('stock_prices.json', 'r') as f: 
         contents = json.load(f)
         print(len(contents))
-            

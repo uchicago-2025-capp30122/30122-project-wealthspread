@@ -503,3 +503,62 @@ KeyError: "[('AAPL', 'MSFT')] not in index"
 2025-03-12 16:31:03,333 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
 2025-03-12 16:49:35,478 - wealth_spread - INFO - Successfully imported portfolio module
 2025-03-12 16:50:26,161 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 16:59:06,354 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:11:21,156 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:11:40,449 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:12:51,245 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:15:19,256 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:16:03,048 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:24:23,225 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:24:30,885 - wealth_spread - ERROR - Error in portfolio setup: local variable 'ticker' referenced before assignment
+2025-03-12 17:26:01,138 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:26:09,093 - wealth_spread - ERROR - Error in portfolio setup: local variable 'ticker' referenced before assignment
+2025-03-12 17:27:06,307 - wealth_spread - ERROR - Error analyzing portfolio: name 'portfolio' is not defined
+2025-03-12 17:28:08,246 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:30:49,145 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:31:05,249 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:31:51,176 - wealth_spread - ERROR - Error analyzing portfolio: name 'portfolio' is not defined
+2025-03-12 17:44:52,816 - wealth_spread - INFO - Loaded stock data from /home/rishaq/30122-project-wealthspread/stocks_details.json
+2025-03-12 17:44:52,989 - wealth_spread - INFO - Loaded correlation data from /home/rishaq/30122-project-wealthspread/wealthspread/correlation/correlation_matrix.csv
+2025-03-12 17:44:52,994 - wealth_spread - INFO - Loaded ESG data from /home/rishaq/30122-project-wealthspread/wealthspread/correlation/ESG_Scores.json
+2025-03-12 17:44:53,008 - wealth_spread - INFO - Loaded company info from /home/rishaq/30122-project-wealthspread/wealthspread/scrape/company_info.json
+2025-03-12 17:54:16,333 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 17:56:05,805 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'correlation_matrix.csv'
+2025-03-12 17:56:28,286 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'correlation_matrix.csv'
+2025-03-12 17:58:21,847 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'correlation_matrix.csv'
+2025-03-12 18:00:08,249 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:00:28,510 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'correlation_matrix.csv'
+2025-03-12 18:07:28,854 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:07:55,890 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'correlation_matrix.csv'
+2025-03-12 18:11:10,087 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:11:34,218 - wealth_spread - ERROR - Error analyzing portfolio: [Errno 2] No such file or directory: 'scaled_geometric_mean.json'
+2025-03-12 18:12:28,447 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:15:09,329 - wealth_spread - ERROR - Error analyzing portfolio: "['ZXZXZ'] not in index"
+2025-03-12 18:17:40,335 - wealth_spread - ERROR - Error analyzing portfolio: "['2'] not in index"
+2025-03-12 18:18:14,347 - wealth_spread - ERROR - Error analyzing portfolio: "None of [Index(['1', ('AAPL', 'MSFT')], dtype='object')] are in the [index]"
+2025-03-12 18:18:48,140 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:20:24,345 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:32:39,063 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:52:41,673 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 18:52:56,303 - wealth_spread - ERROR - Error analyzing portfolio: list index out of range
+2025-03-12 18:53:33,249 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 19:56:27,470 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:04:25,700 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:04:49,349 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:09:34,352 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:09:58,008 - wealth_spread - ERROR - Error analyzing portfolio: 'str' object has no attribute 'get'
+2025-03-12 20:10:38,145 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:10:57,315 - wealth_spread - ERROR - Error analyzing portfolio: 'str' object has no attribute 'get'
+2025-03-12 20:11:40,109 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:13:03,347 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:14:51,055 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:15:07,377 - wealth_spread - ERROR - Error analyzing portfolio: 'str' object has no attribute 'get'
+2025-03-12 20:15:52,044 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:16:27,642 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:21:35,847 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:42:12,358 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:47:21,585 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 20:47:29,328 - wealth_spread - ERROR - Error analyzing portfolio: "[('AAPL', 'MSFT')] not in index"
+2025-03-12 20:48:31,745 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 21:06:17,355 - wealth_spread - INFO - Successfully imported portfolio module
+2025-03-12 21:11:50,594 - wealth_spread - INFO - Successfully imported portfolio module

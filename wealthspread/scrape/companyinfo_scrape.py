@@ -14,7 +14,6 @@ def company_info():
             - about_company (str): A brief description of the company.
             - fin_performance (str): The financial performance summary.
                 """
-    
 
 # Initialize a dictionary to store the results
 company_data = {}
@@ -27,7 +26,7 @@ skipped_companies = []  # List to store names of skipped companies
 client = httpx.Client(timeout=httpx.Timeout(30))  # Timeout set to 30 seconds
 
 # Open the JSON file containing S&P 500 tickers
-with open("SA_sp500_tickers.json", "r") as file:
+with open("wealthspread/scrape/SA_sp500_tickers.json", "r") as file:
     data = json.load(file)  # Load JSON data into a Python dictionary
 
     for company_name, info in data.items():
@@ -76,14 +75,15 @@ if skipped_companies:
     print("Skipped Companies:", ", ".join(skipped_companies))
 
 # Save the company data to a JSON file
-with open("company_info.json", "w") as output_file:
+with open("wealthspread/scrape/company_info.json", "w") as output_file:
     json.dump(company_data, output_file, indent=4)
 
 print("Company information saved to 'company_info.json'.")
 
 def retreive_company_info(company_name):
-
-    with open('company_info.json', 'r') as f:
+    "To retreive already scraped company information"
+    
+    with open('wealthspread/scrape/company_info.json', 'r') as f:
         data = json.load(f)
         for ticker, info in data.items():
           #  print(ticker, info)
