@@ -1,23 +1,16 @@
-# Wealth Spread: Intelligent Portfolio Diversification Tool
+# Project Paper
 
-## Team Members
+# Link to the Tutorial Video 
+https://drive.google.com/file/d/1YP4KzmAb3Z7C1LID5qGs4gi6z533cbW1/view?usp=sharing
 
-- Raabiyal Ishaq <rishaq@uchicago.edu>
-- Marie Farhat <mariefarhat@uchicago.edu>
-- Khushi Desai <khushi@uchicago.edu>
-- Shumaila Abbasi <shumaila@uchicago.edu>
+## WealthSpread Team Members:
+- Raabiyaal Ishaq - rishaq@uchicago.edu
+- Marie Farhat - mariefarhat@uchicago.edu
+- Shumaila Abbasi - shumaila@uchicago.edu
+- Khushi Desai - khushi@uchicago.edu
 
-## Abstract
-
-Wealth Spread is an innovative Portfolio Optimization & Diversification Tool designed to revolutionize how individual investors approach stock portfolio management. In today's complex financial landscape, individual investors often struggle to effectively diversify their investments, leading to unnecessary risk and potential financial volatility. 
-
-Our tool addresses this challenge by providing a comprehensive, data-driven approach to portfolio optimization. By leveraging advanced data analysis techniques, including correlation analysis, historical price tracking, and ESG (Environmental, Social, and Governance) scoring, the tool provides users with actionable insights to minimize portfolio risk while maximizing potential returns.
-
-## Project Motivation
-
-Investment diversification is more than just spreading money across different stocks. It requires a nuanced understanding of how different assets interact, their historical performance, and their potential future behavior. Traditional investment approaches often rely on intuition or limited information, which can lead to suboptimal investment decisions. 
-
-Wealth Spread leverages cutting-edge data science techniques to provide a more intelligent, data-driven approach to portfolio management. We go beyond simple diversification by incorporating multiple layers of analysis, examining the complex relationships between different stocks, their correlation patterns, and their broader economic and sustainability contexts.
+## Project Abstract:
+This project implements a comprehensive investment portfolio analysis and recommendation system called WealthSpread. The application assists users in making informed investment decisions by analyzing financial metrics, ESG (Environmental, Social, and Governance) scores, and historical stock performance data. WealthSpread combines traditional financial mathematics with modern ESG considerations to provide users with balanced investment recommendations that align with both financial goals and sustainability concerns. The system analyzes correlation matrices, calculates Sharpe ratios, and runs simulations to recommend optimal stock combinations from the S&P 500 index.
 
 ## Data Sources
 
@@ -51,67 +44,6 @@ The system retrieves comprehensive 5-year historical price data for S&P 500 comp
 - Method: Collecting Environmental, Social, and Governance (ESG) risk ratings
 - Yahoo Finance sources its risk ratings from Sustainalytics, a Morningstar company
 
-## How to Run
-
-### Prerequisites
-
-- Python 3.8 or higher
-- `uv` package manager
-
-### How to Run
-
-**Quickstart Guide**
-- uv sync
-- uv run wealthspread_cli.py
-
-#### Detailed How to Run the Project
-**Step 0: Run uv sync**
-- With the repository open, run the 'uv sync' command in the terminal
-
-**Step 1: Engage the Command Line Application**
-- In the terminal, enter command 'uv run wealthspread_cli.py'
-- You should see the main application menu titled "Wealthspread"
-- A menu of 3 selection options will appear
-
-**Step 2: Analyze Portfolio & Get Stock Suggestions**
-- In the command line, type '1' and hit enter
-- You will be prompted to enter the number of stocks in your portfolio (between 1 and 5). Enter a valid number.
-- For each stock in your portfolio, you will be asked to:
-    - First enter the ticker symbol (e.g. 'AAPL')
-    - Second enter the dollar amount (e.g. '1000')
-- Next, you will be prompted to enter the dollar amount you wish to invest today. Enter a numerical value (e.g. '200')
-- Finally, when ready to execute the portfolio analysis, enter 'y' into the command line
-- View your custom portfolio analysis and stock suggestion!
-- Follow the instructions to return to the main menu by hitting 'enter' on your keyboard
-
-**Step 3: Get ESG Information for a Ticker**
-- In the command line, type '2' and hit enter
-- Enter a single stock ticker (e.g. 'AAPL') in the command line
-- The wealthspread application will output the ESG risk score breakdown for your selected stock
-- Follow the instructions to return to the main menu by hitting 'enter' on your keyboard
-
-**Step 4: Exit the Application**
-- In the command line, type '3' to exit the application
-- You may revisit Step 1 to re-engage with Wealthspread
-
-**Optional: Refresh Scraped Data**
-- The S&P500 is rebalanced quarterly, typically on the 3rd Friday of March, June, September, and December.
-- To get the latest list of S&P500 stocks, run the following commands from the terminal:
-    - 'uv run wealthspread/scrape/stockanalysis_scrape.py'
-    - Validate the scraped results in wealthspread/scrape/SA_sp500_tickers.json
-- Next, update each stock's company data by running the following command:
-    - 'uv run wealthspread/scrape/companyinfo_scrape.py'
-    - Validate the scraped results in wealthspread/scrape/company_info.json
-
-**Optional: Refresh Stock Data**
-- To update Stock data, need to run the following:
-- twelvedata_api.fetch_and_cache() from the correlations folder
-- Use API_KEY sent on email in twelvedata_api.py
-
-### How to Run Tests
-'pytest tests/esg_tests.py'
-'pytest tests/scraping_tests.py'
-
 ## Limitations and Considerations
 
 - The tool provides data-driven insights but does not constitute financial advice
@@ -119,11 +51,88 @@ The system retrieves comprehensive 5-year historical price data for S&P 500 comp
 - Recommended to consult with financial professionals
 - Data sources may have intermittent availability
 
-## Future Development
 
-- Continuous improvement of data sources
-- Expansion to other securities beyond the S&P500
-- Refinement of correlation analysis algorithms
-- Expansion of user interface
-- Goal: Make sophisticated investment analysis accessible to everyone
+## Overall Structure of the Project:
+The project is structured into several main components:
 
+1. *Data Collection*: This component handles the acquisition of stock data, ESG scores, and S&P 500 tickers through:
+  - API integration with TwelveData for historical stock price data
+  - Web scraping of ESG scores and sustainability metrics
+  - Web scraping of S&P 500 stock information from Wikipedia
+ 
+2. *Financial Analysis*: This core component provides the mathematical foundation for:
+  - Calculation of Sharpe ratios for risk-adjusted return assessment
+  - Generation of correlation matrices to analyze relationships between stocks
+  - Portfolio simulation and optimization algorithms
+  - Risk assessment and diversification analysis
+ 
+3. *ESG Analysis*: This component processes and integrates sustainability metrics into the investment decision process:
+  - ESG score normalization and weighting
+  - Integration of ESG factors with financial performance data
+  - Sustainability-focused portfolio recommendations
+ 
+4. *User Interface*: A command-line application that:
+  - Guides users through the portfolio analysis process
+  - Provides an intuitive interface for interacting with complex financial data
+ 
+5. *Testing and Documentation*: Includes test suites and documentation:
+  - Unit tests for individual components
+  - Integration tests for system functionality
+  - User documentation and examples
+
+
+## Responsibilities of each member:
+
+
+### Raabiyaal
+*Role*: Financial Mathematics & Portfolio Analysis
+- Developed the core financial mathematics engine for portfolio analysis
+- Implemented the portfolio.py and simulation.py to calculate Sharpe ratios for risk-adjusted return measurement
+- Created correlation matrix generation functionality to analyze stock relationships
+
+### Marie
+*Role*: ESG Analysis & Data Collection
+- Web scraped ESG scores from sustainability reporting sources
+- Web scraped S&P 500 stock tickers and related information from Wikipedia
+- Implemented data cleaning and normalization processes for ESG metrics
+
+### Shumaila
+*Role*: API Integration & Stock Data Collection
+- Implemented TwelveData API integration to acquire 5 years of historical stock data
+- Web scraped additional company information to supplement API data
+- Created data validation and error handling for API connections
+
+
+### Khushi
+*Role*: User Interface & Project Presentation
+- Designed and built the entire command-line application interface
+- Created the UI/UX flow for user interaction with the system
+- Developed the project logo and branding elements
+
+### Team Collaboration
+- All team members participated in regular debugging sessions
+- Each member wrote tests
+- Collaborative repository organization and code structure planning
+- Regular meetings for brainstorming and feedback
+- Cross-functional support throughout development
+- Collaborated on producing the tutorial video
+
+
+## Conclusion
+
+The WealthSpread project successfully combines traditional financial analysis techniques with modern ESG considerations to provide users with a comprehensive investment recommendation tool. The application demonstrates the potential for integrating sustainability metrics into investment decision processes without sacrificing financial performance.
+
+
+The team effectively utilized web scraping, API integration, and financial mathematics to create a cohesive system that provides valuable insights for investors. The command-line interface makes complex financial analysis accessible to users without requiring advanced financial knowledge.
+
+
+Future enhancements could include:
+- Development of a robust website interface to make the tool more accessible to a wider audience
+- Expansion of the analysis to include more market indices beyond the S&P 500
+- Development of a graphical user interface for improved visualization
+- Implementation of machine learning algorithms for predictive analysis
+- Integration with brokerage APIs for real-time portfolio management
+- Incorporation of additional alternative data sources for more comprehensive analysis
+
+
+WealthSpread represents an important step toward democratizing sophisticated investment analysis while promoting responsible investment principles through ESG integration.

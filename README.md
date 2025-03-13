@@ -19,37 +19,8 @@ Investment diversification is more than just spreading money across different st
 
 Wealth Spread leverages cutting-edge data science techniques to provide a more intelligent, data-driven approach to portfolio management. We go beyond simple diversification by incorporating multiple layers of analysis, examining the complex relationships between different stocks, their correlation patterns, and their broader economic and sustainability contexts.
 
-## Data Sources
-
-### S&P 500 Index Components
-
-The S&P 500 serves as the foundational dataset for our project.
-This comprehensive index represents 500 of the largest publicly traded companies in the United States,
-providing a robust and representative sample of the corporate landscape. 
-
-**How to Obtain**: 
-- Freely available from the Stock Analysis website
-- Requires monthly validation due to index composition changes
-- Link : https://stockanalysis.com/list/sp-500-stocks/
-- This data source is webscraped for our project
-
-### Historical Stock Data (TwelveData API)
-
-**API Details**:
-- Register at: https://twelvedata.com/pricing
-- Free version: 800 API calls per day
-- Limitations: 8 calls per minute
-
-We've implemented a caching system that efficiently manages API call limitations,
-storing and updating data to minimize unnecessary API requests. 
-The system retrieves comprehensive 5-year historical price data for S&P 500 companies.
-
-### ESG Score Integration
-
-**Data Collection**:
-- Source: From Yahoo Finance (https://finance.yahoo.com/); API via yfinance library (https://pypi.org/project/yfinance/)
-- Method: Collecting Environmental, Social, and Governance (ESG) risk ratings
-- Yahoo Finance sources its risk ratings from Sustainalytics, a Morningstar company
+# Link to the Tutorial Video 
+https://drive.google.com/file/d/1YP4KzmAb3Z7C1LID5qGs4gi6z533cbW1/view?usp=sharing
 
 ## How to Run
 
@@ -104,27 +75,11 @@ The system retrieves comprehensive 5-year historical price data for S&P 500 comp
     - Validate the scraped results in wealthspread/scrape/company_info.json
 
 **Optional: Refresh Stock Data**
-- need team input here
+- To update Stock data, need to run the following:
+- twelvedata_api.fetch_and_cache() from the correlations folder
+- Use API_KEY sent on email in twelvedata_api.py
 
 ### How to Run Tests
 'pytest tests/esg_tests.py'
 'pytest tests/scraping_tests.py'
-(correlation tests)
-(CLI tests)
-
-## Limitations and Considerations
-
-- The tool provides data-driven insights but does not constitute financial advice
-- Investment decisions should consider individual financial situations
-- Recommended to consult with financial professionals
-- Data sources may have intermittent availability
-
-## Future Development
-
-- Continuous improvement of data sources
-- Expansion to other securities beyond the S&P500
-- Refinement of correlation analysis algorithms
-- Expansion of user interface
-- Goal: Make sophisticated investment analysis accessible to everyone
-
 
