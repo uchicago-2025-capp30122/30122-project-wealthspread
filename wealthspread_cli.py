@@ -6,24 +6,12 @@ Wealth Spread: Interactive CLI for Intelligent Portfolio Diversification
 import os
 import sys
 import json
-import logging
 from pathlib import Path
 import random
 from wealthspread.correlation.twelvedata_api import tickers_list_creator
 
 
 ALL_STOCKS = tickers_list_creator()
-
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("wealth_spread.log"),
-        logging.StreamHandler(sys.stdout)
-    ]
-)
-logger = logging.getLogger("wealth_spread")
 
 # Get project root and set up paths
 project_root = Path(__file__).parent.absolute()
@@ -34,7 +22,7 @@ sys.path.insert(0, str(correlation_path))
 
 # Import the portfolio module directly
 import wealthspread.correlation.portfolio
-logger.info("Successfully imported portfolio module")
+
 
 # Define file paths
 ESG_SCORES_PATH = project_root / "wealthspread" / "esg" / "ESG_Scores.json"
@@ -64,12 +52,9 @@ def print_header():
 
 def load_json_file(filepath):
     """Load a JSON file and return the data"""
-    try:
-        with open(filepath, 'r') as f:
-            return json.load(f)
-    except Exception as e:
-        logger.error(f"Error loading {filepath}: {e}")
-        return {}
+    with open(filepath, 'r') as f:
+        return json.load(f)
+
 
 def input_with_validation(prompt, validator=None, error_message=None):
     """Get user input with validation"""
@@ -188,7 +173,6 @@ def analyze_portfolio():
                     print("="*50 + "\n")
                     
                 except Exception as e:
-                    logger.error(f"Error analyzing portfolio: {e}")
                     print(f"\nError analyzing portfolio: {str(e)}")
                     print("Please try again with different stocks.")
                 
@@ -200,7 +184,6 @@ def analyze_portfolio():
                 print("Please enter 'y' for yes or 'n' for no.")
     
     except Exception as e:
-        logger.error(f"Error in portfolio setup: {e}")
         print(f"\nError setting up portfolio: {str(e)}")
     
     input("\nPress Enter to continue...")
@@ -288,7 +271,6 @@ def get_esg_info():
             print(f"No ESG information available for {ticker}.")
     
     except Exception as e:
-        logger.error(f"Error getting ESG information: {e}")
         print(f"\nError getting ESG information: {str(e)}")
     
     input("\nPress Enter to continue...")
@@ -325,9 +307,8 @@ def main():
     except KeyboardInterrupt:
         print("\n\nProgram interrupted. Exiting...")
     except Exception as e:
-        logger.error(f"Unexpected error: {e}")
         print(f"\nAn unexpected error occurred: {e}")
-        print("Please check the log file for details.")
+
 
 if __name__ == "__main__":
     main()

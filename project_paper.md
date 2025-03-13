@@ -104,13 +104,13 @@ The system retrieves comprehensive 5-year historical price data for S&P 500 comp
     - Validate the scraped results in wealthspread/scrape/company_info.json
 
 **Optional: Refresh Stock Data**
-- need team input here
+- To update Stock data, need to run the following:
+- twelvedata_api.fetch_and_cache() from the correlations folder
+- Use API_KEY sent on email in twelvedata_api.py
 
 ### How to Run Tests
 'pytest tests/esg_tests.py'
 'pytest tests/scraping_tests.py'
-(correlation tests)
-(CLI tests)
 
 ## Limitations and Considerations
 

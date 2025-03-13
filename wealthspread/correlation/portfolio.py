@@ -4,8 +4,8 @@ import json
 from itertools import combinations
 from wealthspread.correlation.simulation import weighted_mean_correlation
 from wealthspread.correlation.twelvedata_api import tickers_list_creator
-# from twelvedata_api import tickers_list_creator
-# from simulation import weighted_mean_correlation
+#from twelvedata_api import tickers_list_creator
+#from simulation import weighted_mean_correlation
 # to run the suggest_stocks_sharpe independently(i.e not from CLI) change path by
 # unhashing above 2 paths and hashing the paths above them.
 
@@ -77,11 +77,14 @@ def suggest_stocks_sharpe(current_inv, investment_amount):
     current_tickers = list(current_inv.keys())
     current_amounts = np.array(list(current_inv.values()))
     corr_matrix = pd.read_csv("wealthspread/correlation/correlation_matrix.csv", index_col=0)
-    
+    #corr_matrix = pd.read_csv("correlation_matrix.csv", index_col=0)
+
     with open("wealthspread/correlation/scaled_geometric_mean.json", "r") as file:
+    #with open("scaled_geometric_mean.json", "r") as file:
         geo_means_dict = json.load(file)
     
     with open("wealthspread/correlation/ESG_Scores.json", "r") as file:  
+    #with open("ESG_Scores.json", "r") as file:  
         esg_scores = json.load(file) 
 
     # Determine how many stocks to suggest
